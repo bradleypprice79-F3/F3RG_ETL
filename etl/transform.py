@@ -229,17 +229,17 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
 def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataFrame, date_table: pd.DataFrame) -> pd.DataFrame:
     """
     Calculate team points.  include individual points.
-    Individual points, Santa Locks, CSAUPs, challenge flags, FNGs
+    Individual points, challenge flags,  s, CSAUPs, FNGs
 
     date	week	Team	type	points	notes
 
-    types (notes): individual (list of PAX?), challenge flag (PAX, day n)
+    types (notes): individual (list of PAX), challenge flag (see below)
         , SL (ao and pax list), CSAUP (pax list), FNG (1st5/posts/VQ - PAX)
 
     """
     
 
-    # Indivdivual contributions
+    # Indivdivual contributions ****************************************************************************************************
     team_points_individuals = (individual_scores.groupby(["date", "week", "Team"])
       .agg({
           "points": "sum",
@@ -328,4 +328,54 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
                 team_flag_scores.append(new_row_FLAG1)
 
     team_flag_scores_df = pd.DataFrame(team_flag_scores)
+    
+    # calculate Santa Locks  ****************************************************************************************************
+    df_SantaLocks = (
+    df_enriched[df_enriched["ao"].str.startswith("ao", na=False)]
+    .sort_values("date", ascending=True)
+    .copy()
+    )
+    # change type
+    df_SantaLocks["type"] = "Santa Locks"
+    #df_SantaLocks.to_csv("df_SantaLocks.csv", index=False)
+    # santa lock aggregation
+    df_SantaLocks_summary = (df_SantaLocks.groupby(["date", "week", "Team", "type", "ao"], as_index=False)
+            .agg(
+                points=("user_name", lambda x: 5 * (len(x) // 5)),
+                notes=("user_name", lambda x: ", ".join(x))  # just the names
+            )
+        )
+    # prepend notes with ao
+    df_SantaLocks_summary["notes"] = df_SantaLocks_summary["ao"] + "; " + df_SantaLocks_summary["notes"]
+    df_SantaLocks_summary = df_SantaLocks_summary[df_SantaLocks_summary["points"] > 0].copy()
+    # Reorder columns
+    df_SantaLocks_summary = df_SantaLocks_summary[["date", "week", "Team", "type", "points", "notes"]]
+    
+
+
+    # calculate CSAUP (pax list)  ****************************************************************************************************
+    df_CSAUP = (
+    df_enriched[df_enriched["type"]=="csaup"]
+    .sort_values("date", ascending=True)
+    .copy()
+    )
+    # 
+    df_CSAUP_summary = (df_CSAUP.groupby(["date", "week", "Team", "type", "q_user_id","points"], as_index=False)
+            .agg(
+                notes=("user_name", lambda x: ", ".join(x))  # names of pax
+            )
+        )
+    # Reorder columns
+    df_CSAUP_summary = df_CSAUP_summary[["date", "week", "Team", "type", "points", "notes"]]
+
+
+
+    # calculate FNG (1st5/posts/VQ - PAX)  ****************************************************************************************************
+    df_FNGs = (
+    df_enriched[df_enriched["FNGflag"]==1]
+    .sort_values("date", ascending=True)
+    .copy()
+    )
+
+
     return team_scores
