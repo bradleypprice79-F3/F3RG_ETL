@@ -1,0 +1,28 @@
+Create and manage dimension tables
+AOs - all AOs by ao_id
+date_table - dates and weeks (week 0 through week 6)
+PAXcurrent - PAX names by user_id 
+    refresh this guy daily
+PAXdraft - Teams that Pax are on.  
+    keep a report of PAX that post but are not on a team.
+    If someone posts, but is not on a team (a naperville guy who did not declare) then add him to the NONE team.
+        Filter NONEs out from reports
+    If someone is FNG worthy, flag as FNG
+    I included a notes column un PAXdraft so we can comment about when they were added and why they were flagged the way they were.
+
+
+Daily, bring in postdata.  
+    refresh the entire etl each time.  no appending, just truncate and load.
+        prior to truncate, save the current processed dataset, incase there are questions on why history changed.
+
+
+ETL process
+1) create processed post data.
+    add pax name, team name, fng flag, daily points (3 for post, 3 for EC3, etc.)
+
+
+daily team points
+    Santa Locks (for teams daily, show count of pax at each AO, list of PAX, and then SantaLock point totals)
+        date / week / team / AO / PAXlist / PAXcount / SLpoints
+
+    daily point totals could then be summed for individuals or Teams.
