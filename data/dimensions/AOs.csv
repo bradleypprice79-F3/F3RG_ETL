@@ -16,5 +16,5 @@ C017CTS0UQG,2nd-f,748,3,2ndf
 C03KZ95AS75,3rd-f-qsource,239,4,qs
 C0168ASEPD5,3rd-f,165,5,3rdf
 C05H4DHU3HC,2nd-f-coffeteria,1356,0,none
-TBDTBDTBD01,rg_challenge_flag,999,1,challenge_flag
-TBDTBDTBD02,rg_csaup,999,40,csaup
+TBD0001FLAG,rg_challenge_flag,999,1,challenge_flag
+TBD001CSAUP,rg_csaup,999,40,csaup

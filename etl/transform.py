@@ -235,6 +235,9 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
 
     types (notes): individual (list of PAX), challenge flag (see below)
         , SL (ao and pax list), CSAUP (pax list), FNG (1st5/posts/VQ - PAX)
+    Challenge_flag assumes that a slack blast is entered the day it is won.  The Q is the PAx/Team who won it.
+    They keep receiving a point each day (including sunday) until another team wins the flag.
+    If multiple teams post a slackblast on the same day, one of them will get the flag.
 
     """
     
@@ -256,7 +259,7 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
 
 
 
-    # calculate challenge flag
+    # calculate challenge flag ***************************************************************************************************
     # first, subset to the challenge flag rows.
     team_flag_scores = []
     df_flag = (
@@ -267,11 +270,15 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
     # get the dates that you need to go from and to...
     first_date = df_flag["date"].min()
     last_date = df_enriched["date"].max()
+    last_team = None
     # get range of dates
-    all_dates = pd.date_range(start=first_date, end=last_date)
+    all_dates = pd.date_range(start=first_date, end=last_date).strftime("%Y-%m-%d").tolist()
     # loop through the dates, adding a for every date that awards a point to the team that has the challenge_flag or last had it.
     # if there is more than one team, that 
     for d in all_dates:
+        # lookup week from date_table
+        week_val = date_table.loc[date_table["date"] == d, "week"].values
+        week_val = week_val[0] if len(week_val) > 0 else None
         # get first occurrence of team for that date (if exists)
         rows = df_flag[df_flag["date"] == d]
         if not rows.empty:
@@ -281,7 +288,7 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
 
             # loop through the extra rows, iF there is more than one row for challenge flag on a single day, there shouldnt be, but if there is...
             if len(rows) > 1:
-                for row in rows[1:]:
+                for _, row in rows.iloc[1:].iterrows():   # skip the first row
                     # build new row
                     new_row_FLAG1 = {
                             "date": d,
@@ -291,7 +298,7 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
                             "points": 0,
                             "notes": f"No points, {challenge_flag_team} - {user_name} was already awarded for today."
                         }
-                    team_score_rows.append(new_row_FLAG1)
+                    team_flag_scores.append(new_row_FLAG1)
 
 
         elif last_team is not None:
@@ -299,9 +306,6 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
         else:
             continue  # before the first flag is claimed
         
-        # lookup week from date_table
-        week_val = date_table.loc[date_table["date"] == d, "week"].values
-        week_val = week_val[0] if len(week_val) > 0 else None
         # create new row for every day after the first flag is claimed.
         new_row_FLAG = {
             "date": d,
@@ -311,22 +315,9 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
             "points": 1,
             "notes": f"{challenge_flag_team} - {user_name}" if not rows.empty else f"Held from previous claim by {challenge_flag_team} - {user_name}"
         }
-        team_score_rows.append(new_row_FLAG)
+        team_flag_scores.append(new_row_FLAG)
 
-        # now, loop through the rest of the rows, iF there is more than one row for challenge flag on a single day, there shouldnt be, but if there is...
-        if len(rows) > 1:
-            for row in rows[1:]:
-                # build new row
-                new_row_FLAG1 = {
-                        "date": d,
-                        "week": week_val,
-                        "Team": row["Team"],
-                        "type": "challenge_flag",
-                        "points": 0,
-                        "notes": f"No points, {challenge_flag_team} - {user_name} was already awarded for today."
-                    }
-                team_flag_scores.append(new_row_FLAG1)
-
+        
     team_flag_scores_df = pd.DataFrame(team_flag_scores)
     
     # calculate Santa Locks  ****************************************************************************************************
@@ -359,23 +350,80 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
     .sort_values("date", ascending=True)
     .copy()
     )
-    # 
-    df_CSAUP_summary = (df_CSAUP.groupby(["date", "week", "Team", "type", "q_user_id","points"], as_index=False)
-            .agg(
-                notes=("user_name", lambda x: ", ".join(x))  # names of pax
-            )
+    
+    df_CSAUP_summary = (
+    df_CSAUP.groupby(["date", "week", "Team", "type", "q_user_id", "points"], as_index=False)
+        .agg(
+            notes=("user_name", lambda x: ", ".join(x)),
+            name_count=("user_name", "count")
         )
-    # Reorder columns
+    )
+
+    # Zero out points where fewer than 8 names
+    df_CSAUP_summary.loc[df_CSAUP_summary["name_count"] < 8, "points"] = 0
+
+    # Reorder columns and leave out the namer_count column
     df_CSAUP_summary = df_CSAUP_summary[["date", "week", "Team", "type", "points", "notes"]]
 
 
 
     # calculate FNG (1st5/posts/VQ - PAX)  ****************************************************************************************************
     df_FNGs = (
-    df_enriched[df_enriched["FNGflag"]==1]
+    df_enriched[(df_enriched["FNGflag"]==1) &(df_enriched["type"]=="1stf")]
     .sort_values("date", ascending=True)
     .copy()
     )
+
+    # Track the nth appearance of each user_name
+    df_FNGs["appearance_num"] = df_FNGs.groupby("user_name").cumcount() + 1
+
+    # initialize list of lists for output
+    FNG_points_lists =[]
+
+    for _, row in df_FNGs.iterrows():
+        # Check for 1st appearance
+        if row["appearance_num"] == 1:
+            FNG_points_lists.append({
+                "date": row["date"],
+                "week": row["week"],
+                "Team": row["Team"],
+                "type": "FNG1",
+                "points": 3,
+                "notes": row["user_name"]
+            })
+
+        # Check for 5th appearance
+        if row["appearance_num"] == 5:
+            FNG_points_lists.append({
+                "date": row["date"],
+                "week": row["week"],
+                "Team": row["Team"],
+                "type": "FNG5",
+                "points": 5,
+                "notes": row["user_name"]
+            })
+
+        # Check for q_user_id match
+        if row["user_id"] == row["q_user_id"]:
+            FNG_points_lists.append({
+                "date": row["date"],
+                "week": row["week"],
+                "Team": row["Team"],
+                "type": "FNGQ",
+                "points": 7,
+                "notes": row["user_name"]
+            })
+
+    # Convert to DataFrame and combine
+    FNG_points_df = pd.DataFrame(FNG_points_lists)
+
+    
+    # Join all dataframes ****************************************************************************************************
+    team_scores = (pd.concat([FNG_points_df, df_CSAUP_summary, df_SantaLocks_summary, team_flag_scores_df, team_points_individuals], ignore_index=True)
+                 .sort_values("date")
+                )
+    
+
 
 
     return team_scores
