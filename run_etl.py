@@ -1,5 +1,5 @@
 
-from etl import extract, transform, load, report
+from etl import extract, transform #, load, report
 import config.config as cfg
 
 
@@ -17,8 +17,8 @@ def main():
     individual_scores = transform.calculate_individual_points(df_enriched)
     # 2. Transform (apply scoring rules, team aggregation)
     team_scores = transform.calculate_team_points(df_enriched, individual_scores, date_table)
-    # 2. Transform (identify fng's and pax not on a team)
-    not_on_a_team_report = transform.no_team_report(df_enriched)
+    # 2. Transform (identify fng's and pax not on a team) (I havent made this function yet, but will later)
+    #not_on_a_team_report = transform.no_team_report(df_enriched)
 
     # 3. Save processed data
     individual_scores.to_csv("output_file.csv", index=False)

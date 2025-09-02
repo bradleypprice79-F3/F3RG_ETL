@@ -139,7 +139,7 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                     Q1stF_weekly=1
 
 
-
+            # Feature tested by "EC test (daily cap at 3 points)"
             # Apply EC cap logic
             elif row['type'] == "ec":
                 # create the row
