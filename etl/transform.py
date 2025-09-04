@@ -7,6 +7,7 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft):
     """
     # Convert to datetime first
     df_raw["date"] = pd.to_datetime(df_raw["date"], format="%b %d, %Y")
+    #df_raw["date"] = pd.to_datetime(df_raw["date"], errors="coerce", infer_datetime_format=True)
 
     # Convert to ISO string (YYYY-MM-DD)
     df_raw["date"] = df_raw["date"].dt.strftime("%Y-%m-%d")

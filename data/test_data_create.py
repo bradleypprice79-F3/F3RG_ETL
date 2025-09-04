@@ -113,3 +113,7 @@ output_path = "/mnt/data/postdata_test.csv"
 df_test.to_csv(output_path, index=False)
 
 output_path
+
+
+cd .\data\reports\
+python -m http.server 8000

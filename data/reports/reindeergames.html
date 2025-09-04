@@ -1,48 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Reindeer Games Dashboard</title>
+  
+  <!-- Plotly.js for charting -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+  <!-- PapaParse for CSV parsing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  
   <style>
+    /* General page styling */
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
       background: #f7f9fc;
     }
+
     h1 { text-align: center; }
+
+    /* Control panel for dropdowns */
     #controls {
       display: flex;
       justify-content: center;
       gap: 15px;
       margin-bottom: 20px;
     }
+
     select {
       padding: 6px;
       font-size: 14px;
     }
+
+    /* Table styling */
     table {
       border-collapse: collapse;
       margin: 0 auto;
       width: 90%;
       background: white;
     }
+
     th, td {
       padding: 8px;
       border: 1px solid #ddd;
       text-align: left;
     }
-    th { background: #eee; cursor: pointer; }
+
+    th { 
+      background: #eee; 
+      cursor: pointer; /* Could be used for sorting */
+    }
+
+    /* Chart container styling */
     #chart {
       margin-top: 30px;
     }
   </style>
 </head>
 <body>
+
   <h1>Reindeer Games Dashboard</h1>
 
+  <!-- Controls for view and week selection -->
   <div id="controls">
     <label>
       View:
@@ -56,26 +76,32 @@
       Week:
       <select id="weekSelect">
         <option value="all">All</option>
+        <!-- Week options will be populated dynamically -->
       </select>
     </label>
   </div>
 
+  <!-- Container for table and chart -->
   <div id="tableContainer"></div>
   <div id="chart"></div>
 
   <script>
-    let individualData = [];
-    let teamData = [];
-    let currentView = "individual";
+    // =========================
+    // Global variables
+    // =========================
+    let individualData = [];  // Stores all individual CSV rows
+    let teamData = [];        // Stores all team CSV rows
 
-    // Load both CSVs
+    // =========================
+    // Load CSV files using PapaParse
+    // =========================
     Papa.parse("individual_scores.csv", {
-      download: true,
-      header: true,
+      download: true,   // Load CSV from server
+      header: true,     // Treat first row as header
       complete: (results) => {
         individualData = results.data;
-        populateWeeks(individualData);
-        updateDashboard();
+        populateWeeks(individualData); // Fill week dropdown
+        updateDashboard();             // Initial render
       }
     });
 
@@ -87,9 +113,16 @@
       }
     });
 
+    // =========================
+    // Populate Week dropdown dynamically
+    // =========================
     function populateWeeks(data) {
       const weekSelect = document.getElementById("weekSelect");
+
+      // Extract unique weeks from data
       const weeks = [...new Set(data.map(d => d.week))].sort((a,b) => +a - +b);
+
+      // Add each week as an option
       weeks.forEach(w => {
         const opt = document.createElement("option");
         opt.value = w;
@@ -98,33 +131,71 @@
       });
     }
 
+    // =========================
+    // Update dashboard whenever a dropdown changes
+    // =========================
     function updateDashboard() {
       const view = document.getElementById("viewSelect").value;
       const weekFilter = document.getElementById("weekSelect").value;
 
+      // Select the correct dataset
       let data = (view === "individual") ? individualData : teamData;
+
+      // Apply week filter if needed
       if (weekFilter !== "all") {
         data = data.filter(d => d.week === weekFilter);
       }
 
-      // Convert points to number
+      // Ensure points are numeric
       data.forEach(d => d.points = +d.points);
 
-      // Sort by points
-      data.sort((a, b) => b.points - a.points);
+      if (view === "individual") {
+        // Individual view: sort by points descending
+        data.sort((a, b) => b.points - a.points);
 
-      renderTable(data, view);
-      renderChart(data, view);
+        renderTable(data, view);
+        renderChart(data, view);
+      } else {
+        // Team view: aggregate points by team
+        const standings = getTeamStandings(data);
+        renderTeamTable(standings);
+        renderTeamChart(standings);
+      }
     }
 
+    // =========================
+    // Aggregate points by team
+    // =========================
+    function getTeamStandings(data) {
+      const standings = {};
+
+      data.forEach(d => {
+        const team = d.Team;
+        const points = +d.points;
+
+        if (!standings[team]) standings[team] = 0;
+        standings[team] += points;
+      });
+
+      // Convert to array and sort descending
+      return Object.entries(standings)
+        .map(([team, points]) => ({ team, points }))
+        .sort((a, b) => b.points - a.points);
+    }
+
+    // =========================
+    // Render table for individual scores
+    // =========================
     function renderTable(data, view) {
       const container = document.getElementById("tableContainer");
       let html = "<table><thead><tr>";
+
       if (view === "individual") {
         html += "<th>Date</th><th>Week</th><th>Team</th><th>User</th><th>Type</th><th>Points</th><th>Notes</th>";
       } else {
         html += "<th>Date</th><th>Week</th><th>Team</th><th>Type</th><th>Points</th><th>Notes</th>";
       }
+
       html += "</tr></thead><tbody>";
 
       data.forEach(d => {
@@ -141,6 +212,24 @@
       container.innerHTML = html;
     }
 
+    // =========================
+    // Render aggregated team table
+    // =========================
+    function renderTeamTable(standings) {
+      const container = document.getElementById("tableContainer");
+      let html = "<table><thead><tr><th>Team</th><th>Total Points</th></tr></thead><tbody>";
+
+      standings.forEach(s => {
+        html += `<tr><td>${s.team}</td><td>${s.points}</td></tr>`;
+      });
+
+      html += "</tbody></table>";
+      container.innerHTML = html;
+    }
+
+    // =========================
+    // Render chart for individual scores
+    // =========================
     function renderChart(data, view) {
       let labels, values;
 
@@ -148,27 +237,33 @@
         labels = data.map(d => d.user_name + " (" + d.Team + ")");
         values = data.map(d => d.points);
       } else {
-        labels = data.map(d => d.Team);
-        values = data.map(d => d.points);
+        // Should not reach here in team view
+        return;
       }
 
-      const trace = {
-        x: labels,
-        y: values,
-        type: "bar"
-      };
-
-      const layout = {
-        title: (view === "individual") ? "Individual Scores" : "Team Scores",
-        xaxis: { tickangle: -45 }
-      };
-
+      const trace = { x: labels, y: values, type: "bar" };
+      const layout = { title: "Individual Scores", xaxis: { tickangle: -45 } };
       Plotly.newPlot("chart", [trace], layout);
     }
 
-    // Event listeners
+    // =========================
+    // Render chart for team standings
+    // =========================
+    function renderTeamChart(standings) {
+      const labels = standings.map(s => s.team);
+      const values = standings.map(s => s.points);
+
+      const trace = { x: labels, y: values, type: "bar" };
+      const layout = { title: "Team Standings", xaxis: { tickangle: -45 } };
+      Plotly.newPlot("chart", [trace], layout);
+    }
+
+    // =========================
+    // Event listeners for dropdowns
+    // =========================
     document.getElementById("viewSelect").addEventListener("change", updateDashboard);
     document.getElementById("weekSelect").addEventListener("change", updateDashboard);
+
   </script>
 </body>
 </html>

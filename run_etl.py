@@ -11,7 +11,7 @@ def main():
 
     # 2. enrich (add user, AO, and date attributes)
     df_enriched = transform.enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft)
-    df_enriched.to_csv("df_enriched.csv", index=False)
+    #df_enriched.to_csv("df_enriched.csv", index=False)
 
     # 2. Transform (apply scoring rules, individual aggregation)
     individual_scores = transform.calculate_individual_points(df_enriched)
