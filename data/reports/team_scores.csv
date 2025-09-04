@@ -1,0 +1,145 @@
+date,week,Team,type,points,notes
+2025-07-12,0,Dasher,Individuals points,15.0,"['Bronco', 'Hank Hill', 'Duck Hunt', 'Large Marge']"
+2025-07-12,0,Vixen,Individuals points,15.0,"['UPS', 'Cutler', 'Cowbell', 'Phoenix']"
+2025-07-12,0,Unknown Team,Individuals points,21.0,"['Carmen San Diego (F3 Naperville)', 'Silo', 'Speedbag (F3 Southsid3)', 'Popeye', 'Eliot Ness', 'Slinky']"
+2025-07-12,0,Rudolph,Individuals points,13.0,"['Boomer', 'Scuba Steve', 'Backstreet']"
+2025-07-12,0,Prancer,Individuals points,12.0,"['Scratch and Dent', 'Schlitz', 'Sailer Moon', 'Dilly Dilly']"
+2025-07-12,0,Olive,Individuals points,9.0,"['Bedpan', 'Hodl', 'Folgers']"
+2025-07-12,0,Donner,Individuals points,6.0,"['Sparky', 'TPS Report']"
+2025-07-12,0,Dancer,Individuals points,11.0,"['Meta', 'Homer Simpson', 'fuzzy navel']"
+2025-07-12,0,Cupid,Individuals points,6.0,"['Hanger', 'Binford']"
+2025-07-12,0,Comet,Individuals points,9.0,"['Bob Villa', 'Foghorn']"
+2025-07-12,0,Blitzen,Individuals points,9.0,"['Mahomes', 'slackblast', 'Spit Valve']"
+2025-07-13,1,Dasher,Individuals points,6.0,"['Hank Hill', 'Duck Hunt']"
+2025-07-13,1,Prancer,Individuals points,3.0,['Schlitz']
+2025-07-13,1,Rudolph,Individuals points,6.0,"['Backstreet', 'Deja vu']"
+2025-07-13,1,Vixen,Individuals points,3.0,['Phoenix']
+2025-07-13,1,Blitzen,Individuals points,3.0,['Spit Valve']
+2025-07-13,1,Comet,Individuals points,3.0,['Sparkler']
+2025-07-13,1,Cupid,csaup,40.0,"Ozark, Celler Dweller, TruGreen, Peterbilt, Spirit, Depends (3rdF Q), Blue Gill, Hot Lava, Algorithm, Binford, Hanger"
+2025-07-13,1,Blitzen,csaup,40.0,"Mahomes, Spit Valve, John Denver, Caboose, Foreclosure, Napster, Dr. Feelgood, FINCH"
+2025-07-13,1,Comet,csaup,0.0,Sparkler
+2025-07-13,1,Comet,csaup,40.0,"Rooney, Ecto Cooler, Mr. Belding, Peashooter, Foghorn, Flo, Olive Oyl, Hydrant, Celine Dion, Bob Villa"
+2025-07-13,1,Dancer,csaup,0.0,"Homer Simpson, Meta, fuzzy navel, Alter boy"
+2025-07-14,1,Vixen,Individuals points,30.0,"['Cutler', 'Phoenix', 'Bunker', 'Tweety', 'Foundation', 'Dilbert', 'SkidMark']"
+2025-07-14,1,Donner,Individuals points,13.0,"['Morticia', 'Hackman', 'Pull-up', 'Cinderella']"
+2025-07-14,1,Prancer,Santa Locks,5.0,"ao-the-colosseum; Mr. Kotter, Chum Bucket, Singer, Sizzler, Dilly Dilly"
+2025-07-14,1,Dasher,Individuals points,32.0,"['Hank Hill', 'Duck Hunt', 'vern', 'F3CrossroadsIL', 'Ink Jet', 'Juanita', 'Derailed', 'Pee Wee Herman']"
+2025-07-14,1,Rudolph,Individuals points,27.0,"['Scuba Steve', 'Backstreet', 'The Worm', 'Zimmer', 'Six Sheets', 'Broomstick', 'Moist', 'Old Maid', 'Nemo']"
+2025-07-14,1,Prancer,Individuals points,22.0,"['Scratch and Dent', 'Dilly Dilly', 'Chum Bucket', 'Mr. Kotter', 'Singer', 'Sizzler']"
+2025-07-14,1,Blitzen,Individuals points,12.0,"['Mahomes', 'Spit Valve', 'John Denver', 'Caboose']"
+2025-07-14,1,Comet,Individuals points,16.0,"['Bob Villa', 'Foghorn', 'Flo', 'Olive Oyl', 'Slackbot']"
+2025-07-14,1,Cupid,Individuals points,17.0,"['Hanger', 'Algorithm', 'Hot Lava', 'Blue Gill']"
+2025-07-14,1,Olive,Individuals points,18.0,"['Hodl', 'Happy Camper', 'Deliverance', 'Fish Tape', 'Norm', 'Manhole']"
+2025-07-14,1,Unknown Team,Individuals points,3.0,['Bone Spur']
+2025-07-14,1,Dancer,Individuals points,23.0,"['Meta', 'Homer Simpson', 'fuzzy navel', 'Alter boy', 'Dungeon Master', 'Dear Abby', '5-Putt']"
+2025-07-15,1,Blitzen,Individuals points,24.0,"['Mahomes', 'Spit Valve', 'Caboose', 'Foreclosure', 'Intern', 'Napster']"
+2025-07-15,1,Comet,Individuals points,10.0,"['Bob Villa', 'Flo', 'Hydrant']"
+2025-07-15,1,Cupid,Individuals points,17.0,"['Hanger', 'Binford', 'Depends (3rdF Q)']"
+2025-07-15,1,Dancer,Individuals points,18.0,"['Meta', '5-Putt', 'Jellystone', 'Mapquest', 'Woody']"
+2025-07-15,1,Blitzen,FNG1,3.0,Intern
+2025-07-15,1,Olive,Individuals points,23.0,"['Happy Camper', 'Deliverance', 'Fish Tape', 'Manhole', 'Xena- Warrior Princess']"
+2025-07-15,1,Donner,FNG1,3.0,FLYER
+2025-07-15,1,Unknown Team,Santa Locks,5.0,"ao-dmz; Bulldog (F3 Naperville), 2 Hand Touch (F3 Naperville Nant’an), Fargo (Naperville), Urkel, Shirley Temple"
+2025-07-15,1,Olive,challenge_flag,1.0,Olive - Bedpan
+2025-07-15,1,Dasher,Individuals points,37.0,"['Bronco', 'Hank Hill', 'Duck Hunt', 'vern', 'F3CrossroadsIL', 'Ink Jet', 'Juanita', 'Soft Hands', 'Den Mother']"
+2025-07-15,1,Donner,Individuals points,25.0,"['Sparky', 'Morticia', 'Hackman', 'Pull-up', 'FLYER', 'Ricochet', 'Dauber']"
+2025-07-15,1,Vixen,Individuals points,22.0,"['Cutler', 'Phoenix', 'Bunker', 'Dilbert', 'SkidMark', 'Hat Trick']"
+2025-07-15,1,Unknown Team,Individuals points,28.0,"['Eliot Ness', 'Plunger', 'Urkel', 'Fargo (Naperville)', 'Shirley Temple', '2 Hand Touch (F3 Naperville Nant’an)', 'Bulldog (F3 Naperville)', 'Pearl', 'Joe Dirt']"
+2025-07-15,1,Rudolph,Individuals points,22.0,"['Boomer', 'Backstreet', 'Zimmer', 'Six Sheets', 'Broomstick', 'Nemo']"
+2025-07-15,1,Prancer,Individuals points,25.0,"['Scratch and Dent', 'Dilly Dilly', 'Chum Bucket', 'Mr. Kotter', 'Singer', 'Sizzler', 'Elway F3 Naperville']"
+2025-07-16,1,Comet,Individuals points,12.0,"['Bob Villa', 'Foghorn', 'Celine Dion', 'Peashooter']"
+2025-07-16,1,Cupid,Individuals points,9.0,"['Algorithm', 'Spirit', 'Peterbilt']"
+2025-07-16,1,Dancer,Individuals points,16.0,"['Meta', 'Alter boy', '5-Putt', 'Jellystone', 'YellowPages']"
+2025-07-16,1,Donner,Individuals points,9.0,"['Hackman', 'Cinderella', 'Dauber']"
+2025-07-16,1,Olive,Individuals points,7.0,"['Bedpan', 'Hodl']"
+2025-07-16,1,Rudolph,Individuals points,18.0,"['Boomer', 'Zimmer', 'Six Sheets', 'Moist', 'Old Maid', 'BeSt in ShOw']"
+2025-07-16,1,Unknown Team,Individuals points,9.0,"['Sweet Honey (F3 Naperville)', 'Sapsucker (F3 Naperville)', 'Kidney Beans']"
+2025-07-16,1,Vixen,Individuals points,15.0,"['Cutler', 'Cowbell', 'Phoenix', 'Dilbert', 'SkidMark']"
+2025-07-16,1,Blitzen,Individuals points,17.0,"['slackblast', 'Caboose', 'Foreclosure', 'Intern', 'Napster']"
+2025-07-16,1,Dasher,Individuals points,20.0,"['Hank Hill', 'F3CrossroadsIL', 'Pee Wee Herman', 'Soft Hands', 'Den Mother']"
+2025-07-16,1,Prancer,Individuals points,15.0,"['Scratch and Dent', 'Dilly Dilly', 'Chum Bucket', 'Mr. Kotter', 'Go Daddy']"
+2025-07-16,1,Cupid,challenge_flag,1.0,Cupid - Hanger
+2025-07-17,1,Cupid,Individuals points,29.0,"['Hanger', 'Algorithm', 'Hot Lava', 'Blue Gill', 'Depends (3rdF Q)', 'Spirit', 'TruGreen', 'Celler Dweller']"
+2025-07-17,1,Dasher,Individuals points,17.0,"['Hank Hill', 'Duck Hunt', 'vern', 'Ink Jet']"
+2025-07-17,1,Dancer,Individuals points,25.0,"['Meta', '5-Putt', 'Jellystone', 'Mapquest', 'Trickle']"
+2025-07-17,1,Prancer,Individuals points,14.0,"['Scratch and Dent', 'Chum Bucket', 'Singer']"
+2025-07-17,1,Comet,Individuals points,32.0,"['Bob Villa', 'Foghorn', 'Flo', 'Olive Oyl', 'Slackbot', 'Hydrant']"
+2025-07-17,1,Blitzen,Individuals points,26.0,"['Mahomes', 'Spit Valve', 'Foreclosure', 'Intern', 'Napster', 'Dr. Feelgood']"
+2025-07-17,1,Olive,FNG1,3.0,Pop-Tart (F3 Outlands)
+2025-07-17,1,Rudolph,Individuals points,19.0,"['Scuba Steve', 'The Worm', 'Zimmer', 'Six Sheets', 'Moist', 'Nemo']"
+2025-07-17,1,Unknown Team,Individuals points,13.0,"['Eliot Ness', 'Kidney Beans', 'Blowfish']"
+2025-07-17,1,Vixen,Individuals points,14.0,"['Cutler', 'Bunker', 'Tweety', 'SkidMark']"
+2025-07-17,1,Olive,Individuals points,16.0,"['Bedpan', 'Manhole', 'Xena- Warrior Princess', 'Pop-Tart (F3 Outlands)']"
+2025-07-17,1,Cupid,challenge_flag,1.0,Held from previous claim by Cupid - Hanger
+2025-07-17,1,Donner,Individuals points,10.0,"['Hackman', 'FLYER', 'Dauber']"
+2025-07-18,1,Comet,Individuals points,15.0,"['Bob Villa', 'Sparkler', 'Celine Dion', 'Peashooter', 'Mr. Belding']"
+2025-07-18,1,Cupid,Individuals points,9.0,"['Hanger', 'Blue Gill', 'Ozark']"
+2025-07-18,1,Dancer,Individuals points,18.0,"['Meta', 'Dungeon Master', 'Dear Abby', 'YellowPages']"
+2025-07-18,1,Dasher,Individuals points,17.0,"['Hank Hill', 'Duck Hunt', 'F3CrossroadsIL', 'Juanita', 'Soft Hands']"
+2025-07-18,1,Donner,Individuals points,15.0,"['Sparky', 'Pull-up', 'Cinderella', 'Dauber', 'Storm Chaser']"
+2025-07-18,1,Vixen,Individuals points,16.0,"['Cutler', 'Cowbell', 'Bunker', 'Foundation', 'Dilbert']"
+2025-07-18,1,Prancer,Individuals points,16.0,"['Schlitz', 'Chum Bucket', 'Wet Bandit', 'Sensodyne']"
+2025-07-18,1,Blitzen,Individuals points,13.0,"['Mahomes', 'Spit Valve', 'Foreclosure', 'Napster']"
+2025-07-18,1,Olive,Individuals points,6.0,"['Hodl', 'Bill Nye']"
+2025-07-18,1,Unknown Team,challenge_flag,1.0,Unknown Team - Carmen San Diego (F3 Naperville)
+2025-07-18,1,Rudolph,Individuals points,24.0,"['Boomer', 'Scuba Steve', 'Backstreet', 'Zimmer', 'Six Sheets', 'Broomstick', 'Old Maid', 'Nemo']"
+2025-07-18,1,Unknown Team,Individuals points,3.0,['Pearl']
+2025-07-19,1,Blitzen,Individuals points,17.0,"['Spit Valve', 'Foreclosure', 'Intern', 'Napster']"
+2025-07-19,1,Comet,Individuals points,13.0,"['Bob Villa', 'Slackbot', 'Ecto Cooler']"
+2025-07-19,1,Cupid,Individuals points,3.0,['Celler Dweller']
+2025-07-19,1,Dancer,Individuals points,21.0,"['Homer Simpson', 'fuzzy navel', 'YellowPages', 'Great Clips']"
+2025-07-19,1,Donner,Individuals points,7.0,"['Ricochet', 'Dauber']"
+2025-07-19,1,Olive,Individuals points,3.0,['Hodl']
+2025-07-19,1,Prancer,Individuals points,7.0,"['Sailer Moon', 'Chum Bucket']"
+2025-07-19,1,Rudolph,Individuals points,14.0,"['Boomer', 'Scuba Steve']"
+2025-07-19,1,Unknown Team,Individuals points,3.0,['Kidney Beans']
+2025-07-19,1,Vixen,Individuals points,38.0,"['Cutler', 'Cowbell', 'Phoenix', 'Laces Out']"
+2025-07-19,1,Dasher,Individuals points,20.0,"['Hank Hill', 'vern', 'F3CrossroadsIL', 'Juanita']"
+2025-07-19,1,Blitzen,FNG5,5.0,Intern
+2025-07-19,1,Unknown Team,challenge_flag,1.0,Held from previous claim by Unknown Team - Carmen San Diego (F3 Naperville)
+2025-07-20,2,Olive,Individuals points,3.0,['Hodl']
+2025-07-20,2,Dasher,Individuals points,3.0,['Duck Hunt']
+2025-07-20,2,Comet,challenge_flag,1.0,Comet - Bob Villa
+2025-07-20,2,Vixen,challenge_flag,0.0,"No points, Comet - Bob Villa was already awarded for today."
+2025-07-20,2,Dancer,challenge_flag,0.0,"No points, Comet - Bob Villa was already awarded for today."
+2025-07-20,2,Prancer,Individuals points,3.0,['Schlitz']
+2025-07-21,2,Dancer,Individuals points,9.0,"['Alter boy', 'Dungeon Master', '5-Putt']"
+2025-07-21,2,Dasher,challenge_flag,1.0,Dasher - Bronco
+2025-07-21,2,Vixen,Individuals points,25.0,"['Cutler', 'Phoenix', 'Bunker', 'Foundation', 'Dilbert', 'SkidMark', 'Hat Trick']"
+2025-07-21,2,Unknown Team,Individuals points,6.0,"['Pearl', 'Kidney Beans']"
+2025-07-21,2,Rudolph,Individuals points,19.0,"['Scuba Steve', 'Backstreet', 'The Worm', 'Six Sheets', 'Moist', 'Nemo']"
+2025-07-21,2,Blitzen,Individuals points,15.0,"['Spit Valve', 'Caboose', 'Foreclosure', 'Intern', 'Napster']"
+2025-07-21,2,Comet,Individuals points,21.0,"['Bob Villa', 'Foghorn', 'Sparkler', 'Flo', 'Hydrant', 'Rooney']"
+2025-07-21,2,Cupid,Individuals points,15.0,"['Hot Lava', 'Blue Gill', 'Depends (3rdF Q)', 'Spirit', 'Celler Dweller']"
+2025-07-21,2,Prancer,Individuals points,22.0,"['Scratch and Dent', 'Schlitz', 'Dilly Dilly', 'Chum Bucket', 'Mr. Kotter', 'Sensodyne', 'Gopher']"
+2025-07-21,2,Dasher,Individuals points,16.0,"['Hank Hill', 'vern', 'F3CrossroadsIL', 'Juanita']"
+2025-07-21,2,Donner,Individuals points,15.0,"['Sparky', 'Hackman', 'Pull-up', 'Cinderella', 'Dauber']"
+2025-07-21,2,Olive,Individuals points,15.0,"['Bedpan', 'Hodl', 'Happy Camper', 'Fish Tape', 'Manhole']"
+2025-07-22,2,Donner,Individuals points,24.0,"['Sparky', 'Hackman', 'Pull-up', 'Ricochet', 'Dauber', 'Storm Chaser']"
+2025-07-22,2,Olive,Individuals points,37.0,"['Bedpan', 'Hodl', 'Happy Camper', 'Deliverance', 'Fish Tape', 'Manhole', 'Xena- Warrior Princess', 'Pop-Tart (F3 Outlands)', 'Corner Kick', 'Kickflip']"
+2025-07-22,2,Dasher,Individuals points,29.0,"['Hank Hill', 'Duck Hunt', 'vern', 'Ink Jet', 'Juanita', 'Soft Hands']"
+2025-07-22,2,Prancer,Individuals points,27.0,"['Scratch and Dent', 'Dilly Dilly', 'Chum Bucket', 'Sizzler', 'Sensodyne']"
+2025-07-22,2,Rudolph,Individuals points,13.0,"['Zimmer', 'Broomstick', 'Nemo', 'Temu']"
+2025-07-22,2,Unknown Team,Individuals points,20.0,"['Pearl', 'Sapsucker (F3 Naperville)', 'Free Smells', 'Sloppy Joe', 'Freaky fast']"
+2025-07-22,2,Vixen,Individuals points,40.0,"['Cutler', 'Cowbell', 'Phoenix', 'Tweety', 'Dilbert', 'SkidMark', 'Hat Trick', 'BABYMOMMA', 'Doozie']"
+2025-07-22,2,Dancer,Individuals points,20.0,"['Meta', '5-Putt', 'Mapquest', 'Woody', 'Picasso']"
+2025-07-22,2,Dasher,challenge_flag,1.0,Held from previous claim by Dasher - Bronco
+2025-07-22,2,Comet,Individuals points,20.0,"['Bob Villa', 'Foghorn', 'Sparkler', 'Flo', 'Celine Dion', 'Mr. Belding']"
+2025-07-22,2,Blitzen,Individuals points,23.0,"['Mahomes', 'Caboose', 'Foreclosure', 'Napster', 'FINCH']"
+2025-07-22,2,Rudolph,FNG1,3.0,Temu
+2025-07-22,2,Olive,Santa Locks,5.0,"ao-the-ridge; Bedpan, Happy Camper, Hodl, Corner Kick, Fish Tape"
+2025-07-22,2,Cupid,Individuals points,10.0,"['Algorithm', 'Hot Lava']"
+2025-07-23,2,Rudolph,Individuals points,15.0,"['Backstreet', 'Zimmer', 'Six Sheets', 'Moist', 'Old Maid']"
+2025-07-23,2,Prancer,Individuals points,14.0,"['Scratch and Dent', 'Dilly Dilly', 'Wet Bandit', 'Sensodyne']"
+2025-07-23,2,Olive,Individuals points,16.0,"['Bedpan', 'Happy Camper', 'Pop-Tart (F3 Outlands)', 'Corner Kick', 'Kickflip']"
+2025-07-23,2,Donner,Individuals points,18.0,"['Morticia', 'Hackman', 'Pull-up', 'Cinderella', 'Dauber', 'Trifecta']"
+2025-07-23,2,Dasher,Individuals points,36.0,"['Bronco', 'Hank Hill', 'Duck Hunt', 'vern', 'F3CrossroadsIL', 'Juanita', 'Soft Hands', 'Den Mother']"
+2025-07-23,2,Comet,Individuals points,21.0,"['Foghorn', 'Sparkler', 'Flo', 'Olive Oyl', 'Celine Dion', 'Peashooter', 'Mr. Belding']"
+2025-07-23,2,Cupid,Individuals points,9.0,"['Algorithm', 'Blue Gill', 'Celler Dweller']"
+2025-07-23,2,Blitzen,Individuals points,15.0,"['Mahomes', 'Spit Valve', 'Caboose', 'Foreclosure', 'Napster']"
+2025-07-23,2,Olive,FNGQ,7.0,Pop-Tart (F3 Outlands)
+2025-07-23,2,Unknown Team,Individuals points,3.0,['Shawshank']
+2025-07-23,2,Dasher,challenge_flag,1.0,Held from previous claim by Dasher - Bronco
+2025-07-23,2,Dancer,Individuals points,12.0,"['Meta', '5-Putt', 'Jellystone', 'YellowPages']"
+2025-07-23,2,Vixen,Individuals points,22.0,"['Cutler', 'Phoenix', 'Bunker', 'Foundation', 'Dilbert', 'SkidMark']"

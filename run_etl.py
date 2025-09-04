@@ -1,5 +1,5 @@
 
-from etl import extract, transform #, load, report
+from etl import extract, transform , load, report
 import config.config as cfg
 
 
@@ -21,8 +21,8 @@ def main():
     #not_on_a_team_report = transform.no_team_report(df_enriched)
 
     # 3. Save processed data
-    individual_scores.to_csv("output_file.csv", index=False)
-    load.to_csv(individual_scores, cfg.PROCESSED_DATA + "processed.csv")
+    load.to_csv(individual_scores, cfg.REPORTS + "individual_scores.csv")
+    load.to_csv(team_scores, cfg.REPORTS + "team_scores.csv")
 
     # 4. Generate report HTML
     html = report.generate(team_scores, title=cfg.REPORT_TITLE)

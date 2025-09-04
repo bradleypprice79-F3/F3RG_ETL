@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reindeer Games Dashboard</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f7f9fc;
+    }
+    h1 { text-align: center; }
+    #controls {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    select {
+      padding: 6px;
+      font-size: 14px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      width: 90%;
+      background: white;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th { background: #eee; cursor: pointer; }
+    #chart {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reindeer Games Dashboard</h1>
+
+  <div id="controls">
+    <label>
+      View:
+      <select id="viewSelect">
+        <option value="individual">Individual Scores</option>
+        <option value="team">Team Scores</option>
+      </select>
+    </label>
+
+    <label>
+      Week:
+      <select id="weekSelect">
+        <option value="all">All</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="tableContainer"></div>
+  <div id="chart"></div>
+
+  <script>
+    let individualData = [];
+    let teamData = [];
+    let currentView = "individual";
+
+    // Load both CSVs
+    Papa.parse("individual_scores.csv", {
+      download: true,
+      header: true,
+      complete: (results) => {
+        individualData = results.data;
+        populateWeeks(individualData);
+        updateDashboard();
+      }
+    });
+
+    Papa.parse("team_scores.csv", {
+      download: true,
+      header: true,
+      complete: (results) => {
+        teamData = results.data;
+      }
+    });
+
+    function populateWeeks(data) {
+      const weekSelect = document.getElementById("weekSelect");
+      const weeks = [...new Set(data.map(d => d.week))].sort((a,b) => +a - +b);
+      weeks.forEach(w => {
+        const opt = document.createElement("option");
+        opt.value = w;
+        opt.textContent = "Week " + w;
+        weekSelect.appendChild(opt);
+      });
+    }
+
+    function updateDashboard() {
+      const view = document.getElementById("viewSelect").value;
+      const weekFilter = document.getElementById("weekSelect").value;
+
+      let data = (view === "individual") ? individualData : teamData;
+      if (weekFilter !== "all") {
+        data = data.filter(d => d.week === weekFilter);
+      }
+
+      // Convert points to number
+      data.forEach(d => d.points = +d.points);
+
+      // Sort by points
+      data.sort((a, b) => b.points - a.points);
+
+      renderTable(data, view);
+      renderChart(data, view);
+    }
+
+    function renderTable(data, view) {
+      const container = document.getElementById("tableContainer");
+      let html = "<table><thead><tr>";
+      if (view === "individual") {
+        html += "<th>Date</th><th>Week</th><th>Team</th><th>User</th><th>Type</th><th>Points</th><th>Notes</th>";
+      } else {
+        html += "<th>Date</th><th>Week</th><th>Team</th><th>Type</th><th>Points</th><th>Notes</th>";
+      }
+      html += "</tr></thead><tbody>";
+
+      data.forEach(d => {
+        html += "<tr>";
+        if (view === "individual") {
+          html += `<td>${d.date}</td><td>${d.week}</td><td>${d.Team}</td><td>${d.user_name}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td>`;
+        } else {
+          html += `<td>${d.date}</td><td>${d.week}</td><td>${d.Team}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td>`;
+        }
+        html += "</tr>";
+      });
+
+      html += "</tbody></table>";
+      container.innerHTML = html;
+    }
+
+    function renderChart(data, view) {
+      let labels, values;
+
+      if (view === "individual") {
+        labels = data.map(d => d.user_name + " (" + d.Team + ")");
+        values = data.map(d => d.points);
+      } else {
+        labels = data.map(d => d.Team);
+        values = data.map(d => d.points);
+      }
+
+      const trace = {
+        x: labels,
+        y: values,
+        type: "bar"
+      };
+
+      const layout = {
+        title: (view === "individual") ? "Individual Scores" : "Team Scores",
+        xaxis: { tickangle: -45 }
+      };
+
+      Plotly.newPlot("chart", [trace], layout);
+    }
+
+    // Event listeners
+    document.getElementById("viewSelect").addEventListener("change", updateDashboard);
+    document.getElementById("weekSelect").addEventListener("change", updateDashboard);
+  </script>
+</body>
+</html>
