@@ -41,7 +41,15 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage new and updated files
           git add data/reports/*
-          git rm -r --cached data/reports/archive_folder/*.csv || true
+          
+          # Remove any CSVs left in reports/ (but not in archive/)
+          git rm -r --cached data/reports/*.csv || true
+          
+          # Commit if there are changes
           git commit -m "Update ETL reports [skip ci]" || echo "No changes to commit"
+          
+          # Push back to repo
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
