@@ -43,11 +43,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Stage new and updated files
-          git add data/reports/*
-          
-          # Remove any CSVs left in reports/ (but not in archive/)
-          git rm -r --cached data/reports/*.csv || true
+          # Stage all changes: new, modified, and deleted
+          git add -A data/reports/
           
           # Commit if there are changes
           git commit -m "Update ETL reports [skip ci]" || echo "No changes to commit"
