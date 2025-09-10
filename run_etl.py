@@ -1,7 +1,9 @@
 
-from etl import extract, transform , load, report
+from etl import extract, transform , load ###, report
 import config.config as cfg
 from datetime import datetime
+import os
+import shutil
 
 
 def main():
@@ -20,6 +22,13 @@ def main():
     team_scores = transform.calculate_team_points(df_enriched, individual_scores, date_table)
     # 2. Transform (identify fng's and pax not on a team) (I havent made this function yet, but will later)
     #not_on_a_team_report = transform.no_team_report(df_enriched)
+
+    # 2_5.move any existing data into the archive_folder.  It doesnt hurt anything to stay there, but will make the directory cleaner.
+    for file_name in os.listdir(cfg.REPORTS):
+        if file_name.endswith(".csv"):
+            src_path = os.path.join(cfg.REPORTS, file_name)
+            dst_path = os.path.join(cfg.ARCHIVED_REPORTS, file_name)
+            shutil.move(src_path, dst_path)
 
     # Make a timestamp string (e.g. 20250910_1130)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")

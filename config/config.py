@@ -1,6 +1,7 @@
 RAW_DATA = "data/raw_posts/"
 PROCESSED_DATA = "data/processed/"
 REPORTS = "data/reports/"
+ARCHIVED_REPORTS= "data/reports/archive_folder"
 DIMENSION_DATA = "data/dimensions/"
 
 DAILY_FILE_PATTERN = "*.csv"
