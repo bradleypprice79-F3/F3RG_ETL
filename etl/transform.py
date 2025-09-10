@@ -7,10 +7,11 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
     """
     # Convert to datetime first
     df_raw["date"] = pd.to_datetime(df_raw["date"], format="%b %d, %Y")
-    #df_raw["date"] = pd.to_datetime(df_raw["date"], errors="coerce", infer_datetime_format=True)
+    backblast["Date"] = pd.to_datetime(backblast["Date"], format="%b %d, %Y")
 
     # Convert to ISO string (YYYY-MM-DD)
     df_raw["date"] = df_raw["date"].dt.strftime("%Y-%m-%d")
+    backblast["Date"] = backblast["Date"].dt.strftime("%Y-%m-%d")
 
     # Merge with date dimension to bring in 'week'
     df = df_raw.merge(date_table, on="date", how="left")
@@ -42,10 +43,6 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
     # Bring in the Backblast string to add notes when desireable
     df = df.merge(backblast[["Date", "AO", "Q", "parsed_backblast", "region"]], 
                   left_on=["date","ao","q_user_name","region"], right_on=["Date","AO","Q","region"], how="left", suffixes=("", "_current")).drop(columns=['Date', 'AO', 'Q'])
-
-    df[["date","ao","q_user_name","region"]]
-    backblast[["Date", "AO", "Q","region"]].drop_duplicates().shape[0]
-    backblast.shape[0]
 
     # Select only the columns you want in final df_processed
     df_enriched = df[[
@@ -108,7 +105,7 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
 
                 # create the row
                 points_to_award = row['points']
-                notes = ""
+                notes = row['ao'] #make the note the name of the ao that he went to
 
                 # check to see if he qualified for Around the world, append another row if he did.
                 if len(set(ATW_list_weekly))==5 and ATW_Bonus==0:
@@ -191,32 +188,32 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
             elif row['type'] == "2ndf":
                 # create the row
                 points_to_award = row['points'] if F2nd==0 else 0
-                notes = "2ndF" if F2nd==0 else "2nd F already achieved this week"
+                notes = row["parsed_backblast"] if F2nd==0 else "2nd F already achieved this week"
                 F2nd=1
             
 
             elif row['type'] == "3rdf":
                 # create the row
                 points_to_award = row['points'] if F3rd==0 else 0
-                notes = "3rdF" if F3rd==0 else "3rd F already achieved this week"
+                notes = row["parsed_backblast"] if F3rd==0 else "3rd F already achieved this week"
                 F3rd=1
             
             elif row['type'] == "Donation":
                 # create the row
                 points_to_award = row['points'] if Donation==0 else 0
-                notes = "$$" if Donation==0 else "Donation already achieved this week"
+                notes = "$$, way to be generous!" if Donation==0 else "Donation already achieved this week"
                 Donation=1
             
             elif row['type'] == "popup":
                 # create the row
                 points_to_award = row['points'] if popup==0 else 0
-                notes = "popup" if popup==0 else "popup already achieved this week"
+                notes = "YAY! You did the popup!" if popup==0 else "popup already achieved this week"
                 popup=1
             
             elif row['type'] == "hardshit":
                 # create the row
                 points_to_award = row['points'] if hardshit<2 else 0
-                notes = "hardshit" if hardshit<2 else "hardshit already achieved for RG2025"
+                notes = "I'll bet you're tired now!" if hardshit<2 else "hardshit already achieved for RG2025"
                 hardshit+=1
             
             else:
