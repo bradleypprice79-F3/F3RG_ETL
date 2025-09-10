@@ -35,5 +35,12 @@ def extract_dimension_tables(base_path):
     date_table = pd.read_csv(base / "date_table.csv")
     PAXcurrent = pd.read_csv(base / "PAXcurrent.csv")
     PAXdraft = pd.read_csv(base / "PAXdraft.csv")
+    backblast = pd.read_csv(base / "backblast.csv")
 
-    return AOs, date_table, PAXcurrent, PAXdraft
+    # remove \n newline characters from backblast.
+    backblast["parsed_backblast"] = backblast["parsed_backblast"].str.replace("\n", " ", regex=False)
+    # Drop "DATE: ..." and everything after
+    backblast["parsed_backblast"] = backblast["parsed_backblast"].str.replace(r"DATE:.*", "", regex=True).str.strip()
+
+
+    return AOs, date_table, PAXcurrent, PAXdraft, backblast

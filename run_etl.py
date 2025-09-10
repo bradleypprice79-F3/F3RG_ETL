@@ -7,10 +7,10 @@ def main():
     # 1. Extract raw post data (CSV for now)
     df_raw = extract.posts_from_csv_folder(cfg.RAW_DATA, cfg.DAILY_FILE_PATTERN)
 
-    AOs, date_table, PAXcurrent, PAXdraft = extract.extract_dimension_tables(cfg.DIMENSION_DATA)
+    AOs, date_table, PAXcurrent, PAXdraft, backblast = extract.extract_dimension_tables(cfg.DIMENSION_DATA)
 
     # 2. enrich (add user, AO, and date attributes)
-    df_enriched = transform.enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft)
+    df_enriched = transform.enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast)
     #df_enriched.to_csv("df_enriched.csv", index=False)
 
     # 2. Transform (apply scoring rules, individual aggregation)

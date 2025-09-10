@@ -1,7 +1,7 @@
 # etl/transform.py
 import pandas as pd
 
-def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft):
+def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
     """
     Add in user_names and attributes and AO 
     """
@@ -22,18 +22,35 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft):
     df = df.merge(PAXdraft[["user_id", "Team", "FNGflag"]], 
                   on="user_id", how="left")
 
-    # If PAXdraft doesn’t cover all users, pull from PAXcurrent as fallback
+    # get user_name from PAXcurrent for user_id.
     df = df.merge(PAXcurrent[["user_id", "user_name"]], 
                   on="user_id", how="left", suffixes=("", "_current"))
+    
+    # get q_user_name from PAXcurrent for user_id.
+    df = df.merge(
+            PAXcurrent[["user_id", "user_name"]]
+                .rename(columns={"user_id": "q_user_id", "user_name": "q_user_name"}),
+            on="q_user_id",
+            how="left"
+        )
+            
 
     # Fill in missing names with constants.  We'll need to create a report with these later.
     # Add new PAX that are not on a team to team None. OR, if FNG, to their team.  Troubleshoot Unknown Names.
-    df = df.fillna({"Team": "Unknown Team","user_name": "Unknown Name"})
+    df = df.fillna({"Team": "Unknown Team","user_name": "Unknown Name","q_user_name": "Unknown Name"})
+
+    # Bring in the Backblast string to add notes when desireable
+    df = df.merge(backblast[["Date", "AO", "Q", "parsed_backblast", "region"]], 
+                  left_on=["date","ao","q_user_name","region"], right_on=["Date","AO","Q","region"], how="left", suffixes=("", "_current")).drop(columns=['Date', 'AO', 'Q'])
+
+    df[["date","ao","q_user_name","region"]]
+    backblast[["Date", "AO", "Q","region"]].drop_duplicates().shape[0]
+    backblast.shape[0]
 
     # Select only the columns you want in final df_processed
     df_enriched = df[[
         "date", "week", "ao_id", "q_user_id", "user_id", 
-        "ao", "points", "type", "user_name", "Team", "FNGflag"
+        "ao", "points", "type", "user_name", "Team", "FNGflag", "parsed_backblast"
     ]]
 
     return df_enriched
