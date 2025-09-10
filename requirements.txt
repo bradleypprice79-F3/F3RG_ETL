@@ -1,6 +1,3 @@
 pandas
 pyyaml
 jinja2
-glob
-pandas
-pathlib
