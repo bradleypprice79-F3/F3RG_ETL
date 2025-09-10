@@ -1,0 +1,7 @@
+# Ignore environment variable file
+utils/.env
+
+# Ignore raw_data if you want to avoid committing large CSVs
+# data/raw_data/
+
+# You may also want to ignore archive folders, temp files, etc.

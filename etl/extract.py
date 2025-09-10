@@ -3,6 +3,41 @@ import os
 import glob
 import pandas as pd
 from pathlib import Path
+import mysql.connector
+
+def get_raw_posts():
+
+
+    # Load credentials from environment
+    host = os.environ.get("DB_HOST")
+    user = os.environ.get("DB_USER")
+    password = os.environ.get("DB_PASSWORD")
+    database = os.environ.get("DB_NAME")
+    port = int(os.environ.get("DB_PORT", 3306))
+    ssl_ca = os.environ.get("DB_SSL_CA")
+
+    # Connect to MySQL
+    conn = mysql.connector.connect(
+        host=host,
+        user=user,
+        password=password,
+        database=database,
+        port=port,
+        ssl_ca=ssl_ca,
+        ssl_disabled=False,
+        unix_socket=None  # ensures TCP is used
+    )
+
+    # Query your data
+    query = "SELECT * FROM your_table_name;"  # adjust to your table
+    df = pd.read_sql(query, conn)
+
+    # Close connection
+    conn.close()
+
+    # Save CSV to raw_data folder
+    df.to_csv("data/raw_data/my_table.csv", index=False)
+    print("Saved CSV to data/raw_data/my_table.csv")
 
 def posts_from_csv_folder(folder_path, file_pattern="*.csv"):
     """
