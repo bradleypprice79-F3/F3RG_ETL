@@ -28,7 +28,10 @@ def main():
         if file_name.endswith(".csv"):
             src_path = os.path.join(cfg.REPORTS, file_name)
             dst_path = os.path.join(cfg.ARCHIVED_REPORTS, file_name)
+            print(f"Moving: {file_name} from {src_path} -> {dst_path}")
             shutil.move(src_path, dst_path)
+            print(f"Exists in reports? {os.path.exists(src_path)}")
+            print(f"Exists in archive? {os.path.exists(dst_path)}")
 
     # Make a timestamp string (e.g. 20250910_1130)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
