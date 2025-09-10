@@ -2,43 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Reindeer Games Dashboard</title>
-  
-  <!-- Plotly.js for charting -->
+  <title>Reindeer Games Dashboard 20250910</title>
+
+  <!-- Plotly.js for charts -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  
+
   <!-- PapaParse for CSV parsing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-  
+
+  <!-- get the names of the latest csv files to load -->
+  <script src="latest_files.js"></script>
+
   <style>
-    /* General page styling */
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
       background: #f7f9fc;
     }
 
-    h1 { text-align: center; }
+    h1 { text-align: center; margin-bottom: 30px; }
 
-    /* Control panel for dropdowns */
-    #controls {
+    /* Two-column layout for top dashboard */
+    #top-dashboard {
       display: flex;
-      justify-content: center;
-      gap: 15px;
-      margin-bottom: 20px;
+      gap: 20px;
     }
 
-    select {
-      padding: 6px;
-      font-size: 14px;
+    #left-column, #right-column {
+      flex: 1;
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    /* Table styling */
     table {
       border-collapse: collapse;
-      margin: 0 auto;
-      width: 90%;
-      background: white;
+      width: 100%;
+      margin-bottom: 20px;
     }
 
     th, td {
@@ -47,222 +48,355 @@
       text-align: left;
     }
 
-    th { 
-      background: #eee; 
-      cursor: pointer; /* Could be used for sorting */
+    th {
+      background: #eee;
     }
 
-    /* Chart container styling */
-    #chart {
-      margin-top: 30px;
+    /* Bottom dashboard full-width */
+    #bottom-dashboard {
+      margin-top: 40px;
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    #teamProgressControls {
+      margin-bottom: 10px;
+    }
+
+    #teamProgressControls label {
+      margin-right: 10px;
+    }
+
+    select {
+      margin-left: 5px;
+      margin-right: 20px;
     }
   </style>
 </head>
-<body>
 
+<body>
   <h1>Reindeer Games Dashboard</h1>
 
-  <!-- Controls for view and week selection -->
-  <div id="controls">
-    <label>
-      View:
-      <select id="viewSelect">
-        <option value="individual">Individual Scores</option>
-        <option value="team">Team Scores</option>
-      </select>
-    </label>
+  <!-- Top dashboard: two columns -->
+  <div id="top-dashboard">
+    <div id="left-column">
+      <h2>Team Standings</h2>
+      <div id="teamStandingsTable"></div>
 
-    <label>
-      Week:
-      <select id="weekSelect">
-        <option value="all">All</option>
-        <!-- Week options will be populated dynamically -->
-      </select>
-    </label>
+      <h2>Progression by Week</h2>
+      <div id="teamProgressControls"></div>
+      <div id="teamProgressChart"></div>
+    </div>
+
+    <div id="right-column">
+      <h2>Individual Standings</h2>
+      <div id="individualStandingsTable"></div>
+    </div>
   </div>
 
-  <!-- Container for table and chart -->
-  <div id="tableContainer"></div>
-  <div id="chart"></div>
+  <!-- Bottom dashboard: full-width tables -->
+  <div id="bottom-dashboard">
+    <h2>Team Points</h2>
+    <div>
+      Team: <select id="teamSelect"></select>
+      Week: <select id="weekSelect"></select>
+    </div>
+    <div id="teamPointsTable"></div>
+
+    <h2>Individual Points</h2>
+    <div>
+      Day: <select id="daySelect"></select>
+      User: <select id="userSelect"></select>
+    </div>
+    <div id="individualPointsTable"></div>
+  </div>
 
   <script>
     // =========================
-    // Global variables
+    // Global Variables
     // =========================
-    let individualData = [];  // Stores all individual CSV rows
-    let teamData = [];        // Stores all team CSV rows
+    let individualData = [];
+    let teamData = [];
+    let teams = []; // list of all team names
+    let users = []; // list of all user_names
+    let weeks = []; // list of weeks
 
     // =========================
-    // Load CSV files using PapaParse
+    // Load CSVs
     // =========================
-    Papa.parse("individual_scores.csv", {
-      download: true,   // Load CSV from server
-      header: true,     // Treat first row as header
+    Papa.parse(latestFiles.individual, {
+      download: true,
+      header: true,
       complete: (results) => {
         individualData = results.data;
-        populateWeeks(individualData); // Fill week dropdown
-        updateDashboard();             // Initial render
+        preprocessData();
+        populateTopDashboard();
+        populateDropdowns();
+        updateBottomTables();
       }
     });
 
-    Papa.parse("team_scores.csv", {
+    Papa.parse(latestFiles.team, {
       download: true,
       header: true,
       complete: (results) => {
         teamData = results.data;
+        preprocessData();
+        populateTopDashboard();
+        populateDropdowns();
+        updateBottomTables();
       }
     });
 
     // =========================
-    // Populate Week dropdown dynamically
+    // Preprocess CSV data
     // =========================
-    function populateWeeks(data) {
-      const weekSelect = document.getElementById("weekSelect");
+    function preprocessData() {
+      if(!individualData.length || !teamData.length) return;
 
-      // Extract unique weeks from data
-      const weeks = [...new Set(data.map(d => d.week))].sort((a,b) => +a - +b);
+      // Convert points to numbers
+      individualData.forEach(d => d.points = +d.points);
+      teamData.forEach(d => d.points = +d.points);
 
-      // Add each week as an option
-      weeks.forEach(w => {
-        const opt = document.createElement("option");
-        opt.value = w;
-        opt.textContent = "Week " + w;
-        weekSelect.appendChild(opt);
-      });
+      // Extract unique teams, users, weeks
+      teams = [...new Set(teamData.map(d => d.Team))].sort();
+      users = [...new Set(individualData.map(d => d.user_name))].sort();
+      weeks = [...new Set(individualData.map(d => d.week))].sort((a,b) => +a - +b);
     }
 
     // =========================
-    // Update dashboard whenever a dropdown changes
+    // Populate top dashboard
     // =========================
-    function updateDashboard() {
-      const view = document.getElementById("viewSelect").value;
-      const weekFilter = document.getElementById("weekSelect").value;
-
-      // Select the correct dataset
-      let data = (view === "individual") ? individualData : teamData;
-
-      // Apply week filter if needed
-      if (weekFilter !== "all") {
-        data = data.filter(d => d.week === weekFilter);
-      }
-
-      // Ensure points are numeric
-      data.forEach(d => d.points = +d.points);
-
-      if (view === "individual") {
-        // Individual view: sort by points descending
-        data.sort((a, b) => b.points - a.points);
-
-        renderTable(data, view);
-        renderChart(data, view);
-      } else {
-        // Team view: aggregate points by team
-        const standings = getTeamStandings(data);
-        renderTeamTable(standings);
-        renderTeamChart(standings);
-      }
+    function populateTopDashboard() {
+      renderTeamStandingsTable();
+      renderTeamProgressChart();
+      renderIndividualStandingsTable();
     }
 
-    // =========================
-    // Aggregate points by team
-    // =========================
-    function getTeamStandings(data) {
-      const standings = {};
+    // -------------------------
+    // Team Standings Table
+    // -------------------------
+    function renderTeamStandingsTable() {
+      const tableContainer = document.getElementById("teamStandingsTable");
 
-      data.forEach(d => {
-        const team = d.Team;
-        const points = +d.points;
-
-        if (!standings[team]) standings[team] = 0;
-        standings[team] += points;
+      // Aggregate total points by team
+      let standings = {};
+      teamData.forEach(d => {
+        if(!standings[d.Team]) standings[d.Team] = 0;
+        standings[d.Team] += d.points;
       });
 
-      // Convert to array and sort descending
-      return Object.entries(standings)
-        .map(([team, points]) => ({ team, points }))
-        .sort((a, b) => b.points - a.points);
+      let standingsArray = Object.entries(standings)
+        .map(([team, points]) => ({team, points}))
+        .sort((a,b) => b.points - a.points);
+
+      let html = "<table><thead><tr><th>Rank</th><th>Team</th><th>Total Points</th></tr></thead><tbody>";
+      standingsArray.forEach((s, idx) => {
+        html += `<tr><td>${idx+1}</td><td>${s.team}</td><td>${s.points}</td></tr>`;
+      });
+      html += "</tbody></table>";
+
+      tableContainer.innerHTML = html;
     }
 
-    // =========================
-    // Render table for individual scores
-    // =========================
-    function renderTable(data, view) {
-      const container = document.getElementById("tableContainer");
-      let html = "<table><thead><tr>";
+    // -------------------------
+    // Team Progression Chart
+    // -------------------------
+    function renderTeamProgressChart() {
+      // Compute cumulative points per team by week
+      let cumulativeData = {};
+      teams.forEach(t => cumulativeData[t] = Array(weeks.length).fill(0));
 
-      if (view === "individual") {
-        html += "<th>Date</th><th>Week</th><th>Team</th><th>User</th><th>Type</th><th>Points</th><th>Notes</th>";
-      } else {
-        html += "<th>Date</th><th>Week</th><th>Team</th><th>Type</th><th>Points</th><th>Notes</th>";
+      weeks.forEach((w, weekIdx) => {
+        teams.forEach(t => {
+          let weeklyPoints = teamData
+            .filter(d => d.Team === t && d.week === w)
+            .reduce((sum,d) => sum+d.points, 0);
+
+          cumulativeData[t][weekIdx] = weekIdx === 0 ? weeklyPoints :
+            cumulativeData[t][weekIdx-1] + weeklyPoints;
+        });
+      });
+
+      // Build checkboxes for toggling lines
+      const controls = document.getElementById("teamProgressControls");
+      controls.innerHTML = "";
+      teams.forEach(t => {
+        const label = document.createElement("label");
+        label.innerHTML = `<input type="checkbox" value="${t}" checked> ${t}`;
+        controls.appendChild(label);
+      });
+
+      function drawChart() {
+        let traces = [];
+        const checkboxes = controls.querySelectorAll("input[type=checkbox]");
+        checkboxes.forEach(cb => {
+          if(cb.checked) {
+            traces.push({
+              x: weeks.map(w => "Week " + w),
+              y: cumulativeData[cb.value],
+              mode: "lines+markers",
+              name: cb.value
+            });
+          }
+        });
+
+        Plotly.newPlot("teamProgressChart", traces, {
+            title: "Cumulative Points by Week",
+            xaxis: { title: "Week" },
+            yaxis: { title: "Cumulative Points" },
+            width: 600,    // force width
+            height: 400    // force height
+          });
       }
 
-      html += "</tr></thead><tbody>";
+      // Add listener to checkboxes
+      controls.querySelectorAll("input[type=checkbox]").forEach(cb => {
+        cb.addEventListener("change", drawChart);
+      });
 
-      data.forEach(d => {
-        html += "<tr>";
-        if (view === "individual") {
-          html += `<td>${d.date}</td><td>${d.week}</td><td>${d.Team}</td><td>${d.user_name}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td>`;
-        } else {
-          html += `<td>${d.date}</td><td>${d.week}</td><td>${d.Team}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td>`;
+      drawChart(); // initial draw
+    }
+
+    // -------------------------
+    // Individual Standings Table
+    // -------------------------
+    function renderIndividualStandingsTable() {
+      const container = document.getElementById("individualStandingsTable");
+      container.style.maxHeight = "800px";
+      container.style.overflowY = "auto";
+
+      // Aggregate total points by user (and capture team)
+      let totals = {};
+      individualData.forEach(d => {
+        if (!totals[d.user_name]) {
+          totals[d.user_name] = { points: 0, team: d.Team }; // store both
         }
-        html += "</tr>";
+        totals[d.user_name].points += d.points;
       });
 
+      // Convert to array, sort by points
+      let totalsArray = Object.entries(totals)
+        .map(([user, data]) => ({
+          user,
+          points: data.points,
+          team: data.team
+        }))
+        .sort((a, b) => b.points - a.points);
+
+      // Build table HTML
+      let html = "<table><thead><tr><th>Rank</th><th>User</th><th>Team</th><th>Total Points</th></tr></thead><tbody>";
+      totalsArray.forEach((u, idx) => {
+        html += `<tr><td>${idx + 1}</td><td>${u.user}</td><td>${u.team}</td><td>${u.points}</td></tr>`;
+      });
       html += "</tbody></table>";
+
       container.innerHTML = html;
     }
 
     // =========================
-    // Render aggregated team table
+    // Populate dropdowns
     // =========================
-    function renderTeamTable(standings) {
-      const container = document.getElementById("tableContainer");
-      let html = "<table><thead><tr><th>Team</th><th>Total Points</th></tr></thead><tbody>";
-
-      standings.forEach(s => {
-        html += `<tr><td>${s.team}</td><td>${s.points}</td></tr>`;
+    function populateDropdowns() {
+      // Team dropdown
+      const teamSelect = document.getElementById("teamSelect");
+      teamSelect.innerHTML = "<option value=''>Select Team</option>";
+      teams.forEach(t => {
+        teamSelect.innerHTML += `<option value="${t}">${t}</option>`;
       });
 
-      html += "</tbody></table>";
-      container.innerHTML = html;
+      // Week dropdown
+      const weekSelect = document.getElementById("weekSelect");
+      weekSelect.innerHTML = "<option value=''>Select Week</option>";
+      weeks.forEach(w => {
+        weekSelect.innerHTML += `<option value="${w}">Week ${w}</option>`;
+      });
+
+      // Day and User dropdowns will populate dynamically when Team & Week are selected
     }
 
     // =========================
-    // Render chart for individual scores
+    // Update bottom tables
     // =========================
-    function renderChart(data, view) {
-      let labels, values;
+    function updateBottomTables() {
+      const teamSelect = document.getElementById("teamSelect").value;
+      const weekSelect = document.getElementById("weekSelect").value;
 
-      if (view === "individual") {
-        labels = data.map(d => d.user_name + " (" + d.Team + ")");
-        values = data.map(d => d.points);
+      // ------------------------
+      // Team Points Table
+      // ------------------------
+      const teamPointsContainer = document.getElementById("teamPointsTable");
+      if(teamSelect && weekSelect) {
+        let filteredTeamRows = teamData
+          .filter(d => d.Team === teamSelect && d.week === weekSelect)
+          .sort((a,b) => new Date(b.date) - new Date(a.date)); // newest first
+
+        let html = "<table><thead><tr><th>Date</th><th>Type</th><th>Points</th><th>Notes</th></tr></thead><tbody>";
+        filteredTeamRows.forEach(d => {
+          html += `<tr><td>${d.date}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td></tr>`;
+        });
+        html += "</tbody></table>";
+        teamPointsContainer.innerHTML = html;
       } else {
-        // Should not reach here in team view
-        return;
+        teamPointsContainer.innerHTML = "";
       }
 
-      const trace = { x: labels, y: values, type: "bar" };
-      const layout = { title: "Individual Scores", xaxis: { tickangle: -45 } };
-      Plotly.newPlot("chart", [trace], layout);
+        // ------------------------
+        // Individual Points Table
+        // ------------------------
+        const individualContainer = document.getElementById("individualPointsTable");
+        const daySelect = document.getElementById("daySelect");
+        const userSelect = document.getElementById("userSelect");
+
+        if(teamSelect && weekSelect) {
+        let filteredIndividualRows = individualData
+            .filter(d => d.Team === teamSelect && d.week === weekSelect)
+            .sort((a,b) => new Date(b.date) - new Date(a.date));
+
+        // Save current selection
+        let selectedDay = daySelect.value;
+        let selectedUser = userSelect.value;
+
+        // Populate Day dropdown only if selection is invalid
+        let days = [...new Set(filteredIndividualRows.map(d=>d.date))].sort((a,b)=>new Date(a)-new Date(b));
+        daySelect.innerHTML = "<option value=''>All Days</option>";
+        days.forEach(day => daySelect.innerHTML += `<option value="${day}">${day}</option>`);
+        if(days.includes(selectedDay)) daySelect.value = selectedDay;
+
+        // Populate User dropdown only if selection is invalid
+        let usersInTeam = [...new Set(filteredIndividualRows.map(d=>d.user_name))].sort();
+        userSelect.innerHTML = "<option value=''>All Users</option>";
+        usersInTeam.forEach(u => userSelect.innerHTML += `<option value="${u}">${u}</option>`);
+        if(usersInTeam.includes(selectedUser)) userSelect.value = selectedUser;
+
+        // Apply day/user filters
+        if(daySelect.value) filteredIndividualRows = filteredIndividualRows.filter(d => d.date === daySelect.value);
+        if(userSelect.value) filteredIndividualRows = filteredIndividualRows.filter(d => d.user_name === userSelect.value);
+
+        // Render table
+        let html = "<table><thead><tr><th>Date</th><th>User</th><th>Type</th><th>Points</th><th>Notes</th></tr></thead><tbody>";
+        filteredIndividualRows.forEach(d => {
+            html += `<tr><td>${d.date}</td><td>${d.user_name}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td></tr>`;
+        });
+        html += "</tbody></table>";
+        individualContainer.innerHTML = html;
+
+        } else {
+        individualContainer.innerHTML = "";
+        daySelect.innerHTML = "";
+        userSelect.innerHTML = "";
+        }
     }
 
     // =========================
-    // Render chart for team standings
+    // Event listeners for bottom filters
     // =========================
-    function renderTeamChart(standings) {
-      const labels = standings.map(s => s.team);
-      const values = standings.map(s => s.points);
-
-      const trace = { x: labels, y: values, type: "bar" };
-      const layout = { title: "Team Standings", xaxis: { tickangle: -45 } };
-      Plotly.newPlot("chart", [trace], layout);
-    }
-
-    // =========================
-    // Event listeners for dropdowns
-    // =========================
-    document.getElementById("viewSelect").addEventListener("change", updateDashboard);
-    document.getElementById("weekSelect").addEventListener("change", updateDashboard);
+    document.getElementById("teamSelect").addEventListener("change", updateBottomTables);
+    document.getElementById("weekSelect").addEventListener("change", updateBottomTables);
+    document.getElementById("daySelect").addEventListener("change", updateBottomTables);
+    document.getElementById("userSelect").addEventListener("change", updateBottomTables);
 
   </script>
 </body>

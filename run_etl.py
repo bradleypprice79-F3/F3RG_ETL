@@ -1,6 +1,7 @@
 
 from etl import extract, transform , load, report
 import config.config as cfg
+from datetime import datetime
 
 
 def main():
@@ -20,13 +21,19 @@ def main():
     # 2. Transform (identify fng's and pax not on a team) (I havent made this function yet, but will later)
     #not_on_a_team_report = transform.no_team_report(df_enriched)
 
-    # 3. Save processed data
-    load.to_csv(individual_scores, cfg.REPORTS + "individual_scores.csv")
-    load.to_csv(team_scores, cfg.REPORTS + "team_scores.csv")
+    # Make a timestamp string (e.g. 20250910_1130)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
 
-    # 4. Generate report HTML
-    html = report.generate(team_scores, title=cfg.REPORT_TITLE)
-    load.to_html(html, cfg.REPORTS + "index.html")
+    # 3. Save processed data with timestamp in filename
+    load.to_csv(individual_scores, f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
+    load.to_csv(team_scores, f"{cfg.REPORTS}team_scores_{timestamp}.csv")
+
+    # Optionally: also write a small manifest file so HTML knows the "latest"
+    with open(f"{cfg.REPORTS}latest_files.js", "w") as f:
+        f.write(f'const latestFiles = {{\n')
+        f.write(f'  individual: "individual_scores_{timestamp}.csv",\n')
+        f.write(f'  team: "team_scores_{timestamp}.csv"\n')
+        f.write(f'}};\n')
 
 if __name__ == "__main__":
     main()
