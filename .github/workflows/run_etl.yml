@@ -4,6 +4,7 @@ permissions:
   contents: write
 
 on:
+  workflow_dispatch:    # this enables the "Run workflow" button
   push:
     branches: 
       - main        # run when code is pushed to main
