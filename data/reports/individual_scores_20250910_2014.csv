@@ -66,7 +66,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-29,3,Comet,Bob Villa,ao-black-rock,1stf,3.0,ao-black-rock
 2025-07-30,3,Comet,Bob Villa,downrange,1stf,3.0,downrange
 2025-07-31,3,Comet,Bob Villa,ao-the-olympiad,1stf,3.0,ao-the-olympiad
-2025-07-31,3,Comet,Bob Villa,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-olympiad', 'ao-black-rock')"
+2025-07-31,3,Comet,Bob Villa,,Around The World,5.0,"('downrange', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote')"
 2025-07-31,3,Comet,Bob Villa,,sixpack bonus,4.0,"('downrange', 'ao-the-colosseum', 'ao-black-rock', 'downrange', 'ao-the-olympiad', 'ao-el-coyote')"
 2025-07-31,3,Comet,Bob Villa,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-08-05,4,Comet,Bob Villa,ao-the-ridge,1stf,3.0,ao-the-ridge
@@ -81,7 +81,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-17,1,Dancer,Meta,ao-the-olympiad,1stf,3.0,ao-the-olympiad
 2025-07-17,1,Dancer,Meta,,sixpack bonus,4.0,"('ao-the-ridge', 'ao-the-ridge', 'ao-el-coyote', 'ao-ravens-nest', 'ao-the-olympiad', 'ao-el-coyote')"
 2025-07-17,1,Dancer,Meta,ao-el-coyote,1stf,3.0,ao-el-coyote
-2025-07-18,1,Dancer,Meta,,Around The World,5.0,"('ao-el-coyote', 'downrange', 'ao-the-olympiad', 'ao-ravens-nest', 'ao-the-ridge')"
+2025-07-18,1,Dancer,Meta,,Around The World,5.0,"('ao-ravens-nest', 'downrange', 'ao-the-olympiad', 'ao-el-coyote', 'ao-the-ridge')"
 2025-07-18,1,Dancer,Meta,,sixpack bonus,1.0,"('ao-the-ridge', 'ao-the-ridge', 'ao-el-coyote', 'ao-ravens-nest', 'ao-the-olympiad', 'ao-el-coyote', 'downrange')"
 2025-07-18,1,Dancer,Meta,downrange,1stf,3.0,downrange
 2025-07-22,2,Dancer,Meta,3rd-f-qsource,qs,4.0,QS
@@ -91,7 +91,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-24,2,Dancer,Meta,ao-black-diamond,workout Q,1.0,Q
 2025-07-24,2,Dancer,Meta,ao-black-diamond,1stf,4.0,ao-black-diamond
 2025-07-25,2,Dancer,Meta,ao-the-colosseum,1stf,3.0,ao-the-colosseum
-2025-07-26,2,Dancer,Meta,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-silo', 'ao-black-diamond')"
+2025-07-26,2,Dancer,Meta,,Around The World,5.0,"('downrange', 'ao-black-diamond', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-silo')"
 2025-07-26,2,Dancer,Meta,,sixpack bonus,4.0,"('ao-el-coyote', 'ao-the-silo', 'ao-el-coyote', 'ao-black-diamond', 'ao-the-colosseum', 'downrange')"
 2025-07-26,2,Dancer,Meta,downrange,1stf,3.0,downrange
 2025-07-28,3,Dancer,Meta,2nd-f,2ndf,3.0,5th year anniversary party
@@ -101,7 +101,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-30,3,Dancer,Meta,ao-the-silo,1stf,3.0,ao-the-silo
 2025-07-31,3,Dancer,Meta,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-08-01,3,Dancer,Meta,downrange,1stf,3.0,downrange
-2025-08-02,3,Dancer,Meta,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-ravens-nest', 'ao-the-silo')"
+2025-08-02,3,Dancer,Meta,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-silo')"
 2025-08-02,3,Dancer,Meta,,sixpack bonus,4.0,"('ao-the-colosseum', 'ao-el-coyote', 'ao-the-silo', 'ao-the-colosseum', 'downrange', 'ao-ravens-nest')"
 2025-08-02,3,Dancer,Meta,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-08-05,4,Dancer,Meta,ao-the-colosseum,1stf,3.0,ao-the-colosseum
@@ -161,7 +161,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-29,3,Vixen,Cutler,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-07-29,3,Vixen,Cutler,3rd-f-qsource,qs,4.0,QS
 2025-07-30,3,Vixen,Cutler,ao-ravens-nest,1stf,3.0,ao-ravens-nest
-2025-07-31,3,Vixen,Cutler,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'ao-ravens-nest', 'ao-black-rock', 'ao-the-ridge')"
+2025-07-31,3,Vixen,Cutler,,Around The World,5.0,"('ao-ravens-nest', 'ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote', 'ao-the-ridge')"
 2025-07-31,3,Vixen,Cutler,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-07-31,3,Vixen,Cutler,3rd-f-qsource,qs,0.0,Qsource already achieved this week
 2025-08-01,3,Vixen,Cutler,,sixpack bonus,4.0,"('ao-the-ridge', 'ao-black-rock', 'ao-el-coyote', 'ao-ravens-nest', 'ao-the-colosseum', 'downrange')"
@@ -173,7 +173,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-06,4,Vixen,Cutler,ao-the-silo,1stf,3.0,ao-the-silo
 2025-08-07,4,Vixen,Cutler,ao-black-diamond,1stf,4.0,ao-black-diamond
 2025-08-08,4,Vixen,Cutler,ao-the-grove,1stf,3.0,ao-the-grove
-2025-08-09,4,Vixen,Cutler,,Around The World,5.0,"('ao-black-rock', 'ao-the-ridge', 'ao-the-silo', 'ao-the-grove', 'ao-black-diamond')"
+2025-08-09,4,Vixen,Cutler,,Around The World,5.0,"('ao-black-diamond', 'ao-the-ridge', 'ao-black-rock', 'ao-the-silo', 'ao-the-grove')"
 2025-08-09,4,Vixen,Cutler,,sixpack bonus,4.0,"('ao-the-grove', 'ao-black-rock', 'ao-the-silo', 'ao-black-diamond', 'ao-the-grove', 'ao-the-ridge')"
 2025-08-09,4,Vixen,Cutler,ao-the-ridge,1stf,3.0,ao-the-ridge
 2025-08-12,5,Vixen,Cutler,ao-black-rock,1stf,3.0,ao-black-rock
@@ -182,7 +182,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-14,5,Vixen,Cutler,ao-the-ridge,1stf,3.0,ao-the-ridge
 2025-08-15,5,Vixen,Cutler,ao-the-olympiad,workout Q,0.0,you already Q'd a workout this week
 2025-08-15,5,Vixen,Cutler,ao-the-olympiad,1stf,3.0,ao-the-olympiad
-2025-08-16,5,Vixen,Cutler,,Around The World,5.0,"('ao-the-colosseum', 'ao-the-olympiad', 'ao-ravens-nest', 'ao-black-rock', 'ao-the-ridge')"
+2025-08-16,5,Vixen,Cutler,,Around The World,5.0,"('ao-ravens-nest', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-black-rock', 'ao-the-ridge')"
 2025-08-16,5,Vixen,Cutler,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-08-16,5,Vixen,Cutler,,sixpack bonus,4.0,"('ao-black-rock', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-the-ridge')"
 2025-08-16,5,Vixen,Cutler,ao-the-ridge,1stf,3.0,ao-the-ridge
@@ -201,7 +201,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-15,1,Dasher,Hank Hill,ao-el-coyote,workout Q,1.0,Q
 2025-07-15,1,Dasher,Hank Hill,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-07-15,1,Dasher,Hank Hill,3rd-f-qsource,qs,4.0,QS
-2025-07-16,1,Dasher,Hank Hill,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-grove', 'ao-black-diamond')"
+2025-07-16,1,Dasher,Hank Hill,,Around The World,5.0,"('downrange', 'ao-black-diamond', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-grove')"
 2025-07-16,1,Dasher,Hank Hill,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-07-17,1,Dasher,Hank Hill,,sixpack bonus,4.0,"('ao-the-grove', 'downrange', 'ao-black-diamond', 'ao-el-coyote', 'ao-the-colosseum', 'ao-the-colosseum')"
 2025-07-17,1,Dasher,Hank Hill,ao-the-colosseum,1stf,3.0,ao-the-colosseum
@@ -218,7 +218,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-22,2,Dasher,Hank Hill,3rd-f-qsource,qs,4.0,QS
 2025-07-22,2,Dasher,Hank Hill,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-07-23,2,Dasher,Hank Hill,downrange,1stf,3.0,downrange
-2025-07-23,2,Dasher,Hank Hill,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-ravens-nest', 'ao-the-grove')"
+2025-07-23,2,Dasher,Hank Hill,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-grove')"
 2025-07-23,2,Dasher,Hank Hill,,sixpack bonus,4.0,"('downrange', 'ao-the-grove', 'ao-the-colosseum', 'ao-el-coyote', 'downrange', 'ao-ravens-nest')"
 2025-07-23,2,Dasher,Hank Hill,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-07-24,2,Dasher,Hank Hill,,sixpack bonus,1.0,"('downrange', 'ao-the-grove', 'ao-the-colosseum', 'ao-el-coyote', 'downrange', 'ao-ravens-nest', 'ao-the-colosseum')"
@@ -244,7 +244,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-29,3,Dasher,Hank Hill,3rd-f-qsource,qs,4.0,QS
 2025-07-29,3,Dasher,Hank Hill,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-07-30,3,Dasher,Hank Hill,downrange,1stf,3.0,downrange
-2025-07-30,3,Dasher,Hank Hill,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-ridge', 'ao-the-grove')"
+2025-07-30,3,Dasher,Hank Hill,,Around The World,5.0,"('downrange', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-ridge', 'ao-the-grove')"
 2025-07-30,3,Dasher,Hank Hill,,sixpack bonus,4.0,"('downrange', 'ao-the-grove', 'ao-the-ridge', 'ao-el-coyote', 'downrange', 'ao-the-colosseum')"
 2025-07-30,3,Dasher,Hank Hill,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-07-31,3,Dasher,Hank Hill,,sixpack bonus,1.0,"('downrange', 'ao-the-grove', 'ao-the-ridge', 'ao-el-coyote', 'downrange', 'ao-the-colosseum', 'ao-the-ridge')"
@@ -266,7 +266,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-07,4,Dasher,Hank Hill,3rd-f,3rdf,5.0,
 2025-08-07,4,Dasher,Hank Hill,ao-the-olympiad,1stf,3.0,ao-the-olympiad
 2025-08-08,4,Dasher,Hank Hill,3rd-f,3rdf,0.0,3rd F already achieved this week
-2025-08-08,4,Dasher,Hank Hill,,Around The World,5.0,"('ao-da-grizz', 'downrange', 'ao-the-olympiad', 'ao-the-grove', 'ao-dmz')"
+2025-08-08,4,Dasher,Hank Hill,,Around The World,5.0,"('downrange', 'ao-the-olympiad', 'ao-dmz', 'ao-the-grove', 'ao-da-grizz')"
 2025-08-08,4,Dasher,Hank Hill,ao-da-grizz,1stf,3.0,ao-da-grizz
 2025-08-09,4,Dasher,Hank Hill,,sixpack bonus,4.0,"('downrange', 'ao-the-grove', 'ao-dmz', 'ao-the-olympiad', 'ao-da-grizz', 'ao-the-colosseum')"
 2025-08-09,4,Dasher,Hank Hill,ao-the-colosseum,1stf,3.0,ao-the-colosseum
@@ -288,7 +288,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-19,6,Dasher,Hank Hill,3rd-f-qsource,qs,4.0,QS
 2025-08-19,6,Dasher,Hank Hill,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-08-20,6,Dasher,Hank Hill,ao-ravens-nest,1stf,3.0,ao-ravens-nest
-2025-08-21,6,Dasher,Hank Hill,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-grove')"
+2025-08-21,6,Dasher,Hank Hill,,Around The World,5.0,"('ao-ravens-nest', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-ridge', 'ao-the-grove')"
 2025-08-21,6,Dasher,Hank Hill,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-08-21,6,Dasher,Hank Hill,3rd-f,3rdf,5.0,Taylor Babec Annual blood drive
 2025-08-22,6,Dasher,Hank Hill,,sixpack bonus,4.0,"('ao-the-grove', 'ao-the-ridge', 'ao-el-coyote', 'ao-ravens-nest', 'ao-the-colosseum', 'ao-the-grove')"
@@ -378,7 +378,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-06,4,Dasher,Duck Hunt,ao-the-silo,1stf,3.0,ao-the-silo
 2025-08-07,4,Dasher,Duck Hunt,ao-black-diamond,workout Q,1.0,Q
 2025-08-07,4,Dasher,Duck Hunt,ao-black-diamond,1stf,4.0,ao-black-diamond
-2025-08-08,4,Dasher,Duck Hunt,,Around The World,5.0,"('ao-da-grizz', 'downrange', 'ao-the-silo', 'ao-the-grove', 'ao-black-diamond')"
+2025-08-08,4,Dasher,Duck Hunt,,Around The World,5.0,"('downrange', 'ao-black-diamond', 'ao-the-silo', 'ao-the-grove', 'ao-da-grizz')"
 2025-08-08,4,Dasher,Duck Hunt,ao-da-grizz,1stf,3.0,ao-da-grizz
 2025-08-09,4,Dasher,Duck Hunt,,sixpack bonus,4.0,"('ao-the-grove', 'downrange', 'ao-the-silo', 'ao-black-diamond', 'ao-da-grizz', 'ao-the-colosseum')"
 2025-08-09,4,Dasher,Duck Hunt,ao-the-colosseum,1stf,3.0,ao-the-colosseum
@@ -433,7 +433,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-30,3,Prancer,Scratch and Dent,ao-the-silo,1stf,3.0,ao-the-silo
 2025-07-31,3,Prancer,Scratch and Dent,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-08-01,3,Prancer,Scratch and Dent,ao-the-ridge,1stf,3.0,ao-the-ridge
-2025-08-02,3,Prancer,Scratch and Dent,,Around The World,5.0,"('ao-the-colosseum', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-silo', 'ao-dmz')"
+2025-08-02,3,Prancer,Scratch and Dent,,Around The World,5.0,"('ao-ravens-nest', 'ao-dmz', 'ao-the-ridge', 'ao-the-colosseum', 'ao-the-silo')"
 2025-08-02,3,Prancer,Scratch and Dent,,sixpack bonus,4.0,"('ao-the-silo', 'ao-dmz', 'ao-the-silo', 'ao-the-colosseum', 'ao-the-ridge', 'ao-ravens-nest')"
 2025-08-02,3,Prancer,Scratch and Dent,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-08-04,4,Prancer,Scratch and Dent,ao-the-silo,1stf,3.0,ao-the-silo
@@ -614,7 +614,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-14,1,Vixen,Phoenix,ao-the-silo,1stf,3.0,ao-the-silo
 2025-07-15,1,Vixen,Phoenix,ao-black-rock,1stf,3.0,ao-black-rock
 2025-07-16,1,Vixen,Phoenix,ao-the-colosseum,1stf,3.0,ao-the-colosseum
-2025-07-19,1,Vixen,Phoenix,,Around The World,5.0,"('ao-the-colosseum', 'ao-da-grizz', 'downrange', 'ao-black-rock', 'ao-the-silo')"
+2025-07-19,1,Vixen,Phoenix,,Around The World,5.0,"('downrange', 'ao-the-colosseum', 'ao-black-rock', 'ao-the-silo', 'ao-da-grizz')"
 2025-07-19,1,Vixen,Phoenix,ao-da-grizz,1stf,3.0,ao-da-grizz
 2025-07-19,1,Vixen,Phoenix,3rd-f,3rdf,5.0,AllenForce Pack and load POD for disabled Veteran
 2025-07-19,1,Vixen,Phoenix,,sixpack bonus,4.0,"('downrange', 'ao-the-silo', 'ao-black-rock', 'ao-the-colosseum', 'ao-da-grizz', 'ao-the-colosseum')"
@@ -630,7 +630,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-25,2,Vixen,Phoenix,ao-the-olympiad,1stf,3.0,ao-the-olympiad
 2025-07-26,2,Vixen,Phoenix,,sixpack bonus,1.0,"('downrange', 'downrange', 'ao-black-rock', 'ao-the-colosseum', 'downrange', 'ao-the-olympiad', 'ao-the-olympiad', 'ao-the-colosseum')"
 2025-07-26,2,Vixen,Phoenix,ao-the-colosseum,1stf,3.0,ao-the-colosseum
-2025-07-26,2,Vixen,Phoenix,,Around The World,5.0,"('ao-the-colosseum', 'ao-da-grizz', 'downrange', 'ao-the-olympiad', 'ao-black-rock')"
+2025-07-26,2,Vixen,Phoenix,,Around The World,5.0,"('downrange', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-black-rock', 'ao-da-grizz')"
 2025-07-26,2,Vixen,Phoenix,,sixpack bonus,1.0,"('downrange', 'downrange', 'ao-black-rock', 'ao-the-colosseum', 'downrange', 'ao-the-olympiad', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-da-grizz')"
 2025-07-26,2,Vixen,Phoenix,ao-da-grizz,1stf,3.0,ao-da-grizz
 2025-07-27,3,Vixen,Phoenix,2nd-f,2ndf,3.0,Little man down coffee ruck
@@ -643,7 +643,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-30,3,Vixen,Phoenix,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-07-30,3,Vixen,Phoenix,,sixpack bonus,4.0,"('downrange', 'downrange', 'ao-black-rock', 'ao-el-coyote', 'ao-the-colosseum', 'downrange')"
 2025-07-30,3,Vixen,Phoenix,downrange,1stf,3.0,downrange
-2025-07-31,3,Vixen,Phoenix,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-olympiad', 'ao-black-rock')"
+2025-07-31,3,Vixen,Phoenix,,Around The World,5.0,"('downrange', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote')"
 2025-07-31,3,Vixen,Phoenix,,sixpack bonus,1.0,"('downrange', 'downrange', 'ao-black-rock', 'ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-olympiad')"
 2025-07-31,3,Vixen,Phoenix,ao-the-olympiad,1stf,3.0,ao-the-olympiad
 2025-08-01,3,Vixen,Phoenix,,sixpack bonus,1.0,"('downrange', 'downrange', 'ao-black-rock', 'ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-the-olympiad', 'ao-the-olympiad')"
@@ -792,7 +792,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-22,2,Comet,Sparkler,ao-black-rock,1stf,3.0,ao-black-rock
 2025-07-23,2,Comet,Sparkler,downrange,1stf,3.0,downrange
 2025-07-24,2,Comet,Sparkler,ao-black-diamond,1stf,4.0,ao-black-diamond
-2025-07-25,2,Comet,Sparkler,,Around The World,5.0,"('ao-the-colosseum', 'downrange', 'ao-black-rock', 'ao-the-grove', 'ao-black-diamond')"
+2025-07-25,2,Comet,Sparkler,,Around The World,5.0,"('downrange', 'ao-black-diamond', 'ao-the-colosseum', 'ao-black-rock', 'ao-the-grove')"
 2025-07-25,2,Comet,Sparkler,ao-the-grove,1stf,3.0,ao-the-grove
 2025-07-28,3,Comet,Sparkler,2nd-f,2ndf,3.0,5th year anniversary party
 2025-07-28,3,Comet,Sparkler,ao-the-ridge,1stf,3.0,ao-the-ridge
@@ -800,7 +800,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-30,3,Comet,Sparkler,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-07-31,3,Comet,Sparkler,ao-black-diamond,workout Q,1.0,Q
 2025-07-31,3,Comet,Sparkler,ao-black-diamond,1stf,4.0,ao-black-diamond
-2025-08-01,3,Comet,Sparkler,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-grove', 'ao-black-diamond')"
+2025-08-01,3,Comet,Sparkler,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-black-diamond', 'ao-the-ridge', 'ao-the-grove')"
 2025-08-01,3,Comet,Sparkler,ao-the-grove,1stf,3.0,ao-the-grove
 2025-08-02,3,Comet,Sparkler,,sixpack bonus,4.0,"('ao-the-ridge', 'downrange', 'ao-ravens-nest', 'ao-black-diamond', 'ao-the-grove', 'ao-ravens-nest')"
 2025-08-02,3,Comet,Sparkler,ao-ravens-nest,1stf,3.0,ao-ravens-nest
@@ -897,7 +897,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-14,1,Prancer,Chum Bucket,downrange,1stf,3.0,downrange
 2025-07-15,1,Prancer,Chum Bucket,ao-black-diamond,1stf,4.0,ao-black-diamond
 2025-07-16,1,Prancer,Chum Bucket,ao-ravens-nest,1stf,3.0,ao-ravens-nest
-2025-07-17,1,Prancer,Chum Bucket,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-ravens-nest', 'ao-black-diamond')"
+2025-07-17,1,Prancer,Chum Bucket,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-black-diamond', 'ao-the-colosseum', 'ao-el-coyote')"
 2025-07-17,1,Prancer,Chum Bucket,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-07-18,1,Prancer,Chum Bucket,,sixpack bonus,4.0,"('ao-the-colosseum', 'downrange', 'ao-black-diamond', 'ao-ravens-nest', 'ao-el-coyote', 'ao-the-grove')"
 2025-07-18,1,Prancer,Chum Bucket,ao-the-grove,1stf,3.0,ao-the-grove
@@ -918,7 +918,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-29,3,Prancer,Chum Bucket,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-07-31,3,Prancer,Chum Bucket,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-08-01,3,Prancer,Chum Bucket,downrange,1stf,3.0,downrange
-2025-08-02,3,Prancer,Chum Bucket,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'downrange', 'ao-ravens-nest', 'ao-the-ridge')"
+2025-08-02,3,Prancer,Chum Bucket,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-ridge')"
 2025-08-02,3,Prancer,Chum Bucket,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-08-04,4,Prancer,Chum Bucket,ao-the-grove,1stf,3.0,ao-the-grove
 2025-08-04,4,Prancer,Chum Bucket,downrange,1stf,3.0,downrange
@@ -926,7 +926,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-05,4,Prancer,Chum Bucket,3rd-f-qsource,qs,4.0,QS
 2025-08-05,4,Prancer,Chum Bucket,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-08-06,4,Prancer,Chum Bucket,downrange,1stf,3.0,downrange
-2025-08-07,4,Prancer,Chum Bucket,,Around The World,5.0,"('ao-el-coyote', 'downrange', 'ao-black-rock', 'ao-the-ridge', 'ao-the-grove')"
+2025-08-07,4,Prancer,Chum Bucket,,Around The World,5.0,"('downrange', 'ao-black-rock', 'ao-el-coyote', 'ao-the-ridge', 'ao-the-grove')"
 2025-08-07,4,Prancer,Chum Bucket,,sixpack bonus,4.0,"('ao-the-grove', 'downrange', 'ao-black-rock', 'ao-el-coyote', 'downrange', 'ao-the-ridge')"
 2025-08-07,4,Prancer,Chum Bucket,ao-the-ridge,1stf,3.0,ao-the-ridge
 2025-08-07,4,Prancer,Chum Bucket,3rd-f,3rdf,5.0,
@@ -1331,7 +1331,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-31,3,Dancer,Dear Abby,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-08-01,3,Dancer,Dear Abby,downrange,1stf,3.0,downrange
 2025-08-01,3,Dancer,Dear Abby,2nd-f,2ndf,0.0,2nd F already achieved this week
-2025-08-02,3,Dancer,Dear Abby,,Around The World,5.0,"('ao-the-colosseum', 'downrange', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-silo')"
+2025-08-02,3,Dancer,Dear Abby,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-the-colosseum', 'ao-the-ridge', 'ao-the-silo')"
 2025-08-02,3,Dancer,Dear Abby,,sixpack bonus,4.0,"('ao-the-silo', 'ao-the-ridge', 'ao-the-silo', 'ao-the-colosseum', 'downrange', 'ao-ravens-nest')"
 2025-08-02,3,Dancer,Dear Abby,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-08-02,3,Dancer,Dear Abby,2nd-f,2ndf,0.0,2nd F already achieved this week
@@ -1339,7 +1339,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-05,4,Dancer,Dear Abby,ao-the-ridge,1stf,3.0,ao-the-ridge
 2025-08-06,4,Dancer,Dear Abby,ao-the-silo,1stf,3.0,ao-the-silo
 2025-08-07,4,Dancer,Dear Abby,ao-the-olympiad,1stf,3.0,ao-the-olympiad
-2025-08-08,4,Dancer,Dear Abby,,Around The World,5.0,"('ao-the-colosseum', 'ao-the-olympiad', 'ao-the-ridge', 'ao-the-silo', 'ao-the-grove')"
+2025-08-08,4,Dancer,Dear Abby,,Around The World,5.0,"('ao-the-olympiad', 'ao-the-colosseum', 'ao-the-silo', 'ao-the-ridge', 'ao-the-grove')"
 2025-08-08,4,Dancer,Dear Abby,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-08-11,5,Dancer,Dear Abby,ao-the-silo,1stf,3.0,ao-the-silo
 2025-08-12,5,Dancer,Dear Abby,ao-black-rock,1stf,3.0,ao-black-rock
@@ -1727,7 +1727,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-16,1,Blitzen,Foreclosure,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-07-17,1,Blitzen,Foreclosure,ao-black-diamond,1stf,4.0,ao-black-diamond
 2025-07-18,1,Blitzen,Foreclosure,ao-the-grove,1stf,3.0,ao-the-grove
-2025-07-19,1,Blitzen,Foreclosure,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-black-rock', 'ao-the-grove', 'ao-black-diamond')"
+2025-07-19,1,Blitzen,Foreclosure,,Around The World,5.0,"('downrange', 'ao-ravens-nest', 'ao-black-diamond', 'ao-black-rock', 'ao-the-grove')"
 2025-07-19,1,Blitzen,Foreclosure,downrange,1stf,3.0,downrange
 2025-07-21,2,Blitzen,Foreclosure,ao-the-colosseum,1stf,3.0,ao-the-colosseum
 2025-07-22,2,Blitzen,Foreclosure,ao-black-rock,1stf,3.0,ao-black-rock
@@ -1843,7 +1843,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-07-31,3,Dancer,Jellystone,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-07-31,3,Dancer,Jellystone,,sixpack bonus,4.0,"('ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-olympiad')"
 2025-07-31,3,Dancer,Jellystone,ao-the-olympiad,1stf,3.0,ao-the-olympiad
-2025-08-02,3,Dancer,Jellystone,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'ao-the-olympiad', 'ao-ravens-nest', 'ao-black-rock')"
+2025-08-02,3,Dancer,Jellystone,,Around The World,5.0,"('ao-ravens-nest', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote')"
 2025-08-02,3,Dancer,Jellystone,,sixpack bonus,1.0,"('ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-olympiad', 'ao-ravens-nest')"
 2025-08-02,3,Dancer,Jellystone,ao-ravens-nest,1stf,3.0,ao-ravens-nest
 2025-08-02,3,Dancer,Jellystone,,sixpack bonus,1.0,"('ao-the-colosseum', 'ao-black-rock', 'ao-el-coyote', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-olympiad', 'ao-ravens-nest', 'ao-the-colosseum')"
@@ -1852,7 +1852,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-08-05,4,Dancer,Jellystone,ao-the-ridge,1stf,3.0,ao-the-ridge
 2025-08-05,4,Dancer,Jellystone,ao-el-coyote,1stf,3.0,ao-el-coyote
 2025-08-06,4,Dancer,Jellystone,ao-the-colosseum,1stf,3.0,ao-the-colosseum
-2025-08-07,4,Dancer,Jellystone,,Around The World,5.0,"('ao-el-coyote', 'ao-the-colosseum', 'ao-the-olympiad', 'ao-the-ridge', 'ao-the-grove')"
+2025-08-07,4,Dancer,Jellystone,,Around The World,5.0,"('ao-the-olympiad', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-ridge', 'ao-the-grove')"
 2025-08-07,4,Dancer,Jellystone,ao-the-olympiad,1stf,3.0,ao-the-olympiad
 2025-08-07,4,Dancer,Jellystone,,sixpack bonus,4.0,"('ao-the-grove', 'ao-the-ridge', 'ao-el-coyote', 'ao-the-colosseum', 'ao-the-olympiad', 'ao-el-coyote')"
 2025-08-07,4,Dancer,Jellystone,ao-el-coyote,1stf,3.0,ao-el-coyote
