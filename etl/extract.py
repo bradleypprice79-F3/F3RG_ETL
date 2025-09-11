@@ -3,7 +3,22 @@ import os
 import glob
 import pandas as pd
 from pathlib import Path
-import mysql.connector
+from sqlalchemy import create_engine
+
+def clean_backblast(text):
+    if not isinstance(text, str):
+        return text
+    
+    # 1. Remove "Backblast! " prefix (case-sensitive)
+    text = re.sub(r"^Backblast!\s*", "", text)
+    
+    # 2. Remove all newlines
+    text = text.replace("\n", " ")
+    
+    # 3. Cut off at "DATE:" (case-insensitive)
+    text = re.split(r"date:", text, flags=re.IGNORECASE)[0].strip()
+    
+    return text
 
 def get_raw_posts():
 
@@ -16,21 +31,31 @@ def get_raw_posts():
     port = int(os.environ.get("DB_PORT", 3306))
     ssl_ca = os.environ.get("DB_SSL_CA")
 
-    # Connect to MySQL
-    conn = mysql.connector.connect(
-        host=host,
-        user=user,
-        password=password,
-        database=database,
-        port=port,
-        ssl_ca=ssl_ca,
-        ssl_disabled=False,
-        unix_socket=None  # ensures TCP is used
-    )
+# build the connection string
+connection_string = f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}"
 
-    # Query your data
-    query = "SELECT * FROM your_table_name;"  # adjust to your table
-    df = pd.read_sql(query, conn)
+# create engine
+engine = create_engine(connection_string)
+
+# Query your data
+# run query
+raw_post_data_query = '''SELECT 
+    `date`,
+    'f3crossroads' AS region,
+    ao_id,
+    q_user_id,
+    user_id,
+    1 AS `Current Post Count`
+FROM f3crossroads.bd_attendance
+WHERE `date`>='2025-07-11' '''
+post_df = pd.read_sql(raw_post_data_query, engine)
+print(post_df.head())
+
+query = "SELECT table_name FROM information_schema.tables WHERE table_schema = 'f3crossroads'"  # adjust to your table
+df = pd.read_sql(query, conn)
+query = "SELECT * FROM f3crossroads.bd_attendance limit 10"  # adjust to your table
+df = pd.read_sql(query, conn)
+    backblast
 
     # Close connection
     conn.close()
