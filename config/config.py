@@ -1,3 +1,13 @@
+import os
+
+DB_CONFIG = {
+    "host": os.getenv("DB_HOST"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
+    "database": os.getenv("DB_NAME"),
+    "port": int(os.getenv("DB_PORT", 3306))
+}
+
 RAW_DATA = "data/raw_posts/"
 PROCESSED_DATA = "data/processed/"
 REPORTS = "data/reports/"
@@ -11,3 +21,5 @@ REPORT_TITLE = "Team Scoreboard"
 
 SANTA_LOCK_POINTS = 5
 AROUND_THE_WORLD_POINTS = 5
+
+

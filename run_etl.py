@@ -7,6 +7,24 @@ import shutil
 
 
 def main():
+
+    # Make a timestamp string (e.g. 20250910_1130)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    #define the start and end dates
+    start_date, end_date = '2025-07-11', '2025-08-28'
+
+    # 0. Get data from MySQL and save raw data.
+    post_raw = extract.get_raw_posts(cfg.DB_CONFIG, start_date, end_date)
+    AOs_raw, PAXcurrent_raw, backblast_raw = extract.get_raw_dimension_data(cfg.DB_CONFIG)
+    
+    # Save CSV to raw_data folder
+    load.to_csv(post_raw, f"{cfg.RAW_DATA}raw_posts_{timestamp}.csv")
+    load.to_csv(AOs_raw, f"{cfg.DIMENSION_DATA}AOs.csv")
+    load.to_csv(PAXcurrent_raw, f"{cfg.DIMENSION_DATA}PAXcurrent.csv")
+    load.to_csv(backblast_raw, f"{cfg.DIMENSION_DATA}backblast.csv")
+
+
+
     # 1. Extract raw post data (CSV for now)
     df_raw = extract.posts_from_csv_folder(cfg.RAW_DATA, cfg.DAILY_FILE_PATTERN)
 
@@ -33,8 +51,7 @@ def main():
             print(f"Exists in reports? {os.path.exists(src_path)}")
             print(f"Exists in archive? {os.path.exists(dst_path)}")
 
-    # Make a timestamp string (e.g. 20250910_1130)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    
 
     # 3. Save processed data with timestamp in filename
     load.to_csv(individual_scores, f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
