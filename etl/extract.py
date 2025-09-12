@@ -4,7 +4,6 @@ import glob
 import pandas as pd
 from pathlib import Path
 from sqlalchemy import create_engine, text
-from config import DB_CONFIG
 import re
 
 def clean_backblast(text_string):
