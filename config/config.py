@@ -9,6 +9,7 @@ DB_CONFIG = {
 }
 
 RAW_DATA = "data/raw_posts/"
+RAW_DATA_HOLD = "data/raw_posts/hold"
 PROCESSED_DATA = "data/processed/"
 REPORTS = "data/reports/"
 ARCHIVED_REPORTS= "data/reports/archive_folder"
