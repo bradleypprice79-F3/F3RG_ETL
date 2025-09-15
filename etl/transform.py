@@ -63,22 +63,15 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
 
     # clean the backblast string
     backblast["backblast"] = backblast["backblast"].apply(clean_backblast)
-    backblast.sample(20)[["backblast"]]
-    backblast[backblast["backblast"].isna()]
-    backblast[backblast["backblast"].isna()].groupby("bd_date").size().reset_index(name="nan_count").sort_values("bd_date", ascending=False)
-    backblast["length"] = backblast["backblast"].astype(str).str.len()
-    backblast.loc[backblast["length"].idxmax(), ["backblast", "length"]]
-
-
-
+    
     # Bring in the Backblast string to add notes when desireable
-    df = df.merge(backblast[["Date", "AO", "Q", "parsed_backblast", "region"]], 
-                  left_on=["date","ao","q_user_name","region"], right_on=["Date","AO","Q","region"], how="left", suffixes=("", "_current")).drop(columns=['Date', 'AO', 'Q'])
+    df = df.merge(backblast[["bd_date", "ao_id", "q_user_id", "backblast"]], 
+                  left_on=["date","ao_id","q_user_id"], right_on=["bd_date","ao_id", "q_user_id"], how="left", suffixes=("", "_current")).drop(columns=['bd_date'])
 
     # Select only the columns you want in final df_processed
     df_enriched = df[[
         "date", "week", "ao_id", "q_user_id", "user_id", 
-        "ao", "points", "type", "user_name", "Team", "FNGflag", "parsed_backblast"
+        "ao", "points", "type", "user_name", "Team", "FNGflag", "backblast"
     ]]
 
     return df_enriched
@@ -219,14 +212,14 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
             elif row['type'] == "2ndf":
                 # create the row
                 points_to_award = row['points'] if F2nd==0 else 0
-                notes = row["parsed_backblast"] if F2nd==0 else "2nd F already achieved this week"
+                notes = row["backblast"] if F2nd==0 else "2nd F already achieved this week"
                 F2nd=1
             
 
             elif row['type'] == "3rdf":
                 # create the row
                 points_to_award = row['points'] if F3rd==0 else 0
-                notes = row["parsed_backblast"] if F3rd==0 else "3rd F already achieved this week"
+                notes = row["backblast"] if F3rd==0 else "3rd F already achieved this week"
                 F3rd=1
             
             elif row['type'] == "Donation":
