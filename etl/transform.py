@@ -1,17 +1,38 @@
 # etl/transform.py
 import pandas as pd
+import re
+
+def clean_backblast(text_string):
+    if not isinstance(text_string, str):
+        return text_string
+    
+    # 1. Remove "Backblast! " prefix (case-sensitive)
+    text_string = re.sub(r"^Backblast!\s*", "", text_string)
+    text_string = re.sub(r"Slackblast:\s*", "", text_string)
+    
+    # 2. Remove all newlines
+    text_string = text_string.replace("\n", " ")
+    
+    # 3. Cut off at "DATE:" (case-insensitive)
+    text_string = re.split(r"date: ", text_string, flags=re.IGNORECASE)[0].strip()
+
+    # 4. Limit length to 50 characters
+    if len(text_string) > 50:
+        text_string = text_string[:50] + "..."
+    
+    return text_string
 
 def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
     """
     Add in user_names and attributes and AO 
     """
     # Convert to datetime first
-    df_raw["date"] = pd.to_datetime(df_raw["date"], format="%b %d, %Y")
-    backblast["Date"] = pd.to_datetime(backblast["Date"], format="%b %d, %Y")
+    #df_raw["date"] = pd.to_datetime(df_raw["date"], format="%b %d, %Y")
+    #backblast["Date"] = pd.to_datetime(backblast["Date"], format="%b %d, %Y")
 
     # Convert to ISO string (YYYY-MM-DD)
-    df_raw["date"] = df_raw["date"].dt.strftime("%Y-%m-%d")
-    backblast["Date"] = backblast["Date"].dt.strftime("%Y-%m-%d")
+    #df_raw["date"] = df_raw["date"].dt.strftime("%Y-%m-%d")
+    #backblast["Date"] = backblast["Date"].dt.strftime("%Y-%m-%d")
 
     # Merge with date dimension to bring in 'week'
     df = df_raw.merge(date_table, on="date", how="left")
@@ -39,6 +60,16 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
     # Fill in missing names with constants.  We'll need to create a report with these later.
     # Add new PAX that are not on a team to team None. OR, if FNG, to their team.  Troubleshoot Unknown Names.
     df = df.fillna({"Team": "Unknown Team","user_name": "Unknown Name","q_user_name": "Unknown Name"})
+
+    # clean the backblast string
+    backblast["backblast"] = backblast["backblast"].apply(clean_backblast)
+    backblast.sample(20)[["backblast"]]
+    backblast[backblast["backblast"].isna()]
+    backblast[backblast["backblast"].isna()].groupby("bd_date").size().reset_index(name="nan_count").sort_values("bd_date", ascending=False)
+    backblast["length"] = backblast["backblast"].astype(str).str.len()
+    backblast.loc[backblast["length"].idxmax(), ["backblast", "length"]]
+
+
 
     # Bring in the Backblast string to add notes when desireable
     df = df.merge(backblast[["Date", "AO", "Q", "parsed_backblast", "region"]], 
