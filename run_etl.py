@@ -35,7 +35,6 @@ def main():
     load.to_csv(PAXcurrent_raw, f"{cfg.DIMENSION_DATA}PAXcurrent.csv")
     load.to_csv(backblast_raw, f"{cfg.DIMENSION_DATA}backblast.csv")
     load.to_csv(df_dates, f"{cfg.DIMENSION_DATA}date_table.csv")
-    # I could recreate the date_table data based on the start and stop days.  But for now, I'll just leave it manual.
 
 
     # 1. Extract raw post data (CSV for now)
@@ -64,13 +63,11 @@ def main():
             print(f"Exists in reports? {os.path.exists(src_path)}")
             print(f"Exists in archive? {os.path.exists(dst_path)}")
 
-    
-
     # 3. Save processed data with timestamp in filename
     load.to_csv(individual_scores, f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
     load.to_csv(team_scores, f"{cfg.REPORTS}team_scores_{timestamp}.csv")
 
-    # Optionally: also write a small manifest file so HTML knows the "latest"
+    # Also write a small manifest file so HTML knows the "latest"
     with open(f"{cfg.REPORTS}latest_files.js", "w") as f:
         f.write(f'const latestFiles = {{\n')
         f.write(f'  individual: "individual_scores_{timestamp}.csv",\n')

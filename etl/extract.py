@@ -105,11 +105,11 @@ def get_raw_dimension_data(DB_CONFIG, start_date, end_date):
 
     # Initialize week counter
     weeks = []
-    week_num = 1
+    week_num = 0
     for d in dates:
-        weeks.append(week_num)
         if d.weekday() == 6:  # Sunday (0=Monday, 6=Sunday)
             week_num += 1
+        weeks.append(week_num)
 
     # Build dataframe
     df_dates = pd.DataFrame({"date": dates, "week": weeks})
