@@ -74,7 +74,9 @@ def enrich_data(df_raw, AOs, date_table, PAXcurrent, PAXdraft, backblast):
         "ao", "points", "type", "user_name", "Team", "FNGflag", "backblast"
     ]]
 
-    return df_enriched
+    df_filtered = df_enriched[df_enriched["ao"] != "2nd-f-coffeteria"]
+
+    return df_filtered
 
 
 def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:

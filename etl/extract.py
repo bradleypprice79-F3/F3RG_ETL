@@ -48,7 +48,7 @@ def get_raw_posts(DB_CONFIG, start_date, end_date):
     post_df = pd.read_sql(raw_post_data_query, engine, params={"start_date": start_date, "end_date": end_date})
     return(post_df)
 
-def get_raw_dimension_data(DB_CONFIG):
+def get_raw_dimension_data(DB_CONFIG, start_date, end_date):
 
     # Build connection string
     connection_string = (
@@ -67,7 +67,7 @@ def get_raw_dimension_data(DB_CONFIG):
             
             CASE 
                 WHEN a.ao = 'ao-black-diamond' THEN 4
-                WHEN a.ao = '3rd-f-qsource'   THEN 4
+                WHEN a.ao = '3rd-f-qsource'   THEN 5
                 WHEN a.ao = '3rd-f'           THEN 5
                 WHEN a.ao = 'rg_ec3'          THEN 3
                 WHEN a.ao = 'rg_ec2'          THEN 2
@@ -82,8 +82,8 @@ def get_raw_dimension_data(DB_CONFIG):
                 WHEN a.ao LIKE 'ao-%%'     THEN '1stf'
                 WHEN a.ao LIKE 'downrange%%'     THEN '1stf'
                 WHEN a.ao LIKE '2nd-f%%'   THEN '2ndf'
-                WHEN a.ao LIKE '3rd-f%%'   THEN '3rdf'
                 WHEN a.ao LIKE '%%qsource' THEN 'qs'
+                WHEN a.ao LIKE '3rd-f%%'   THEN '3rdf'
                 WHEN a.ao LIKE 'rg_ec%%'   THEN 'ec'
                 WHEN a.ao LIKE '%%challenge_flag'  THEN 'challenge_flag'
                 WHEN a.ao LIKE 'rg_csaup%%'   THEN 'csaup'
@@ -99,9 +99,24 @@ def get_raw_dimension_data(DB_CONFIG):
     backblast_raw_query = text('''Select bd_date, ao_id, q_user_id, backblast from f3crossroads.beatdowns ''' )
     backblast_raw = pd.read_sql(backblast_raw_query, engine)
 
+    ## create date list..
+    # Create date range
+    dates = pd.date_range(start=start_date, end=end_date, freq="D")
+
+    # Initialize week counter
+    weeks = []
+    week_num = 1
+    for d in dates:
+        weeks.append(week_num)
+        if d.weekday() == 6:  # Sunday (0=Monday, 6=Sunday)
+            week_num += 1
+
+    # Build dataframe
+    df_dates = pd.DataFrame({"date": dates, "week": weeks})
 
 
-    return AOs_raw, PAXcurrent_raw, backblast_raw
+
+    return AOs_raw, PAXcurrent_raw, backblast_raw, df_dates
 
 
 

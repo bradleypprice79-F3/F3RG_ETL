@@ -11,11 +11,12 @@ def main():
     # Make a timestamp string (e.g. 20250910_1130)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     #define the start and end dates
-    start_date, end_date = '2025-07-11', '2025-08-28'
+    start_date, end_date = '2024-11-02', '2024-12-14'
 
     # 0. Get data from MySQL and save raw data.
     post_raw = extract.get_raw_posts(cfg.DB_CONFIG, start_date, end_date)
-    AOs_raw, PAXcurrent_raw, backblast_raw = extract.get_raw_dimension_data(cfg.DB_CONFIG)
+    AOs_raw, PAXcurrent_raw, backblast_raw, df_dates = extract.get_raw_dimension_data(cfg.DB_CONFIG, start_date, end_date)
+    
 
     # move old raw post data from raw_posts to hold.
     for file_name in os.listdir(cfg.RAW_DATA):
@@ -33,7 +34,8 @@ def main():
     load.to_csv(AOs_raw, f"{cfg.DIMENSION_DATA}AOs.csv")
     load.to_csv(PAXcurrent_raw, f"{cfg.DIMENSION_DATA}PAXcurrent.csv")
     load.to_csv(backblast_raw, f"{cfg.DIMENSION_DATA}backblast.csv")
-
+    load.to_csv(df_dates, f"{cfg.DIMENSION_DATA}date_table.csv")
+    # I could recreate the date_table data based on the start and stop days.  But for now, I'll just leave it manual.
 
 
     # 1. Extract raw post data (CSV for now)
