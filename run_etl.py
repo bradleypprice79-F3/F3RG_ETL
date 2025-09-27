@@ -65,7 +65,8 @@ def main():
 
     # 3. Save processed data with timestamp in filename
     load.to_csv(individual_scores, f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
-    load.to_csv(team_scores, f"{cfg.REPORTS}team_scores_{timestamp}.csv")
+    # don't include unknown team in the team score data.
+    load.to_csv(team_scores[team_scores["Team"] != "Unknown Team"], f"{cfg.REPORTS}team_scores_{timestamp}.csv")
 
     # Also write a small manifest file so HTML knows the "latest"
     with open(f"{cfg.REPORTS}latest_files.js", "w") as f:

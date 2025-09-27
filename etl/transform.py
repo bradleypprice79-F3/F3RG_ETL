@@ -105,7 +105,7 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
             if row['date']!=day:
                 # it's a new day!! reset EC
                 day=row['date']
-                # set EC_daily and cap EC daily points to 3
+                # set EC_daily and cap EC to only one EC per day.
                 EC_daily = 0
 
             if row['week']!=week:
@@ -123,7 +123,7 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                 ATW_list_weekly = []
                 six_pack = 0
                 
-            if row['type'] == "1stf":
+            if row['type'] == "1stf" and row['ao'] != "downrange":
                 # he posted at a workout!  lets process this row!
                 # add this ao to his AO list
                 ATW_list_weekly.append(row['ao'])
@@ -184,8 +184,8 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
             # Apply EC cap logic
             elif row['type'] == "ec":
                 # create the row
-                points_to_award = row['points'] if EC_daily+row['points']<=3 else max(0, 3-EC_daily)
-                notes = "" if EC_daily+row['points']<=3 else "EC points capped at 3 total per day"
+                points_to_award = row['points'] if EC_daily == 0 else 0
+                notes = "EC, noice!" if EC_daily == 0 else "EC points already earned today"
                 EC_daily += row['points']
 
             #Give points for Qsource if he hasnt already gone this week.  Also, for Qing Qsource if he hasnt already Q'd one yet.
