@@ -75,7 +75,7 @@ def main():
         f.write(f'const latestFiles = {{\n')
         f.write(f'  individual: "individual_scores_{timestamp}.csv",\n')
         f.write(f'  team: "team_scores_{timestamp}.csv",\n')
-        f.write(f'  team: "lone_pax_report_{timestamp}.csv"\n')
+        f.write(f'  lone_pax: "lone_pax_report_{timestamp}.csv"\n')
         f.write(f'}};\n')
 
 if __name__ == "__main__":
