@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lone Pax Report</title>
+  <script src="latest_files.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f4f4f4; }
+  </style>
+</head>
+<body>
+  <h1>Lone Pax Report</h1>
+  <table id="lonePaxTable"></table>
+
+  <script>
+    // fix: use "lone_pax" instead of overwriting "team"
+    const csvFile = latestFiles.lone_pax;
+
+    Papa.parse(csvFile, {
+      download: true,
+      header: true,
+      complete: function(results) {
+        const table = document.getElementById("lonePaxTable");
+
+        // Build header
+        const headerRow = document.createElement("tr");
+        results.meta.fields.forEach(col => {
+          const th = document.createElement("th");
+          th.textContent = col;
+          headerRow.appendChild(th);
+        });
+        table.appendChild(headerRow);
+
+        // Build rows
+        results.data.forEach(row => {
+          if (Object.values(row).every(v => v === "")) return; // skip blanks
+          const tr = document.createElement("tr");
+          results.meta.fields.forEach(col => {
+            const td = document.createElement("td");
+            td.textContent = row[col];
+            tr.appendChild(td);
+          });
+          table.appendChild(tr);
+        });
+      }
+    });
+  </script>
+</body>
+</html>

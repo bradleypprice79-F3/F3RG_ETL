@@ -51,7 +51,7 @@ def main():
     # 2. Transform (apply scoring rules, team aggregation)
     team_scores = transform.calculate_team_points(df_enriched, individual_scores, date_table)
     # 2. Transform (identify fng's and pax not on a team) (I havent made this function yet, but will later)
-    #not_on_a_team_report = transform.no_team_report(df_enriched)
+    lone_pax_report = transform.get_lone_pax_report(df_enriched)
 
     # 2_5.move any existing data into the archive_folder.  It doesnt hurt anything to stay there, but will make the directory cleaner.
     for file_name in os.listdir(cfg.REPORTS):
@@ -66,13 +66,16 @@ def main():
     # 3. Save processed data with timestamp in filename
     load.to_csv(individual_scores, f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
     # don't include unknown team in the team score data.
-    load.to_csv(team_scores[team_scores["Team"] != "Unknown Team"], f"{cfg.REPORTS}team_scores_{timestamp}.csv")
+    load.to_csv(team_scores[~team_scores["Team"].isin(["Unknown Team", "NONE"])], f"{cfg.REPORTS}team_scores_{timestamp}.csv")
+    # lone pax report
+    load.to_csv(lone_pax_report, f"{cfg.REPORTS}lone_pax_report_{timestamp}.csv")
 
     # Also write a small manifest file so HTML knows the "latest"
     with open(f"{cfg.REPORTS}latest_files.js", "w") as f:
         f.write(f'const latestFiles = {{\n')
         f.write(f'  individual: "individual_scores_{timestamp}.csv",\n')
-        f.write(f'  team: "team_scores_{timestamp}.csv"\n')
+        f.write(f'  team: "team_scores_{timestamp}.csv",\n')
+        f.write(f'  team: "lone_pax_report_{timestamp}.csv"\n')
         f.write(f'}};\n')
 
 if __name__ == "__main__":

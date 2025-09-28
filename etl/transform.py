@@ -463,8 +463,23 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
     team_scores = (pd.concat([FNG_points_df, df_CSAUP_summary, df_SantaLocks_summary, team_flag_scores_df, team_points_individuals], ignore_index=True)
                  .sort_values("date")
                 )
-    
-
-
 
     return team_scores
+
+def get_lone_pax_report(df_enriched: pd.DataFrame) -> pd.DataFrame:
+    # Step 1: filter for Unknown Team
+    df_lone_pax = df_enriched[df_enriched["Team"] == "Unknown Team"]
+
+    # Step 2: aggregate
+    df_lone_pax = (
+        df_lone_pax.groupby(["user_id", "user_name"])
+        .agg(
+            first_date=("date", "min"),
+            first_week=("week", "min"),
+            post_count=("type", lambda x: (x == "1stf").sum())
+        )
+        .reset_index()
+    )
+
+    return(df_lone_pax)
+
