@@ -44,7 +44,7 @@ def get_pax_lists(DB_CONFIG):
     # run query to get post data durring the date range.
     raw_post_data_query = text('''SELECT 
         b.user_id,
-        b.user_name,
+        u.user_name,
 
         -- overall aggregates
         SUM(b.postcount) AS total_posts,
@@ -78,8 +78,8 @@ def get_pax_lists(DB_CONFIG):
     JOIN f3crossroads.users u ON u.user_id = b.user_id
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
-    GROUP BY b.user_id, b.user_name
-    ORDER BY b.user_name                     '''
+    GROUP BY b.user_id, u.user_name
+    ORDER BY u.user_name                     '''
     )
     post_df = pd.read_sql(raw_post_data_query, engine, params={"start_date": start_dt_str, "end_date": end_dt_str})
     return(post_df)
