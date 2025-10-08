@@ -47,6 +47,9 @@ def get_pax_lists(DB_CONFIG):
         u.user_name,
 
         -- overall aggregates
+        Nprvl_posts,
+        cmw_posts,
+        out_posts,
         count(*) AS total_posts,
         MAX(b.`date`) AS last_post_date,
         MIN(b.`date`) AS first_post_date,
@@ -88,6 +91,22 @@ def get_pax_lists(DB_CONFIG):
     FROM f3crossroads.bd_attendance b
     JOIN f3crossroads.aos ao ON ao.channel_id = b.ao_id
     JOIN f3crossroads.users u ON u.user_id = b.user_id
+    left join (Select b.user_id, count(*) as Nprvl_posts
+                FROM f3naperville.bd_attendance b
+                JOIN f3naperville.aos ao ON ao.channel_id = b.ao_id
+                WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as nprvl
+                            on b.user_id=nprvl.user_id
+    left join (Select b.user_id, count(*) as cmw_posts
+                FROM f3cha-min-wood.bd_attendance b
+                JOIN f3cha-min-wood.aos ao ON ao.channel_id = b.ao_id
+                WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as cmw
+                            on b.user_id=cmw.user_id
+    left join (Select b.user_id, count(*) as out_posts
+                FROM f3outlands.bd_attendance b
+                JOIN f3outlands.aos ao ON ao.channel_id = b.ao_id
+                WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as out
+                            on b.user_id=out.user_id
+    
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
     GROUP BY b.user_id, u.user_name
