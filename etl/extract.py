@@ -104,8 +104,8 @@ def get_pax_lists(DB_CONFIG):
     left join (Select b.user_id, count(*) as out_posts
                 FROM f3outlands.bd_attendance b
                 JOIN f3outlands.aos ao ON ao.channel_id = b.ao_id
-                WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as out
-                            on b.user_id=out.user_id
+                WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as outl
+                            on b.user_id=outl.user_id
     
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
