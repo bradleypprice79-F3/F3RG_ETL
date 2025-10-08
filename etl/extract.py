@@ -5,6 +5,8 @@ import pandas as pd
 from pathlib import Path
 from sqlalchemy import create_engine, text
 import re
+from datetime import date
+from dateutil.relativedelta import relativedelta
 
 def clean_backblast(text_string):
     if not isinstance(text_string, str):
@@ -20,6 +22,93 @@ def clean_backblast(text_string):
     text_string = re.split(r"date:", text_string, flags=re.IGNORECASE)[0].strip()
     
     return text_string
+
+def get_pax_lists(DB_CONFIG):
+
+    # Build connection string
+    connection_string = (
+        f"mysql+mysqlconnector://{DB_CONFIG['user']}:{DB_CONFIG['password']}"
+        f"@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}"
+    )
+
+    # create engine
+    engine = create_engine(connection_string)
+
+    #define the start and end dates
+    end_dt = date.today()
+    start_dt = end_dt - relativedelta(months=12)
+    start_dt_str = start_dt.strftime('%Y-%m-%d')
+    end_dt_str = end_dt.strftime('%Y-%m-%d')
+
+    # Query your data
+    # run query to get post data durring the date range.
+    raw_post_data_query = text('''WITH base AS (
+        SELECT 
+            bd.`date`,
+            bd.user_id,
+            u.user_name,
+            1 AS postcount
+        FROM f3crossroads.bd_attendance bd
+        JOIN f3crossroads.aos ao 
+            ON ao.channel_id = bd.ao_id
+        JOIN f3crossroads.users u 
+            ON u.user_id = bd.user_id
+        WHERE ao.ao LIKE 'ao-%'
+        AND bd.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
+    ),
+    params AS (
+        SELECT CURDATE() AS today
+    )
+    SELECT 
+        b.user_id,
+        b.user_name,
+
+        -- overall aggregates
+        SUM(b.postcount) AS total_posts,
+        MAX(b.`date`) AS last_post_date,
+        MIN(b.`date`) AS first_post_date,
+
+        -- rolling month buckets (relative to today)
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 1 MONTH) THEN 1 ELSE 0 END) AS posts_last_month,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 2 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 1 MONTH) THEN 1 ELSE 0 END) AS posts_prior_month,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 3 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 2 MONTH) THEN 1 ELSE 0 END) AS posts_2_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 4 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 3 MONTH) THEN 1 ELSE 0 END) AS posts_3_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 5 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 4 MONTH) THEN 1 ELSE 0 END) AS posts_4_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 6 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 5 MONTH) THEN 1 ELSE 0 END) AS posts_5_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 7 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 6 MONTH) THEN 1 ELSE 0 END) AS posts_6_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 8 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 7 MONTH) THEN 1 ELSE 0 END) AS posts_7_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 9 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 8 MONTH) THEN 1 ELSE 0 END) AS posts_8_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 10 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 9 MONTH) THEN 1 ELSE 0 END) AS posts_9_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 11 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 10 MONTH) THEN 1 ELSE 0 END) AS posts_10_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 12 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 11 MONTH) THEN 1 ELSE 0 END) AS posts_11_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 13 MONTH) 
+                AND b.`date` <= DATE_SUB(p.today, INTERVAL 12 MONTH) THEN 1 ELSE 0 END) AS posts_12_months_ago
+
+        -- pax_status
+        CASE 
+            WHEN SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 1 MONTH) THEN 1 ELSE 0 END) > 0 THEN 'active'
+            WHEN SUM(CASE WHEN b.`date` > DATE_SUB(p.today, INTERVAL 6 MONTH) THEN 1 ELSE 0 END) > 0 THEN 'kotter'
+            ELSE 'nonkotter'
+        END AS pax_status
+    
+    FROM base b
+    CROSS JOIN params p
+    GROUP BY b.user_id, b.user_name
+    ORDER BY b.user_name;                     '''
+    )
+    post_df = pd.read_sql(raw_post_data_query, engine, params={"start_date": start_dt_str, "end_date": end_dt_str})
+    return(post_df)
 
 def get_raw_posts(DB_CONFIG, start_date, end_date):
 

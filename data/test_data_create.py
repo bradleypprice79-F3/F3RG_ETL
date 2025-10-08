@@ -2,6 +2,7 @@ import pandas as pd
 
 # Build synthetic test dataset
 rows = []
+output_individual = []
 
 # Helper to add a row
 def add_row(date, region, ao_id, q_user_id, user_id, post_count, notes, lines):
@@ -14,6 +15,22 @@ def add_row(date, region, ao_id, q_user_id, user_id, post_count, notes, lines):
         "Current Post Count": post_count,
         "notes": notes,
         "lines": lines
+    })
+
+# Helper to add an output row
+#date,week,Team,user_name,ao,type,points,notes
+#2024-11-02,0.0,Donner,Bedpan,ao-the-ridge,1stf,3.0,ao-the-ridge
+#2024-11-02,0.0,Donner,Bedpan,ao-the-colosseum,1stf,3.0,ao-the-colosseum
+def out_individual_row(date,week,Team,user_name,ao,type,points,notes):
+    output_individual.append({
+        "date": date,
+        "week": week,
+        "Team": Team,
+        "user_name": user_name,
+        "ao": ao,
+        "type": type,
+        "points": points,
+        "notes": notes
     })
 
 # We'll use user_ids from PAXdraft plus some FNGs
@@ -31,13 +48,39 @@ users = {
 # Add a new FNG
 users["fng1"] = "U0FNG000001"
 
+
+# Existing AOS for testing
+aos = {
+    "rg_ec2": "C09BCTEBDE2",
+    "rg_ec1": "C09CLKCEU8N",
+    "rg_csaup": "C09CF33SXD1",
+    "rg_hardshit": "C09CHEV0B6Z",
+    "rg_3rdf_donation": "C09CHEY6NRK",
+    "rg_popup": "C09CKB60890",
+    "rg_challenge_flag": "C09DDA04MSL",
+    "ao-ravens-nest": "C06FH4FCF5Y",
+    "ao-black-diamond": "C02DNLUQN9Y",
+    "ao-the-ridge": "C02B4U0M71N",
+    "ao-the-grove": "C04PLDCTSJV",
+    "ao-the-olympiad": "C02A0HGC4PR",
+    "ao-the-colosseum": "C02AC8PS1T7",
+    "ao-da-grizz": "C0329PXMA6T",
+    "XXXXXXXXXXXX": "123456789",
+    "XXXXXXXXXXXX": "123456789",
+    "XXXXXXXXXXXX": "123456789",
+    "XXXXXXXXXXXX": "123456789",
+    
+}
+
+
 # Dates
 base_date = "2025-07-14"  # week 1 start
+# For each week, limit QS, QS-Q, 1stFQ, 3rdF, Donation, 2ndF, popup, to 1 occurrence.
 
-# Test EC daily cap (3 points max per day) v- checked bpp
+# Test EC daily cap (1 EC event per day)
 for i in range(4):
-    add_row("2025-07-14","f3crossroads","TBDEC100000",users["meta"],users["meta"],1,
-            "EC test (daily cap at 3 points)", "transform.py L155-166")
+    add_row("2025-07-14","f3crossroads","C09BCTEBDE2",users["meta"],users["meta"],1,
+            "EC test (only 1 EC per day)", "transform.py L155-166")
 
 # Test workout Q (1stF with q_user_id == user_id)
 add_row("2025-07-15","f3crossroads","C02B4U0M71N",users["meta"],users["meta"],1,
@@ -112,8 +155,5 @@ df_test = pd.DataFrame(rows)
 output_path = "/mnt/data/postdata_test.csv"
 df_test.to_csv(output_path, index=False)
 
-output_path
 
 
-cd .\data\reports\
-python -m http.server 8000

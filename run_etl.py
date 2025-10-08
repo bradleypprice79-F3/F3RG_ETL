@@ -7,6 +7,10 @@ import shutil
 
 
 def main():
+    #GET DATA FOR pax lists
+    #pax_list_data = extract.get_pax_lists(cfg.DB_CONFIG)
+    #load.to_csv(pax_list_data, f"{cfg.DIMENSION_DATA}PAX_LIST.csv")
+
 
     # Make a timestamp string (e.g. 20250910_1130)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
