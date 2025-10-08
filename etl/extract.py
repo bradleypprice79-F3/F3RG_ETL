@@ -47,7 +47,7 @@ def get_pax_lists(DB_CONFIG):
         u.user_name,
 
         -- overall aggregates
-        SUM(b.postcount) AS total_posts,
+        count(*) AS total_posts,
         MAX(b.`date`) AS last_post_date,
         MIN(b.`date`) AS first_post_date,
 
