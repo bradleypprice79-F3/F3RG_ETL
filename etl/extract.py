@@ -97,8 +97,8 @@ def get_pax_lists(DB_CONFIG):
                 WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as nprvl
                             on b.user_id=nprvl.user_id
     left join (Select b.user_id, count(*) as cmw_posts
-                FROM f3cha-min-wood.bd_attendance b
-                JOIN f3cha-min-wood.aos ao ON ao.channel_id = b.ao_id
+                FROM `f3cha-min-wood`.bd_attendance b
+                JOIN `f3cha-min-wood`.aos ao ON ao.channel_id = b.ao_id
                 WHERE ao.ao LIKE 'ao-%' GROUP BY b.user_id) as cmw
                             on b.user_id=cmw.user_id
     left join (Select b.user_id, count(*) as out_posts
