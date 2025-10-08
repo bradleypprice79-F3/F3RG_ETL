@@ -65,6 +65,18 @@ def get_pax_lists(DB_CONFIG):
                 AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 5 MONTH) THEN 1 ELSE 0 END) AS posts_5_months_ago,
         SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 7 MONTH) 
                 AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 6 MONTH) THEN 1 ELSE 0 END) AS posts_6_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 8 MONTH) 
+                AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 7 MONTH) THEN 1 ELSE 0 END) AS posts_7_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 9 MONTH) 
+                AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 8 MONTH) THEN 1 ELSE 0 END) AS posts_8_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 10 MONTH) 
+                AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 9 MONTH) THEN 1 ELSE 0 END) AS posts_9_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 11 MONTH) 
+                AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 10 MONTH) THEN 1 ELSE 0 END) AS posts_10_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 12 MONTH) 
+                AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 11 MONTH) THEN 1 ELSE 0 END) AS posts_11_months_ago,
+        SUM(CASE WHEN b.`date` > DATE_SUB(CURDATE(), INTERVAL 13 MONTH) 
+                AND b.`date` <= DATE_SUB(CURDATE(), INTERVAL 12 MONTH) THEN 1 ELSE 0 END) AS posts_12_months_ago,
 
         -- pax_status logic (calculated from the above sums)
         CASE 
