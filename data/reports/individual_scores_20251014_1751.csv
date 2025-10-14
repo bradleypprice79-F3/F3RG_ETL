@@ -1,0 +1,1449 @@
+date,week,Team,user_name,ao,type,points,notes
+2025-09-14,1,Comet,Hanger,2nd-f,2ndf,3,Hey guys!  There's a deer ruck
+2025-09-14,1,Comet,Hanger,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-21,2,Comet,Hanger,2nd-f,2ndf,3,Reset Sunday Ruck
+2025-09-21,2,Comet,Hanger,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-25,2,Comet,Hanger,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Comet,Hanger,3rd-f,3rdf,5,Pantry Truck
+2025-09-26,2,Comet,Hanger,ao-the-colosseum,workout Q,1,Q
+2025-09-26,2,Comet,Hanger,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-05,4,Comet,Hanger,2nd-f,2ndf,3,No free puppies ruck
+2025-10-08,4,Comet,Hanger,ao-the-silo,workout Q,1,Q
+2025-10-08,4,Comet,Hanger,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Comet,Hanger,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Comet,Hanger,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-13,0,Dancer,Schlitz,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-14,1,Dancer,Schlitz,2nd-f,2ndf,3,Hey guys!  There's a deer ruck
+2025-09-19,1,Dancer,Schlitz,ao-the-grove,workout Q,1,Q
+2025-09-19,1,Dancer,Schlitz,ao-the-grove,1stf,3,ao-the-grove
+2025-09-20,1,Dancer,Schlitz,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Dancer,Schlitz,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-21,2,Dancer,Schlitz,2nd-f,2ndf,3,Reset Sunday Ruck
+2025-09-22,2,Dancer,Schlitz,ao-the-grove,1stf,3,ao-the-grove
+2025-09-26,2,Dancer,Schlitz,ao-the-grove,1stf,3,ao-the-grove
+2025-09-26,2,Dancer,Schlitz,3rd-f,3rdf,5,Pantry Truck
+2025-09-28,3,Dancer,Schlitz,2nd-f,2ndf,3,"fire trucks, runners, and sparkler ruck"
+2025-10-03,3,Dancer,Schlitz,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Dancer,Schlitz,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-04,3,Dancer,Schlitz,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-05,4,Dancer,Schlitz,2nd-f,2ndf,3,No free puppies ruck
+2025-10-11,4,Dancer,Schlitz,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-12,5,Dancer,Schlitz,2nd-f,2ndf,3,Back to the bridge ruck
+2025-10-13,5,Dancer,Schlitz,ao-the-grove,1stf,3,ao-the-grove
+2025-09-15,1,Dasher,Dilbert,rg_ec3,ec,3,"EC, noice!"
+2025-09-15,1,Dasher,Dilbert,ao-the-grove,1stf,3,ao-the-grove
+2025-09-15,1,Dasher,Dilbert,rg_ec3,ec,0,EC points already earned today
+2025-09-17,1,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-20,1,Dasher,Dilbert,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-22,2,Dasher,Dilbert,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Dasher,Dilbert,ao-dmz,workout Q,1,Q
+2025-09-23,2,Dasher,Dilbert,ao-dmz,1stf,3,ao-dmz
+2025-09-24,2,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Dasher,Dilbert,3rd-f,3rdf,5,Pantry Truck
+2025-09-26,2,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Dasher,Dilbert,ao-the-grove,1stf,3,ao-the-grove
+2025-09-30,3,Dasher,Dilbert,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Dasher,Dilbert,ao-the-grove,1stf,3,ao-the-grove
+2025-10-08,4,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-09,4,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Dasher,Dilbert,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Dasher,Dilbert,ao-the-grove,1stf,3,ao-the-grove
+2025-09-13,0,Vixen,fuzzy navel,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-16,1,Vixen,fuzzy navel,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-23,2,Vixen,fuzzy navel,ao-el-coyote,workout Q,1,Q
+2025-09-23,2,Vixen,fuzzy navel,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-26,2,Vixen,fuzzy navel,3rd-f,3rdf,5,Pantry Truck
+2025-10-04,3,Vixen,fuzzy navel,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-06,4,Vixen,fuzzy navel,3rd-f,3rdf,5,Fire Zone 5k
+2025-10-11,4,Vixen,fuzzy navel,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-13,0,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-15,1,Blitzen,YellowPages,rg_ec3,ec,3,"EC, noice!"
+2025-09-15,1,Blitzen,YellowPages,rg_ec3,ec,0,EC points already earned today
+2025-09-16,1,Blitzen,YellowPages,ao-black-rock,1stf,3,ao-black-rock
+2025-09-17,1,Blitzen,YellowPages,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-20,1,Blitzen,YellowPages,ao-da-grizz,workout Q,1,Q
+2025-09-20,1,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-23,2,Blitzen,YellowPages,ao-black-rock,1stf,3,ao-black-rock
+2025-09-23,2,Blitzen,YellowPages,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-24,2,Blitzen,YellowPages,ao-ravens-nest,workout Q,1,Q
+2025-09-24,2,Blitzen,YellowPages,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-26,2,Blitzen,YellowPages,3rd-f,3rdf,5,Pantry Truck
+2025-09-26,2,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Blitzen,YellowPages,ao-da-grizz,workout Q,0,you already Q'd a workout this week
+2025-09-27,2,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-30,3,Blitzen,YellowPages,ao-black-rock,1stf,3,ao-black-rock
+2025-10-01,3,Blitzen,YellowPages,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-03,3,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Blitzen,YellowPages,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-04,3,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-05,4,Blitzen,YellowPages,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Blitzen,YellowPages,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-06,4,Blitzen,YellowPages,3rd-f,3rdf,5,Fire Zone 5k
+2025-10-07,4,Blitzen,YellowPages,ao-black-rock,workout Q,1,Q
+2025-10-07,4,Blitzen,YellowPages,ao-black-rock,1stf,3,ao-black-rock
+2025-10-08,4,Blitzen,YellowPages,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-10,4,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Blitzen,YellowPages,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-13,5,Blitzen,YellowPages,rg_ec3,ec,3,"EC, noice!"
+2025-10-13,5,Blitzen,YellowPages,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Blitzen,YellowPages,ao-black-rock,1stf,3,ao-black-rock
+2025-09-18,1,Blitzen,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-19,1,Blitzen,Hank Hill,ao-the-grove,1stf,3,ao-the-grove
+2025-09-20,1,Blitzen,Hank Hill,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-21,2,Blitzen,Hank Hill,2nd-f,2ndf,3,Reset Sunday Ruck
+2025-09-21,2,Blitzen,Hank Hill,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-22,2,Blitzen,Hank Hill,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Blitzen,Hank Hill,3rd-f-qsource,qs,5,QS
+2025-09-23,2,Blitzen,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Blitzen,Hank Hill,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-24,2,Blitzen,Hank Hill,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-25,2,Blitzen,Hank Hill,,Around The World,5,"('ao-el-coyote', 'ao-the-grove', 'ao-the-ridge', 'ao-ravens-nest', 'ao-the-colosseum')"
+2025-09-25,2,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Blitzen,Hank Hill,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'ao-el-coyote', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-grove')"
+2025-09-26,2,Blitzen,Hank Hill,ao-the-grove,1stf,3,ao-the-grove
+2025-09-26,2,Blitzen,Hank Hill,3rd-f,3rdf,5,Pantry Truck
+2025-09-29,3,Blitzen,Hank Hill,ao-the-grove,1stf,3,ao-the-grove
+2025-09-30,3,Blitzen,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Blitzen,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Blitzen,Hank Hill,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Blitzen,Hank Hill,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'ao-the-colosseum', 'ao-the-ridge', 'ao-da-grizz', 'ao-the-ridge')"
+2025-10-03,3,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Blitzen,Hank Hill,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-04,3,Blitzen,Hank Hill,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-05,4,Blitzen,Hank Hill,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Blitzen,Hank Hill,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Blitzen,Hank Hill,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-06,4,Blitzen,Hank Hill,3rd-f,3rdf,0,3rd F already achieved this week
+2025-10-07,4,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Blitzen,Hank Hill,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Blitzen,Hank Hill,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-09,4,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Blitzen,Hank Hill,ao-da-grizz,workout Q,1,Q
+2025-10-10,4,Blitzen,Hank Hill,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-12,5,Blitzen,Hank Hill,2nd-f,2ndf,3,Back to the bridge ruck
+2025-10-13,5,Blitzen,Hank Hill,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Blitzen,Hank Hill,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-24,2,Comet,Ozark,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-27,2,Comet,Ozark,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-06,4,Comet,Ozark,3rd-f,3rdf,5,Fire Zone 5k
+2025-09-29,3,Vixen,Binford,ao-the-grove,1stf,3,ao-the-grove
+2025-10-03,3,Vixen,Binford,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-05,4,Vixen,Binford,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Vixen,Binford,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Vixen,Binford,3rd-f,3rdf,0,3rd F already achieved this week
+2025-10-06,4,Vixen,Binford,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-24,2,Dasher,Ringo,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-25,2,Dasher,Ringo,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-03,3,Dasher,Ringo,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-06,4,Dasher,Ringo,3rd-f,3rdf,5,Fire Zone 5k
+2025-10-08,4,Dasher,Ringo,ao-ravens-nest,workout Q,1,Q
+2025-10-08,4,Dasher,Ringo,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-09,4,Dasher,Ringo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Blitzen,Homer Simpson,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-19,1,Blitzen,Homer Simpson,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-20,1,Blitzen,Homer Simpson,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-24,2,Blitzen,Homer Simpson,ao-the-silo,1stf,3,ao-the-silo
+2025-09-27,2,Blitzen,Homer Simpson,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Blitzen,Homer Simpson,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Blitzen,Homer Simpson,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-05,4,Blitzen,Homer Simpson,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Blitzen,Homer Simpson,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Blitzen,Homer Simpson,3rd-f,3rdf,0,3rd F already achieved this week
+2025-10-06,4,Blitzen,Homer Simpson,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-05,4,Dancer,Freon,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Dancer,Freon,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Dancer,Freon,3rd-f,3rdf,0,3rd F already achieved this week
+2025-10-06,4,Dancer,Freon,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-13,0,Vixen,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Vixen,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Vixen,Foreclosure,ao-black-rock,1stf,3,ao-black-rock
+2025-09-17,1,Vixen,Foreclosure,ao-ravens-nest,workout Q,1,Q
+2025-09-17,1,Vixen,Foreclosure,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-18,1,Vixen,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-24,2,Vixen,Foreclosure,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Vixen,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-26,2,Vixen,Foreclosure,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Vixen,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Vixen,Foreclosure,ao-black-rock,workout Q,1,Q
+2025-09-30,3,Vixen,Foreclosure,ao-black-rock,1stf,3,ao-black-rock
+2025-10-02,3,Vixen,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Vixen,Foreclosure,ao-the-grove,workout Q,0,you already Q'd a workout this week
+2025-10-03,3,Vixen,Foreclosure,ao-the-grove,1stf,3,ao-the-grove
+2025-10-05,4,Vixen,Foreclosure,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Vixen,Foreclosure,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Vixen,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Vixen,Foreclosure,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-06,4,Vixen,Foreclosure,3rd-f,3rdf,0,3rd F already achieved this week
+2025-10-07,4,Vixen,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-09,4,Vixen,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-13,5,Vixen,Foreclosure,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Vixen,Foreclosure,ao-black-rock,1stf,3,ao-black-rock
+2025-09-13,0,Blitzen,Boomer,ao-da-grizz,workout Q,1,Q
+2025-09-13,0,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-16,1,Blitzen,Boomer,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-17,1,Blitzen,Boomer,3rd-f-qsource,qs,5,QS
+2025-09-17,1,Blitzen,Boomer,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-19,1,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-21,2,Blitzen,Boomer,2nd-f,2ndf,3,Reset Sunday Ruck
+2025-09-23,2,Blitzen,Boomer,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-23,2,Blitzen,Boomer,3rd-f-qsource,qs,5,QS
+2025-09-24,2,Blitzen,Boomer,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-26,2,Blitzen,Boomer,ao-da-grizz,workout Q,1,Q
+2025-09-26,2,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-30,3,Blitzen,Boomer,3rd-f-qsource,qs,5,QS
+2025-09-30,3,Blitzen,Boomer,ao-el-coyote,workout Q,1,Q
+2025-09-30,3,Blitzen,Boomer,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-01,3,Blitzen,Boomer,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-03,3,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Blitzen,Boomer,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-04,3,Blitzen,Boomer,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-04,3,Blitzen,Boomer,ao-da-grizz,workout Q,0,you already Q'd a workout this week
+2025-10-04,3,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-05,4,Blitzen,Boomer,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Blitzen,Boomer,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Blitzen,Boomer,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-06,4,Blitzen,Boomer,3rd-f,3rdf,0,3rd F already achieved this week
+2025-10-08,4,Blitzen,Boomer,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-09,4,Blitzen,Boomer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Blitzen,Boomer,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-12,5,Blitzen,Boomer,2nd-f,2ndf,3,Back to the bridge ruck
+2025-09-13,0,Unknown Team,Duck Hunt,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-15,1,Unknown Team,Duck Hunt,rg_ec3,ec,3,"EC, noice!"
+2025-09-15,1,Unknown Team,Duck Hunt,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Unknown Team,Duck Hunt,rg_ec3,ec,0,EC points already earned today
+2025-09-17,1,Unknown Team,Duck Hunt,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-24,2,Unknown Team,Duck Hunt,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-25,2,Unknown Team,Duck Hunt,ao-black-diamond,workout Q,1,Q
+2025-09-25,2,Unknown Team,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-26,2,Unknown Team,Duck Hunt,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-29,3,Unknown Team,Duck Hunt,ao-the-silo,workout Q,1,Q
+2025-09-29,3,Unknown Team,Duck Hunt,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Unknown Team,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-01,3,Unknown Team,Duck Hunt,ao-ravens-nest,workout Q,0,you already Q'd a workout this week
+2025-10-01,3,Unknown Team,Duck Hunt,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-02,3,Unknown Team,Duck Hunt,ao-black-diamond,workout Q,0,you already Q'd a workout this week
+2025-10-02,3,Unknown Team,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Unknown Team,Duck Hunt,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-05,4,Unknown Team,Duck Hunt,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-05,4,Unknown Team,Duck Hunt,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-06,4,Unknown Team,Duck Hunt,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-08,4,Unknown Team,Duck Hunt,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-09,4,Unknown Team,Duck Hunt,ao-black-diamond,workout Q,1,Q
+2025-10-09,4,Unknown Team,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-10,4,Unknown Team,Duck Hunt,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-14,5,Unknown Team,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-05,4,Dancer,Flanders,3rd-f,3rdf,5,Adoptapalooza 2025
+2025-10-05,4,Dancer,Flanders,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Dancer,Flanders,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-16,1,Dancer,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Dancer,Dear Abby,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Dancer,Dear Abby,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-19,1,Dancer,Dear Abby,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Dancer,Dear Abby,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-21,2,Dancer,Dear Abby,2nd-f,2ndf,3,Reset Sunday Ruck
+2025-09-22,2,Dancer,Dear Abby,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Dancer,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dancer,Dear Abby,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Dancer,Dear Abby,ao-the-olympiad,workout Q,1,Q
+2025-09-25,2,Dancer,Dear Abby,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-26,2,Dancer,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-27,2,Dancer,Dear Abby,,Around The World,5,"('ao-the-grove', 'ao-the-ridge', 'ao-the-silo', 'ao-the-colosseum', 'ao-the-olympiad')"
+2025-09-27,2,Dancer,Dear Abby,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'ao-the-silo', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-the-ridge')"
+2025-09-27,2,Dancer,Dear Abby,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Dancer,Dear Abby,ao-the-silo,1stf,3,ao-the-silo
+2025-10-02,3,Dancer,Dear Abby,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-03,3,Dancer,Dear Abby,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Dancer,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-14,1,Donner,Deja vu,2nd-f,2ndf,3,Hey guys!  There's a deer ruck
+2025-09-21,2,Donner,Deja vu,2nd-f,2ndf,3,Reset Sunday Ruck
+2025-09-21,2,Donner,Deja vu,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-25,2,Donner,Deja vu,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-28,3,Donner,Deja vu,2nd-f,2ndf,3,"fire trucks, runners, and sparkler ruck"
+2025-10-12,5,Donner,Deja vu,2nd-f,2ndf,3,Back to the bridge ruck
+2025-09-13,0,Dasher,Bob Villa,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-13,0,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Dasher,Bob Villa,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Dasher,Bob Villa,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-19,1,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Dasher,Bob Villa,ao-the-colosseum,workout Q,1,Q
+2025-09-22,2,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Dasher,Bob Villa,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-26,2,Dasher,Bob Villa,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Dasher,Bob Villa,ao-the-olympiad,workout Q,1,Q
+2025-10-02,3,Dasher,Bob Villa,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-03,3,Dasher,Bob Villa,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-03,3,Dasher,Bob Villa,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-06,4,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-11,4,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Dasher,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Donner,Foundation,ao-the-ridge,workout Q,1,Q
+2025-09-15,1,Donner,Foundation,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Donner,Foundation,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-09-16,1,Donner,Foundation,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Donner,Foundation,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Donner,Foundation,ao-the-ridge,workout Q,1,Q
+2025-09-24,2,Donner,Foundation,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Donner,Foundation,ao-the-ridge,workout Q,0,you already Q'd a workout this week
+2025-09-26,2,Donner,Foundation,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Donner,Foundation,ao-the-grove,workout Q,1,Q
+2025-09-29,3,Donner,Foundation,ao-the-grove,1stf,3,ao-the-grove
+2025-10-01,3,Donner,Foundation,ao-the-silo,workout Q,0,you already Q'd a workout this week
+2025-10-01,3,Donner,Foundation,ao-the-silo,1stf,3,ao-the-silo
+2025-10-03,3,Donner,Foundation,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Donner,Foundation,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-10-03,3,Donner,Foundation,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Donner,Foundation,ao-the-ridge,workout Q,1,Q
+2025-10-06,4,Donner,Foundation,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Donner,Foundation,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Donner,Foundation,ao-the-silo,1stf,3,ao-the-silo
+2025-10-10,4,Donner,Foundation,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-10-10,4,Donner,Foundation,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Donner,Foundation,ao-the-silo,workout Q,1,Q
+2025-10-13,5,Donner,Foundation,ao-the-silo,1stf,3,ao-the-silo
+2025-10-14,5,Donner,Foundation,ao-black-diamond,workout Q,0,you already Q'd a workout this week
+2025-10-14,5,Donner,Foundation,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Comet,Hot Boxx,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-04,3,Comet,Hot Boxx,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Vixen,Picasso,2nd-f,2ndf,3,1st Friday Werkforce
+2025-09-21,2,Rudolph,Millville,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-10-03,3,Rudolph,Millville,2nd-f,2ndf,3,1st Friday Werkforce
+2025-09-15,1,Dancer,Meta,ao-the-silo,1stf,3,ao-the-silo
+2025-09-16,1,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Dancer,Meta,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-19,1,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dancer,Meta,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Dancer,Meta,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Dancer,Meta,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Dancer,Meta,ao-the-colosseum,workout Q,1,Q
+2025-09-29,3,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Dancer,Meta,ao-black-rock,1stf,3,ao-black-rock
+2025-10-01,3,Dancer,Meta,ao-the-silo,1stf,3,ao-the-silo
+2025-10-02,3,Dancer,Meta,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-02,3,Dancer,Meta,,Around The World,5,"('ao-el-coyote', 'ao-the-ridge', 'ao-black-rock', 'ao-the-silo', 'ao-the-colosseum')"
+2025-10-02,3,Dancer,Meta,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Dancer,Meta,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Dancer,Meta,,sixpack bonus,4,"('ao-the-colosseum', 'ao-black-rock', 'ao-the-silo', 'ao-el-coyote', 'ao-the-ridge', 'ao-da-grizz')"
+2025-10-03,3,Dancer,Meta,ao-da-grizz,workout Q,0,you already Q'd a workout this week
+2025-10-03,3,Dancer,Meta,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-05,4,Dancer,Meta,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Dancer,Meta,ao-the-colosseum,workout Q,1,Q
+2025-10-06,4,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Dancer,Meta,ao-el-coyote,workout Q,0,you already Q'd a workout this week
+2025-10-07,4,Dancer,Meta,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-07,4,Dancer,Meta,3rd-f-qsource,qs,5,QS
+2025-10-07,4,Dancer,Meta,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Dancer,Meta,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-09,4,Dancer,Meta,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-09,4,Dancer,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Dancer,Meta,,sixpack bonus,4,"('ao-the-colosseum', 'ao-el-coyote', 'ao-the-ridge', 'ao-the-ridge', 'ao-the-colosseum', 'ao-el-coyote')"
+2025-10-09,4,Dancer,Meta,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-09,4,Dancer,Meta,3rd-f-qsource,qs,0,Qsource already achieved this week
+2025-10-10,4,Dancer,Meta,,sixpack bonus,1,"('ao-the-colosseum', 'ao-el-coyote', 'ao-the-ridge', 'ao-the-ridge', 'ao-the-colosseum', 'ao-el-coyote', 'ao-the-olympiad')"
+2025-10-10,4,Dancer,Meta,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-13,5,Dancer,Meta,ao-the-silo,1stf,3,ao-the-silo
+2025-10-14,5,Dancer,Meta,ao-black-rock,workout Q,1,Q
+2025-10-14,5,Dancer,Meta,ao-black-rock,1stf,3,ao-black-rock
+2025-09-14,1,Prancer,Caboose,2nd-f,2ndf,3,Bad News Bears
+2025-09-15,1,Prancer,Caboose,ao-the-grove,1stf,3,ao-the-grove
+2025-09-17,1,Prancer,Caboose,ao-the-silo,1stf,3,ao-the-silo
+2025-09-19,1,Prancer,Caboose,ao-the-colosseum,workout Q,1,Q
+2025-09-19,1,Prancer,Caboose,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-20,1,Prancer,Caboose,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-21,2,Prancer,Caboose,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-10-03,3,Prancer,Caboose,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-05,4,Prancer,Caboose,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Prancer,Caboose,2nd-f,2ndf,0,2nd F already achieved this week
+2025-09-15,1,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-09-16,1,Unknown Team,Scratch and Dent,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-09-19,1,Unknown Team,Scratch and Dent,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-09-23,2,Unknown Team,Scratch and Dent,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-09-26,2,Unknown Team,Scratch and Dent,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-10-01,3,Unknown Team,Scratch and Dent,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-10-03,3,Unknown Team,Scratch and Dent,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Unknown Team,Scratch and Dent,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-10-07,4,Unknown Team,Scratch and Dent,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Unknown Team,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo
+2025-10-14,5,Unknown Team,Scratch and Dent,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Unknown Team,Wet Bandit,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Unknown Team,Wet Bandit,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Unknown Team,Wet Bandit,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Unknown Team,Wet Bandit,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Unknown Team,Scuba Steve,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Unknown Team,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Unknown Team,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Unknown Team,Scuba Steve,ao-the-silo,workout Q,1,Q
+2025-09-22,2,Unknown Team,Scuba Steve,ao-the-silo,1stf,3,ao-the-silo
+2025-09-23,2,Unknown Team,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Unknown Team,Scuba Steve,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Unknown Team,Scuba Steve,ao-the-grove,1stf,3,ao-the-grove
+2025-10-01,3,Unknown Team,Scuba Steve,ao-the-silo,1stf,3,ao-the-silo
+2025-10-03,3,Unknown Team,Scuba Steve,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Unknown Team,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Unknown Team,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Unknown Team,Scuba Steve,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Unknown Team,Scuba Steve,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-10,4,Unknown Team,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Unknown Team,Scuba Steve,ao-the-silo,1stf,3,ao-the-silo
+2025-09-17,1,Unknown Team,Intern,3rd-f-qsource,qs,5,QS
+2025-10-03,3,Unknown Team,Intern,2nd-f,2ndf,3,1st Friday Werkforce
+2025-10-03,3,Unknown Team,Intern,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Unknown Team,Intern,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Unknown Team,Intern,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Unknown Team,Intern,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Dasher,Manhole,3rd-f-qsource,QSource Q,1,QSQ
+2025-09-17,1,Dasher,Manhole,3rd-f-qsource,qs,5,QS
+2025-09-18,1,Dasher,Manhole,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-25,2,Dasher,Manhole,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-30,3,Dasher,Manhole,3rd-f-qsource,qs,5,QS
+2025-09-30,3,Dasher,Manhole,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-02,3,Dasher,Manhole,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-05,4,Dasher,Manhole,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Dasher,Manhole,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-07,4,Dasher,Manhole,3rd-f-qsource,qs,5,QS
+2025-10-07,4,Dasher,Manhole,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-09,4,Dasher,Manhole,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-09,4,Dasher,Manhole,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-14,1,Comet,Sparky,2nd-f,2ndf,3,Bad News Bears
+2025-09-15,1,Comet,Sparky,rg_ec3,ec,3,"EC, noice!"
+2025-09-16,1,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-17,1,Comet,Sparky,3rd-f-qsource,qs,5,QS
+2025-09-23,2,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-25,2,Comet,Sparky,ao-el-coyote,workout Q,1,Q
+2025-09-25,2,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-30,3,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-02,3,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-05,4,Comet,Sparky,2nd-f,2ndf,3,Adoptapalooza 2025!
+2025-10-06,4,Comet,Sparky,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-07,4,Comet,Sparky,3rd-f-qsource,qs,5,QS
+2025-10-07,4,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-09,4,Comet,Sparky,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-09,4,Comet,Sparky,2nd-f,2ndf,0,2nd F already achieved this week
+2025-10-11,4,Comet,Sparky,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-11,4,Comet,Sparky,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-15,1,Donner,Bedpan,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Donner,Bedpan,ao-black-rock,1stf,3,ao-black-rock
+2025-09-17,1,Donner,Bedpan,ao-the-ridge,workout Q,1,Q
+2025-09-17,1,Donner,Bedpan,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Donner,Bedpan,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-21,2,Donner,Bedpan,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-22,2,Donner,Bedpan,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Donner,Bedpan,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-24,2,Donner,Bedpan,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Donner,Bedpan,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Donner,Bedpan,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Donner,Bedpan,ao-black-rock,1stf,3,ao-black-rock
+2025-10-01,3,Donner,Bedpan,ao-the-silo,1stf,3,ao-the-silo
+2025-10-07,4,Donner,Bedpan,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Donner,Bedpan,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Donner,Bedpan,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Donner,Bedpan,ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Donner,Bedpan,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Donner,Bedpan,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-20,1,Dasher,Jellystone,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-10-08,4,Dasher,Jellystone,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Dasher,Jellystone,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Dasher,Jellystone,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-21,2,Rudolph,Plunger,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-21,2,Prancer,BABYMOMMA,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-14,1,Vixen,Webster,2nd-f,2ndf,3,Bad News Bears
+2025-09-13,0,Cupid,Juanita,ao-the-colosseum,workout Q,1,Q
+2025-09-13,0,Cupid,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Cupid,Juanita,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Cupid,Juanita,ao-the-grove,1stf,3,ao-the-grove
+2025-09-20,1,Cupid,Juanita,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-20,1,Cupid,Juanita,ao-the-colosseum,workout Q,1,Q
+2025-09-20,1,Cupid,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Cupid,Juanita,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Cupid,Juanita,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-27,2,Cupid,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Cupid,Juanita,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-04,3,Cupid,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Cupid,Juanita,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Cupid,Juanita,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-11,4,Cupid,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Vixen,FINCH,ao-el-coyote,workout Q,1,Q
+2025-09-18,1,Vixen,FINCH,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-21,2,Vixen,FINCH,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-17,1,Cupid,Olive Oyl,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-21,2,Cupid,Olive Oyl,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-29,3,Cupid,Olive Oyl,ao-the-grove,1stf,3,ao-the-grove
+2025-09-13,0,Rudolph,Old Maid,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Rudolph,Old Maid,ao-the-grove,1stf,3,ao-the-grove
+2025-09-16,1,Rudolph,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Rudolph,Old Maid,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Rudolph,Old Maid,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-19,1,Rudolph,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-21,2,Rudolph,Old Maid,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-22,2,Rudolph,Old Maid,ao-the-grove,1stf,3,ao-the-grove
+2025-09-24,2,Rudolph,Old Maid,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Rudolph,Old Maid,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Rudolph,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-27,2,Rudolph,Old Maid,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Rudolph,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-05,4,Rudolph,Old Maid,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Rudolph,Old Maid,ao-the-silo,workout Q,1,Q
+2025-10-06,4,Rudolph,Old Maid,ao-the-silo,1stf,3,ao-the-silo
+2025-10-08,4,Rudolph,Old Maid,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Rudolph,Old Maid,ao-the-olympiad,workout Q,0,you already Q'd a workout this week
+2025-10-09,4,Rudolph,Old Maid,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-11,4,Rudolph,Old Maid,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-21,2,Dancer,Dog House,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-16,1,Cupid,Deliverance,ao-dmz,1stf,3,ao-dmz
+2025-09-18,1,Cupid,Deliverance,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Cupid,Deliverance,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-20,1,Cupid,Deliverance,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-21,2,Cupid,Deliverance,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-23,2,Cupid,Deliverance,ao-dmz,1stf,3,ao-dmz
+2025-09-30,3,Cupid,Deliverance,ao-dmz,1stf,3,ao-dmz
+2025-10-02,3,Cupid,Deliverance,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Cupid,Deliverance,ao-dmz,1stf,3,ao-dmz
+2025-09-21,2,Unknown Team,Dr. Feelgood,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-16,1,Blitzen,Celler Dweller,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Blitzen,Celler Dweller,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Blitzen,Celler Dweller,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-21,2,Blitzen,Celler Dweller,2nd-f,2ndf,3,Caboose’s 50th bday bash
+2025-09-22,2,Blitzen,Celler Dweller,ao-the-grove,1stf,3,ao-the-grove
+2025-09-25,2,Blitzen,Celler Dweller,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-27,2,Blitzen,Celler Dweller,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Blitzen,Celler Dweller,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Blitzen,Celler Dweller,ao-the-silo,1stf,3,ao-the-silo
+2025-10-11,4,Blitzen,Celler Dweller,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Blitzen,Nemo,ao-the-silo,workout Q,1,Q
+2025-09-15,1,Blitzen,Nemo,ao-the-silo,1stf,3,ao-the-silo
+2025-09-16,1,Blitzen,Nemo,ao-black-rock,1stf,3,ao-black-rock
+2025-09-18,1,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-19,1,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-20,1,Blitzen,Nemo,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-22,2,Blitzen,Nemo,ao-the-grove,workout Q,1,Q
+2025-09-22,2,Blitzen,Nemo,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Blitzen,Nemo,ao-black-rock,1stf,3,ao-black-rock
+2025-09-25,2,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-29,3,Blitzen,Nemo,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Blitzen,Nemo,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Blitzen,Nemo,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Blitzen,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Blitzen,Nemo,ao-the-silo,1stf,3,ao-the-silo
+2025-09-13,0,Unknown Team,Pearl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Unknown Team,Pearl,ao-the-grove,1stf,3,ao-the-grove
+2025-09-17,1,Unknown Team,Pearl,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Unknown Team,Pearl,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-20,1,Unknown Team,Pearl,2nd-f,2ndf,3,Plainfield Homecoming Parade
+2025-09-22,2,Unknown Team,Pearl,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Unknown Team,Pearl,ao-the-grove,1stf,3,ao-the-grove
+2025-10-02,3,Unknown Team,Pearl,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Unknown Team,Pearl,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Unknown Team,Pearl,ao-the-grove,1stf,3,ao-the-grove
+2025-10-10,4,Unknown Team,Pearl,ao-the-grove,1stf,3,ao-the-grove
+2025-10-11,4,Unknown Team,Pearl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Comet,Hot Lava,3rd-f-qsource,qs,5,QS
+2025-09-18,1,Comet,Hot Lava,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-25,2,Comet,Hot Lava,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-02,3,Comet,Hot Lava,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-03,3,Comet,Hot Lava,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-09,4,Comet,Hot Lava,2nd-f,2ndf,3,Cubbies at the legion
+2025-09-18,1,Dancer,Trifecta,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-24,2,Dancer,Trifecta,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Dancer,Trifecta,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-09,4,Dancer,Trifecta,2nd-f,2ndf,3,Cubbies at the legion
+2025-09-27,2,Dasher,UPS,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Dasher,UPS,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Dasher,UPS,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-04,3,Dasher,UPS,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-15,1,Blitzen,Depends (3rdF Q),rg_ec3,ec,3,"EC, noice!"
+2025-09-15,1,Blitzen,Depends (3rdF Q),rg_ec3,ec,0,EC points already earned today
+2025-09-15,1,Blitzen,Depends (3rdF Q),rg_ec3,ec,0,EC points already earned today
+2025-09-15,1,Blitzen,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Blitzen,Depends (3rdF Q),ao-black-rock,workout Q,1,Q
+2025-09-16,1,Blitzen,Depends (3rdF Q),ao-black-rock,1stf,3,ao-black-rock
+2025-09-18,1,Blitzen,Depends (3rdF Q),rg_ec1,ec,1,"EC, noice!"
+2025-09-18,1,Blitzen,Depends (3rdF Q),3rd-f-qsource,QSource Q,1,QSQ
+2025-09-18,1,Blitzen,Depends (3rdF Q),3rd-f-qsource,qs,5,QS
+2025-09-23,2,Blitzen,Depends (3rdF Q),ao-black-rock,1stf,3,ao-black-rock
+2025-09-24,2,Blitzen,Depends (3rdF Q),ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Blitzen,Depends (3rdF Q),3rd-f-qsource,qs,5,QS
+2025-09-25,2,Blitzen,Depends (3rdF Q),ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-30,3,Blitzen,Depends (3rdF Q),ao-black-rock,1stf,3,ao-black-rock
+2025-10-01,3,Blitzen,Depends (3rdF Q),ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-02,3,Blitzen,Depends (3rdF Q),3rd-f-qsource,qs,5,QS
+2025-10-03,3,Blitzen,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-04,3,Blitzen,Depends (3rdF Q),ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Blitzen,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-04,3,Blitzen,Depends (3rdF Q),2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-06,4,Blitzen,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Blitzen,Depends (3rdF Q),ao-black-rock,1stf,3,ao-black-rock
+2025-10-09,4,Blitzen,Depends (3rdF Q),3rd-f-qsource,QSource Q,1,QSQ
+2025-10-09,4,Blitzen,Depends (3rdF Q),3rd-f-qsource,qs,5,QS
+2025-10-09,4,Blitzen,Depends (3rdF Q),ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-13,5,Blitzen,Depends (3rdF Q),ao-the-silo,1stf,3,ao-the-silo
+2025-10-13,5,Blitzen,Depends (3rdF Q),rg_ec3,ec,3,"EC, noice!"
+2025-10-14,5,Blitzen,Depends (3rdF Q),ao-black-rock,1stf,3,ao-black-rock
+2025-09-13,0,Blitzen,Large Marge,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Blitzen,Large Marge,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Blitzen,Large Marge,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Blitzen,Large Marge,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-04,3,Blitzen,Large Marge,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Blitzen,Large Marge,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-13,0,Blitzen,Sailer Moon,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Blitzen,Sailer Moon,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Blitzen,Sailer Moon,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Blitzen,Sailer Moon,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-11,4,Blitzen,Sailer Moon,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-13,0,Blitzen,HGTV,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Blitzen,HGTV,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Blitzen,HGTV,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Blitzen,HGTV,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-04,3,Blitzen,HGTV,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Unknown Team,Laces Out,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Unknown Team,Laces Out,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-04,3,Unknown Team,Laces Out,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Unknown Team,Laces Out,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-13,0,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Unknown Team,Party in a bottle,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Unknown Team,Party in a bottle,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Unknown Team,Party in a bottle,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Unknown Team,Party in a bottle,ao-the-ridge,workout Q,1,Q
+2025-09-19,1,Unknown Team,Party in a bottle,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-20,1,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,1,Q
+2025-09-23,2,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Unknown Team,Party in a bottle,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-09-25,2,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-27,2,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Unknown Team,Party in a bottle,3rd-f-qsource,QSource Q,1,QSQ
+2025-09-30,3,Unknown Team,Party in a bottle,3rd-f-qsource,qs,5,QS
+2025-09-30,3,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,1,Q
+2025-09-30,3,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-10-02,3,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-04,3,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-04,3,Unknown Team,Party in a bottle,2nd-f,2ndf,3,Sailer Moon’s Chili Cookoff
+2025-10-07,4,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,1,Q
+2025-10-07,4,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-10-09,4,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-11,4,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Unknown Team,Party in a bottle,ao-the-colosseum,workout Q,1,Q
+2025-10-14,5,Unknown Team,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Comet,Sparkler,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Comet,Sparkler,ao-dmz,1stf,3,ao-dmz
+2025-09-17,1,Comet,Sparkler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Comet,Sparkler,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Comet,Sparkler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Comet,Sparkler,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Comet,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-26,2,Comet,Sparkler,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Comet,Sparkler,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Comet,Sparkler,ao-black-diamond,workout Q,1,Q
+2025-09-30,3,Comet,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-02,3,Comet,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Comet,Sparkler,ao-the-grove,1stf,3,ao-the-grove
+2025-10-06,4,Comet,Sparkler,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Comet,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-09,4,Comet,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-10,4,Comet,Sparkler,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Prancer,Spirit,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-16,1,Dasher,Hatchet (Lizard Q),ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Dasher,Hatchet (Lizard Q),ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dasher,Hatchet (Lizard Q),ao-the-silo,1stf,3,ao-the-silo
+2025-10-03,3,Dasher,Hatchet (Lizard Q),ao-the-grove,1stf,3,ao-the-grove
+2025-10-07,4,Dasher,Hatchet (Lizard Q),ao-dmz,workout Q,1,Q
+2025-10-07,4,Dasher,Hatchet (Lizard Q),ao-dmz,1stf,3,ao-dmz
+2025-10-10,4,Dasher,Hatchet (Lizard Q),ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Dasher,Hatchet (Lizard Q),ao-the-grove,workout Q,1,Q
+2025-10-13,5,Dasher,Hatchet (Lizard Q),ao-the-grove,1stf,3,ao-the-grove
+2025-09-15,1,Olive,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Olive,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Olive,Mr. Kotter,rg_ec1,ec,1,"EC, noice!"
+2025-09-23,2,Olive,Mr. Kotter,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-24,2,Olive,Mr. Kotter,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Olive,Mr. Kotter,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-29,3,Olive,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Olive,Mr. Kotter,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-01,3,Olive,Mr. Kotter,ao-the-ridge,workout Q,1,Q
+2025-10-01,3,Olive,Mr. Kotter,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Olive,Mr. Kotter,ao-the-colosseum,workout Q,1,Q
+2025-10-08,4,Olive,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Olive,Mr. Kotter,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-11,4,Olive,Mr. Kotter,ao-da-grizz,workout Q,0,you already Q'd a workout this week
+2025-10-11,4,Olive,Mr. Kotter,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Olive,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Olive,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Unknown Team,Italian Ice,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Unknown Team,Italian Ice,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Unknown Team,Italian Ice,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Unknown Team,Italian Ice,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-10,4,Unknown Team,Italian Ice,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Unknown Team,Italian Ice,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-16,1,Prancer,Chum Bucket,ao-el-coyote,workout Q,1,Q
+2025-09-16,1,Prancer,Chum Bucket,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-16,1,Prancer,Chum Bucket,ao-black-rock,1stf,3,ao-black-rock
+2025-09-18,1,Prancer,Chum Bucket,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Prancer,Chum Bucket,ao-the-ridge,workout Q,1,Q
+2025-09-23,2,Prancer,Chum Bucket,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Prancer,Chum Bucket,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Prancer,Chum Bucket,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-26,2,Prancer,Chum Bucket,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Prancer,Chum Bucket,ao-the-grove,1stf,3,ao-the-grove
+2025-09-30,3,Prancer,Chum Bucket,ao-black-rock,1stf,3,ao-black-rock
+2025-10-02,3,Prancer,Chum Bucket,ao-el-coyote,workout Q,1,Q
+2025-10-02,3,Prancer,Chum Bucket,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-04,3,Prancer,Chum Bucket,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Prancer,Chum Bucket,,Around The World,5,"('ao-el-coyote', 'ao-the-grove', 'ao-da-grizz', 'ao-black-rock', 'ao-the-colosseum')"
+2025-10-04,3,Prancer,Chum Bucket,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-10-04,3,Prancer,Chum Bucket,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Prancer,Chum Bucket,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-08,4,Prancer,Chum Bucket,ao-the-silo,1stf,3,ao-the-silo
+2025-10-10,4,Prancer,Chum Bucket,ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Prancer,Chum Bucket,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Prancer,Chum Bucket,ao-black-rock,1stf,3,ao-black-rock
+2025-09-15,1,Prancer,1040EZ,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Prancer,1040EZ,ao-the-grove,1stf,3,ao-the-grove
+2025-09-16,1,Donner,Soft Hands,ao-black-rock,1stf,3,ao-black-rock
+2025-09-26,2,Donner,Soft Hands,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Donner,Soft Hands,ao-black-rock,1stf,3,ao-black-rock
+2025-10-02,3,Donner,Soft Hands,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Donner,Soft Hands,ao-black-diamond,workout Q,1,Q
+2025-10-07,4,Donner,Soft Hands,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-10,4,Donner,Soft Hands,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-26,2,Rudolph,Spike Horn,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-02,3,Rudolph,Spike Horn,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-03,3,Rudolph,Spike Horn,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-18,1,Unknown Team,Phoenix,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Comet,The Worm,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Comet,The Worm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Comet,The Worm,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Comet,The Worm,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Comet,The Worm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Comet,The Worm,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Comet,The Worm,ao-the-silo,1stf,3,ao-the-silo
+2025-09-13,0,Donner,Cutler,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Donner,Cutler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Donner,Cutler,ao-the-grove,1stf,3,ao-the-grove
+2025-09-16,1,Donner,Cutler,ao-black-rock,1stf,3,ao-black-rock
+2025-09-17,1,Donner,Cutler,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Donner,Cutler,ao-the-olympiad,workout Q,1,Q
+2025-09-18,1,Donner,Cutler,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-18,1,Donner,Cutler,3rd-f-qsource,qs,5,QS
+2025-09-19,1,Donner,Cutler,,Around The World,5,"('ao-the-grove', 'ao-da-grizz', 'ao-black-rock', 'ao-the-silo', 'ao-the-olympiad')"
+2025-09-19,1,Donner,Cutler,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-25,2,Donner,Cutler,3rd-f-qsource,qs,5,QS
+2025-09-25,2,Donner,Cutler,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-26,2,Donner,Cutler,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Donner,Cutler,ao-the-silo,1stf,3,ao-the-silo
+2025-10-01,3,Donner,Cutler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Donner,Cutler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Donner,Cutler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Donner,Cutler,ao-the-grove,1stf,3,ao-the-grove
+2025-10-05,4,Donner,Cutler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Donner,Cutler,ao-the-silo,1stf,3,ao-the-silo
+2025-10-07,4,Donner,Cutler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Donner,Cutler,ao-the-silo,1stf,3,ao-the-silo
+2025-09-15,1,Dasher,Zimmer,rg_ec3,ec,3,"EC, noice!"
+2025-09-15,1,Dasher,Zimmer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Dasher,Zimmer,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Dasher,Zimmer,ao-dmz,1stf,3,ao-dmz
+2025-09-24,2,Dasher,Zimmer,ao-the-silo,workout Q,1,Q
+2025-09-24,2,Dasher,Zimmer,ao-the-silo,1stf,3,ao-the-silo
+2025-09-26,2,Dasher,Zimmer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Dasher,Zimmer,ao-dmz,workout Q,1,Q
+2025-09-30,3,Dasher,Zimmer,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Dasher,Zimmer,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Dasher,Zimmer,ao-the-grove,1stf,3,ao-the-grove
+2025-10-06,4,Dasher,Zimmer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Dasher,Zimmer,ao-dmz,1stf,3,ao-dmz
+2025-10-08,4,Dasher,Zimmer,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Dasher,Zimmer,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Dasher,Zimmer,ao-the-silo,1stf,3,ao-the-silo
+2025-09-15,1,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Comet,Hodl,ao-dmz,1stf,3,ao-dmz
+2025-09-22,2,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Comet,Hodl,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Comet,Hodl,ao-the-silo,1stf,3,ao-the-silo
+2025-10-02,3,Comet,Hodl,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-03,3,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Comet,Hodl,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Comet,Hodl,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-11,4,Comet,Hodl,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Comet,Hodl,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Unknown Team,Lot lizard,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-15,1,Cupid,Pull-up,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Cupid,Pull-up,ao-dmz,workout Q,1,Q
+2025-09-16,1,Cupid,Pull-up,ao-dmz,1stf,3,ao-dmz
+2025-09-17,1,Cupid,Pull-up,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Cupid,Pull-up,rg_ec1,ec,1,"EC, noice!"
+2025-09-19,1,Cupid,Pull-up,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Cupid,Pull-up,ao-the-silo,1stf,3,ao-the-silo
+2025-09-24,2,Cupid,Pull-up,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Cupid,Pull-up,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Cupid,Pull-up,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-13,5,Cupid,Pull-up,ao-the-silo,1stf,3,ao-the-silo
+2025-10-14,5,Cupid,Pull-up,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Cupid,Hat Trick,ao-the-silo,1stf,3,ao-the-silo
+2025-09-23,2,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Cupid,Hat Trick,ao-the-silo,1stf,3,ao-the-silo
+2025-09-26,2,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Cupid,Hat Trick,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-10,4,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Cupid,Hat Trick,ao-the-silo,1stf,3,ao-the-silo
+2025-10-14,5,Cupid,Hat Trick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Vixen,GrubX (CMW),ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Dasher,Dauber,ao-the-ridge,workout Q,1,Q
+2025-09-13,0,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Dasher,Dauber,ao-the-silo,1stf,3,ao-the-silo
+2025-09-16,1,Dasher,Dauber,ao-dmz,1stf,3,ao-dmz
+2025-09-17,1,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Dasher,Dauber,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-19,1,Dasher,Dauber,,Around The World,5,"('ao-dmz', 'ao-the-ridge', 'ao-black-diamond', 'ao-the-silo', 'ao-the-colosseum')"
+2025-09-19,1,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-20,1,Dasher,Dauber,,sixpack bonus,4,"('ao-the-silo', 'ao-dmz', 'ao-the-ridge', 'ao-black-diamond', 'ao-the-colosseum', 'ao-the-colosseum')"
+2025-09-20,1,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dasher,Dauber,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Dasher,Dauber,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-27,2,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Dasher,Dauber,ao-the-silo,1stf,3,ao-the-silo
+2025-10-01,3,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Dasher,Dauber,3rd-f-qsource,QSource Q,1,QSQ
+2025-10-02,3,Dasher,Dauber,3rd-f-qsource,qs,5,QS
+2025-10-03,3,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-09,4,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Dasher,Dauber,ao-the-ridge,workout Q,1,Q
+2025-10-10,4,Dasher,Dauber,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-11,4,Dasher,Dauber,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Dasher,Dauber,,sixpack bonus,4,"('ao-the-colosseum', 'ao-the-ridge', 'ao-the-colosseum', 'ao-the-ridge', 'ao-da-grizz', 'ao-the-colosseum')"
+2025-10-11,4,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Dasher,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Dasher,Dauber,rg_ec3,ec,3,"EC, noice!"
+2025-10-14,5,Dasher,Dauber,ao-black-rock,1stf,3,ao-black-rock
+2025-09-15,1,Comet,Blue Gill,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Comet,Blue Gill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Comet,Blue Gill,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Comet,Blue Gill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Comet,Blue Gill,ao-the-ridge,workout Q,1,Q
+2025-10-01,3,Comet,Blue Gill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-09,4,Comet,Blue Gill,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-10,4,Comet,Blue Gill,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-14,5,Comet,Blue Gill,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Vixen,Tee Ball,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-13,0,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Comet,Spit Valve,ao-the-silo,workout Q,1,Q
+2025-09-17,1,Comet,Spit Valve,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Comet,Spit Valve,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-19,1,Comet,Spit Valve,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-20,1,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Comet,Spit Valve,3rd-f-qsource,QSource Q,1,QSQ
+2025-09-23,2,Comet,Spit Valve,3rd-f-qsource,qs,5,QS
+2025-09-23,2,Comet,Spit Valve,ao-black-rock,workout Q,1,Q
+2025-09-23,2,Comet,Spit Valve,ao-black-rock,1stf,3,ao-black-rock
+2025-09-24,2,Comet,Spit Valve,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Comet,Spit Valve,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-27,2,Comet,Spit Valve,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-09-27,2,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-29,3,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Comet,Spit Valve,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-07,4,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Comet,Spit Valve,ao-the-ridge,workout Q,1,Q
+2025-10-08,4,Comet,Spit Valve,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Comet,Spit Valve,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-13,5,Comet,Spit Valve,ao-the-colosseum,workout Q,1,Q
+2025-10-13,5,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Dancer,Celine Dion,ao-black-rock,1stf,3,ao-black-rock
+2025-09-17,1,Dancer,Celine Dion,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-24,2,Dancer,Celine Dion,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-26,2,Dancer,Celine Dion,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-01,3,Dancer,Celine Dion,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-08,4,Dancer,Celine Dion,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-09-18,1,Donner,Great Clips,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Donner,Great Clips,ao-the-grove,1stf,3,ao-the-grove
+2025-09-18,1,Unknown Team,Shankapotomus,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-25,2,Unknown Team,Shankapotomus,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-02,3,Unknown Team,Shankapotomus,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-09,4,Unknown Team,Shankapotomus,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-15,1,Unknown Team,Backstreet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Unknown Team,Backstreet,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-02,3,Unknown Team,Backstreet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Comet,Napster,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Comet,Napster,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Comet,Napster,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Comet,Napster,ao-the-grove,1stf,3,ao-the-grove
+2025-09-24,2,Comet,Napster,ao-the-colosseum,workout Q,1,Q
+2025-09-24,2,Comet,Napster,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Comet,Napster,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-06,4,Comet,Napster,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Comet,Napster,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Comet,Napster,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-13,5,Comet,Napster,ao-the-ridge,workout Q,1,Q
+2025-10-13,5,Comet,Napster,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Unknown Team,Liberty Biberty,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Unknown Team,Liberty Biberty,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Unknown Team,Liberty Biberty,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-08,4,Unknown Team,Liberty Biberty,ao-the-silo,1stf,3,ao-the-silo
+2025-09-15,1,Dancer,Algorithm,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Dancer,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Dancer,Algorithm,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Dancer,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-29,3,Dancer,Algorithm,ao-the-grove,1stf,3,ao-the-grove
+2025-09-30,3,Dancer,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Dancer,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Dancer,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Dancer,Algorithm,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-10,4,Dancer,Algorithm,ao-the-grove,1stf,3,ao-the-grove
+2025-09-13,0,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Comet,Quatro,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-25,2,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-27,2,Comet,Quatro,ao-the-ridge,workout Q,1,Q
+2025-09-27,2,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-05,4,Comet,Quatro,ao-the-ridge,workout Q,1,Q
+2025-10-05,4,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-11,4,Comet,Quatro,ao-the-ridge,workout Q,0,you already Q'd a workout this week
+2025-10-11,4,Comet,Quatro,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Donner,Peashooter,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-24,2,Donner,Peashooter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Donner,Peashooter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Donner,Peashooter,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Prancer,Happy Camper,ao-the-ridge,workout Q,1,Q
+2025-09-22,2,Prancer,Happy Camper,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Prancer,Happy Camper,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Prancer,Happy Camper,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Prancer,Happy Camper,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Prancer,Happy Camper,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Prancer,Happy Camper,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Prancer,Happy Camper,ao-the-grove,workout Q,1,Q
+2025-10-10,4,Prancer,Happy Camper,ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Prancer,Happy Camper,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Rudolph,Bunny Hill,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-03,3,Prancer,Jordache,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-10,4,Prancer,Jordache,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-26,2,Rudolph,Rooney,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-15,1,Olive,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Olive,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Olive,Cinderella,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Olive,Cinderella,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Olive,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Olive,Cinderella,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Olive,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Olive,Cinderella,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Olive,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Rudolph,Bueller,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-13,0,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Dancer,Singer,ao-the-grove,1stf,3,ao-the-grove
+2025-09-16,1,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-19,1,Dancer,Singer,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-20,1,Dancer,Singer,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'ao-the-colosseum', 'ao-the-colosseum', 'ao-the-olympiad', 'ao-the-colosseum')"
+2025-09-20,1,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Dancer,Singer,ao-the-olympiad,workout Q,1,Q
+2025-09-26,2,Dancer,Singer,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Dancer,Singer,ao-the-colosseum,workout Q,1,Q
+2025-10-01,3,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Dancer,Singer,ao-the-olympiad,workout Q,0,you already Q'd a workout this week
+2025-10-03,3,Dancer,Singer,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-04,3,Dancer,Singer,,sixpack bonus,4,"('ao-the-colosseum', 'ao-the-colosseum', 'ao-the-colosseum', 'ao-the-colosseum', 'ao-the-olympiad', 'ao-the-colosseum')"
+2025-10-04,3,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Dancer,Singer,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-13,5,Dancer,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Dancer,Singer,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-13,0,Blitzen,Mahomes,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Blitzen,Mahomes,rg_ec3,ec,3,"EC, noice!"
+2025-09-15,1,Blitzen,Mahomes,rg_ec3,ec,0,EC points already earned today
+2025-09-15,1,Blitzen,Mahomes,rg_ec3,ec,0,EC points already earned today
+2025-09-17,1,Blitzen,Mahomes,3rd-f-qsource,qs,5,QS
+2025-09-23,2,Blitzen,Mahomes,3rd-f-qsource,qs,5,QS
+2025-09-23,2,Blitzen,Mahomes,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-24,2,Blitzen,Mahomes,ao-the-silo,1stf,3,ao-the-silo
+2025-09-26,2,Blitzen,Mahomes,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-27,2,Blitzen,Mahomes,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Blitzen,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Blitzen,Mahomes,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-05,4,Blitzen,Mahomes,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Blitzen,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Blitzen,Mahomes,3rd-f-qsource,QSource Q,1,QSQ
+2025-10-07,4,Blitzen,Mahomes,3rd-f-qsource,qs,5,QS
+2025-10-07,4,Blitzen,Mahomes,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-09,4,Blitzen,Mahomes,ao-el-coyote,workout Q,1,Q
+2025-10-09,4,Blitzen,Mahomes,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-11,4,Blitzen,Mahomes,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-10-11,4,Blitzen,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Comet,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Comet,Just Dance,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-19,1,Comet,Just Dance,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Comet,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Comet,Just Dance,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Comet,Just Dance,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-29,3,Comet,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Comet,Just Dance,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-03,3,Comet,Just Dance,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-06,4,Comet,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Comet,Just Dance,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Prancer,Moist,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Prancer,Moist,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Prancer,Moist,ao-the-olympiad,workout Q,1,Q
+2025-09-19,1,Prancer,Moist,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Prancer,Moist,ao-the-grove,1stf,3,ao-the-grove
+2025-09-24,2,Prancer,Moist,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Prancer,Moist,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Prancer,Moist,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Prancer,Moist,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-13,5,Prancer,Moist,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Dancer,Safety Meeting,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dancer,Safety Meeting,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Dancer,Safety Meeting,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Dancer,Safety Meeting,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-03,3,Dancer,Safety Meeting,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-17,1,Cupid,Sensodyne,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Cupid,Sensodyne,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-22,2,Cupid,Sensodyne,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Cupid,Sensodyne,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-08,4,Cupid,Sensodyne,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Cupid,Sensodyne,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-09-16,1,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Dancer,Ricochet,ao-the-colosseum,workout Q,1,Q
+2025-09-18,1,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-19,1,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Dancer,Ricochet,ao-the-olympiad,workout Q,1,Q
+2025-10-10,4,Dancer,Ricochet,ao-the-olympiad,1stf,3,ao-the-olympiad
+2025-10-14,5,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Olive,5-Putt,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Olive,5-Putt,ao-the-ridge,workout Q,1,Q
+2025-09-18,1,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Olive,5-Putt,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Olive,5-Putt,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-27,2,Olive,5-Putt,,sixpack bonus,4,"('ao-the-ridge', 'ao-the-ridge', 'ao-the-silo', 'ao-the-ridge', 'ao-the-colosseum', 'ao-the-ridge')"
+2025-09-27,2,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Olive,5-Putt,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Olive,5-Putt,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Olive,5-Putt,ao-the-ridge,workout Q,1,Q
+2025-10-02,3,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Olive,5-Putt,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Olive,5-Putt,ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Olive,5-Putt,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Olive,5-Putt,ao-the-ridge,workout Q,1,Q
+2025-10-14,5,Olive,5-Putt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Blitzen,Bunker,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Blitzen,Bunker,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Blitzen,Bunker,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Blitzen,Bunker,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Blitzen,Bunker,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-15,1,Cupid,John Denver,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Cupid,John Denver,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Cupid,John Denver,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Cupid,John Denver,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Cupid,John Denver,ao-the-grove,1stf,3,ao-the-grove
+2025-09-22,2,Comet,BoilerUp,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Comet,BoilerUp,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Comet,BoilerUp,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Unknown Team,Flo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Unknown Team,Flo,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Unknown Team,Flo,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Unknown Team,Flo,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Unknown Team,Flo,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Unknown Team,Flo,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Unknown Team,Flo,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Prancer,TruGreen,ao-the-colosseum,workout Q,1,Q
+2025-09-15,1,Prancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Prancer,TruGreen,ao-black-rock,1stf,3,ao-black-rock
+2025-09-17,1,Prancer,TruGreen,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
+2025-09-17,1,Prancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Prancer,TruGreen,3rd-f-qsource,qs,5,QS
+2025-09-24,2,Prancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Prancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Prancer,TruGreen,3rd-f-qsource,QSource Q,1,QSQ
+2025-09-25,2,Prancer,TruGreen,3rd-f-qsource,qs,5,QS
+2025-10-02,3,Prancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Prancer,TruGreen,3rd-f-qsource,qs,5,QS
+2025-10-03,3,Prancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Prancer,TruGreen,3rd-f-qsource,qs,5,QS
+2025-09-15,1,Dasher,Pee Wee Herman,ao-the-grove,1stf,3,ao-the-grove
+2025-09-19,1,Dasher,Pee Wee Herman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Dasher,Pee Wee Herman,ao-the-grove,1stf,3,ao-the-grove
+2025-09-24,2,Dasher,Pee Wee Herman,ao-the-silo,1stf,3,ao-the-silo
+2025-09-29,3,Dasher,Pee Wee Herman,ao-the-grove,1stf,3,ao-the-grove
+2025-10-01,3,Dasher,Pee Wee Herman,ao-the-silo,1stf,3,ao-the-silo
+2025-10-03,3,Dasher,Pee Wee Herman,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Dasher,Pee Wee Herman,ao-the-grove,workout Q,1,Q
+2025-10-06,4,Dasher,Pee Wee Herman,ao-the-grove,1stf,3,ao-the-grove
+2025-10-08,4,Dasher,Pee Wee Herman,ao-the-silo,1stf,3,ao-the-silo
+2025-10-11,4,Dasher,Pee Wee Herman,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-02,3,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-09,4,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-11,4,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Unknown Team,Pretzel,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Unknown Team,Pretzel,ao-dmz,1stf,3,ao-dmz
+2025-09-19,1,Unknown Team,Pretzel,ao-the-grove,1stf,3,ao-the-grove
+2025-09-24,2,Unknown Team,Pretzel,ao-the-silo,1stf,3,ao-the-silo
+2025-09-29,3,Unknown Team,Pretzel,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Unknown Team,Pretzel,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Unknown Team,Pretzel,ao-the-silo,1stf,3,ao-the-silo
+2025-10-03,3,Unknown Team,Pretzel,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-05,4,Unknown Team,Pretzel,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Unknown Team,Pretzel,ao-the-silo,1stf,3,ao-the-silo
+2025-10-07,4,Unknown Team,Pretzel,ao-dmz,1stf,3,ao-dmz
+2025-10-08,4,Unknown Team,Pretzel,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Unknown Team,Pretzel,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Unknown Team,Pretzel,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-20,1,Olive,Dilly Dilly,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-04,3,Olive,Dilly Dilly,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Olive,Dilly Dilly,ao-the-ridge,workout Q,1,Q
+2025-10-07,4,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Olive,Dilly Dilly,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-11,4,Olive,Dilly Dilly,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-13,0,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Olive,vern,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Olive,vern,ao-black-diamond,workout Q,1,Q
+2025-09-23,2,Olive,vern,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-24,2,Olive,vern,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-27,2,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Olive,vern,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Olive,vern,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Olive,vern,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Olive,vern,ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Olive,vern,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Olive,vern,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Olive,SkidMark,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Olive,SkidMark,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-24,2,Olive,SkidMark,ao-the-silo,1stf,3,ao-the-silo
+2025-09-29,3,Olive,SkidMark,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Olive,SkidMark,ao-dmz,1stf,3,ao-dmz
+2025-10-01,3,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Olive,SkidMark,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Olive,SkidMark,ao-the-grove,1stf,3,ao-the-grove
+2025-10-14,5,Olive,SkidMark,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Unknown Team,Hackman,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Unknown Team,Hackman,ao-the-silo,1stf,3,ao-the-silo
+2025-09-25,2,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Unknown Team,Hackman,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-07,4,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Unknown Team,Hackman,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Unknown Team,Hackman,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-13,0,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Cupid,Mr. Belding,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Cupid,Mr. Belding,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-01,3,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Cupid,Mr. Belding,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Cupid,Mr. Belding,ao-the-silo,1stf,3,ao-the-silo
+2025-09-15,1,Blitzen,Broomstick,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Blitzen,Broomstick,ao-the-ridge,workout Q,1,Q
+2025-09-16,1,Blitzen,Broomstick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Blitzen,Broomstick,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-23,2,Blitzen,Broomstick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Blitzen,Broomstick,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-26,2,Blitzen,Broomstick,ao-the-grove,workout Q,1,Q
+2025-09-26,2,Blitzen,Broomstick,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Blitzen,Broomstick,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Blitzen,Broomstick,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-01,3,Blitzen,Broomstick,ao-ravens-nest,1stf,3,ao-ravens-nest
+2025-10-02,3,Blitzen,Broomstick,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-09,4,Blitzen,Broomstick,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-13,5,Blitzen,Broomstick,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Blitzen,Broomstick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-09-17,1,Prancer,Derailed,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-19,1,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-09-22,2,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-09-24,2,Prancer,Derailed,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-26,2,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-09-29,3,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-10-01,3,Prancer,Derailed,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-10-08,4,Prancer,Derailed,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Prancer,Derailed,ao-the-grove,1stf,3,ao-the-grove
+2025-09-15,1,Rudolph,Doozie,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Rudolph,Doozie,ao-black-rock,1stf,3,ao-black-rock
+2025-09-25,2,Rudolph,Doozie,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-30,3,Rudolph,Doozie,ao-black-rock,1stf,3,ao-black-rock
+2025-10-03,3,Rudolph,Doozie,ao-the-grove,1stf,3,ao-the-grove
+2025-10-07,4,Rudolph,Doozie,ao-black-rock,1stf,3,ao-black-rock
+2025-10-09,4,Rudolph,Doozie,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-14,5,Rudolph,Doozie,ao-black-rock,1stf,3,ao-black-rock
+2025-09-15,1,Unknown Team,Sizzler,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-16,1,Unknown Team,Sizzler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Unknown Team,Sizzler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Unknown Team,Sizzler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-30,3,Unknown Team,Sizzler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-07,4,Unknown Team,Sizzler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-09,4,Unknown Team,Sizzler,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-14,5,Unknown Team,Sizzler,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-15,1,Unknown Team,Kidney Beans,ao-the-grove,1stf,3,ao-the-grove
+2025-09-19,1,Unknown Team,Kidney Beans,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Unknown Team,Kidney Beans,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-24,2,Unknown Team,Kidney Beans,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-29,3,Unknown Team,Kidney Beans,ao-the-grove,1stf,3,ao-the-grove
+2025-10-01,3,Unknown Team,Kidney Beans,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-06,4,Unknown Team,Kidney Beans,ao-the-grove,1stf,3,ao-the-grove
+2025-10-08,4,Unknown Team,Kidney Beans,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-10,4,Unknown Team,Kidney Beans,ao-the-grove,1stf,3,ao-the-grove
+2025-10-11,4,Unknown Team,Kidney Beans,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Dasher,Woody,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Dasher,Woody,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-22,2,Dasher,Woody,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Dasher,Woody,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Dasher,Woody,ao-dmz,1stf,3,ao-dmz
+2025-10-02,3,Dasher,Woody,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-14,5,Dasher,Woody,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Unknown Team,Otto Man,ao-black-rock,1stf,3,ao-black-rock
+2025-09-19,1,Unknown Team,Otto Man,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Unknown Team,Otto Man,ao-black-rock,1stf,3,ao-black-rock
+2025-09-25,2,Unknown Team,Otto Man,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-30,3,Unknown Team,Otto Man,ao-black-rock,1stf,3,ao-black-rock
+2025-10-02,3,Unknown Team,Otto Man,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-03,3,Unknown Team,Otto Man,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-07,4,Unknown Team,Otto Man,ao-black-rock,1stf,3,ao-black-rock
+2025-10-09,4,Unknown Team,Otto Man,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-10,4,Unknown Team,Otto Man,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-14,5,Unknown Team,Otto Man,ao-black-rock,1stf,3,ao-black-rock
+2025-09-15,1,Comet,Corner Kick,ao-the-grove,workout Q,1,Q
+2025-09-15,1,Comet,Corner Kick,ao-the-grove,1stf,3,ao-the-grove
+2025-09-16,1,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Comet,Corner Kick,ao-the-silo,1stf,3,ao-the-silo
+2025-09-22,2,Comet,Corner Kick,ao-the-grove,1stf,3,ao-the-grove
+2025-09-23,2,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Comet,Corner Kick,ao-the-ridge,workout Q,1,Q
+2025-09-29,3,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Comet,Corner Kick,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-13,5,Comet,Corner Kick,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-14,5,Comet,Corner Kick,ao-black-diamond,1stf,4,ao-black-diamond
+2025-10-06,4,Unknown Team,Candy Man,ao-the-silo,1stf,3,ao-the-silo
+2025-10-08,4,Unknown Team,Candy Man,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Unknown Team,Candy Man,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-10-14,5,Unknown Team,Candy Man,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Donner,Mapquest,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-23,2,Donner,Mapquest,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-25,2,Donner,Mapquest,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-27,2,Donner,Mapquest,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Donner,Mapquest,ao-the-silo,1stf,3,ao-the-silo
+2025-10-08,4,Donner,Mapquest,ao-the-silo,1stf,3,ao-the-silo
+2025-10-14,5,Donner,Mapquest,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-18,1,Unknown Team,No Pants,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-24,2,Dancer,Peterbilt,ao-the-silo,1stf,3,ao-the-silo
+2025-10-09,4,Dancer,Peterbilt,ao-the-colosseum,1stf,3,ao-the-colosseum
+2025-09-17,1,Olive,Den Mother,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Olive,Den Mother,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Olive,Den Mother,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-09,4,Olive,Den Mother,ao-the-ridge,workout Q,1,Q
+2025-10-09,4,Olive,Den Mother,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-14,5,Olive,Den Mother,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Unknown Team,O'Douls,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Comet,Hydrant,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-29,3,Comet,Hydrant,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-02,3,Comet,Hydrant,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Donner,Trickle,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Donner,Trickle,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Donner,Trickle,ao-the-grove,1stf,3,ao-the-grove
+2025-09-15,1,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Olive,Morticia,ao-dmz,1stf,3,ao-dmz
+2025-09-18,1,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-19,1,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Olive,Morticia,ao-dmz,1stf,3,ao-dmz
+2025-09-29,3,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Olive,Morticia,ao-dmz,1stf,3,ao-dmz
+2025-10-09,4,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-10,4,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-14,5,Olive,Morticia,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-17,1,Unknown Team,Fish Tape,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-22,2,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-24,2,Unknown Team,Fish Tape,ao-the-silo,1stf,3,ao-the-silo
+2025-09-26,2,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Unknown Team,Fish Tape,ao-the-silo,1stf,3,ao-the-silo
+2025-10-06,4,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-07,4,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Unknown Team,Fish Tape,ao-the-silo,1stf,3,ao-the-silo
+2025-10-10,4,Unknown Team,Fish Tape,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-13,5,Unknown Team,Fish Tape,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Dasher,Boston Butt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Dasher,Boston Butt,ao-the-ridge,workout Q,1,Q
+2025-09-25,2,Dasher,Boston Butt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Dasher,Boston Butt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-09,4,Dasher,Boston Butt,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Unknown Team,Fargo (Naperville),ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-16,1,Unknown Team,Ginga,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-18,1,Unknown Team,Ginga,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Unknown Team,Ginga,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Unknown Team,Ginga,ao-the-ridge,workout Q,1,Q
+2025-10-03,3,Unknown Team,Ginga,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-14,5,Unknown Team,Ginga,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-25,2,Unknown Team,Speedbag (F3 Southsid3),ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-27,2,Unknown Team,Speedbag (F3 Southsid3),ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-06,4,Olive,Scat,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-08,4,Olive,Scat,ao-the-silo,1stf,3,ao-the-silo
+2025-09-26,2,Cupid,Tweety,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-01,3,Cupid,Tweety,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Vixen,Ink Jet,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-26,2,Vixen,Ink Jet,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-05,4,Unknown Team,Schrute,ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-23,2,Unknown Team,Senor Frog,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Unknown Team,Pink Panther,ao-the-ridge,1stf,3,ao-the-ridge
+2025-10-03,3,Unknown Team,Boolean (F3 Naperville),ao-the-ridge,1stf,3,ao-the-ridge
+2025-09-15,1,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-09-17,1,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-09-18,1,Dasher,Foghorn,ao-black-diamond,workout Q,1,Q
+2025-09-18,1,Dasher,Foghorn,ao-black-diamond,1stf,4,ao-black-diamond
+2025-09-22,2,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-09-24,2,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-09-29,3,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-10-01,3,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-10-08,4,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-10-10,4,Dasher,Foghorn,ao-the-grove,1stf,3,ao-the-grove
+2025-10-13,5,Dasher,Foghorn,ao-the-silo,1stf,3,ao-the-silo
+2025-09-13,0,Donner,Cowbell,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-19,1,Donner,Cowbell,ao-da-grizz,workout Q,1,Q
+2025-09-19,1,Donner,Cowbell,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Donner,Cowbell,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Donner,Cowbell,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Unknown Team,Slapshot,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-26,2,Unknown Team,Slapshot,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Unknown Team,Slapshot,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Unknown Team,Slapshot,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Unknown Team,Slapshot,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-13,5,Unknown Team,Slapshot,ao-the-silo,1stf,3,ao-the-silo
+2025-09-13,0,Unknown Team,Thesaurus,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Unknown Team,Thesaurus,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Unknown Team,Thesaurus,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-03,3,Unknown Team,Thesaurus,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-13,0,Vixen,Folgers,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-20,1,Vixen,Folgers,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Vixen,Folgers,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-04,3,Vixen,Folgers,ao-da-grizz,1stf,3,ao-da-grizz
+2025-10-11,4,Vixen,Folgers,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-27,2,Unknown Team,Spud,ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-26,2,Unknown Team,Pi 3.14 (F3 North Katy),ao-da-grizz,1stf,3,ao-da-grizz
+2025-09-16,1,Blitzen,Drive By,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-17,1,Blitzen,Drive By,3rd-f-qsource,qs,5,QS
+2025-09-25,2,Blitzen,Drive By,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-02,3,Blitzen,Drive By,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-07,4,Blitzen,Drive By,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-01,3,Olive,Bill Nye,ao-the-silo,1stf,3,ao-the-silo
+2025-10-06,4,Unknown Team,Grinch,ao-the-silo,1stf,3,ao-the-silo
+2025-09-24,2,Unknown Team,Nickelback,ao-the-silo,1stf,3,ao-the-silo
+2025-09-24,2,Unknown Team,Bronco,ao-the-silo,1stf,3,ao-the-silo
+2025-09-30,3,Unknown Team,Bronco,ao-dmz,1stf,3,ao-dmz
+2025-10-02,3,Unknown Team,Sloppy Joe,ao-el-coyote,1stf,3,ao-el-coyote
+2025-09-16,1,Unknown Team,Ferkus,ao-el-coyote,1stf,3,ao-el-coyote
+2025-10-14,5,Unknown Team,Wing Stop (F3 Naperville),ao-black-rock,1stf,3,ao-black-rock
+2025-10-14,5,Unknown Team,Unknown Name,ao-black-rock,1stf,3,ao-black-rock

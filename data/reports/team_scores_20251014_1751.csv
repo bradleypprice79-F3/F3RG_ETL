@@ -1,0 +1,338 @@
+date,week,Team,type,points,notes
+2025-09-13,0,Blitzen,FNG1,3,HGTV
+2025-09-13,0,Comet,Individuals points,6,"['Spit Valve', 'Quatro']"
+2025-09-13,0,Cupid,Individuals points,7,"['Juanita', 'Mr. Belding']"
+2025-09-13,0,Dancer,Individuals points,6,"['Schlitz', 'Singer']"
+2025-09-13,0,Dasher,Individuals points,10,"['Bob Villa', 'Dauber']"
+2025-09-13,0,Donner,Individuals points,9,"['Cutler', 'Cowbell']"
+2025-09-13,0,Olive,Individuals points,9,"['5-Putt', 'Dilly Dilly', 'vern']"
+2025-09-13,0,Rudolph,Individuals points,3,['Old Maid']
+2025-09-13,0,Vixen,Individuals points,9,"['fuzzy navel', 'Foreclosure', 'Folgers']"
+2025-09-13,0,Blitzen,FNG1,3,Large Marge
+2025-09-13,0,Blitzen,FNG1,3,Sailer Moon
+2025-09-13,0,Blitzen,Individuals points,19,"['YellowPages', 'Boomer', 'Large Marge', 'Sailer Moon', 'HGTV', 'Mahomes']"
+2025-09-13,0,Blitzen,Santa Locks,5,"ao-da-grizz; Large Marge, Sailer Moon, HGTV, YellowPages, Boomer"
+2025-09-14,1,Dancer,Individuals points,3,['Schlitz']
+2025-09-14,1,Donner,Individuals points,3,['Deja vu']
+2025-09-14,1,Prancer,Individuals points,3,['Caboose']
+2025-09-14,1,Vixen,Individuals points,3,['Webster']
+2025-09-14,1,Comet,Individuals points,6,"['Hanger', 'Sparky']"
+2025-09-15,1,Dasher,Individuals points,21,"['Dilbert', 'Zimmer', 'Dauber', 'Pee Wee Herman', 'Foghorn']"
+2025-09-15,1,Comet,FNG1,3,Hodl
+2025-09-15,1,Rudolph,FNG1,3,Doozie
+2025-09-15,1,Blitzen,Individuals points,19,"['YellowPages', 'Nemo', 'Depends (3rdF Q)', 'Mahomes', 'Broomstick']"
+2025-09-15,1,Comet,Individuals points,25,"['Sparky', 'Sparkler', 'Hodl', 'Blue Gill', 'Napster', 'Quatro', 'Just Dance', 'Corner Kick']"
+2025-09-15,1,Cupid,Individuals points,12,"['Pull-up', 'Hat Trick', 'John Denver', 'Mr. Belding']"
+2025-09-15,1,Donner,Individuals points,10,"['Foundation', 'Bedpan', 'Cutler']"
+2025-09-15,1,Olive,Individuals points,18,"['Mr. Kotter', 'Cinderella', '5-Putt', 'Dilly Dilly', 'vern', 'Morticia']"
+2025-09-15,1,Dancer,Individuals points,9,"['Meta', 'Algorithm', 'Singer']"
+2025-09-15,1,Rudolph,Individuals points,6,"['Old Maid', 'Doozie']"
+2025-09-15,1,Vixen,Individuals points,6,"['Foreclosure', 'Ink Jet']"
+2025-09-15,1,Prancer,Individuals points,13,"['Caboose', '1040EZ', 'TruGreen', 'Derailed']"
+2025-09-16,1,Donner,Individuals points,12,"['Foundation', 'Bedpan', 'Soft Hands', 'Cutler']"
+2025-09-16,1,Vixen,Individuals points,6,"['fuzzy navel', 'Foreclosure']"
+2025-09-16,1,Blitzen,Individuals points,29,"['YellowPages', 'Boomer', 'Celler Dweller', 'Nemo', 'Depends (3rdF Q)', 'Bunker', 'Xena- Warrior Princess', 'Broomstick', 'Drive By']"
+2025-09-16,1,Comet,Individuals points,15,"['Sparky', 'Sparkler', 'Hodl', 'Blue Gill', 'Corner Kick']"
+2025-09-16,1,Cupid,Individuals points,13,"['Juanita', 'Deliverance', 'Pull-up', 'Mr. Belding']"
+2025-09-16,1,Olive,Individuals points,9,"['5-Putt', 'vern', 'Morticia']"
+2025-09-16,1,Prancer,Individuals points,13,"['Chum Bucket', 'Moist', 'TruGreen']"
+2025-09-16,1,Rudolph,Individuals points,6,"['Old Maid', 'Doozie']"
+2025-09-16,1,Dancer,Individuals points,18,"['Dear Abby', 'Meta', 'Celine Dion', 'Algorithm', 'Singer', 'Ricochet']"
+2025-09-16,1,Dasher,Individuals points,6,"['Hatchet (Lizard Q)', 'Dauber']"
+2025-09-16,1,Dancer,Santa Locks,5,"ao-the-colosseum; Ricochet, Dear Abby, Meta, Singer, Algorithm"
+2025-09-17,1,Dancer,Individuals points,12,"['Dear Abby', 'Meta', 'Celine Dion', 'Singer']"
+2025-09-17,1,Blitzen,Individuals points,21,"['YellowPages', 'Boomer', 'Mahomes', 'Drive By']"
+2025-09-17,1,Comet,Individuals points,26,"['Sparky', 'Hot Lava', 'Sparkler', 'Spit Valve', 'Napster', 'Corner Kick', 'Hydrant']"
+2025-09-17,1,Cupid,Individuals points,12,"['Olive Oyl', 'Pull-up', 'Sensodyne', 'Mr. Belding']"
+2025-09-17,1,Dasher,Individuals points,21,"['Dilbert', 'Bob Villa', 'Manhole', 'Hatchet (Lizard Q)', 'Dauber', 'Foghorn']"
+2025-09-17,1,Donner,Individuals points,7,"['Bedpan', 'Cutler']"
+2025-09-17,1,Olive,Individuals points,12,"['Mr. Kotter', '5-Putt', 'vern', 'Den Mother']"
+2025-09-17,1,Prancer,Individuals points,12,"['Caboose', 'Moist', 'TruGreen', 'Derailed']"
+2025-09-17,1,Rudolph,Individuals points,3,['Old Maid']
+2025-09-17,1,Vixen,Individuals points,4,['Foreclosure']
+2025-09-18,1,Blitzen,challenge_flag,1,Blitzen - Depends (3rdF Q)
+2025-09-18,1,Blitzen,Individuals points,26,"['Hank Hill', 'Homer Simpson', 'Celler Dweller', 'Nemo', 'Depends (3rdF Q)', 'Xena- Warrior Princess', 'Broomstick']"
+2025-09-18,1,Comet,Individuals points,22,"['Hot Lava', 'Sparkler', 'Blue Gill', 'Spit Valve', 'Napster', 'Quatro', 'Just Dance']"
+2025-09-18,1,Dasher,Individuals points,27,"['Dilbert', 'Bob Villa', 'Manhole', 'Zimmer', 'Dauber', 'Woody', 'Boston Butt', 'Foghorn']"
+2025-09-18,1,Dancer,Individuals points,16,"['Dear Abby', 'Meta', 'Trifecta', 'Singer', 'Ricochet']"
+2025-09-18,1,Donner,Individuals points,21,"['Cutler', 'Great Clips', 'Peashooter', 'Mapquest', 'Trickle']"
+2025-09-18,1,Olive,Individuals points,11,"['Mr. Kotter', '5-Putt', 'vern', 'Morticia']"
+2025-09-18,1,Prancer,Individuals points,8,"['Chum Bucket', 'TruGreen']"
+2025-09-18,1,Rudolph,Individuals points,3,['Old Maid']
+2025-09-18,1,Vixen,Individuals points,11,"['Foreclosure', 'FINCH', 'Tee Ball']"
+2025-09-18,1,Cupid,Individuals points,7,"['Deliverance', 'Pull-up', 'Hat Trick']"
+2025-09-19,1,Olive,Individuals points,9,"['Dilly Dilly', 'SkidMark', 'Morticia']"
+2025-09-19,1,Donner,Individuals points,15,"['Bedpan', 'Cutler', 'Cowbell']"
+2025-09-19,1,Dasher,Individuals points,20,"['Dilbert', 'Bob Villa', 'Dauber', 'Pee Wee Herman', 'Woody']"
+2025-09-19,1,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-19,1,Prancer,Individuals points,11,"['Caboose', 'Moist', 'Derailed']"
+2025-09-19,1,Cupid,Individuals points,15,"['Juanita', 'Deliverance', 'Pull-up', 'Sensodyne', 'Mr. Belding']"
+2025-09-19,1,Comet,Individuals points,6,"['Spit Valve', 'Just Dance']"
+2025-09-19,1,Rudolph,Individuals points,3,['Old Maid']
+2025-09-19,1,Blitzen,Individuals points,15,"['Hank Hill', 'Homer Simpson', 'Boomer', 'Celler Dweller', 'Nemo']"
+2025-09-19,1,Dancer,Individuals points,16,"['Schlitz', 'Dear Abby', 'Meta', 'Singer', 'Ricochet']"
+2025-09-20,1,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-20,1,Blitzen,Santa Locks,5,"ao-da-grizz; YellowPages, Boomer, HGTV, Sailer Moon, Large Marge"
+2025-09-20,1,Vixen,Individuals points,3,['Folgers']
+2025-09-20,1,Prancer,Individuals points,0,['Caboose']
+2025-09-20,1,Donner,Individuals points,3,['Cowbell']
+2025-09-20,1,Dasher,Individuals points,13,"['Dilbert', 'Jellystone', 'Dauber']"
+2025-09-20,1,Dancer,Individuals points,13,"['Schlitz', 'Dear Abby', 'Singer']"
+2025-09-20,1,Cupid,Individuals points,10,"['Juanita', 'Deliverance']"
+2025-09-20,1,Blitzen,Individuals points,25,"['YellowPages', 'Hank Hill', 'Homer Simpson', 'Boomer', 'Nemo', 'Large Marge', 'Sailer Moon', 'HGTV']"
+2025-09-20,1,Olive,Individuals points,3,['Dilly Dilly']
+2025-09-20,1,Comet,Individuals points,3,['Spit Valve']
+2025-09-21,2,Blitzen,Individuals points,9,"['Hank Hill', 'Boomer', 'Celler Dweller']"
+2025-09-21,2,Comet,Individuals points,3,['Hanger']
+2025-09-21,2,Cupid,Individuals points,6,"['Olive Oyl', 'Deliverance']"
+2025-09-21,2,Dancer,Individuals points,9,"['Schlitz', 'Dear Abby', 'Dog House']"
+2025-09-21,2,Donner,Individuals points,6,"['Deja vu', 'Bedpan']"
+2025-09-21,2,Rudolph,Individuals points,9,"['Millville', 'Plunger', 'Old Maid']"
+2025-09-21,2,Prancer,Individuals points,6,"['Caboose', 'BABYMOMMA']"
+2025-09-21,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-21,2,Vixen,Individuals points,3,['FINCH']
+2025-09-22,2,Comet,FNG1,3,BoilerUp
+2025-09-22,2,Rudolph,Individuals points,3,['Old Maid']
+2025-09-22,2,Prancer,Individuals points,10,"['Happy Camper', 'Moist', 'Derailed']"
+2025-09-22,2,Olive,Individuals points,15,"['Cinderella', '5-Putt', 'vern', 'SkidMark', 'Morticia']"
+2025-09-22,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-22,2,Donner,Individuals points,6,"['Bedpan', 'Trickle']"
+2025-09-22,2,Dasher,Individuals points,19,"['Dilbert', 'Bob Villa', 'Dauber', 'Pee Wee Herman', 'Woody', 'Foghorn']"
+2025-09-22,2,Dancer,Individuals points,15,"['Schlitz', 'Dear Abby', 'Meta', 'Algorithm', 'Singer']"
+2025-09-22,2,Cupid,Individuals points,18,"['Juanita', 'Pull-up', 'Hat Trick', 'Sensodyne', 'John Denver', 'Mr. Belding']"
+2025-09-22,2,Comet,Individuals points,21,"['Sparkler', 'The Worm', 'Hodl', 'Napster', 'Just Dance', 'BoilerUp', 'Corner Kick']"
+2025-09-22,2,Blitzen,Individuals points,13,"['Hank Hill', 'Celler Dweller', 'Nemo', 'Bunker']"
+2025-09-23,2,Dancer,Individuals points,15,"['Dear Abby', 'Meta', 'Singer', 'Safety Meeting', 'Ricochet']"
+2025-09-23,2,Donner,Individuals points,10,"['Foundation', 'Bedpan', 'Mapquest']"
+2025-09-23,2,Olive,Individuals points,22,"['Mr. Kotter', '5-Putt', 'Dilly Dilly', 'vern', 'SkidMark', 'Morticia']"
+2025-09-23,2,Prancer,Individuals points,11,"['Spirit', 'Chum Bucket', 'Happy Camper']"
+2025-09-23,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-23,2,Vixen,Individuals points,4,['fuzzy navel']
+2025-09-23,2,Dancer,Santa Locks,5,"ao-the-colosseum; Dear Abby, Ricochet, Meta, Safety Meeting, Singer"
+2025-09-23,2,Dasher,Individuals points,7,"['Dilbert', 'Zimmer']"
+2025-09-23,2,Cupid,Individuals points,9,"['Deliverance', 'Hat Trick', 'Mr. Belding']"
+2025-09-23,2,Comet,Individuals points,19,"['Sparky', 'The Worm', 'Spit Valve', 'Corner Kick']"
+2025-09-23,2,Blitzen,Individuals points,45,"['YellowPages', 'Hank Hill', 'Boomer', 'Nemo', 'Depends (3rdF Q)', 'Mahomes', 'Xena- Warrior Princess', 'Broomstick']"
+2025-09-23,2,Dancer,FNG1,3,Safety Meeting
+2025-09-24,2,Dasher,Santa Locks,5,"ao-the-silo; Pee Wee Herman, Zimmer, Hatchet (Lizard Q), Foghorn, Woody, Dauber"
+2025-09-24,2,Rudolph,Individuals points,3,['Old Maid']
+2025-09-24,2,Prancer,Individuals points,15,"['Chum Bucket', 'Happy Camper', 'Moist', 'TruGreen', 'Derailed']"
+2025-09-24,2,Olive,Individuals points,18,"['Mr. Kotter', 'Cinderella', '5-Putt', 'Dilly Dilly', 'vern', 'SkidMark']"
+2025-09-24,2,Donner,Individuals points,10,"['Foundation', 'Bedpan', 'Peashooter']"
+2025-09-24,2,Dasher,Individuals points,28,"['Dilbert', 'Ringo', 'Bob Villa', 'Hatchet (Lizard Q)', 'Zimmer', 'Dauber', 'Pee Wee Herman', 'Woody', 'Foghorn']"
+2025-09-24,2,Dancer,Individuals points,21,"['Dear Abby', 'Meta', 'Trifecta', 'Celine Dion', 'Singer', 'Safety Meeting', 'Peterbilt']"
+2025-09-24,2,Cupid,Individuals points,12,"['Juanita', 'Pull-up', 'Hat Trick', 'Mr. Belding']"
+2025-09-24,2,Vixen,Individuals points,3,['Foreclosure']
+2025-09-24,2,Comet,Individuals points,19,"['Ozark', 'Sparkler', 'The Worm', 'Spit Valve', 'Napster', 'Just Dance']"
+2025-09-24,2,Dasher,FNG1,3,Ringo
+2025-09-24,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-24,2,Blitzen,Individuals points,19,"['YellowPages', 'Hank Hill', 'Homer Simpson', 'Boomer', 'Depends (3rdF Q)', 'Mahomes']"
+2025-09-25,2,Vixen,Individuals points,4,['Foreclosure']
+2025-09-25,2,Rudolph,Individuals points,7,"['Old Maid', 'Doozie']"
+2025-09-25,2,Prancer,Individuals points,12,"['Chum Bucket', 'TruGreen']"
+2025-09-25,2,Olive,Individuals points,16,"['Mr. Kotter', '5-Putt', 'Dilly Dilly', 'vern', 'Den Mother']"
+2025-09-25,2,Donner,Individuals points,17,"['Deja vu', 'Bedpan', 'Cutler', 'Mapquest']"
+2025-09-25,2,Dasher,Individuals points,16,"['Ringo', 'Bob Villa', 'Manhole', 'Dauber', 'Boston Butt']"
+2025-09-25,2,Dancer,Individuals points,13,"['Dear Abby', 'Meta', 'Algorithm', 'Singer']"
+2025-09-25,2,Cupid,Individuals points,3,['Pull-up']
+2025-09-25,2,Blitzen,Individuals points,33,"['Hank Hill', 'Celler Dweller', 'Nemo', 'Depends (3rdF Q)', 'Xena- Warrior Princess', 'Broomstick', 'Drive By']"
+2025-09-25,2,Comet,Individuals points,29,"['Hanger', 'Sparky', 'Hot Lava', 'Sparkler', 'The Worm', 'Hodl', 'Napster', 'Quatro', 'Corner Kick']"
+2025-09-25,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-26,2,Blitzen,Individuals points,37,"['YellowPages', 'Hank Hill', 'Boomer', 'Nemo', 'Mahomes', 'Bunker', 'Broomstick']"
+2025-09-26,2,Rudolph,Individuals points,15,"['Old Maid', 'Spike Horn', 'Bunny Hill', 'Rooney', 'Bueller']"
+2025-09-26,2,Prancer,Individuals points,9,"['Chum Bucket', 'Happy Camper', 'Derailed']"
+2025-09-26,2,Olive,Individuals points,9,"['Cinderella', '5-Putt', 'Dilly Dilly']"
+2025-09-26,2,Donner,Individuals points,15,"['Foundation', 'Bedpan', 'Soft Hands', 'Cutler', 'Great Clips']"
+2025-09-26,2,Dasher,Individuals points,17,"['Dilbert', 'Bob Villa', 'Zimmer', 'Dauber']"
+2025-09-26,2,Dancer,Individuals points,24,"['Schlitz', 'Dear Abby', 'Meta', 'Trifecta', 'Celine Dion', 'Singer']"
+2025-09-26,2,Cupid,Individuals points,12,"['Pull-up', 'Hat Trick', 'John Denver', 'Tweety']"
+2025-09-26,2,Comet,Individuals points,21,"['Hanger', 'Sparkler', 'The Worm', 'Spit Valve', 'Just Dance']"
+2025-09-26,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-26,2,Vixen,Individuals points,11,"['fuzzy navel', 'Foreclosure', 'Ink Jet']"
+2025-09-27,2,Vixen,Individuals points,3,['Folgers']
+2025-09-27,2,Rudolph,Individuals points,3,['Old Maid']
+2025-09-27,2,Olive,Individuals points,10,"['5-Putt', 'vern']"
+2025-09-27,2,Donner,Individuals points,6,"['Mapquest', 'Cowbell']"
+2025-09-27,2,Dancer,Individuals points,12,['Dear Abby']
+2025-09-27,2,Dasher,Individuals points,6,"['UPS', 'Dauber']"
+2025-09-27,2,Comet,Individuals points,10,"['Ozark', 'Spit Valve', 'Quatro']"
+2025-09-27,2,Blitzen,Individuals points,24,"['YellowPages', 'Homer Simpson', 'Boomer', 'Celler Dweller', 'Large Marge', 'Sailer Moon', 'HGTV', 'Mahomes']"
+2025-09-27,2,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-27,2,Comet,FNG5,5,Hodl
+2025-09-27,2,Cupid,Individuals points,3,['Juanita']
+2025-09-27,2,Blitzen,Santa Locks,5,"ao-da-grizz; YellowPages, Sailer Moon, Large Marge, Boomer, HGTV, Homer Simpson"
+2025-09-28,3,Dancer,Individuals points,3,['Schlitz']
+2025-09-28,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-28,3,Donner,Individuals points,3,['Deja vu']
+2025-09-29,3,Blitzen,Individuals points,12,"['Hank Hill', 'Nemo', 'Mahomes', 'Broomstick']"
+2025-09-29,3,Olive,Santa Locks,5,"ao-the-colosseum; 5-Putt, vern, SkidMark, Cinderella, Mr. Kotter"
+2025-09-29,3,Comet,Santa Locks,5,"ao-the-ridge; Quatro, Blue Gill, Hydrant, Hodl, Corner Kick"
+2025-09-29,3,Vixen,Individuals points,6,"['Binford', 'Foreclosure']"
+2025-09-29,3,Prancer,Individuals points,15,"['Chum Bucket', '1040EZ', 'Happy Camper', 'Moist', 'Derailed']"
+2025-09-29,3,Olive,Individuals points,18,"['Mr. Kotter', 'Cinderella', '5-Putt', 'vern', 'SkidMark', 'Morticia']"
+2025-09-29,3,Donner,Individuals points,7,"['Foundation', 'Cutler']"
+2025-09-29,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-09-29,3,Dancer,Individuals points,13,"['Meta', 'Algorithm', 'Singer', 'Safety Meeting']"
+2025-09-29,3,Cupid,Individuals points,12,"['Olive Oyl', 'Hat Trick', 'John Denver', 'Mr. Belding']"
+2025-09-29,3,Comet,Individuals points,25,"['Sparkler', 'Hodl', 'Blue Gill', 'Spit Valve', 'Quatro', 'Just Dance', 'Corner Kick', 'Hydrant']"
+2025-09-29,3,Dasher,Individuals points,15,"['Dilbert', 'Bob Villa', 'Dauber', 'Pee Wee Herman', 'Foghorn']"
+2025-09-30,3,Blitzen,Individuals points,29,"['YellowPages', 'Hank Hill', 'Boomer', 'Nemo', 'Depends (3rdF Q)', 'Xena- Warrior Princess', 'Broomstick']"
+2025-09-30,3,Comet,Individuals points,12,"['Sparky', 'Sparkler', 'Just Dance']"
+2025-09-30,3,Vixen,Individuals points,4,['Foreclosure']
+2025-09-30,3,Cupid,Individuals points,3,['Deliverance']
+2025-09-30,3,Dancer,Individuals points,12,"['Meta', 'Algorithm', 'Singer', 'Ricochet']"
+2025-09-30,3,Dasher,Individuals points,18,"['Dilbert', 'Manhole', 'Zimmer', 'Woody']"
+2025-09-30,3,Donner,Individuals points,6,"['Bedpan', 'Soft Hands']"
+2025-09-30,3,Olive,Individuals points,13,"['Mr. Kotter', '5-Putt', 'vern', 'SkidMark']"
+2025-09-30,3,Prancer,Individuals points,3,['Chum Bucket']
+2025-09-30,3,Rudolph,Individuals points,3,['Doozie']
+2025-09-30,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-01,3,Blitzen,Individuals points,15,"['YellowPages', 'Hank Hill', 'Boomer', 'Depends (3rdF Q)', 'Broomstick']"
+2025-10-01,3,Cupid,Individuals points,15,"['Juanita', 'Hat Trick', 'Mr. Belding', 'Tweety']"
+2025-10-01,3,Dancer,Individuals points,13,"['Dear Abby', 'Meta', 'Celine Dion', 'Singer']"
+2025-10-01,3,Dasher,Individuals points,21,"['Dilbert', 'Zimmer', 'Dauber', 'Pee Wee Herman', 'Boston Butt', 'Foghorn']"
+2025-10-01,3,Donner,Individuals points,18,"['Foundation', 'Bedpan', 'Cutler', 'Peashooter', 'Mapquest']"
+2025-10-01,3,Olive,Individuals points,25,"['Mr. Kotter', 'Cinderella', '5-Putt', 'Dilly Dilly', 'vern', 'SkidMark', 'Den Mother', 'Bill Nye']"
+2025-10-01,3,Prancer,Individuals points,6,"['Moist', 'Derailed']"
+2025-10-01,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-01,3,Cupid,Santa Locks,5,"ao-the-ridge; Mr. Belding, Mr. Belding, Juanita, Hat Trick, Tweety"
+2025-10-01,3,Dasher,Santa Locks,5,"ao-the-ridge; Dauber, Dilbert, Zimmer, Boston Butt, Dauber"
+2025-10-01,3,Olive,Santa Locks,5,"ao-the-ridge; vern, SkidMark, Den Mother, Mr. Kotter, Cinderella, 5-Putt, Dilly Dilly"
+2025-10-01,3,Comet,Individuals points,16,"['Hodl', 'Blue Gill', 'Spit Valve', 'BoilerUp', 'Corner Kick']"
+2025-10-02,3,Vixen,Individuals points,4,['Foreclosure']
+2025-10-02,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-02,3,Rudolph,Individuals points,3,['Spike Horn']
+2025-10-02,3,Prancer,Individuals points,12,"['Chum Bucket', 'TruGreen']"
+2025-10-02,3,Donner,Individuals points,7,"['Soft Hands', 'Cutler']"
+2025-10-02,3,Dancer,Individuals points,23,"['Dear Abby', 'Meta', 'Algorithm', 'Singer', 'Safety Meeting']"
+2025-10-02,3,Cupid,Individuals points,6,"['Deliverance', 'Hat Trick']"
+2025-10-02,3,Comet,Individuals points,16,"['Sparky', 'Hot Lava', 'Sparkler', 'Hodl', 'Hydrant']"
+2025-10-02,3,Blitzen,Individuals points,21,"['Hank Hill', 'Celler Dweller', 'Depends (3rdF Q)', 'Xena- Warrior Princess', 'Broomstick', 'Drive By']"
+2025-10-02,3,Olive,Individuals points,10,"['5-Putt', 'Dilly Dilly', 'SkidMark']"
+2025-10-02,3,Dasher,Individuals points,19,"['Bob Villa', 'Manhole', 'Dauber', 'Woody']"
+2025-10-03,3,Blitzen,Individuals points,34,"['YellowPages', 'Hank Hill', 'Homer Simpson', 'Boomer', 'Nemo', 'Depends (3rdF Q)', 'Mahomes']"
+2025-10-03,3,Comet,Individuals points,21,"['Hot Boxx', 'Hot Lava', 'Sparkler', 'Hodl', 'Spit Valve', 'Just Dance', 'Corner Kick']"
+2025-10-03,3,Dasher,Individuals points,27,"['Dilbert', 'Ringo', 'Bob Villa', 'UPS', 'Hatchet (Lizard Q)', 'Zimmer', 'Dauber', 'Pee Wee Herman']"
+2025-10-03,3,Donner,Individuals points,9,"['Foundation', 'Cutler']"
+2025-10-03,3,Olive,Individuals points,3,['Dilly Dilly']
+2025-10-03,3,Prancer,Individuals points,12,"['Caboose', 'Jordache', 'Moist', 'TruGreen']"
+2025-10-03,3,Rudolph,Individuals points,12,"['Millville', 'Old Maid', 'Spike Horn', 'Doozie']"
+2025-10-03,3,Vixen,Individuals points,12,"['Binford', 'Foreclosure', 'Picasso', 'GrubX (CMW)']"
+2025-10-03,3,Dancer,Individuals points,25,"['Schlitz', 'Dear Abby', 'Meta', 'Singer', 'Safety Meeting']"
+2025-10-03,3,Rudolph,FNG5,5,Doozie
+2025-10-03,3,Prancer,FNG1,3,Jordache
+2025-10-03,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-03,3,Dancer,FNG5,5,Safety Meeting
+2025-10-04,3,Blitzen,Individuals points,36,"['YellowPages', 'Hank Hill', 'Homer Simpson', 'Boomer', 'Depends (3rdF Q)', 'Large Marge', 'Sailer Moon', 'HGTV']"
+2025-10-04,3,Comet,Individuals points,3,['Hot Boxx']
+2025-10-04,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-04,3,Cupid,Individuals points,3,['Juanita']
+2025-10-04,3,Dancer,Individuals points,10,"['Schlitz', 'Singer']"
+2025-10-04,3,Dasher,Individuals points,6,['UPS']
+2025-10-04,3,Blitzen,Santa Locks,5,"ao-da-grizz; YellowPages, Depends (3rdF Q), Boomer, Large Marge, HGTV"
+2025-10-04,3,Olive,Individuals points,3,['Dilly Dilly']
+2025-10-04,3,Prancer,Individuals points,11,['Chum Bucket']
+2025-10-04,3,Vixen,Individuals points,6,"['fuzzy navel', 'Folgers']"
+2025-10-04,3,Comet,FNG1,3,Hot Boxx
+2025-10-04,3,Blitzen,FNGQ,7,Mr Burns
+2025-10-04,3,Blitzen,FNG1,3,Mr Burns
+2025-10-05,4,Blitzen,Individuals points,30,"['YellowPages', 'Hank Hill', 'Homer Simpson', 'Boomer', 'Mahomes']"
+2025-10-05,4,Dasher,Individuals points,3,['Manhole']
+2025-10-05,4,Donner,Individuals points,3,['Cutler']
+2025-10-05,4,Prancer,Individuals points,3,['Caboose']
+2025-10-05,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-05,4,Vixen,Individuals points,16,"['Binford', 'Foreclosure']"
+2025-10-05,4,Comet,Individuals points,10,"['Hanger', 'Sparky', 'Quatro']"
+2025-10-05,4,Rudolph,Individuals points,3,['Old Maid']
+2025-10-05,4,Dancer,Individuals points,22,"['Schlitz', 'Freon', 'Flanders', 'Meta']"
+2025-10-06,4,Blitzen,Individuals points,17,"['YellowPages', 'Hank Hill', 'Homer Simpson', 'Boomer', 'Celler Dweller', 'Nemo', 'Depends (3rdF Q)', 'Mahomes']"
+2025-10-06,4,Comet,Individuals points,23,"['Ozark', 'Sparky', 'Sparkler', 'The Worm', 'Hodl', 'Napster', 'Quatro', 'Just Dance']"
+2025-10-06,4,Cupid,Individuals points,12,"['Juanita', 'Hat Trick', 'Sensodyne', 'Mr. Belding']"
+2025-10-06,4,Dancer,Individuals points,10,"['Freon', 'Flanders', 'Meta', 'Algorithm', 'Singer']"
+2025-10-06,4,Dasher,Individuals points,21,"['Dilbert', 'Ringo', 'Bob Villa', 'Manhole', 'Zimmer', 'Dauber', 'Pee Wee Herman']"
+2025-10-06,4,Donner,Individuals points,7,"['Foundation', 'Cutler']"
+2025-10-06,4,Olive,Individuals points,15,"['Cinderella', '5-Putt', 'SkidMark', 'Morticia', 'Scat']"
+2025-10-06,4,Prancer,Individuals points,3,"['Caboose', 'Derailed']"
+2025-10-06,4,Rudolph,Individuals points,4,['Old Maid']
+2025-10-06,4,Vixen,Individuals points,8,"['fuzzy navel', 'Binford', 'Foreclosure']"
+2025-10-06,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-06,4,Dasher,FNGQ,7,Ringo
+2025-10-07,4,Vixen,Individuals points,4,['Foreclosure']
+2025-10-07,4,Dasher,Individuals points,15,"['Manhole', 'Hatchet (Lizard Q)', 'Zimmer']"
+2025-10-07,4,Dancer,Individuals points,17,"['Meta', 'Singer', 'Ricochet']"
+2025-10-07,4,Cupid,Individuals points,9,"['Deliverance', 'Hat Trick']"
+2025-10-07,4,Comet,Individuals points,21,"['Sparky', 'Sparkler', 'Spit Valve', 'Quatro', 'Corner Kick']"
+2025-10-07,4,Blitzen,Individuals points,22,"['YellowPages', 'Hank Hill', 'Depends (3rdF Q)', 'Mahomes', 'Drive By']"
+2025-10-07,4,Prancer,Individuals points,7,"['Chum Bucket', 'Happy Camper']"
+2025-10-07,4,Rudolph,Individuals points,3,['Doozie']
+2025-10-07,4,Olive,Individuals points,13,"['5-Putt', 'Dilly Dilly', 'SkidMark', 'Morticia']"
+2025-10-07,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-07,4,Donner,Individuals points,14,"['Foundation', 'Bedpan', 'Soft Hands', 'Cutler']"
+2025-10-08,4,Blitzen,Individuals points,12,"['YellowPages', 'Hank Hill', 'Boomer', 'Nemo']"
+2025-10-08,4,Cupid,Individuals points,9,"['Juanita', 'Sensodyne', 'Mr. Belding']"
+2025-10-08,4,Dancer,Individuals points,9,"['Meta', 'Celine Dion', 'Singer']"
+2025-10-08,4,Dasher,Individuals points,25,"['Dilbert', 'Ringo', 'Bob Villa', 'Jellystone', 'Zimmer', 'Dauber', 'Pee Wee Herman', 'Foghorn']"
+2025-10-08,4,Donner,Individuals points,15,"['Foundation', 'Bedpan', 'Cutler', 'Peashooter', 'Mapquest']"
+2025-10-08,4,Olive,Individuals points,22,"['Mr. Kotter', 'Cinderella', '5-Putt', 'Dilly Dilly', 'vern', 'SkidMark', 'Scat']"
+2025-10-08,4,Prancer,Individuals points,6,"['Chum Bucket', 'Derailed']"
+2025-10-08,4,Rudolph,Individuals points,3,['Old Maid']
+2025-10-08,4,Comet,Individuals points,26,"['Hanger', 'The Worm', 'Hodl', 'Spit Valve', 'Napster', 'Just Dance', 'BoilerUp', 'Corner Kick']"
+2025-10-08,4,Dasher,FNGQ,7,Ringo
+2025-10-08,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-09,4,Comet,Individuals points,22,"['Hanger', 'Sparky', 'Hot Lava', 'Sparkler', 'Hodl', 'Blue Gill', 'Napster']"
+2025-10-09,4,Blitzen,Individuals points,33,"['Hank Hill', 'Boomer', 'Nemo', 'Depends (3rdF Q)', 'Mahomes', 'Xena- Warrior Princess', 'Broomstick']"
+2025-10-09,4,Donner,Individuals points,3,['Bedpan']
+2025-10-09,4,Olive,Individuals points,16,"['5-Putt', 'vern', 'SkidMark', 'Den Mother', 'Morticia']"
+2025-10-09,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-09,4,Dasher,Individuals points,18,"['Dilbert', 'Ringo', 'Manhole', 'Zimmer', 'Dauber', 'Boston Butt']"
+2025-10-09,4,Rudolph,Individuals points,7,"['Old Maid', 'Doozie']"
+2025-10-09,4,Olive,Santa Locks,5,"ao-the-ridge; 5-Putt, Den Mother, vern, SkidMark, Morticia"
+2025-10-09,4,Vixen,Individuals points,4,['Foreclosure']
+2025-10-09,4,Dasher,FNG5,5,Ringo
+2025-10-09,4,Dancer,Individuals points,22,"['Meta', 'Trifecta', 'Algorithm', 'Singer', 'Peterbilt']"
+2025-10-09,4,Prancer,Individuals points,5,['TruGreen']
+2025-10-10,4,Blitzen,Individuals points,13,"['YellowPages', 'Hank Hill', 'Boomer', 'Nemo']"
+2025-10-10,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-10,4,Dancer,Individuals points,14,"['Meta', 'Algorithm', 'Singer', 'Ricochet']"
+2025-10-10,4,Dasher,Individuals points,13,"['Dilbert', 'Hatchet (Lizard Q)', 'Dauber', 'Foghorn']"
+2025-10-10,4,Donner,Individuals points,9,"['Foundation', 'Bedpan', 'Soft Hands']"
+2025-10-10,4,Olive,Individuals points,15,"['Mr. Kotter', '5-Putt', 'Dilly Dilly', 'vern', 'Morticia']"
+2025-10-10,4,Prancer,Individuals points,10,"['Chum Bucket', 'Happy Camper', 'Jordache']"
+2025-10-10,4,Comet,Individuals points,12,"['Sparkler', 'Hodl', 'Blue Gill', 'Spit Valve']"
+2025-10-10,4,Cupid,Individuals points,6,"['Hat Trick', 'Sensodyne']"
+2025-10-11,4,Dasher,Individuals points,16,"['Bob Villa', 'Dauber', 'Pee Wee Herman']"
+2025-10-11,4,Vixen,Individuals points,6,"['fuzzy navel', 'Folgers']"
+2025-10-11,4,Rudolph,Individuals points,3,['Old Maid']
+2025-10-11,4,Olive,Individuals points,9,"['Mr. Kotter', 'Dilly Dilly']"
+2025-10-11,4,Dancer,Individuals points,3,['Schlitz']
+2025-10-11,4,Cupid,Individuals points,3,['Juanita']
+2025-10-11,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-11,4,Blitzen,Individuals points,21,"['YellowPages', 'Boomer', 'Celler Dweller', 'Large Marge', 'Sailer Moon', 'Mahomes', 'Xena- Warrior Princess']"
+2025-10-11,4,Blitzen,FNG5,5,Large Marge
+2025-10-11,4,Comet,Individuals points,12,"['Sparky', 'Hodl', 'Quatro']"
+2025-10-12,5,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-12,5,Blitzen,Individuals points,6,"['Hank Hill', 'Boomer']"
+2025-10-12,5,Dancer,Individuals points,3,['Schlitz']
+2025-10-12,5,Donner,Individuals points,3,['Deja vu']
+2025-10-13,5,Donner,Individuals points,10,"['Foundation', 'Bedpan', 'Trickle']"
+2025-10-13,5,Vixen,Individuals points,3,['Foreclosure']
+2025-10-13,5,Prancer,Individuals points,12,"['Chum Bucket', 'Happy Camper', 'Moist', 'Derailed']"
+2025-10-13,5,Olive,Individuals points,15,"['Mr. Kotter', 'Cinderella', '5-Putt', 'vern', 'SkidMark']"
+2025-10-13,5,Dasher,Individuals points,22,"['Dilbert', 'Jellystone', 'Hatchet (Lizard Q)', 'Zimmer', 'Dauber', 'Foghorn']"
+2025-10-13,5,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-13,5,Cupid,Individuals points,9,"['Pull-up', 'Hat Trick', 'John Denver']"
+2025-10-13,5,Comet,Individuals points,14,"['Hodl', 'Spit Valve', 'Napster', 'Corner Kick']"
+2025-10-13,5,Blitzen,Individuals points,24,"['YellowPages', 'Hank Hill', 'Nemo', 'Depends (3rdF Q)', 'Bunker', 'Broomstick']"
+2025-10-13,5,Dancer,Individuals points,9,"['Schlitz', 'Meta', 'Singer']"
+2025-10-14,5,Rudolph,Individuals points,3,['Doozie']
+2025-10-14,5,Prancer,Individuals points,3,['Chum Bucket']
+2025-10-14,5,Olive,Individuals points,16,"['5-Putt', 'vern', 'SkidMark', 'Den Mother', 'Morticia']"
+2025-10-14,5,Donner,Individuals points,10,"['Foundation', 'Bedpan', 'Mapquest']"
+2025-10-14,5,Dasher,Individuals points,12,"['Bob Villa', 'Jellystone', 'Dauber', 'Woody']"
+2025-10-14,5,Cupid,Individuals points,6,"['Pull-up', 'Hat Trick']"
+2025-10-14,5,Comet,Individuals points,10,"['Hanger', 'Blue Gill', 'Corner Kick']"
+2025-10-14,5,Blitzen,Individuals points,19,"['YellowPages', 'Hank Hill', 'Depends (3rdF Q)', 'Bunker', 'Xena- Warrior Princess', 'Broomstick']"
+2025-10-14,5,Olive,Santa Locks,5,"ao-the-ridge; Den Mother, 5-Putt, vern, SkidMark, Morticia"
+2025-10-14,5,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
+2025-10-14,5,Dancer,Individuals points,11,"['Meta', 'Singer', 'Ricochet']"
+2025-10-14,5,Vixen,Individuals points,3,['Foreclosure']
