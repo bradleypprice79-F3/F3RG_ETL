@@ -123,15 +123,15 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                 ATW_list_weekly = []
                 six_pack = 0
                 
-            if row['type'] == "1stf" and row['ao'] != "downrange":
+            if row['type'] == "1stf":
                 # he posted at a workout!  lets process this row!
-                # add this ao to his AO list
+                # add this ao to his AO list --row['ao'] != "downrange"
                 ATW_list_weekly.append(row['ao'])
                 six_pack+=1
 
                 # create the row
-                points_to_award = row['points']
-                notes = row['ao'] #make the note the name of the ao that he went to
+                points_to_award = 4 if row['ao'] == "downrange" and "BLACK DIAMOND" in row["backblast"].upper() else row['points']
+                notes = row["ao"] + " - " + row["backblast"] #make the note the name of the ao that he went to
 
                 # check to see if he qualified for Around the world, append another row if he did.
                 if len(set(ATW_list_weekly))==5 and ATW_Bonus==0:
