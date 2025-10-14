@@ -9,7 +9,7 @@ on:
     branches: 
       - main        # run when code is pushed to main
   schedule:
-    - cron: '0 6 * * *'  # run every day at 6:00 UTC (adjust as needed)
+    - cron: '0 11-23 * * *'  # runs 6am–6pm Central
 
 jobs:
   etl:
