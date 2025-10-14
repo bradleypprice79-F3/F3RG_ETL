@@ -410,13 +410,22 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
 
     # calculate FNG (1st5/posts/VQ - PAX)  ****************************************************************************************************
     df_FNGs = (
-    df_enriched[(df_enriched["FNGflag"]==1) &(df_enriched["type"]=="1stf")]
+    df_enriched[(df_enriched["FNGflag"]>=1) & (df_enriched["type"]=="1stf")]
+    .sort_values("date", ascending=True)
+    .copy()
+    )
+
+    # 2 means he's a kotter that has already Q'd, I dont want them in this VQ list!
+    df_FNG_Qs = (
+    df_enriched[(df_enriched["FNGflag"]==1) & (df_enriched["type"]=="1stf") & (df_enriched["user_id"]==df_enriched["q_user_id"])]
     .sort_values("date", ascending=True)
     .copy()
     )
 
     # Track the nth appearance of each user_name
     df_FNGs["appearance_num"] = df_FNGs.groupby("user_name").cumcount() + 1
+    # Track the nth appearance of each user_name
+    df_FNG_Qs["appearance_num"] = df_FNG_Qs.groupby("user_name").cumcount() + 1
 
     # initialize list of lists for output
     FNG_points_lists =[]
@@ -434,7 +443,7 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
             })
 
         # Check for 5th appearance
-        if row["appearance_num"] == 5:
+        elif row["appearance_num"] == 5:
             FNG_points_lists.append({
                 "date": row["date"],
                 "week": row["week"],
@@ -443,17 +452,22 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
                 "points": 5,
                 "notes": row["user_name"]
             })
+        
+        else:
+            pass
 
-        # Check for q_user_id match
-        if row["user_id"] == row["q_user_id"]:
+    for _, row in df_FNG_Qs.iterrows():
+        # Check for 1st appearance
+        if row["appearance_num"] == 1:
             FNG_points_lists.append({
                 "date": row["date"],
                 "week": row["week"],
                 "Team": row["Team"],
-                "type": "FNGQ",
+                "type": "FNG_VQ",
                 "points": 7,
                 "notes": row["user_name"]
             })
+
 
     # Convert to DataFrame and combine
     FNG_points_df = pd.DataFrame(FNG_points_lists)

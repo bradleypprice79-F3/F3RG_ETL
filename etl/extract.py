@@ -164,10 +164,11 @@ def get_raw_dimension_data(DB_CONFIG, start_date, end_date):
                 WHEN a.ao = '3rd-f-qsource'   THEN 5
                 WHEN a.ao = '3rd-f'           THEN 5
                 WHEN a.ao = 'rg_ec3'          THEN 3
+                WHEN a.ao = 'rg_hardshit'     THEN 10
                 WHEN a.ao = 'rg_ec2'          THEN 2
                 WHEN a.ao = 'rg_ec1'          THEN 1
                 WHEN a.ao = 'rg_challenge_flag' THEN 1
-                WHEN a.ao = 'rg_csaup'          THEN 40
+                WHEN a.ao = 'rg_csaup'          THEN 80
                 WHEN a.ao = '2nd-f-coffeteria'  THEN 0                
                 ELSE 3
             END AS points,
@@ -179,6 +180,7 @@ def get_raw_dimension_data(DB_CONFIG, start_date, end_date):
                 WHEN a.ao LIKE '%%qsource' THEN 'qs'
                 WHEN a.ao LIKE '3rd-f%%'   THEN '3rdf'
                 WHEN a.ao LIKE 'rg_ec%%'   THEN 'ec'
+                WHEN a.ao LIKE 'rg_hard%%'   THEN 'hardsh!t'
                 WHEN a.ao LIKE '%%challenge_flag'  THEN 'challenge_flag'
                 WHEN a.ao LIKE 'rg_csaup%%'   THEN 'csaup'
                 ELSE 'none'
