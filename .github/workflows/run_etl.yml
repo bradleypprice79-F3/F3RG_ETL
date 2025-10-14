@@ -51,7 +51,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Stage all changes: new, modified, and deleted
-          git add -A data/reports/
+          git add -A data/
           
           # Commit if there are changes
           git commit -m "Update ETL reports [skip ci]" || echo "No changes to commit"
