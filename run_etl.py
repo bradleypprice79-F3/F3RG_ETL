@@ -15,7 +15,7 @@ def main():
     # Make a timestamp string (e.g. 20250910_1130)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     #define the start and end dates
-    start_date, end_date = '2024-11-02', '2024-12-14'
+    start_date, end_date = '2025-09-13', '2025-10-25'
 
     # 0. Get data from MySQL and save raw data.
     post_raw = extract.get_raw_posts(cfg.DB_CONFIG, start_date, end_date)
