@@ -2,6 +2,7 @@
 from etl import extract, transform , load ###, report
 import config.config as cfg
 from datetime import datetime
+from zoneinfo import ZoneInfo
 import os
 import shutil
 
@@ -14,6 +15,9 @@ def main():
 
     # Make a timestamp string (e.g. 20250910_1130)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    timestamp_clean = datetime.now().strftime("%Y-%m-%d %H:%M")
+    # Use America/Chicago for Central Time (handles CST/CDT automatically)
+    timestamp = datetime.now(ZoneInfo("America/Chicago")).strftime("%Y%m%d_%H%M")
     #define the start and end dates
     start_date, end_date = '2025-09-13', '2025-10-25'
 
@@ -76,11 +80,12 @@ def main():
 
     # Also write a small manifest file so HTML knows the "latest"
     with open(f"{cfg.REPORTS}latest_files.js", "w") as f:
-        f.write(f'const latestFiles = {{\n')
+        f.write('const latestFiles = {\n')
         f.write(f'  individual: "individual_scores_{timestamp}.csv",\n')
         f.write(f'  team: "team_scores_{timestamp}.csv",\n')
-        f.write(f'  lone_pax: "lone_pax_report_{timestamp}.csv"\n')
-        f.write(f'}};\n')
+        f.write(f'  lone_pax: "lone_pax_report_{timestamp}.csv",\n')  # <-- comma here
+        f.write(f'  current_timestamp: "{timestamp_clean}"\n')
+        f.write('};\n')
 
 if __name__ == "__main__":
     main()
