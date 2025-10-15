@@ -14,10 +14,10 @@ def main():
 
 
     # Make a timestamp string (e.g. 20250910_1130)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-    timestamp_clean = datetime.now().strftime("%Y-%m-%d %H:%M")
     # Use America/Chicago for Central Time (handles CST/CDT automatically)
     timestamp = datetime.now(ZoneInfo("America/Chicago")).strftime("%Y%m%d_%H%M")
+    timestamp_clean = datetime.now(ZoneInfo("America/Chicago")).strftime("%Y-%m-%d %H:%M")
+
     #define the start and end dates
     start_date, end_date = '2025-09-13', '2025-10-25'
 
