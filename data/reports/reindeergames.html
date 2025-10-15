@@ -13,22 +13,7 @@
   <!-- get the names of the latest csv files to load -->
   <script src="latest_files.js"></script>
 
-  <script>
-    // Create an element to display the time of the last update
-    const tsDiv = document.createElement("div");
-    tsDiv.textContent = `Last updated: ${latestFiles.current_timestamp}`;
-    tsDiv.style.position = "absolute";
-    tsDiv.style.top = "10px";
-    tsDiv.style.right = "20px";
-    tsDiv.style.fontSize = "14px";
-    tsDiv.style.color = "#555";
-    tsDiv.style.fontWeight = "bold";
-
-    // Add it to the document
-    document.body.appendChild(tsDiv);
-  </script>
-
-
+  
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -415,5 +400,22 @@
     document.getElementById("userSelect").addEventListener("change", updateBottomTables);
 
   </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const tsDiv = document.createElement("div");
+    tsDiv.textContent = `Last updated: ${latestFiles.current_timestamp}`;
+    tsDiv.style.position = "absolute";
+    tsDiv.style.top = "10px";
+    tsDiv.style.right = "20px";
+    tsDiv.style.fontSize = "14px";
+    tsDiv.style.color = "#555";
+    tsDiv.style.fontWeight = "bold";
+
+    document.body.appendChild(tsDiv);
+  });
+</script>
+</body>
+</html>
 </body>
 </html>
