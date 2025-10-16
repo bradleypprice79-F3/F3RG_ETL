@@ -92,7 +92,7 @@ date,week,Team,type,points,notes
 2025-10-02,3,Dasher,Individuals points,38,"['Foreclosure', 'Meta', 'Manhole', 'Sparky', 'Chum Bucket', 'Singer', '5-Putt', 'Dilly Dilly', 'Otto Man']"
 2025-10-02,3,Dasher,Santa Locks,5,"ao-el-coyote; Chum Bucket, Meta, Manhole, Sparky, Otto Man"
 2025-10-03,3,Blitzen,Individuals points,55,"['YellowPages', 'Hank Hill', 'Duck Hunt', 'Caboose', 'Scratch and Dent', 'Old Maid', 'Depends (3rdF Q)', 'Hatchet (Lizard Q)', 'Hodl', 'Dauber', 'Pee Wee Herman', 'Corner Kick']"
-2025-10-03,3,Comet,Santa Locks,5,"ao-the-colosseum; Nemo, Scuba Steve, Party in a bottle, Foundation, Dear Abby, Pretzel"
+2025-10-03,3,Comet,Santa Locks,5,"ao-the-colosseum; Nemo, Scuba Steve, Foundation, Dear Abby, Party in a bottle, Pretzel"
 2025-10-03,3,Dasher,Individuals points,39,"['Schlitz', 'Foreclosure', 'Meta', 'Italian Ice', 'Zimmer', 'Singer', 'Mahomes', 'Dilly Dilly', 'Otto Man']"
 2025-10-03,3,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
 2025-10-03,3,Comet,Individuals points,51,"['Dilbert', 'Boomer', 'Dear Abby', 'Bob Villa', 'Foundation', 'Scuba Steve', 'Nemo', 'Party in a bottle', 'Sparkler', 'Cutler', 'Spit Valve', 'Pretzel']"
@@ -104,7 +104,7 @@ date,week,Team,type,points,notes
 2025-10-05,4,Comet,Individuals points,14,"['Boomer', 'Cutler', 'Pretzel']"
 2025-10-05,4,Blitzen,Individuals points,25,"['YellowPages', 'Hank Hill', 'Duck Hunt', 'Caboose', 'Old Maid']"
 2025-10-05,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
-2025-10-06,4,Dasher,Santa Locks,5,"ao-the-colosseum; Zimmer, Singer, Mahomes, Foreclosure, Meta"
+2025-10-06,4,Dasher,Santa Locks,5,"ao-the-colosseum; Zimmer, Singer, Mahomes, Meta, Foreclosure"
 2025-10-06,4,Dasher,Individuals points,25,"['Foreclosure', 'Meta', 'Manhole', 'Sparky', 'Zimmer', 'Singer', 'Mahomes', '5-Putt', 'Mr. Belding']"
 2025-10-06,4,Comet,Individuals points,31,"['Dilbert', 'Boomer', 'Bob Villa', 'Foundation', 'Scuba Steve', 'Nemo', 'Sparkler', 'Cutler', 'Pretzel', 'Morticia', 'Fish Tape']"
 2025-10-06,4,Blitzen,Individuals points,37,"['YellowPages', 'Hank Hill', 'Duck Hunt', 'Caboose', 'Scratch and Dent', 'Juanita', 'Old Maid', 'Depends (3rdF Q)', 'Hodl', 'Hat Trick', 'Dauber', 'Pee Wee Herman']"
@@ -117,9 +117,9 @@ date,week,Team,type,points,notes
 2025-10-08,4,Blitzen,Individuals points,37,"['YellowPages', 'Hank Hill', 'Duck Hunt', 'Scratch and Dent', 'Juanita', 'Old Maid', 'Mr. Kotter', 'Hodl', 'Dauber', 'Celine Dion', 'Pee Wee Herman', 'Corner Kick']"
 2025-10-08,4,Dasher,Individuals points,34,"['Hanger', 'Foreclosure', 'Meta', 'Manhole', 'Chum Bucket', 'Zimmer', 'Singer', '5-Putt', 'Dilly Dilly', 'vern', 'Mr. Belding']"
 2025-10-08,4,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
-2025-10-08,4,Comet,Santa Locks,5,"ao-the-silo; Fish Tape, Scuba Steve, Pretzel, Cutler, Nemo, Foundation, Bedpan"
-2025-10-08,4,Dasher,Santa Locks,5,"ao-the-silo; Chum Bucket, Mr. Belding, Zimmer, Hanger, vern, 5-Putt"
-2025-10-08,4,Blitzen,Santa Locks,5,"ao-the-silo; Pee Wee Herman, Scratch and Dent, Hank Hill, Old Maid, Hodl"
+2025-10-08,4,Comet,Santa Locks,5,"ao-the-silo; Cutler, Nemo, Pretzel, Scuba Steve, Fish Tape, Bedpan, Foundation"
+2025-10-08,4,Dasher,Santa Locks,5,"ao-the-silo; Zimmer, 5-Putt, vern, Hanger, Mr. Belding, Chum Bucket"
+2025-10-08,4,Blitzen,Santa Locks,5,"ao-the-silo; Old Maid, Hodl, Pee Wee Herman, Hank Hill, Scratch and Dent"
 2025-10-09,4,Dasher,Individuals points,43,"['Hanger', 'Foreclosure', 'Meta', 'Manhole', 'Sparky', 'Zimmer', 'Singer', 'Mahomes', '5-Putt', 'vern', 'Otto Man']"
 2025-10-09,4,Comet,Individuals points,32,"['Dilbert', 'Boomer', 'Scuba Steve', 'Bedpan', 'Nemo', 'Party in a bottle', 'Sparkler', 'Pretzel', 'Broomstick', 'Morticia']"
 2025-10-09,4,Blitzen,Individuals points,34,"['Hank Hill', 'Duck Hunt', 'Old Maid', 'Depends (3rdF Q)', 'Hodl', 'Dauber']"
@@ -132,12 +132,12 @@ date,week,Team,type,points,notes
 2025-10-11,4,Dasher,Individuals points,32,"['Hanger', 'Schlitz', 'Sparky', 'Italian Ice', 'Chum Bucket', 'Zimmer', 'Mahomes', 'Dilly Dilly']"
 2025-10-11,4,Comet,Individuals points,9,"['Boomer', 'Bob Villa', 'Party in a bottle']"
 2025-10-11,4,Blitzen,Individuals points,39,"['YellowPages', 'Hank Hill', 'Juanita', 'Old Maid', 'Mr. Kotter', 'Hodl', 'Dauber', 'Pee Wee Herman']"
-2025-10-11,4,Blitzen,Santa Locks,5,"ao-the-colosseum; Dauber, Juanita, Pee Wee Herman, Mr. Kotter, Hodl"
+2025-10-11,4,Blitzen,Santa Locks,5,"ao-the-colosseum; Dauber, Juanita, Mr. Kotter, Pee Wee Herman, Hodl"
 2025-10-12,5,Dasher,Individuals points,3,['Schlitz']
 2025-10-12,5,Comet,Individuals points,3,['Boomer']
 2025-10-12,5,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
 2025-10-12,5,Blitzen,Individuals points,3,['Hank Hill']
-2025-10-13,5,Dasher,Santa Locks,5,"ao-the-grove; Foreclosure, 5-Putt, vern, Chum Bucket, Schlitz"
+2025-10-13,5,Dasher,Santa Locks,5,"ao-the-grove; vern, Foreclosure, Schlitz, Chum Bucket, 5-Putt"
 2025-10-13,5,Dasher,Individuals points,27,"['Schlitz', 'Foreclosure', 'Meta', 'Manhole', 'Chum Bucket', 'Zimmer', 'Singer', '5-Putt', 'vern']"
 2025-10-13,5,Comet,Individuals points,29,"['Dilbert', 'Foundation', 'Scuba Steve', 'Bedpan', 'Nemo', 'Sparkler', 'Spit Valve', 'Broomstick', 'Fish Tape']"
 2025-10-13,5,Blitzen,Individuals points,43,"['YellowPages', 'Hank Hill', 'Depends (3rdF Q)', 'Hatchet (Lizard Q)', 'Mr. Kotter', 'Hodl', 'Pull-up', 'Hat Trick', 'Dauber', 'Corner Kick']"
@@ -147,6 +147,6 @@ date,week,Team,type,points,notes
 2025-10-14,5,Dasher,Individuals points,49,"['Hanger', 'Foreclosure', 'Meta', 'Manhole', 'Sparky', 'Chum Bucket', 'Zimmer', 'Singer', 'Mahomes', '5-Putt', 'vern', 'Otto Man']"
 2025-10-14,5,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
 2025-10-15,5,Blitzen,challenge_flag,1,Held from previous claim by Blitzen - Depends (3rdF Q)
-2025-10-15,5,Blitzen,Individuals points,35,"['Hank Hill', 'Duck Hunt', 'Scratch and Dent', 'Juanita', 'Mr. Kotter', 'Hodl', 'Pull-up', 'Dauber', 'Celine Dion', 'Pee Wee Herman', 'Corner Kick']"
-2025-10-15,5,Comet,Individuals points,27,"['Dilbert', 'Boomer', 'Bob Villa', 'Bedpan', 'Party in a bottle', 'Sparkler', 'Spit Valve', 'Broomstick', 'Fish Tape']"
-2025-10-15,5,Dasher,Individuals points,21,"['Hanger', 'Foreclosure', 'Zimmer', 'Singer', '5-Putt', 'vern', 'Mr. Belding']"
+2025-10-15,5,Blitzen,Individuals points,29,"['Hank Hill', 'Duck Hunt', 'Juanita', 'Mr. Kotter', 'Pull-up', 'Dauber', 'Celine Dion', 'Pee Wee Herman', 'Corner Kick']"
+2025-10-15,5,Comet,Individuals points,21,"['Dilbert', 'Boomer', 'Bob Villa', 'Bedpan', 'Sparkler', 'Spit Valve', 'Broomstick']"
+2025-10-15,5,Dasher,Individuals points,18,"['Foreclosure', 'Zimmer', 'Singer', '5-Putt', 'vern', 'Mr. Belding']"

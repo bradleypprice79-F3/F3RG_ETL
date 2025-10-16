@@ -103,7 +103,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-23,2,Blitzen,Hank Hill,3rd-f-qsource,qs,5,QS
 2025-09-23,2,Blitzen,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum - Party’s Q around the AO.
 2025-09-24,2,Blitzen,Hank Hill,ao-ravens-nest,1stf,3,"ao-ravens-nest - IPC Week 3, with Yellow Pages"
-2025-09-25,2,Blitzen,Hank Hill,,Around The World,5,"('ao-the-grove', 'ao-el-coyote', 'ao-the-ridge', 'ao-ravens-nest', 'ao-the-colosseum')"
+2025-09-25,2,Blitzen,Hank Hill,,Around The World,5,"('ao-the-colosseum', 'ao-el-coyote', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-grove')"
 2025-09-25,2,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge - The Ridge – Boston Butt’s Bday + Manniversary Beat...
 2025-09-26,2,Blitzen,Hank Hill,,sixpack bonus,4,"('ao-the-grove', 'ao-el-coyote', 'ao-the-colosseum', 'ao-ravens-nest', 'ao-the-ridge', 'ao-the-grove')"
 2025-09-26,2,Blitzen,Hank Hill,ao-the-grove,1stf,3,ao-the-grove - Standards and Form Focus from Broomstick
@@ -116,7 +116,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-10-01,3,Blitzen,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum - Singers Ruck/Ruffle/Run Club
 2025-10-02,3,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge - 5-Putt - Tabata & Free Throws
 2025-10-03,3,Blitzen,Hank Hill,2nd-f,2ndf,3,1st Friday Werkforce
-2025-10-03,3,Blitzen,Hank Hill,,Around The World,5,"('ao-the-colosseum', 'ao-the-ridge', 'ao-da-grizz', 'ao-the-grove', 'downrange')"
+2025-10-03,3,Blitzen,Hank Hill,,Around The World,5,"('downrange', 'ao-the-colosseum', 'ao-da-grizz', 'ao-the-ridge', 'ao-the-grove')"
 2025-10-03,3,Blitzen,Hank Hill,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'downrange', 'ao-the-colosseum', 'ao-the-ridge', 'ao-da-grizz')"
 2025-10-03,3,Blitzen,Hank Hill,ao-da-grizz,1stf,3,ao-da-grizz - Meta’s arm blasters
 2025-10-03,3,Blitzen,Hank Hill,,sixpack bonus,1,"('ao-the-grove', 'ao-the-colosseum', 'downrange', 'ao-the-colosseum', 'ao-the-ridge', 'ao-da-grizz', 'ao-the-ridge')"
@@ -137,7 +137,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-10-09,4,Blitzen,Hank Hill,ao-el-coyote,1stf,3,ao-el-coyote - Mahomes BC Indian Coupon
 2025-10-09,4,Blitzen,Hank Hill,,sixpack bonus,4,"('downrange', 'downrange', 'ao-the-ridge', 'ao-the-silo', 'ao-el-coyote', 'ao-the-ridge')"
 2025-10-09,4,Blitzen,Hank Hill,ao-the-ridge,1stf,3,ao-the-ridge - Den Mother's Runnin' AMRAP
-2025-10-10,4,Blitzen,Hank Hill,,Around The World,5,"('ao-el-coyote', 'ao-the-silo', 'ao-the-ridge', 'ao-da-grizz', 'downrange')"
+2025-10-10,4,Blitzen,Hank Hill,,Around The World,5,"('ao-el-coyote', 'downrange', 'ao-da-grizz', 'ao-the-ridge', 'ao-the-silo')"
 2025-10-10,4,Blitzen,Hank Hill,,sixpack bonus,1,"('downrange', 'downrange', 'ao-the-ridge', 'ao-the-silo', 'ao-el-coyote', 'ao-the-ridge', 'ao-da-grizz')"
 2025-10-10,4,Blitzen,Hank Hill,ao-da-grizz,workout Q,1,Q
 2025-10-10,4,Blitzen,Hank Hill,ao-da-grizz,1stf,3,ao-da-grizz - Rolling the dice with Hank Hill
@@ -158,7 +158,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-17,1,Dasher,Foreclosure,ao-ravens-nest,workout Q,1,Q
 2025-09-17,1,Dasher,Foreclosure,ao-ravens-nest,1stf,3,ao-ravens-nest - Foreclosure: IPC Week 2
 2025-09-18,1,Dasher,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond - Foghorn’s Foggy Black Diamond Not a Run Club
-2025-09-19,1,Dasher,Foreclosure,,Around The World,5,"('ao-black-diamond', 'ao-the-colosseum', 'ao-black-rock', 'ao-ravens-nest', 'downrange')"
+2025-09-19,1,Dasher,Foreclosure,,Around The World,5,"('downrange', 'ao-the-colosseum', 'ao-black-diamond', 'ao-ravens-nest', 'ao-black-rock')"
 2025-09-19,1,Dasher,Foreclosure,downrange,1stf,3,downrange - 3R Friday
 2025-09-24,2,Dasher,Foreclosure,ao-the-silo,1stf,3,ao-the-silo - Zim’s 2 Thang Tribute to Caboose
 2025-09-25,2,Dasher,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond - Motivators From Twenty
@@ -168,7 +168,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-30,3,Dasher,Foreclosure,ao-black-rock,1stf,3,ao-black-rock - PorkLoaders Run Club
 2025-10-01,3,Dasher,Foreclosure,downrange,1stf,3,downrange - Underdog BDVQ
 2025-10-02,3,Dasher,Foreclosure,ao-black-diamond,1stf,4,ao-black-diamond - Spooky Trail BDRC by Duck Hunt
-2025-10-03,3,Dasher,Foreclosure,,Around The World,5,"('ao-black-diamond', 'ao-the-colosseum', 'ao-black-rock', 'ao-the-grove', 'downrange')"
+2025-10-03,3,Dasher,Foreclosure,,Around The World,5,"('downrange', 'ao-the-colosseum', 'ao-black-diamond', 'ao-black-rock', 'ao-the-grove')"
 2025-10-03,3,Dasher,Foreclosure,ao-the-grove,workout Q,0,you already Q'd a workout this week
 2025-10-03,3,Dasher,Foreclosure,ao-the-grove,1stf,3,ao-the-grove - Foreclosure Brought the Circus ? to The Grove
 2025-10-04,3,Dasher,Foreclosure,,sixpack bonus,4,"('ao-the-colosseum', 'ao-black-rock', 'downrange', 'ao-black-diamond', 'ao-the-grove', 'downrange')"
@@ -240,7 +240,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-10-02,3,Blitzen,Duck Hunt,ao-black-diamond,workout Q,0,you already Q'd a workout this week
 2025-10-02,3,Blitzen,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond - Spooky Trail BDRC by Duck Hunt
 2025-10-03,3,Blitzen,Duck Hunt,ao-da-grizz,1stf,3,ao-da-grizz - Meta’s arm blasters
-2025-10-04,3,Blitzen,Duck Hunt,,Around The World,5,"('ao-black-diamond', 'ao-the-silo', 'ao-da-grizz', 'ao-ravens-nest', 'downrange')"
+2025-10-04,3,Blitzen,Duck Hunt,,Around The World,5,"('downrange', 'ao-da-grizz', 'ao-black-diamond', 'ao-ravens-nest', 'ao-the-silo')"
 2025-10-04,3,Blitzen,Duck Hunt,,sixpack bonus,4,"('ao-the-silo', 'ao-black-diamond', 'ao-ravens-nest', 'ao-black-diamond', 'ao-da-grizz', 'downrange')"
 2025-10-04,3,Blitzen,Duck Hunt,downrange,1stf,3,downrange - Tellier WOD IPC REBOOT WEEK 0 and MoTown in Mokena
 2025-10-04,3,Blitzen,Duck Hunt,,sixpack bonus,1,"('ao-the-silo', 'ao-black-diamond', 'ao-ravens-nest', 'ao-black-diamond', 'ao-da-grizz', 'downrange', 'downrange')"
@@ -266,7 +266,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-25,2,Comet,Dear Abby,ao-the-olympiad,workout Q,1,Q
 2025-09-25,2,Comet,Dear Abby,ao-the-olympiad,1stf,3,ao-the-olympiad - IPC Week 3
 2025-09-26,2,Comet,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum - Hanger’s Triple Threat Beatdown
-2025-09-27,2,Comet,Dear Abby,,Around The World,5,"('ao-the-olympiad', 'ao-the-silo', 'ao-the-ridge', 'ao-the-grove', 'ao-the-colosseum')"
+2025-09-27,2,Comet,Dear Abby,,Around The World,5,"('ao-the-colosseum', 'ao-the-olympiad', 'ao-the-ridge', 'ao-the-grove', 'ao-the-silo')"
 2025-09-27,2,Comet,Dear Abby,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'ao-the-silo', 'ao-the-olympiad', 'ao-the-colosseum', 'ao-the-ridge')"
 2025-09-27,2,Comet,Dear Abby,ao-the-ridge,1stf,3,ao-the-ridge - Quatro's Ultimate Football Q
 2025-10-01,3,Comet,Dear Abby,ao-the-silo,1stf,3,ao-the-silo - Foundation’s Schoolyard Shenanigans
@@ -340,7 +340,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-30,3,Dasher,Meta,ao-black-rock,1stf,3,ao-black-rock - PorkLoaders Run Club
 2025-10-01,3,Dasher,Meta,ao-the-silo,1stf,3,ao-the-silo - Foundation’s Schoolyard Shenanigans
 2025-10-02,3,Dasher,Meta,ao-el-coyote,1stf,3,"ao-el-coyote - Chum's ""who does that"" bike ride"
-2025-10-02,3,Dasher,Meta,,Around The World,5,"('ao-el-coyote', 'ao-the-silo', 'ao-the-ridge', 'ao-black-rock', 'ao-the-colosseum')"
+2025-10-02,3,Dasher,Meta,,Around The World,5,"('ao-el-coyote', 'ao-the-colosseum', 'ao-the-ridge', 'ao-black-rock', 'ao-the-silo')"
 2025-10-02,3,Dasher,Meta,ao-the-ridge,1stf,3,ao-the-ridge - 5-Putt - Tabata & Free Throws
 2025-10-03,3,Dasher,Meta,2nd-f,2ndf,3,1st Friday Werkforce
 2025-10-03,3,Dasher,Meta,,sixpack bonus,4,"('ao-the-colosseum', 'ao-black-rock', 'ao-the-silo', 'ao-el-coyote', 'ao-the-ridge', 'ao-da-grizz')"
@@ -515,7 +515,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-16,1,Blitzen,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum - Foundations Ladder
 2025-09-17,1,Blitzen,Old Maid,ao-the-silo,1stf,3,ao-the-silo - SV’s Stations
 2025-09-18,1,Blitzen,Old Maid,ao-el-coyote,1stf,3,ao-el-coyote - Finch AO ruck
-2025-09-18,1,Blitzen,Old Maid,,Around The World,5,"('ao-el-coyote', 'ao-the-colosseum', 'ao-the-silo', 'ao-the-grove', 'downrange')"
+2025-09-18,1,Blitzen,Old Maid,,Around The World,5,"('downrange', 'ao-el-coyote', 'ao-the-colosseum', 'ao-the-grove', 'ao-the-silo')"
 2025-09-18,1,Blitzen,Old Maid,downrange,1stf,3,downrange - SLT Meeting
 2025-09-19,1,Blitzen,Old Maid,,sixpack bonus,4,"('ao-the-grove', 'ao-the-colosseum', 'ao-the-silo', 'ao-el-coyote', 'downrange', 'ao-the-colosseum')"
 2025-09-19,1,Blitzen,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum - Caboose’s Ladder
@@ -586,7 +586,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-10-02,3,Blitzen,Depends (3rdF Q),downrange,1stf,3,downrange - SLT
 2025-10-02,3,Blitzen,Depends (3rdF Q),3rd-f-qsource,qs,5,QS
 2025-10-03,3,Blitzen,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Foundation’s Field Day
-2025-10-04,3,Blitzen,Depends (3rdF Q),,Around The World,5,"('downrange', 'ao-da-grizz', 'ao-black-rock', 'ao-ravens-nest', 'ao-the-colosseum')"
+2025-10-04,3,Blitzen,Depends (3rdF Q),,Around The World,5,"('ao-the-colosseum', 'downrange', 'ao-da-grizz', 'ao-ravens-nest', 'ao-black-rock')"
 2025-10-04,3,Blitzen,Depends (3rdF Q),ao-da-grizz,1stf,3,"ao-da-grizz - ""Here Comes the Boom!!"""
 2025-10-04,3,Blitzen,Depends (3rdF Q),,sixpack bonus,4,"('ao-black-rock', 'ao-ravens-nest', 'downrange', 'ao-the-colosseum', 'ao-da-grizz', 'ao-the-colosseum')"
 2025-10-04,3,Blitzen,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Iron Pax week 4 Chum Bucket style
@@ -654,7 +654,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-23,2,Comet,Sparkler,downrange,1stf,3,downrange - Run club at the wood ?
 2025-09-24,2,Comet,Sparkler,ao-the-silo,1stf,3,ao-the-silo - Zim’s 2 Thang Tribute to Caboose
 2025-09-25,2,Comet,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond - Motivators From Twenty
-2025-09-26,2,Comet,Sparkler,,Around The World,5,"('ao-black-diamond', 'ao-the-silo', 'ao-the-ridge', 'ao-the-grove', 'downrange')"
+2025-09-26,2,Comet,Sparkler,,Around The World,5,"('downrange', 'ao-black-diamond', 'ao-the-ridge', 'ao-the-grove', 'ao-the-silo')"
 2025-09-26,2,Comet,Sparkler,ao-the-grove,1stf,3,ao-the-grove - Standards and Form Focus from Broomstick
 2025-09-29,3,Comet,Sparkler,ao-the-silo,1stf,3,ao-the-silo - Duck Hunt Lift Club
 2025-09-30,3,Comet,Sparkler,ao-black-diamond,workout Q,1,Q
@@ -737,7 +737,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-10-01,3,Dasher,Chum Bucket,downrange,1stf,3,downrange - Underdog BDVQ
 2025-10-02,3,Dasher,Chum Bucket,ao-el-coyote,workout Q,1,Q
 2025-10-02,3,Dasher,Chum Bucket,ao-el-coyote,1stf,3,"ao-el-coyote - Chum's ""who does that"" bike ride"
-2025-10-04,3,Dasher,Chum Bucket,,Around The World,5,"('ao-el-coyote', 'ao-da-grizz', 'ao-black-rock', 'ao-the-grove', 'downrange')"
+2025-10-04,3,Dasher,Chum Bucket,,Around The World,5,"('downrange', 'ao-el-coyote', 'ao-da-grizz', 'ao-black-rock', 'ao-the-grove')"
 2025-10-04,3,Dasher,Chum Bucket,ao-da-grizz,1stf,3,"ao-da-grizz - ""Here Comes the Boom!!"""
 2025-10-04,3,Dasher,Chum Bucket,,sixpack bonus,4,"('ao-the-grove', 'ao-black-rock', 'downrange', 'ao-el-coyote', 'ao-da-grizz', 'ao-the-colosseum')"
 2025-10-04,3,Dasher,Chum Bucket,ao-the-colosseum,workout Q,0,you already Q'd a workout this week
@@ -759,7 +759,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-18,1,Comet,Cutler,ao-the-olympiad,workout Q,1,Q
 2025-09-18,1,Comet,Cutler,ao-the-olympiad,1stf,3,ao-the-olympiad - IPC Week 2: Never Go In Against Cutler When Fitnes...
 2025-09-18,1,Comet,Cutler,3rd-f-qsource,qs,5,QS
-2025-09-19,1,Comet,Cutler,,Around The World,5,"('ao-the-olympiad', 'ao-the-silo', 'ao-da-grizz', 'ao-black-rock', 'ao-the-grove')"
+2025-09-19,1,Comet,Cutler,,Around The World,5,"('ao-da-grizz', 'ao-the-olympiad', 'ao-black-rock', 'ao-the-grove', 'ao-the-silo')"
 2025-09-19,1,Comet,Cutler,ao-da-grizz,1stf,3,ao-da-grizz - Cowbell’s Bears with a sniff!
 2025-09-25,2,Comet,Cutler,3rd-f-qsource,qs,5,QS
 2025-09-25,2,Comet,Cutler,ao-the-olympiad,1stf,3,ao-the-olympiad - IPC Week 3
@@ -790,7 +790,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-10-07,4,Dasher,Zimmer,ao-dmz,1stf,3,ao-dmz - Hatchet's Rainy Day BC
 2025-10-08,4,Dasher,Zimmer,ao-the-silo,1stf,3,ao-the-silo - Hanger’s 2 Station Beatdown with Burpees on Top
 2025-10-09,4,Dasher,Zimmer,ao-the-ridge,1stf,3,ao-the-ridge - Den Mother's Runnin' AMRAP
-2025-10-11,4,Dasher,Zimmer,,Around The World,5,"('ao-dmz', 'ao-the-colosseum', 'ao-the-silo', 'ao-the-ridge', 'downrange')"
+2025-10-11,4,Dasher,Zimmer,,Around The World,5,"('ao-dmz', 'downrange', 'ao-the-colosseum', 'ao-the-ridge', 'ao-the-silo')"
 2025-10-11,4,Dasher,Zimmer,downrange,1stf,3,downrange - Great Clips BD lift Club The Wood
 2025-10-13,5,Dasher,Zimmer,ao-the-silo,1stf,3,ao-the-silo - Foundation’s 2 Thang BC
 2025-10-14,5,Dasher,Zimmer,downrange,1stf,3,downrange - LS at The Outpost
@@ -820,7 +820,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-17,1,Blitzen,Pull-up,ao-the-ridge,1stf,3,ao-the-ridge - Bedpan's World Record Run
 2025-09-18,1,Blitzen,Pull-up,downrange,1stf,3,downrange - SLT Meeting
 2025-09-18,1,Blitzen,Pull-up,rg_ec1,ec,1,"EC, noice!"
-2025-09-19,1,Blitzen,Pull-up,,Around The World,5,"('ao-the-olympiad', 'ao-dmz', 'ao-the-colosseum', 'ao-the-ridge', 'downrange')"
+2025-09-19,1,Blitzen,Pull-up,,Around The World,5,"('ao-dmz', 'downrange', 'ao-the-colosseum', 'ao-the-olympiad', 'ao-the-ridge')"
 2025-09-19,1,Blitzen,Pull-up,ao-the-olympiad,1stf,3,ao-the-olympiad - Scout Run
 2025-09-22,2,Blitzen,Pull-up,ao-the-silo,1stf,3,ao-the-silo - Scuba lessons
 2025-09-24,2,Blitzen,Pull-up,ao-the-ridge,1stf,3,ao-the-ridge - Foundation Run Around
@@ -856,7 +856,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-16,1,Blitzen,Dauber,ao-dmz,1stf,3,ao-dmz - Pull-Up Beatdown
 2025-09-17,1,Blitzen,Dauber,ao-the-ridge,1stf,3,ao-the-ridge - Bedpan's World Record Run
 2025-09-18,1,Blitzen,Dauber,ao-black-diamond,1stf,4,ao-black-diamond - Foghorn’s Foggy Black Diamond Not a Run Club
-2025-09-19,1,Blitzen,Dauber,,Around The World,5,"('ao-black-diamond', 'ao-dmz', 'ao-the-silo', 'ao-the-ridge', 'ao-the-colosseum')"
+2025-09-19,1,Blitzen,Dauber,,Around The World,5,"('ao-dmz', 'ao-the-colosseum', 'ao-black-diamond', 'ao-the-ridge', 'ao-the-silo')"
 2025-09-19,1,Blitzen,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum - Caboose’s Ladder
 2025-09-20,1,Blitzen,Dauber,,sixpack bonus,4,"('ao-the-silo', 'ao-dmz', 'ao-the-ridge', 'ao-black-diamond', 'ao-the-colosseum', 'ao-the-colosseum')"
 2025-09-20,1,Blitzen,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum - Juanita’s Iron PAX week 2
@@ -892,7 +892,7 @@ date,week,Team,user_name,ao,type,points,notes
 2025-09-17,1,Comet,Spit Valve,ao-the-silo,1stf,3,ao-the-silo - SV’s Stations
 2025-09-18,1,Comet,Spit Valve,ao-el-coyote,1stf,3,ao-el-coyote - Finch AO ruck
 2025-09-19,1,Comet,Spit Valve,ao-the-olympiad,1stf,3,ao-the-olympiad - Scout Run
-2025-09-20,1,Comet,Spit Valve,,Around The World,5,"('downrange', 'ao-the-olympiad', 'ao-el-coyote', 'ao-the-silo', 'ao-the-colosseum')"
+2025-09-20,1,Comet,Spit Valve,,Around The World,5,"('ao-the-colosseum', 'ao-el-coyote', 'downrange', 'ao-the-olympiad', 'ao-the-silo')"
 2025-09-20,1,Comet,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum - Juanita’s Iron PAX week 2
 2025-09-23,2,Comet,Spit Valve,3rd-f-qsource,QSource Q,1,QSQ
 2025-09-23,2,Comet,Spit Valve,3rd-f-qsource,qs,5,QS
