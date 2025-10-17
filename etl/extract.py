@@ -92,7 +92,6 @@ def get_pax_lists(DB_CONFIG):
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
     GROUP BY b.user_id, u.user_name
-    ORDER BY u.user_name
                                                                   
     UNION ALL 
     Select "Nprvl" as region,
@@ -144,7 +143,6 @@ def get_pax_lists(DB_CONFIG):
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
     GROUP BY b.user_id, u.user_name
-    ORDER BY u.user_name
      
     UNION ALL 
     
@@ -197,7 +195,6 @@ def get_pax_lists(DB_CONFIG):
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
     GROUP BY b.user_id, u.user_name
-    ORDER BY u.user_name
                 
                                
 
@@ -256,7 +253,6 @@ def get_pax_lists(DB_CONFIG):
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
     GROUP BY b.user_id, u.user_name
-    ORDER BY u.user_name
     
               '''
     )
