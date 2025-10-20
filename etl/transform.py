@@ -134,7 +134,9 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                 notes = row["ao"] + " - " + row["backblast"] #make the note the name of the ao that he went to
 
                 # check to see if he qualified for Around the world, append another row if he did.
-                if len(set(ATW_list_weekly))==5 and ATW_Bonus==0:
+                unique_non_downrange = {x for x in ATW_list_weekly if x.lower() != 'downrange'}
+                has_five = len(unique_non_downrange) == 5
+                if has_five and ATW_Bonus==0:
                     ATW_Bonus=5
                     new_row_ATW = {
                         "date": row['date'],
