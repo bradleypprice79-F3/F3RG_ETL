@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RG Channel — Instructions</title>
+  <style>
+    :root{
+      --bg:#0f1724; /* deep navy */
+      --card:#0b1220;
+      --accent:#9fe6c1;
+      --muted:#9aa4b2;
+      --glass: rgba(255,255,255,0.03);
+      --pill:#12233b;
+      --maxw:900px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%;}
+    body{
+      margin:0; padding:32px; background:linear-gradient(180deg,#071024 0%, #07111a 100%); color:#e6eef6;
+      display:flex; align-items:flex-start; justify-content:center; -webkit-font-smoothing:antialiased;
+    }
+    .container{width:100%; max-width:var(--maxw);}
+
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    .logo{
+      width:64px;height:64px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#6bd6ff);display:flex;align-items:center;justify-content:center;color:#052028;font-weight:700;font-size:20px
+    }
+    h1{font-size:20px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .card{background:linear-gradient(180deg,var(--card),#071022);border-radius:12px;padding:18px;box-shadow:0 6px 24px rgba(0,0,0,0.6);margin-bottom:14px}
+    .section-title{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+    .section-title h2{font-size:16px;margin:0}
+    .steps{counter-reset:step;display:flex;flex-direction:column;gap:10px}
+    .step{display:flex;gap:12px;align-items:flex-start}
+    .num{width:36px;height:36px;border-radius:8px;background:var(--pill);display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700}
+    .step-content{flex:1}
+    .step-content p{margin:0 0 6px 0}
+    ul{margin:6px 0 10px 20px}
+    li{margin:6px 0}
+    .channels{display:flex;gap:8px;flex-wrap:wrap}
+    .channel{padding:8px 10px;border-radius:8px;background:var(--glass);color:var(--muted);font-weight:600;font-size:13px}
+
+    .note{background:rgba(255,255,255,0.02);border-left:4px solid var(--accent);padding:10px;border-radius:8px;color:var(--muted);font-size:14px}
+
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:700px){.grid{grid-template-columns:1fr}}
+
+    footer{margin-top:6px;color:var(--muted);font-size:13px}
+    .photos{display:flex;gap:8px;margin-top:8px}
+    .ph{flex:1;min-height:80px;border-radius:8px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px}
+
+    .btn-row{display:flex;gap:8px;margin-top:12px}
+    .btn{padding:8px 12px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--accent);cursor:pointer;font-weight:700}
+    .btn.ghost{color:var(--muted);border-style:dashed}
+
+    code{background:rgba(255,255,255,0.02);padding:4px 6px;border-radius:6px;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">RG</div>
+      <div>
+        <h1>RG Channel — Instructions</h1>
+        <p class="lead">How to post proofs and backblasts for EC / Hardsh!t / CSAUP / Popups / Donations / Challenge Flag</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <div class="section-title"><h2>EC / Hardsh!t / csaup</h2></div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">0</div>
+          <div class="step-content">
+            <p><strong>Take a photo</strong> of the PAX who ran together <em>and</em> the proof on your tracker app.</p>
+            <p class="note">Only one PAX needs to enter the backblast — but make sure someone does it and includes your name or you won't get credit.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">1</div>
+          <div class="step-content">
+            <p>Go to the appropriate <strong>rg_</strong> channel for the activity:</p>
+            <div class="channels">
+              <div class="channel">rg_ec1 (if you did 1)</div>
+              <div class="channel">rg_ec2 (if you did 2)</div>
+              <div class="channel">rg_ec3 (if you did 3)</div>
+              <div class="channel">rg_hardshit (finished a half marathon)</div>
+              <div class="channel">rg_csaup (team completed a 1stF approved csaup)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">2</div>
+          <div class="step-content">
+            <p>Type <code>/backblast</code> and click send.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">3</div>
+          <div class="step-content">
+            <p>Fill out these portions of the backblast:</p>
+            <ul>
+              <li>Enter a <strong>Title</strong></li>
+              <li>Leave the <strong>AO</strong> as is — <em>don’t change it</em>.</li>
+              <li>Enter the <strong>Q</strong> (that's you!)</li>
+              <li>Select the <strong>PAX</strong> (all who participated)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">4</div>
+          <div class="step-content">
+            <p>Click <strong>Submit</strong>.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">5</div>
+          <div class="step-content">
+            <p>Reply in the thread to your backblast.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">6</div>
+          <div class="step-content">
+            <p>List who you EC’d with and include the two pictures:</p>
+            <div class="photos">
+              <div class="ph">Photo of the PAX</div>
+              <div class="ph">Photo of the tracker / proof</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title"><h2>Popup!</h2></div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">0</div>
+          <div class="step-content">
+            <p><strong>Take a picture or video</strong> as proof of completion (game, soup dump, whatever).</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">1</div>
+          <div class="step-content">
+            <p>Go to the <strong>rg_popup</strong> channel.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">2</div>
+          <div class="step-content">
+            <p>Type <code>/backblast</code> and click send.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">3</div>
+          <div class="step-content">
+            <p>Fill out these portions:</p>
+            <ul>
+              <li>Enter a <strong>Title</strong></li>
+              <li>Leave the <strong>AO</strong> as is — <em>don’t change it</em>.</li>
+              <li>Enter the <strong>Q</strong> (you!)</li>
+              <li>Select the <strong>PAX</strong> (all who participated or just you)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">4</div>
+          <div class="step-content">
+            <p>Click <strong>Submit</strong>.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">5</div>
+          <div class="step-content">
+            <p>Reply in the thread to your backblast.</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="num">6</div>
+          <div class="step-content">
+            <p>List the PAX (might be just you!) and include the proof (photo/video).</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="section-title"><h2>Donation</h2></div>
+        <div class="steps">
+          <div class="step">
+            <div class="num">0</div>
+            <div class="step-content">
+              <p><strong>Take a picture</strong> of proof of your minimum <strong>$25</strong> donation (screenshot or photo).</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="num">1</div>
+            <div class="step-content">
+              <p>Go to the <strong>rg_3rdf_donation</strong> channel.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="num">2</div>
+            <div class="step-content">
+              <p>Type <code>/backblast</code> and click send.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="num">3</div>
+            <div class="step-content">
+              <p>Fill out these portions:</p>
+              <ul>
+                <li>Enter a <strong>Title</strong></li>
+                <li>Leave the <strong>AO</strong> as is — <em>don’t change it</em>.</li>
+                <li>Enter the <strong>Q</strong> (you!)</li>
+                <li>Select the <strong>PAX</strong> (probably just you and your donation)</li>
+                <li>Scroll to the bottom and enter the total <strong>Units</strong> (e.g. <code>$50</code>) for total donations.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="num">4</div>
+            <div class="step-content"><p>Click <strong>Submit</strong>.</p></div>
+          </div>
+
+          <div class="step">
+            <div class="num">5</div>
+            <div class="step-content"><p>Reply in the thread to your backblast.</p></div>
+          </div>
+
+          <div class="step">
+            <div class="num">6</div>
+            <div class="step-content">
+              <p>List the PAX (might be just you!) and include the proof. If you're posting multiple pax, show proof for each pax's donation.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title"><h2>Challenge Flag</h2></div>
+        <div class="steps">
+          <div class="step">
+            <div class="num">0</div>
+            <div class="step-content"><p>Take a picture of you getting the challenge flag.</p></div>
+          </div>
+
+          <div class="step">
+            <div class="num">1</div>
+            <div class="step-content"><p>Go to the <strong>rg_challenge_flag</strong> channel.</p></div>
+          </div>
+
+          <div class="step">
+            <div class="num">2</div>
+            <div class="step-content"><p>Type <code>/backblast</code> and click send.</p></div>
+          </div>
+
+          <div class="step">
+            <div class="num">3</div>
+            <div class="step-content">
+              <p>Fill out these portions:</p>
+              <ul>
+                <li>Enter a <strong>Title</strong></li>
+                <li>Leave the <strong>AO</strong> as is — <em>don’t change it</em>.</li>
+                <li>Enter the <strong>Q</strong> (you!)</li>
+                <li>Select the <strong>PAX</strong> (just you)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="num">4</div>
+            <div class="step-content"><p>Click <strong>Submit</strong>.</p></div>
+          </div>
+
+          <div class="step">
+            <div class="num">5</div>
+            <div class="step-content">
+              <p>Reply in the thread to your backblast and include the picture. (You can also put the single picture directly in the backblast if you prefer.)</p>
+              <p class="note">You get one point for each day you keep and <em>post</em> the flag until someone else wins it. You do not need to enter a backblast every day — only on the day you first win the flag. <strong>But you must post the flag each day or you'll get negative points.</strong></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Tip: keep your photos clear and timestamped (screenshot of tracker apps often works best). If you have questions about which channel to use, ask a leader or the Q for the post.
+    </footer>
+  </div>
+</body>
+</html>
