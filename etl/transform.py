@@ -129,8 +129,8 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                 ATW_list_weekly.append(row['ao'])
                 six_pack+=1
 
-                # create the row
-                points_to_award = 4 if row['ao'] == "downrange" and "BLACK DIAMOND" in row["backblast"].upper() else row['points']
+                # create the row, award 4 points for the BLACK DIAMOND.  Also allow BD as long it is not preceded or followed by a letter.
+                points_to_award = 4 if row['ao'] == "downrange" and ("BLACK DIAMOND" in row["backblast"].upper() or re.search(r'(?<![A-Z])BD(?![A-Z])', row["backblast"].upper())) else row['points']
                 notes = row["ao"] + " - " + row["backblast"] #make the note the name of the ao that he went to
 
                 # check to see if he qualified for Around the world, append another row if he did.
