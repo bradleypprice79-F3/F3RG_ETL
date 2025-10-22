@@ -44,6 +44,15 @@ jobs:
           DB_PORT: ${{ secrets.DB_PORT }}
         run: |
           python run_etl.py
+      
+      # 5. Measure and record repo size
+      - name: Record repository size
+        run: |
+          echo "Measuring repository size..."
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          SIZE_INFO=$(git count-objects -vH | grep "size-pack" | awk '{print $2, $3}')
+          echo "$TIMESTAMP | Repo size: $SIZE_INFO" >> repo_size_log.txt
+          echo "Logged repo size: $SIZE_INFO"
 
       # Optional: Commit & push the new CSVs and manifest if you want them back in GitHub
       - name: Commit and push reports
@@ -51,8 +60,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Stage all changes: new, modified, and deleted
-          git add -A data/
+          # Stage all changes
+          git add -A data/ repo_size_log.txt
           
           # Commit if there are changes
           git commit -m "Update ETL reports [skip ci]" || echo "No changes to commit"
