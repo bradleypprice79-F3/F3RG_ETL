@@ -46,13 +46,25 @@ jobs:
           python run_etl.py
       
       # 5. Measure and record repo size
-      - name: Record repository size
+      
+      - name: Record repository size (full-history + API)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Measuring repository size..."
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          SIZE_INFO=$(git count-objects -vH | grep "size-pack" | awk '{print $2, $3}')
-          echo "$TIMESTAMP | Repo size: $SIZE_INFO" >> repo_size_log.txt
-          echo "Logged repo size: $SIZE_INFO"
+          # local Git measurement (pack size)
+          git count-objects -vH > .git_count_objects.txt
+          SIZE_PACK=$(grep -i "size-pack" .git_count_objects.txt | awk '{print $2 " " $3}')
+
+          # GitHub API measurement (size is in KB)
+          API_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/${{ github.repository }}")
+          API_SIZE_KB=$(echo "$API_JSON" | python -c "import sys, json; print(json.load(sys.stdin).get('size', 0))")
+          API_SIZE_MIB=$(awk "BEGIN{printf \"%.2f\", $API_SIZE_KB/1024}")
+
+          # write one line with both metrics
+          echo "$TIMESTAMP | git count-objects: $SIZE_PACK | GitHub API size: ${API_SIZE_KB} KB (${API_SIZE_MIB} MiB)" >> repo_size_log.txt
+          cat repo_size_log.txt
 
       # Optional: Commit & push the new CSVs and manifest if you want them back in GitHub
       - name: Commit and push reports
@@ -68,3 +80,5 @@ jobs:
           
           # Push back to repo
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          
+        
