@@ -1,6 +1,6 @@
 const latestFiles = {
-  individual: "individual_scores_20251026_1524.csv",
-  team: "team_scores_20251026_1524.csv",
-  lone_pax: "lone_pax_report_20251026_1524.csv",
-  current_timestamp: "2025-10-26 15:24"
+  individual: "individual_scores_20251026_1619.csv",
+  team: "team_scores_20251026_1619.csv",
+  lone_pax: "lone_pax_report_20251026_1619.csv",
+  current_timestamp: "2025-10-26 16:19"
 };
