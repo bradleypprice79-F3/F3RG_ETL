@@ -19,7 +19,7 @@ def main():
     timestamp_clean = datetime.now(ZoneInfo("America/Chicago")).strftime("%Y-%m-%d %H:%M")
 
     #define the start and end dates
-    start_date, end_date = '2025-09-13', '2025-10-25'
+    start_date, end_date = '2025-11-01', '2025-12-13'
 
     # 0. Get data from MySQL and save raw data.
     post_raw = extract.get_raw_posts(cfg.DB_CONFIG, start_date, end_date)
