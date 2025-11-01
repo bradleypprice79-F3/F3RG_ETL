@@ -373,14 +373,14 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
     df_SantaLocks["type"] = "Santa Locks"
     #df_SantaLocks.to_csv("df_SantaLocks.csv", index=False)
     # santa lock aggregation
-    df_SantaLocks_summary = (df_SantaLocks.groupby(["date", "week", "Team", "type", "ao"], as_index=False)
+    df_SantaLocks_summary = (df_SantaLocks.groupby(["date", "week", "Team", "type", "ao", "backblast"], as_index=False)
             .agg(
                 points=("user_name", lambda x: 5 * (len(x) // 5)),
                 notes=("user_name", lambda x: ", ".join(x))  # just the names
             )
         )
-    # prepend notes with ao
-    df_SantaLocks_summary["notes"] = df_SantaLocks_summary["ao"] + "; " + df_SantaLocks_summary["notes"]
+    # prepend notes with ao and backblast
+    df_SantaLocks_summary["notes"] = df_SantaLocks_summary["ao"] + "-" + df_SantaLocks_summary["backblast"] + "; " + df_SantaLocks_summary["notes"]
     df_SantaLocks_summary = df_SantaLocks_summary[df_SantaLocks_summary["points"] > 0].copy()
     # Reorder columns
     df_SantaLocks_summary = df_SantaLocks_summary[["date", "week", "Team", "type", "points", "notes"]]
