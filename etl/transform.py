@@ -311,7 +311,7 @@ def calculate_team_points(df_enriched: pd.DataFrame, individual_scores: pd.DataF
     .copy()
     )
     # get the dates that you need to go from and to...
-    first_date = df_flag["date"].min()
+    first_date = df_enriched["date"].min()
     last_date = df_enriched["date"].max()
     last_team = None
     # get range of dates
