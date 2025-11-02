@@ -313,7 +313,8 @@ def get_raw_dimension_data(DB_CONFIG, start_date, end_date):
                 WHEN a.ao = 'rg_ec1'          THEN 1
                 WHEN a.ao = 'rg_challenge_flag' THEN 1
                 WHEN a.ao = 'rg_csaup'          THEN 80
-                WHEN a.ao = '2nd-f-coffeteria'  THEN 0                
+                WHEN a.ao = '2nd-f-coffeteria'  THEN 0    
+                WHEN a.ao = '2nd-f'  THEN 5    
                 ELSE 3
             END AS points,
             
