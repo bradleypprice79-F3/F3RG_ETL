@@ -238,10 +238,10 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                 notes = "YAY! You did the popup!" if popup==0 else "popup already achieved this week"
                 popup=1
             
-            elif row['type'] == "hardshit":
+            elif row['type'] == "hardsh!t":
                 # create the row
                 points_to_award = row['points'] if hardshit<2 else 0
-                notes = "I'll bet you're tired now!" if hardshit<2 else "hardshit already achieved for RG2025"
+                notes = "I'll bet you're tired now!" if hardshit<2 else "hardsh!t already achieved for RG2025"
                 hardshit+=1
             
             else:
