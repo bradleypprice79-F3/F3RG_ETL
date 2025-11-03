@@ -1,0 +1,63 @@
+date,week,Team,type,points,notes
+2025-11-01,0,Comet,FNG1,3,Toby
+2025-11-01,0,Donner,Santa Locks,5,"ao-the-colosseum-Spit Valves Bootcamp; Chum Bucket, fuzzy navel, Moist, Juanita, Corner Kick, Mr. Kotter"
+2025-11-01,0,Prancer,Santa Locks,15,"ao-the-colosseum-Fall Convergence 2025; PFG, Glass Slipper, Liberty Biberty, Nemo, Deliverance, Spit Valve, Flo, YellowPages, The Worm, Slinky, Dilbert, Tinfoil, Boomer, Hank Hill, Depends (3rdF Q)"
+2025-11-01,0,Prancer,Santa Locks,5,"ao-the-colosseum-Spit Valves Bootcamp; YellowPages, Spit Valve, Nemo, Liberty Biberty, Boomer, Hank Hill, Tinfoil, Depends (3rdF Q)"
+2025-11-01,0,Rudolph,Santa Locks,10,"ao-the-colosseum-Fall Convergence 2025; Italian Ice, Slapshot, Underdog, Celine Dion, Backstreet, Foreclosure, Nickelback, Ringo, Folgers, Ricola, Napster"
+2025-11-01,0,Vixen,Santa Locks,10,"ao-the-colosseum-Fall Convergence 2025; Ollie, Ginga, Fish Tape, Scuba Steve, Go Daddy, Blue Gill, Dilly Dilly, 5-Putt, vern, Hackman, Quatro, Tweety"
+2025-11-01,0,Vixen,Individuals points,114,"['Dilly Dilly', '5-Putt', 'vern', 'Hackman', 'Quatro', 'Blue Gill', 'Tweety', 'Ollie', 'Ginga', 'Fish Tape', 'Go Daddy', 'Scuba Steve', 'Broomstick']"
+2025-11-01,0,Rudolph,Individuals points,122,"['Ringo', 'Napster', 'Nickelback', 'Backstreet', 'Foreclosure', 'Folgers', 'Ricola', 'Celine Dion', 'Italian Ice', 'Slapshot', 'Underdog']"
+2025-11-01,0,Blitzen,Individuals points,74,"['Schlitz', 'Gopher', 'Morticia', 'Pee Wee Herman', 'Xena- Warrior Princess', 'Just Dance', 'Kidney Beans']"
+2025-11-01,0,Comet,Individuals points,352,"['Dauber', 'Meta', 'Fire Hose', 'Hot Lava', 'Manhole', 'Mahomes', 'Frontier', 'Pearl', 'Choco Taco', 'Algorithm', 'Bambino', 'Pull-up', 'Happy Camper', 'Toby', 'Second Best', 'DJ Sump Pump', 'Bob Villa', 'Heifer', 'Six Sheets', 'Hatchet (Lizard Q)', 'Peterbilt', 'Tighty Whities', 'Wing Stop (F3 Naperville)', 'Shankapotomus']"
+2025-11-01,0,Cupid,Individuals points,119,"['Caboose', 'Duck Hunt', 'Sparkler', 'Picasso', 'Soft Hands', 'Spike Horn', 'Candy Man', 'GrubX (CMW)', 'Singer', 'Sizzler', 'Double dipper', 'Bunker']"
+2025-11-01,0,Dancer,Individuals points,190,"['Sparky', 'Dear Abby', 'Pop-Tart', 'Party in a bottle', 'Foghorn', 'Hodl', 'Boston Butt', 'Cinderella', 'TruGreen', 'Cutler', 'Ricochet', 'Phoenix', 'Thesaurus']"
+2025-11-01,0,Dasher,Individuals points,183,"['Jellystone', 'Doozie', 'Olive Oyl', 'Old Maid', 'Scratch and Dent', 'UPS', 'Norm', 'LaRussa', 'Trifecta', 'Zimmer', 'Dog House', 'Drive By']"
+2025-11-01,0,Donner,Individuals points,158,"['Chum Bucket', 'fuzzy navel', 'Bedpan', 'Hanger', 'Celler Dweller', 'Trickle', 'John Denver', 'Storm Chaser', 'Mr. Belding', 'Juanita', 'Corner Kick', 'Mr. Kotter', 'Moist']"
+2025-11-01,0,Donner,Santa Locks,10,"ao-the-colosseum-Fall Convergence 2025; Bedpan, Celler Dweller, Moist, Chum Bucket, fuzzy navel, Juanita, Trickle, John Denver, Hanger, Storm Chaser, Mr. Belding, Corner Kick, Mr. Kotter"
+2025-11-01,0,Dasher,Santa Locks,5,"ao-the-colosseum-Spit Valves Bootcamp; Jellystone, Doozie, Scratch and Dent, UPS, Norm, Olive Oyl, Old Maid, Zimmer"
+2025-11-01,0,Dancer,Santa Locks,5,"ao-the-colosseum-Spit Valves Bootcamp; Dear Abby, Foghorn, Pop-Tart, Ricochet, Sparky, Hodl, Party in a bottle, TruGreen, Cutler"
+2025-11-01,0,Prancer,FNG1,3,Tinfoil
+2025-11-01,0,Comet,FNG1,3,Six Sheets
+2025-11-01,0,Comet,FNG1,3,Heifer
+2025-11-01,0,Prancer,FNG1,3,Glass Slipper
+2025-11-01,0,Vixen,FNG1,3,Go Daddy
+2025-11-01,0,Comet,FNG1,3,Bambino
+2025-11-01,0,Comet,FNG1,3,Fire Hose
+2025-11-01,0,Comet,FNG1,3,Choco Taco
+2025-11-01,0,Prancer,FNG1,3,Slinky
+2025-11-01,0,Dasher,Santa Locks,10,"ao-the-colosseum-Fall Convergence 2025; Scratch and Dent, Doozie, UPS, Norm, Olive Oyl, Jellystone, Old Maid, Trifecta, Zimmer, Dog House, LaRussa"
+2025-11-01,0,Prancer,Individuals points,197,"['Hank Hill', 'Spit Valve', 'Deliverance', 'Nemo', 'The Worm', 'Dilbert', 'YellowPages', 'Depends (3rdF Q)', 'Tinfoil', 'Boomer', 'Liberty Biberty', 'PFG', 'Glass Slipper', 'Slinky', 'Flo']"
+2025-11-01,0,Comet,FNG1,3,Second Best
+2025-11-01,0,Comet,FNG1,3,Tighty Whities
+2025-11-01,0,Blitzen,Santa Locks,5,"ao-the-colosseum-Fall Convergence 2025; Kidney Beans, Just Dance, Schlitz, Gopher, Morticia, Pee Wee Herman, Xena- Warrior Princess"
+2025-11-01,0,Comet,Santa Locks,20,"ao-the-colosseum-Fall Convergence 2025; Wing Stop (F3 Naperville), Pearl, Frontier, Shankapotomus, Choco Taco, Meta, Pull-up, Fire Hose, Six Sheets, Dauber, Happy Camper, Toby, Second Best, DJ Sump Pump, Bob Villa, Heifer, Manhole, Tighty Whities, Hot Lava, Peterbilt, Mahomes, Bambino, Algorithm, Hatchet (Lizard Q)"
+2025-11-01,0,Comet,Santa Locks,15,"ao-the-colosseum-Spit Valves Bootcamp; Happy Camper, Bob Villa, Heifer, Dauber, Pull-up, Meta, Six Sheets, Mahomes, Pearl, Frontier, Hot Lava, Manhole, Hatchet (Lizard Q), Algorithm, Peterbilt"
+2025-11-01,0,Cupid,Santa Locks,10,"ao-the-colosseum-Fall Convergence 2025; Sizzler, Soft Hands, Spike Horn, Picasso, Sparkler, Candy Man, Caboose, Duck Hunt, Singer, GrubX (CMW)"
+2025-11-01,0,Dancer,Santa Locks,10,"ao-the-colosseum-Fall Convergence 2025; Party in a bottle, Thesaurus, Pop-Tart, Ricochet, Hodl, Phoenix, Dear Abby, Cinderella, Boston Butt, Cutler, Sparky, Foghorn, TruGreen"
+2025-11-02,1,Dasher,Individuals points,76,"['Jellystone', 'Doozie', 'Olive Oyl', 'Old Maid', 'Scratch and Dent', 'UPS', 'Norm', 'LaRussa', 'Trifecta', 'Zimmer', 'Dog House', 'Rooney', 'Drive By', 'Scat', 'Grinch']"
+2025-11-02,1,Comet,Individuals points,159,"['Dauber', 'Meta', 'Hot Lava', 'Manhole', 'Mahomes', 'Frontier', 'Pearl', 'Choco Taco', 'Algorithm', 'Bambino', 'Pull-up', 'Hatchet (Lizard Q)', 'Peterbilt', 'Shankapotomus']"
+2025-11-02,1,Blitzen,Individuals points,11,"['Schlitz', 'Xena- Warrior Princess']"
+2025-11-02,1,Donner,Individuals points,77,"['Chum Bucket', 'fuzzy navel', 'Bedpan', 'Hanger', 'Celler Dweller', 'John Denver', 'Storm Chaser', 'Juanita', 'Mr. Kotter', 'Moist', 'HGTV']"
+2025-11-02,1,Dancer,Individuals points,54,"['Sparky', 'Dear Abby', 'Pop-Tart', 'Party in a bottle', 'Foghorn', 'Hodl', 'Cinderella', 'TruGreen', 'Cutler']"
+2025-11-02,1,Cupid,Individuals points,38,"['Caboose', 'Duck Hunt', 'Sparkler', 'Soft Hands', 'Singer', 'Bunker']"
+2025-11-02,1,Rudolph,Individuals points,34,"['Ringo', 'Napster', 'Nickelback', 'Foreclosure', 'Ricola', 'BoilerUp']"
+2025-11-02,1,Vixen,Individuals points,17,"['Hat Trick', 'Dilly Dilly', 'Blue Gill', 'Scuba Steve', 'Broomstick']"
+2025-11-02,1,Prancer,Individuals points,64,"['Hank Hill', 'Spit Valve', 'Deliverance', 'Hot Boxx', 'Nemo', 'The Worm', 'Dilbert', 'YellowPages', 'Depends (3rdF Q)', 'Tinfoil', 'Slinky', 'Flo', 'Wet Bandit']"
+2025-11-03,1,Blitzen,Individuals points,37,"['Schlitz', 'Gopher', 'Morticia', 'Pee Wee Herman', 'Just Dance', 'Kidney Beans', 'Woody', 'SkidMark', 'Derailed']"
+2025-11-03,1,Comet,Individuals points,89,"['Dauber', 'Meta', 'Hot Lava', 'Manhole', 'Mahomes', 'Pearl', 'Choco Taco', 'Algorithm', 'Pull-up', 'Happy Camper', 'Second Best', 'DJ Sump Pump', 'Bob Villa', 'Six Sheets', 'Hatchet (Lizard Q)', 'Peterbilt', 'Wing Stop (F3 Naperville)', 'Shankapotomus']"
+2025-11-03,1,Cupid,Individuals points,36,"['Caboose', 'Duck Hunt', 'Sparkler', 'Picasso', 'GrubX (CMW)', 'Singer', 'Bunker']"
+2025-11-03,1,Dancer,Individuals points,43,"['Dear Abby', 'Pop-Tart', 'Foghorn', 'Hodl', 'Cinderella', 'TruGreen', 'Cutler', 'Ricochet']"
+2025-11-03,1,Dasher,Individuals points,48,"['Jellystone', 'Doozie', 'Olive Oyl', 'Old Maid', 'Scratch and Dent', 'UPS', 'Norm', 'LaRussa', 'Zimmer', 'Rooney']"
+2025-11-03,1,Donner,Individuals points,72,"['Chum Bucket', 'Bedpan', 'Hanger', 'Celler Dweller', 'Trickle', 'John Denver', 'Storm Chaser', 'Juanita', 'Corner Kick', 'Mr. Kotter', 'Moist', 'Peashooter']"
+2025-11-03,1,Rudolph,Individuals points,43,"['Ringo', 'Napster', 'Foreclosure', 'Folgers', 'Ricola', 'Italian Ice', 'Underdog', 'BoilerUp']"
+2025-11-03,1,Prancer,Individuals points,67,"['Hank Hill', 'Spit Valve', 'Deliverance', 'Nemo', 'The Worm', 'Dilbert', 'YellowPages', 'Depends (3rdF Q)', 'Boomer', 'Liberty Biberty', 'PFG', 'Slinky', 'Flo', 'Sensodyne']"
+2025-11-03,1,Vixen,Santa Locks,5,"ao-the-silo-RDG week1; Hat Trick, Tweety, Broomstick, Blue Gill, Quatro, vern, Dilly Dilly"
+2025-11-03,1,Prancer,Santa Locks,10,"ao-the-grove-The Eternal Circle of Chaos; Nemo, Slinky, Flo, Deliverance, Spit Valve, Hank Hill, Depends (3rdF Q), YellowPages, Dilbert, The Worm, Liberty Biberty"
+2025-11-03,1,Donner,Santa Locks,10,"ao-the-grove-The Eternal Circle of Chaos; Hanger, John Denver, Bedpan, Chum Bucket, Moist, Celler Dweller, Mr. Kotter, Peashooter, Corner Kick, Juanita"
+2025-11-03,1,Dasher,Santa Locks,5,"ao-the-silo-RDG week1; Scratch and Dent, Zimmer, Old Maid, Olive Oyl, Jellystone, UPS"
+2025-11-03,1,Dancer,Santa Locks,5,"ao-the-ridge-Algorithms 3 station BC; Dear Abby, Ricochet, Pop-Tart, Foghorn, Cutler, TruGreen, Hodl"
+2025-11-03,1,Comet,Santa Locks,5,"ao-the-ridge-Algorithms 3 station BC; DJ Sump Pump, Pull-up, Choco Taco, Pearl, Shankapotomus, Algorithm, Six Sheets, Meta"
+2025-11-03,1,Comet,Santa Locks,5,"ao-the-colosseum-Mahome’s Miles; Mahomes, Hatchet (Lizard Q), Manhole, Hot Lava, Dauber"
+2025-11-03,1,Blitzen,Santa Locks,5,"ao-the-grove-The Eternal Circle of Chaos; Morticia, SkidMark, Woody, Schlitz, Kidney Beans, Pee Wee Herman, Derailed"
+2025-11-03,1,Vixen,challenge_flag,1,Vixen - Tweety
+2025-11-03,1,Vixen,Individuals points,40,"['Hat Trick', 'Dilly Dilly', 'vern', 'Quatro', 'Blue Gill', 'Tweety', 'Broomstick']"
