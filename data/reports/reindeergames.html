@@ -351,7 +351,7 @@
 
         if (filteredAgg.length > 0) {
           // Build header dynamically from CSV columns
-          const headers = Object.keys(filteredAgg[0]);
+          const headers = Object.keys(filteredAgg[0]).filter(h => h !== "week" && h !== "team");
           let html = "<table><thead><tr>";
           headers.forEach(h => html += `<th>${h}</th>`);
           html += "</tr></thead><tbody>";
