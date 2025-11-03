@@ -558,7 +558,7 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
 
     # Step 2: cross join to get every combination of user/team/week
     PAXdraft_filtered = PAXdraft[~PAXdraft["Team"].isin(["NONE", "Unknown Team"])]
-    all_PAX = PAXdraft_filtered[["user_name","Team"]]
+    all_PAX = PAXdraft_filtered[["user_name","Team"]].rename(columns={"user_name": "user", "Team": "team"})
     full_grid = (
         all_PAX.assign(key=1)
         .merge(weeks.assign(key=1), on="key")
@@ -567,7 +567,7 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
 
     # Step 3: merge your stats table into that grid
     merged = (
-        full_grid.merge(pivot, on=["user_name", "Team", "week"], how="left")
+        full_grid.merge(pivot, on=["user", "team", "week"], how="left")
     )
 
     # Step 4: fill missing values (users/weeks with no activity)
@@ -581,6 +581,6 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
     merged["ao_list"] = merged["ao_list"].replace(0, "")
 
     # (Optional) sort nicely
-    merged = merged.sort_values(["Team", "user_name", "week"]).reset_index(drop=True)
+    merged = merged.sort_values(["team", "user", "week"]).reset_index(drop=True)
 
     return(merged)
