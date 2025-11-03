@@ -543,7 +543,9 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
     #Rename some columns if needed.
     pivot = pivot.rename(columns={
         "Around The World": "ATW",
-        "sixpack bonus": "6pack"
+        "sixpack bonus": "6pack",
+        "Team": "team",
+        "user_name": "user"
     })
 
     # Step 2: Reorder columns

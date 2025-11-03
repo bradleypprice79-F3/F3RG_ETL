@@ -99,16 +99,17 @@
 
   <!-- Bottom dashboard: full-width tables -->
   <div id="bottom-dashboard">
-    <h2>Team Points</h2>
+    <h2>Aggregated Details</h2>
+    
     <div>
       Team: <select id="teamSelect"></select>
       Week: <select id="weekSelect"></select>
     </div>
-    <div id="teamPointsTable"></div>
-
-    <h2>Aggregated Details</h2>
     <div id="aggregatedDetailsTable"></div>
-
+    
+    <h2>Team Points</h2>
+    <div id="teamPointsTable"></div>
+    
     <h2>Individual Points</h2>
     <div>
       Day: <select id="daySelect"></select>
@@ -339,25 +340,6 @@
       const weekSelect = document.getElementById("weekSelect").value;
 
       // ------------------------
-      // Team Points Table
-      // ------------------------
-      const teamPointsContainer = document.getElementById("teamPointsTable");
-      if(teamSelect && weekSelect) {
-        let filteredTeamRows = teamData
-          .filter(d => d.Team === teamSelect && d.week === weekSelect)
-          .sort((a,b) => new Date(b.date) - new Date(a.date)); // newest first
-
-        let html = "<table><thead><tr><th>Date</th><th>Type</th><th>Points</th><th>Notes</th></tr></thead><tbody>";
-        filteredTeamRows.forEach(d => {
-          html += `<tr><td>${d.date}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td></tr>`;
-        });
-        html += "</tbody></table>";
-        teamPointsContainer.innerHTML = html;
-      } else {
-        teamPointsContainer.innerHTML = "";
-      }
-
-      // ------------------------
       // Aggregated Details Table
       // ------------------------
       const aggregatedContainer = document.getElementById("aggregatedDetailsTable");
@@ -388,6 +370,27 @@
       } else {
         aggregatedContainer.innerHTML = "";
       }
+      
+
+      // ------------------------
+      // Team Points Table
+      // ------------------------
+      const teamPointsContainer = document.getElementById("teamPointsTable");
+      if(teamSelect && weekSelect) {
+        let filteredTeamRows = teamData
+          .filter(d => d.Team === teamSelect && d.week === weekSelect)
+          .sort((a,b) => new Date(b.date) - new Date(a.date)); // newest first
+
+        let html = "<table><thead><tr><th>Date</th><th>Type</th><th>Points</th><th>Notes</th></tr></thead><tbody>";
+        filteredTeamRows.forEach(d => {
+          html += `<tr><td>${d.date}</td><td>${d.type}</td><td>${d.points}</td><td>${d.notes}</td></tr>`;
+        });
+        html += "</tbody></table>";
+        teamPointsContainer.innerHTML = html;
+      } else {
+        teamPointsContainer.innerHTML = "";
+      }
+
       
         // ------------------------
         // Individual Points Table
