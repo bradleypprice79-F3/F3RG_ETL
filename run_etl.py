@@ -60,6 +60,8 @@ def main():
     team_scores = transform.calculate_team_points(df_enriched, individual_scores, date_table)
     # 2. Transform (identify fng's and pax not on a team) (I havent made this function yet, but will later)
     lone_pax_report = transform.get_lone_pax_report(df_enriched)
+    # 2. Create the checklist table
+    checklist_table = transform.calculate_checklist_table(individual_scores,PAXdraft)
 
     # 2_5.move any existing data into the archive_folder.  It doesnt hurt anything to stay there, but will make the directory cleaner.
     for file_name in os.listdir(cfg.REPORTS):
@@ -77,13 +79,16 @@ def main():
     load.to_csv(team_scores[~team_scores["Team"].isin(["Unknown Team", "NONE"])], f"{cfg.REPORTS}team_scores_{timestamp}.csv")
     # lone pax report
     load.to_csv(lone_pax_report, f"{cfg.REPORTS}lone_pax_report_{timestamp}.csv")
+    # checklist_table
+    load.to_csv(checklist_table, f"{cfg.REPORTS}checklist_table_{timestamp}.csv")
 
     # Also write a small manifest file so HTML knows the "latest"
     with open(f"{cfg.REPORTS}latest_files.js", "w") as f:
         f.write('const latestFiles = {\n')
         f.write(f'  individual: "individual_scores_{timestamp}.csv",\n')
         f.write(f'  team: "team_scores_{timestamp}.csv",\n')
-        f.write(f'  lone_pax: "lone_pax_report_{timestamp}.csv",\n')  # <-- comma here
+        f.write(f'  lone_pax: "lone_pax_report_{timestamp}.csv",\n')  
+        f.write(f'  aggregated: "checklist_table_{timestamp}.csv",\n') 
         f.write(f'  current_timestamp: "{timestamp_clean}"\n')
         f.write('};\n')
 

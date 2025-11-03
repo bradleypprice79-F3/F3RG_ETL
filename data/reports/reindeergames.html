@@ -106,6 +106,9 @@
     </div>
     <div id="teamPointsTable"></div>
 
+    <h2>Aggregated Details</h2>
+    <div id="aggregatedDetailsTable"></div>
+
     <h2>Individual Points</h2>
     <div>
       Day: <select id="daySelect"></select>
@@ -120,6 +123,7 @@
     // =========================
     let individualData = [];
     let teamData = [];
+    let aggregatedData = [];
     let teams = []; // list of all team names
     let users = []; // list of all user_names
     let weeks = []; // list of weeks
@@ -151,6 +155,15 @@
       }
     });
 
+    Papa.parse(latestFiles.aggregated, {   // assuming you’ll add this filename to latest_files.js
+      download: true,
+      header: true,
+      complete: (results) => {
+        aggregatedData = results.data;
+        updateBottomTables();
+      }
+    });
+
     // =========================
     // Preprocess CSV data
     // =========================
@@ -163,7 +176,7 @@
 
       // Extract unique teams, users, weeks
       teams = [...new Set(teamData.map(d => d.Team))].sort();
-      users = [...new Set(individualData.map(d => d.user_name))].sort();
+      users = [...new Set(aggregatedData.map(d => d.user_name))].sort();
       weeks = [...new Set(individualData.map(d => d.week))].sort((a,b) => +a - +b);
     }
 
@@ -344,6 +357,38 @@
         teamPointsContainer.innerHTML = "";
       }
 
+      // ------------------------
+      // Aggregated Details Table
+      // ------------------------
+      const aggregatedContainer = document.getElementById("aggregatedDetailsTable");
+
+      if (teamSelect && weekSelect) {
+        let filteredAgg = aggregatedData.filter(
+          d => d.team === teamSelect && d.week === weekSelect
+        );
+
+        if (filteredAgg.length > 0) {
+          // Build header dynamically from CSV columns
+          const headers = Object.keys(filteredAgg[0]);
+          let html = "<table><thead><tr>";
+          headers.forEach(h => html += `<th>${h}</th>`);
+          html += "</tr></thead><tbody>";
+
+          filteredAgg.forEach(row => {
+            html += "<tr>";
+            headers.forEach(h => html += `<td>${row[h]}</td>`);
+            html += "</tr>";
+          });
+
+          html += "</tbody></table>";
+          aggregatedContainer.innerHTML = html;
+        } else {
+          aggregatedContainer.innerHTML = "<p>No data available.</p>";
+        }
+      } else {
+        aggregatedContainer.innerHTML = "";
+      }
+      
         // ------------------------
         // Individual Points Table
         // ------------------------

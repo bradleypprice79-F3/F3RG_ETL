@@ -499,3 +499,88 @@ def get_lone_pax_report(df_enriched: pd.DataFrame) -> pd.DataFrame:
 
     return(df_lone_pax)
 
+def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.DataFrame) -> pd.DataFrame:
+    """
+    Calculate individual points by week by type.  So PAX and captains can quickly see who is doing (or not doing) what.
+
+    """
+    # Define the full set of columns you expect
+    expected_types = ["1stf", "2ndf", "3rdf", "Donation", "ec", "hardsh!t", "popup", "workout Q", "QSQ", "qs", "Around The World","sixpack bonus"]
+
+    pivot = (
+        individual_scores.pivot_table(
+            index=["user_name", "Team", "week"],  # rows
+            columns="type",                       # columns to expand
+            values="points",                      # values to fill
+            aggfunc="sum",                        # aggregate function
+            fill_value=0                          # replace NaN with 0
+        )
+        .reset_index()
+    )
+    pivot.columns.name = None
+    # Add any missing columns, in your desired order
+    for col in expected_types:
+        if col not in pivot.columns:
+            pivot[col] = 0
+
+    # find ao list for each pax
+    # Step 1: Keep only rows where ao starts with "ao-"
+    df_filtered = individual_scores[individual_scores["ao"].str.startswith("ao-", na=False)].copy()
+
+    # Step 2: Strip the "ao-" prefix
+    df_filtered["ao"] = df_filtered["ao"].str.replace("^ao-", "", regex=True)
+
+    # Step 3: Aggregate by user/team/week and join unique AOs
+    ao_agg = (
+        df_filtered.groupby(["user_name", "Team", "week"])["ao"]
+        .agg(lambda x: ", ".join(sorted(set(x))))
+        .reset_index()
+        .rename(columns={"ao": "ao_list"})
+    )
+
+    # merge ao lists into pivot table
+    pivot = pivot.merge(ao_agg, on=["user_name", "Team", "week"], how="left")
+    #Rename some columns if needed.
+    pivot = pivot.rename(columns={
+        "Around The World": "ATW",
+        "sixpack bonus": "6pack"
+    })
+
+    # Step 2: Reorder columns
+    desired_order = ["week","Team","user_name","ec", "1stf", "ATW", "6pack", "3rdf", "Donation", "qs", "2ndf", "popup", "workout Q", "QSQ", "hardsh!t", "ao_list"]
+    pivot = pivot[desired_order]
+    # reorder the columns
+    pivot = pivot[["user_name", "Team", "week", "ao_list", "1stf", "2ndf", "3rdf", "ec"]]
+
+    ## make sure that all PAX on each team are represented for every week!
+    # Step 1: create a DataFrame of all weeks
+    weeks = pd.DataFrame({"week": range(0, 7)})  # weeks 0 through 6
+
+    # Step 2: cross join to get every combination of user/team/week
+    PAXdraft_filtered = PAXdraft[~PAXdraft["Team"].isin(["NONE", "Unknown Team"])]
+    all_PAX = PAXdraft_filtered[["user_name","Team"]]
+    full_grid = (
+        all_PAX.assign(key=1)
+        .merge(weeks.assign(key=1), on="key")
+        .drop("key", axis=1)
+    )
+
+    # Step 3: merge your stats table into that grid
+    merged = (
+        full_grid.merge(pivot, on=["user_name", "Team", "week"], how="left")
+    )
+
+    # Step 4: fill missing values (users/weeks with no activity)
+    merged = merged.fillna(0)
+
+    # Convert all numeric columns to int (except, say, ao_list which is text)
+    num_cols = merged.select_dtypes(include="number").columns
+    merged[num_cols] = merged[num_cols].astype(int)
+
+    # Step 5: if ao_list should remain blank instead of 0
+    merged["ao_list"] = merged["ao_list"].replace(0, "")
+
+    # (Optional) sort nicely
+    merged = merged.sort_values(["Team", "user_name", "week"]).reset_index(drop=True)
+
+    return(merged)
