@@ -549,8 +549,6 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
     # Step 2: Reorder columns
     desired_order = ["week","Team","user_name","ec", "1stf", "ATW", "6pack", "3rdf", "Donation", "qs", "2ndf", "popup", "workout Q", "QSQ", "hardsh!t", "ao_list"]
     pivot = pivot[desired_order]
-    # reorder the columns
-    pivot = pivot[["user_name", "Team", "week", "ao_list", "1stf", "2ndf", "3rdf", "ec"]]
 
     ## make sure that all PAX on each team are represented for every week!
     # Step 1: create a DataFrame of all weeks
