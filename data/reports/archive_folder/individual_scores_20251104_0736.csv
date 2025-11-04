@@ -1,0 +1,904 @@
+date,week,Team,user_name,ao,type,points,notes
+2025-11-01,0,Comet,Dauber,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Dauber,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Dauber,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Dauber,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Dauber,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Comet,Dauber,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Comet,Dauber,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Comet,Dauber,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Comet,Dauber,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Comet,Dauber,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Comet,Dauber,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Chum Bucket,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Donner,Chum Bucket,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Chum Bucket,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Chum Bucket,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Donner,Chum Bucket,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Donner,Chum Bucket,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-02,1,Donner,Chum Bucket,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Donner,Chum Bucket,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Chum Bucket,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Meta,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Meta,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Meta,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Meta,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Meta,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Meta,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Comet,Meta,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-02,1,Comet,Meta,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Meta,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Meta,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Comet,Meta,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Fire Hose,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Fire Hose,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Fire Hose,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Comet,Fire Hose,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Donner,fuzzy navel,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Donner,fuzzy navel,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,fuzzy navel,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,fuzzy navel,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-02,1,Donner,fuzzy navel,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Donner,fuzzy navel,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Donner,fuzzy navel,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Donner,fuzzy navel,rg_3rdf_donation,Donation,0,Donation already achieved this week
+2025-11-01,0,Comet,Hot Lava,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Hot Lava,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Hot Lava,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Hot Lava,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Hot Lava,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Hot Lava,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Hot Lava,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Comet,Hot Lava,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Comet,Hot Lava,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Hot Lava,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Comet,Hot Lava,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Hot Lava,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Comet,Manhole,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Manhole,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Manhole,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Manhole,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Manhole,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Manhole,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Manhole,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Comet,Manhole,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Comet,Manhole,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-02,1,Comet,Manhole,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Manhole,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Manhole,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Comet,Manhole,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Sparky,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Dancer,Sparky,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Sparky,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Sparky,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Sparky,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Sparky,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Sparky,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Dancer,Sparky,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Dancer,Sparky,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Dancer,Sparky,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dancer,Sparky,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Dancer,Sparky,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Sparky,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-01,0,Comet,Mahomes,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Mahomes,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Mahomes,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Mahomes,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Mahomes,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Comet,Mahomes,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Comet,Mahomes,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-02,1,Comet,Mahomes,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Mahomes,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Mahomes,ao-the-colosseum,workout Q,1,Q
+2025-11-03,1,Comet,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Comet,Mahomes,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Comet,Mahomes,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Comet,Mahomes,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Frontier,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Frontier,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Frontier,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Frontier,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Frontier,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Frontier,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Frontier,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Comet,Frontier,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-02,1,Comet,Frontier,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Frontier,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Frontier,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Frontier,rg_ec3,ec,0,EC points already earned today
+2025-11-01,0,Comet,Pearl,3rd-f,3rdf,5,Food Pantry
+2025-11-01,0,Comet,Pearl,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Pearl,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Pearl,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Pearl,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Comet,Pearl,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Comet,Pearl,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Pearl,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-04,1,Comet,Pearl,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Comet,Pearl,3rd-f-qsource,qs,5,QS
+2025-11-01,0,Dasher,Old Maid,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Dasher,Old Maid,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-01,0,Dasher,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dasher,Old Maid,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Old Maid,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Dasher,Old Maid,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Dasher,Old Maid,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Old Maid,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dasher,Old Maid,3rd-f,3rdf,5,Feed Meta’s Starving Children
+2025-11-03,1,Dasher,Old Maid,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Dasher,Old Maid,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dasher,Old Maid,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Prancer,Spit Valve,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Spit Valve,ao-the-colosseum,workout Q,1,Q
+2025-11-01,0,Prancer,Spit Valve,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Spit Valve,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Spit Valve,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Prancer,Spit Valve,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Prancer,Spit Valve,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Prancer,Spit Valve,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Spit Valve,3rd-f,3rdf,5,Feed Meta’s Starving Children
+2025-11-03,1,Prancer,Spit Valve,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Spit Valve,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Prancer,Spit Valve,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Cupid,Great Clips,3rd-f,3rdf,5,Feed Meta’s Starving Children
+2025-11-01,0,Prancer,Nemo,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Nemo,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Nemo,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Nemo,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Prancer,Nemo,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Prancer,Nemo,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Nemo,3rd-f,3rdf,5,Feed Meta’s Starving Children
+2025-11-03,1,Prancer,Nemo,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Nemo,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Prancer,Nemo,3rd-f-qsource,qs,5,QS
+2025-11-01,0,Dasher,Scratch and Dent,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,Scratch and Dent,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Scratch and Dent,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dasher,Scratch and Dent,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Scratch and Dent,rg_ec3,ec,0,EC points already earned today
+2025-11-01,0,Dasher,Scratch and Dent,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-01,0,Dasher,Scratch and Dent,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Scratch and Dent,2nd-f,2ndf,5,Olive Oyl move part 1
+2025-11-02,1,Dasher,Scratch and Dent,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dasher,Scratch and Dent,3rd-f,3rdf,5,Feed Meta’s Starving Children
+2025-11-03,1,Dasher,Scratch and Dent,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Dasher,Scratch and Dent,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dasher,Scratch and Dent,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Unknown Team,F3CrossroadsIL,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Unknown Team,F3CrossroadsIL,downrange,1stf,4,downrange - chaminwood bd lift club
+2025-11-03,1,Unknown Team,F3CrossroadsIL,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-04,1,Unknown Team,F3CrossroadsIL,downrange,1stf,3,downrange - The Outpost Run Club
+2025-11-04,1,Unknown Team,F3CrossroadsIL,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Norm,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Dasher,Norm,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-01,0,Dasher,Norm,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Norm,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dasher,Norm,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Norm,rg_ec3,ec,0,EC points already earned today
+2025-11-01,0,Dasher,Norm,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-01,0,Dasher,Norm,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Norm,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Norm,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dasher,Norm,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Dasher,Norm,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dasher,Norm,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Unknown Team,FINCH,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-03,1,Unknown Team,FINCH,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Unknown Team,FINCH,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Trifecta,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Dasher,Trifecta,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-01,0,Dasher,Trifecta,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Trifecta,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Trifecta,rg_ec3,ec,0,EC points already earned today
+2025-11-02,1,Dasher,Trifecta,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Cupid,Caboose,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Cupid,Caboose,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-01,0,Cupid,Caboose,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Caboose,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Cupid,Caboose,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Cupid,Caboose,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Cupid,Caboose,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Cupid,Caboose,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-03,1,Cupid,Caboose,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-01,0,Rudolph,Ricola,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Rudolph,Ricola,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-01,0,Rudolph,Ricola,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Ricola,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Rudolph,Ricola,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-01,0,Rudolph,Ricola,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Rudolph,Ricola,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Rudolph,Ricola,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Rudolph,Ricola,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Unknown Team,Dutch Boy,2nd-f,2ndf,5,Plankton’s Texas Hold’em tourney
+2025-11-01,0,Dasher,Jellystone,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,Jellystone,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Jellystone,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dasher,Jellystone,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Jellystone,rg_ec3,ec,0,EC points already earned today
+2025-11-01,0,Dasher,Jellystone,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Jellystone,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Dasher,Jellystone,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Dasher,Jellystone,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Jellystone,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dasher,Jellystone,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Dasher,Jellystone,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dasher,Jellystone,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Rudolph,Ringo,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Ringo,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Rudolph,Ringo,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Rudolph,Ringo,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Rudolph,Ringo,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Rudolph,Ringo,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Rudolph,Ringo,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Rudolph,Ringo,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Rudolph,Ringo,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Hank Hill,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Hank Hill,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Hank Hill,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Hank Hill,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-01,0,Prancer,Hank Hill,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Prancer,Hank Hill,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Prancer,Hank Hill,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Prancer,Hank Hill,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Hank Hill,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Prancer,Hank Hill,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Hank Hill,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Prancer,Hank Hill,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Unknown Team,Ferkus,2nd-f,2ndf,5,Bears Game at Rosatis
+2025-11-02,1,Unknown Team,Ferkus,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-01,0,Donner,Bedpan,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Bedpan,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Bedpan,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Donner,Bedpan,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Donner,Bedpan,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Donner,Bedpan,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Donner,Bedpan,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Bedpan,rg_ec2,ec,2,"EC, noice!"
+2025-11-01,0,Donner,Hanger,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Hanger,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Donner,Hanger,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-03,1,Donner,Hanger,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Hanger,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Donner,Hanger,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-01,0,Dancer,Dear Abby,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Dear Abby,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Dear Abby,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Dear Abby,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Dear Abby,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Dancer,Dear Abby,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dancer,Dear Abby,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Dancer,Dear Abby,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Dear Abby,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Blitzen,Schlitz,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Schlitz,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Blitzen,Schlitz,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Blitzen,Schlitz,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Blitzen,Schlitz,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Blitzen,Schlitz,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Blitzen,Schlitz,ao-the-grove,workout Q,1,Q
+2025-11-03,1,Blitzen,Schlitz,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Blitzen,Schlitz,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Rudolph,Napster,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Napster,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Napster,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Rudolph,Napster,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Rudolph,Napster,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Rudolph,Napster,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Rudolph,Napster,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Rudolph,Napster,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Rudolph,Napster,3rd-f-qsource,qs,5,QS
+2025-11-01,0,Cupid,Duck Hunt,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Duck Hunt,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Duck Hunt,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Cupid,Duck Hunt,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Cupid,Duck Hunt,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Cupid,Duck Hunt,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Cupid,Duck Hunt,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Cupid,Duck Hunt,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Cupid,Duck Hunt,ao-black-diamond,workout Q,1,Q
+2025-11-04,1,Cupid,Duck Hunt,ao-black-diamond,1stf,4,ao-black-diamond - Stations at the O
+2025-11-04,1,Cupid,Duck Hunt,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Doozie,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,Doozie,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Doozie,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dasher,Doozie,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Doozie,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Doozie,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Dasher,Doozie,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Doozie,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Doozie,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dasher,Doozie,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Dasher,Doozie,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Dasher,Doozie,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dasher,Doozie,3rd-f-qsource,qs,5,QS
+2025-11-04,1,Dasher,Doozie,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Vixen,Hat Trick,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-03,1,Vixen,Hat Trick,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,Hat Trick,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Vixen,Hat Trick,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Deliverance,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Deliverance,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Prancer,Deliverance,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Prancer,Deliverance,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Deliverance,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-04,1,Prancer,Deliverance,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Dancer,Pop-Tart,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Pop-Tart,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Pop-Tart,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Pop-Tart,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Pop-Tart,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-02,1,Dancer,Pop-Tart,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dancer,Pop-Tart,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dancer,Pop-Tart,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Dancer,Pop-Tart,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Dancer,Pop-Tart,rg_ec1,ec,1,"EC, noice!"
+2025-11-04,1,Dancer,Pop-Tart,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Celler Dweller,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Celler Dweller,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Celler Dweller,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Donner,Celler Dweller,2nd-f,2ndf,5,Return of the points ruckers
+2025-11-03,1,Donner,Celler Dweller,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Celler Dweller,rg_ec2,ec,2,"EC, noice!"
+2025-11-03,1,Donner,Celler Dweller,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Donner,Celler Dweller,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Prancer,Hot Boxx,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Prancer,Hot Boxx,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Comet,Choco Taco,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Choco Taco,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Comet,Choco Taco,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Comet,Choco Taco,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Comet,Choco Taco,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Comet,Choco Taco,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Olive Oyl,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Olive Oyl,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-02,1,Dasher,Olive Oyl,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Dasher,Olive Oyl,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Dasher,Olive Oyl,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dasher,Olive Oyl,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Dasher,Olive Oyl,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Dasher,Olive Oyl,rg_popup,popup,0,popup already achieved this week
+2025-11-01,0,Comet,Algorithm,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Algorithm,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Algorithm,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Algorithm,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Algorithm,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Comet,Algorithm,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Comet,Algorithm,ao-the-ridge,workout Q,1,Q
+2025-11-03,1,Comet,Algorithm,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-01,0,Comet,Bambino,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Bambino,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Bambino,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Bambino,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Bambino,2nd-f,2ndf,5,Bears and Pizza
+2025-11-01,0,Dancer,Party in a bottle,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Party in a bottle,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Dancer,Party in a bottle,2nd-f,2ndf,5,Bears and Pizza
+2025-11-02,1,Dancer,Party in a bottle,2nd-f,2ndf,0,2nd F already achieved this week
+2025-11-02,1,Dancer,Party in a bottle,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Dancer,Party in a bottle,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Dancer,Party in a bottle,3rd-f-qsource,qs,5,QS
+2025-11-01,0,Comet,Pull-up,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Pull-up,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Pull-up,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Pull-up,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Pull-up,2nd-f,2ndf,5,Olive Oyl move part 1
+2025-11-03,1,Comet,Pull-up,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Comet,Pull-up,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Pull-up,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Comet,Pull-up,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Comet,Pull-up,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Foghorn,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Foghorn,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Foghorn,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Foghorn,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Foghorn,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Foghorn,2nd-f,2ndf,5,Olive Oyl move part 1
+2025-11-02,1,Dancer,Foghorn,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dancer,Foghorn,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Dancer,Foghorn,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Hodl,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Hodl,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Hodl,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Hodl,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Hodl,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Hodl,2nd-f,2ndf,5,Olive Oyl move part 1
+2025-11-03,1,Dancer,Hodl,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Dancer,Hodl,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Hodl,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Hodl,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Comet,Happy Camper,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Happy Camper,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Happy Camper,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Happy Camper,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Comet,Happy Camper,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Comet,Happy Camper,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Happy Camper,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Comet,Happy Camper,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Boston Butt,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Boston Butt,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-04,1,Dancer,Boston Butt,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Vixen,Dilly Dilly,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Dilly Dilly,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Vixen,Dilly Dilly,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Vixen,Dilly Dilly,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,Dilly Dilly,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Trickle,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Trickle,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Donner,Trickle,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-01,0,Vixen,5-Putt,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,5-Putt,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-04,1,Vixen,5-Putt,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Vixen,vern,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,vern,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Vixen,vern,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,vern,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Vixen,vern,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Toby,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Toby,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Second Best,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Second Best,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Comet,Second Best,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-01,0,Donner,John Denver,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,John Denver,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Donner,John Denver,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Donner,John Denver,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,John Denver,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,DJ Sump Pump,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,DJ Sump Pump,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,DJ Sump Pump,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Comet,DJ Sump Pump,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-01,0,Blitzen,Gopher,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Gopher,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Blitzen,Gopher,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Blitzen,Gopher,rg_ec1,ec,1,"EC, noice!"
+2025-11-01,0,Comet,Bob Villa,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Bob Villa,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Bob Villa,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Bob Villa,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Comet,Bob Villa,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Comet,Bob Villa,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Bob Villa,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Comet,Bob Villa,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Cupid,Sparkler,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Sparkler,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Sparkler,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-02,1,Cupid,Sparkler,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Cupid,Sparkler,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Cupid,Sparkler,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Cupid,Sparkler,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Cupid,Sparkler,ao-black-diamond,1stf,4,ao-black-diamond - Stations at the O
+2025-11-04,1,Cupid,Sparkler,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Vixen,Hackman,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Hackman,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-04,1,Vixen,Hackman,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Donner,Storm Chaser,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Storm Chaser,downrange,1stf,4,downrange - chaminwood bd lift club
+2025-11-01,0,Donner,Storm Chaser,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Donner,Storm Chaser,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Donner,Storm Chaser,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Donner,Storm Chaser,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Donner,Storm Chaser,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Donner,Storm Chaser,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-01,0,Blitzen,Morticia,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Morticia,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Blitzen,Morticia,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-04,1,Blitzen,Morticia,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Rudolph,Nickelback,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Nickelback,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Rudolph,Nickelback,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Rudolph,Nickelback,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Vixen,Quatro,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Quatro,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Vixen,Quatro,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,Quatro,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Heifer,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Heifer,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Heifer,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Donner,Mr. Belding,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Mr. Belding,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Mr. Belding,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Donner,Mr. Belding,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Donner,Mr. Belding,rg_ec2,ec,2,"EC, noice!"
+2025-11-01,0,Cupid,Picasso,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Picasso,downrange,1stf,4,downrange - chaminwood bd lift club
+2025-11-01,0,Cupid,Picasso,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Cupid,Picasso,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Cupid,Picasso,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Cupid,Picasso,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Vixen,Blue Gill,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Blue Gill,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Vixen,Blue Gill,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Vixen,Blue Gill,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Vixen,Blue Gill,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Vixen,Blue Gill,ao-the-silo,workout Q,1,Q
+2025-11-03,1,Vixen,Blue Gill,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,Blue Gill,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Vixen,Blue Gill,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Cupid,Soft Hands,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Soft Hands,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Soft Hands,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Cupid,Soft Hands,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-02,1,Cupid,Soft Hands,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Cupid,Soft Hands,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Cupid,Soft Hands,ao-black-diamond,1stf,4,ao-black-diamond - Stations at the O
+2025-11-04,1,Cupid,Soft Hands,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Rudolph,Backstreet,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Backstreet,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Spike Horn,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Spike Horn,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Spike Horn,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Cupid,Spike Horn,ao-black-diamond,1stf,4,ao-black-diamond - Stations at the O
+2025-11-04,1,Cupid,Spike Horn,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Unknown Team,Freon,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Unknown Team,Freon,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Foreclosure,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Rudolph,Foreclosure,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Rudolph,Foreclosure,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Rudolph,Foreclosure,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Rudolph,Foreclosure,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Rudolph,Foreclosure,3rd-f-qsource,qs,5,QS
+2025-11-04,1,Rudolph,Foreclosure,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,The Worm,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,The Worm,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Prancer,The Worm,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,The Worm,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,The Worm,rg_ec2,ec,2,"EC, noice!"
+2025-11-01,0,Prancer,Dilbert,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Dilbert,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Dilbert,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Prancer,Dilbert,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Dilbert,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Dilbert,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Prancer,Dilbert,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Comet,Six Sheets,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Six Sheets,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Six Sheets,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Six Sheets,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Six Sheets,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Comet,Six Sheets,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Comet,Six Sheets,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Prancer,YellowPages,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,YellowPages,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,YellowPages,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,YellowPages,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Prancer,YellowPages,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,YellowPages,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,YellowPages,rg_ec2,ec,2,"EC, noice!"
+2025-11-01,0,Dasher,UPS,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,UPS,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,UPS,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-02,1,Dasher,UPS,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,UPS,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dasher,UPS,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Dasher,UPS,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Juanita,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Juanita,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Donner,Juanita,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Donner,Juanita,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Donner,Juanita,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Juanita,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Cinderella,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Cinderella,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Cinderella,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Cinderella,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dancer,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Dancer,Cinderella,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Cinderella,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Dancer,Cinderella,rg_ec2,ec,2,"EC, noice!"
+2025-11-01,0,Cupid,Candy Man,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Candy Man,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-04,1,Cupid,Candy Man,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Prancer,Depends (3rdF Q),2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Depends (3rdF Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Depends (3rdF Q),rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Depends (3rdF Q),rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Prancer,Depends (3rdF Q),rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Depends (3rdF Q),ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Depends (3rdF Q),rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Prancer,Depends (3rdF Q),3rd-f-qsource,QSource Q,1,QSQ
+2025-11-04,1,Prancer,Depends (3rdF Q),3rd-f-qsource,qs,5,QS
+2025-11-01,0,Dancer,TruGreen,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,TruGreen,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,TruGreen,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dancer,TruGreen,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-04,1,Dancer,TruGreen,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Unknown Team,T-Dubs (Outlands),2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Unknown Team,T-Dubs (Outlands),ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Hatchet (Lizard Q),2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Hatchet (Lizard Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Hatchet (Lizard Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Hatchet (Lizard Q),rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Hatchet (Lizard Q),rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Hatchet (Lizard Q),ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Comet,Hatchet (Lizard Q),rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Comet,Hatchet (Lizard Q),3rd-f-qsource,qs,5,QS
+2025-11-01,0,Cupid,GrubX (CMW),2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,GrubX (CMW),ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Cupid,GrubX (CMW),downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Cupid,GrubX (CMW),rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Cupid,GrubX (CMW),rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Cupid,GrubX (CMW),ao-black-diamond,1stf,4,ao-black-diamond - Stations at the O
+2025-11-01,0,Dasher,LaRussa,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,LaRussa,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Dasher,LaRussa,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dasher,LaRussa,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Peterbilt,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Peterbilt,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Peterbilt,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Comet,Peterbilt,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Comet,Peterbilt,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Peterbilt,downrange,1stf,3,downrange - Q and site Q at The Globe Naperville
+2025-11-01,0,Vixen,Tweety,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Tweety,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Vixen,Tweety,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Vixen,Tweety,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Vixen,Tweety,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,Tweety,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Blitzen,Pee Wee Herman,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Pee Wee Herman,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Blitzen,Pee Wee Herman,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-03,1,Blitzen,Pee Wee Herman,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-04,1,Blitzen,Pee Wee Herman,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Blitzen,Pee Wee Herman,3rd-f-qsource,qs,5,QS
+2025-11-01,0,Comet,Tighty Whities,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Tighty Whities,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Comet,Tighty Whities,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Comet,Tighty Whities,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Dancer,Cutler,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Cutler,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Cutler,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Cutler,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Cutler,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dancer,Cutler,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dancer,Cutler,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Dancer,Cutler,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Cutler,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Corner Kick,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Corner Kick,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Corner Kick,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Donner,Corner Kick,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Donner,Corner Kick,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Corner Kick,rg_ec2,ec,2,"EC, noice!"
+2025-11-04,1,Donner,Corner Kick,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Dasher,Zimmer,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,Zimmer,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Zimmer,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dasher,Zimmer,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dasher,Zimmer,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-01,0,Dasher,Zimmer,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Zimmer,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Zimmer,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Zimmer,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Dasher,Zimmer,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-04,1,Dasher,Zimmer,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Mr. Kotter,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Mr. Kotter,ao-the-colosseum,workout Q,1,Q
+2025-11-01,0,Donner,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Mr. Kotter,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-02,1,Donner,Mr. Kotter,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Donner,Mr. Kotter,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Mr. Kotter,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Donner,Mr. Kotter,downrange,1stf,3,downrange - The Outpost Run Club
+2025-11-04,1,Donner,Mr. Kotter,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Cupid,Singer,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Cupid,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Cupid,Singer,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Cupid,Singer,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Cupid,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Cupid,Singer,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Cupid,Singer,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Cupid,Singer,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Tinfoil,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Tinfoil,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Tinfoil,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Tinfoil,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Prancer,Tinfoil,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Dasher,Dog House,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dasher,Dog House,downrange,1stf,4,downrange - chaminwood bd lift club
+2025-11-01,0,Dasher,Dog House,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dasher,Dog House,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Dog House,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dasher,Dog House,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Dasher,Dog House,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Dasher,Dog House,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Boomer,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Boomer,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Boomer,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Boomer,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Boomer,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Prancer,Boomer,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Prancer,Boomer,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Unknown Team,Preacher,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Unknown Team,Preacher,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Folgers,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Folgers,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Folgers,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Rudolph,Folgers,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Blitzen,Xena- Warrior Princess,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-02,1,Blitzen,Xena- Warrior Princess,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Blitzen,Xena- Warrior Princess,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Blitzen,Xena- Warrior Princess,3rd-f-qsource,qs,5,QS
+2025-11-01,0,Cupid,Sizzler,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Sizzler,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-04,1,Cupid,Sizzler,ao-black-diamond,1stf,4,ao-black-diamond - Stations at the O
+2025-11-01,0,Vixen,Ollie,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Ollie,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Ricochet,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Dancer,Ricochet,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Dancer,Ricochet,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Dancer,Ricochet,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dancer,Ricochet,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Dancer,Ricochet,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Rudolph,Celine Dion,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Celine Dion,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Wing Stop (F3 Naperville),2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Wing Stop (F3 Naperville),ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Comet,Wing Stop (F3 Naperville),rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Comet,Wing Stop (F3 Naperville),downrange,1stf,3,downrange - Q and site Q at The Globe Naperville
+2025-11-03,1,Comet,Wing Stop (F3 Naperville),rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Comet,Wing Stop (F3 Naperville),ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Vixen,Ginga,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Ginga,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Blitzen,Just Dance,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Blitzen,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Blitzen,Just Dance,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Blitzen,Just Dance,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Blitzen,Just Dance,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Donner,Moist,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Donner,Moist,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Donner,Moist,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Donner,Moist,rg_ec3,ec,3,"EC, noice!"
+2025-11-02,1,Donner,Moist,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Donner,Moist,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Moist,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Donner,Moist,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Comet,Shankapotomus,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Comet,Shankapotomus,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Comet,Shankapotomus,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Comet,Shankapotomus,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-01,0,Vixen,Fish Tape,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Fish Tape,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Vixen,Go Daddy,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Go Daddy,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Vixen,Scuba Steve,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Vixen,Scuba Steve,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Vixen,Scuba Steve,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Vixen,Scuba Steve,rg_ec2,ec,2,"EC, noice!"
+2025-11-04,1,Vixen,Scuba Steve,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Dancer,Phoenix,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Phoenix,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Phoenix,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-03,1,Dancer,Phoenix,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-04,1,Dancer,Phoenix,rg_popup,popup,3,YAY! You did the popup!
+2025-11-04,1,Dancer,Phoenix,rg_popup,popup,0,popup already achieved this week
+2025-11-01,0,Blitzen,Kidney Beans,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Blitzen,Kidney Beans,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Blitzen,Kidney Beans,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Blitzen,Kidney Beans,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,Liberty Biberty,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Liberty Biberty,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Liberty Biberty,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-01,0,Prancer,Liberty Biberty,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Prancer,Liberty Biberty,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Liberty Biberty,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Rudolph,Italian Ice,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Italian Ice,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Rudolph,Italian Ice,downrange,1stf,3,downrange - Morning BC F3 Southsid3@The Woodsh3d
+2025-11-01,0,Rudolph,Slapshot,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Slapshot,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Thesaurus,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Dancer,Thesaurus,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Dancer,Thesaurus,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-01,0,Rudolph,Underdog,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Rudolph,Underdog,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Rudolph,Underdog,ao-the-colosseum,1stf,3,ao-the-colosseum - Spit Valves Bootcamp
+2025-11-03,1,Rudolph,Underdog,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Rudolph,Underdog,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Prancer,PFG,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,PFG,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,PFG,rg_hardshit,hardsh!t,10,I'll bet you're tired now!
+2025-11-03,1,Prancer,PFG,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Prancer,PFG,rg_popup,popup,3,YAY! You did the popup!
+2025-11-01,0,Cupid,Double dipper,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Cupid,Double dipper,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Prancer,Glass Slipper,2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Prancer,Glass Slipper,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-01,0,Unknown Team,Matlock (F3 Rockford),2nd-f,2ndf,5,Post convergence Food and Fellowship
+2025-11-01,0,Unknown Team,Matlock (F3 Rockford),ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Dasher,Rooney,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Rooney,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Dasher,Rooney,downrange,1stf,3,downrange - F3 Chaminwood The Island + Wood
+2025-11-03,1,Dasher,Rooney,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Dasher,Rooney,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Unknown Team,Push Social Content to slack,downrange,1stf,3,downrange - CMW -TW - Bootcamp Tool Box on Q
+2025-11-03,1,Unknown Team,Tee Ball,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Unknown Team,Tee Ball,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Unknown Team,ATF,downrange,1stf,3,downrange - The Snowbirds Arrive
+2025-11-03,1,Unknown Team,slackblast,downrange,1stf,3,downrange - Morning BC F3 Southsid3@The Woodsh3d
+2025-11-02,1,Unknown Team,Slackbot,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Unknown Team,Slackbot,downrange,1stf,3,downrange - RDG - Island Downrange
+2025-11-03,1,Unknown Team,Unknown Name,downrange,1stf,3,downrange - CMW The Wood - Toolbox Q
+2025-11-04,1,Vixen,Den Mother,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-03,1,Unknown Team,SoccerMom,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-04,1,Unknown Team,SoccerMom,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Cupid,Bunker,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Cupid,Bunker,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Cupid,Bunker,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-04,1,Cupid,Bunker,ao-the-colosseum,workout Q,1,Q
+2025-11-04,1,Cupid,Bunker,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Rudolph,Mapquest,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Prancer,Flo,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Prancer,Flo,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Prancer,Flo,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Flo,rg_ec2,ec,2,"EC, noice!"
+2025-11-04,1,Prancer,Flo,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-04,1,Prancer,Flo,rg_ec2,ec,2,"EC, noice!"
+2025-11-03,1,Unknown Team,Hot Pants,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-04,1,Unknown Team,Hot Pants,ao-the-colosseum,1stf,3,ao-the-colosseum - Bunker’s Beatdown
+2025-11-01,0,Prancer,Slinky,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-02,1,Prancer,Slinky,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Prancer,Slinky,rg_popup,popup,0,popup already achieved this week
+2025-11-03,1,Prancer,Slinky,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Prancer,Slinky,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Unknown Team,Pit Boss,ao-the-colosseum,1stf,3,ao-the-colosseum - Fall Convergence 2025
+2025-11-03,1,Unknown Team,Pit Boss,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Unknown Team,Pit Boss,rg_ec2,ec,2,"EC, noice!"
+2025-11-02,1,Rudolph,BoilerUp,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Rudolph,BoilerUp,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Rudolph,BoilerUp,rg_ec1,ec,1,"EC, noice!"
+2025-11-03,1,Prancer,Sensodyne,ao-the-colosseum,1stf,3,ao-the-colosseum - Mahome’s Miles
+2025-11-03,1,Prancer,Sensodyne,rg_ec1,ec,1,"EC, noice!"
+2025-11-03,1,Unknown Team,Martha Stewart,ao-the-ridge,1stf,3,ao-the-ridge - Algorithms 3 station BC
+2025-11-03,1,Unknown Team,Martha Stewart,rg_ec1,ec,1,"EC, noice!"
+2025-11-01,0,Vixen,Broomstick,rg_ec3,ec,3,"EC, noice!"
+2025-11-01,0,Vixen,Broomstick,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Vixen,Broomstick,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Vixen,Broomstick,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Vixen,Broomstick,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Vixen,Broomstick,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Unknown Team,BORG,ao-the-silo,1stf,3,ao-the-silo - RDG week1
+2025-11-03,1,Unknown Team,BORG,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Blitzen,Woody,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Blitzen,SkidMark,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Blitzen,SkidMark,rg_ec2,ec,2,"EC, noice!"
+2025-11-03,1,Blitzen,Derailed,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Blitzen,Derailed,rg_ec3,ec,3,"EC, noice!"
+2025-11-03,1,Donner,Peashooter,ao-the-grove,1stf,3,ao-the-grove - The Eternal Circle of Chaos
+2025-11-03,1,Donner,Peashooter,rg_ec3,ec,3,"EC, noice!"
+2025-11-04,1,Donner,Peashooter,rg_popup,popup,3,YAY! You did the popup!
+2025-11-03,1,Blitzen,Foundation,rg_ec2,ec,2,"EC, noice!"
+2025-11-01,0,Dasher,Drive By,rg_3rdf_donation,Donation,3,"$$, way to be generous!"
+2025-11-02,1,Dasher,Drive By,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Drive By,rg_popup,popup,0,popup already achieved this week
+2025-11-02,1,Dasher,Scat,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Dasher,Grinch,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Prancer,Wet Bandit,rg_popup,popup,3,YAY! You did the popup!
+2025-11-02,1,Donner,HGTV,rg_popup,popup,3,YAY! You did the popup!
