@@ -409,6 +409,9 @@
         // Append sorted rows back to table body
         rows.forEach(r => tbody.appendChild(r));
       }
+
+      // ✅ Make available to inline onclick handlers
+      window.sortTable = sortTable;
       
 
       // ------------------------
