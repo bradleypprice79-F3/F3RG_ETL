@@ -352,8 +352,10 @@
         if (filteredAgg.length > 0) {
           // Build header dynamically from CSV columns
           const headers = Object.keys(filteredAgg[0]).filter(h => h !== "week" && h !== "team");
-          let html = "<table><thead><tr>";
-          headers.forEach(h => html += `<th>${h}</th>`);
+          let html = "<table id='aggregatedTable'><thead><tr>";
+          headers.forEach((h, idx) => {
+            html += `<th onclick="sortTable(${idx})" style="cursor:pointer">${h}</th>`;
+          });
           html += "</tr></thead><tbody>";
 
           filteredAgg.forEach(row => {
@@ -369,6 +371,43 @@
         }
       } else {
         aggregatedContainer.innerHTML = "";
+      }
+
+      // ------------------------
+      // Sorting Function
+      // ------------------------
+      function sortTable(colIndex) {
+        const table = document.getElementById("aggregatedTable");
+        const tbody = table.tBodies[0];
+        const rows = Array.from(tbody.rows);
+        const th = table.tHead.rows[0].cells[colIndex];
+
+        // Determine current sort direction
+        const ascending = th.dataset.sort !== "asc";
+        th.dataset.sort = ascending ? "asc" : "desc";
+
+        // Determine if column is numeric
+        const isNumeric = rows.every(row => !isNaN(parseFloat(row.cells[colIndex].innerText)));
+
+        // Sort rows
+        rows.sort((a, b) => {
+          let x = a.cells[colIndex].innerText;
+          let y = b.cells[colIndex].innerText;
+
+          if (isNumeric) {
+            x = parseFloat(x) || 0;
+            y = parseFloat(y) || 0;
+          }
+
+          if (ascending) {
+            return isNumeric ? x - y : x.localeCompare(y);
+          } else {
+            return isNumeric ? y - x : y.localeCompare(x);
+          }
+        });
+
+        // Append sorted rows back to table body
+        rows.forEach(r => tbody.appendChild(r));
       }
       
 
