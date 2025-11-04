@@ -576,9 +576,7 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
     # Convert all numeric columns to int (except, say, ao_list which is text)
     num_cols = merged.select_dtypes(include="number").columns
     merged[num_cols] = merged[num_cols].astype(int)
-
-    # Step 5: if ao_list should remain blank instead of 0
-    merged["ao_list"] = merged["ao_list"].replace(0, "")
+    merged = merged.replace(0, "")
 
     # (Optional) sort nicely
     merged = merged.sort_values(["team", "user", "week"]).reset_index(drop=True)
