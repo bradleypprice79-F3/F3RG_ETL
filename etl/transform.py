@@ -1,6 +1,7 @@
 # etl/transform.py
 import pandas as pd
 import re
+import datetime
 
 def clean_backblast(text_string):
     if not isinstance(text_string, str):
@@ -183,11 +184,18 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
 
 
             # Feature tested by "EC test (daily cap at 3 points)"
-            # Apply EC cap logic
+            # Apply EC cap logic and none on sunday
             elif row['type'] == "ec":
                 # create the row
-                points_to_award = row['points'] if EC_daily == 0 else 0
-                notes = "EC, noice!" if EC_daily == 0 else "EC points already earned today"
+                # is it a sunday?
+                is_sunday = datetime.datetime.strptime(row['date'], "%Y-%m-%d").weekday() == 6
+                points_to_award = row['points'] if EC_daily == 0 and not is_sunday else 0
+                if EC_daily == 0 and not is_sunday:
+                    notes = "EC, noice!"  
+                elif EC_daily == 0 and is_sunday:
+                    notes = "No EC on Sunday"  
+                else:
+                    notes = "EC points already earned today"
                 EC_daily += row['points']
 
             #Give points for Qsource if he hasnt already gone this week.  Also, for Qing Qsource if he hasnt already Q'd one yet.
