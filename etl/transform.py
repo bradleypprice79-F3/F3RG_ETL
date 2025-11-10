@@ -513,10 +513,10 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
 
     """
     # Define the full set of columns you expect
-    expected_types = ["1stf", "2ndf", "3rdf", "Donation", "ec", "hardsh!t", "popup", "workout Q", "QSource Q", "qs", "Around The World","sixpack bonus"]
-
+    expected_types = ["1stf", "2ndf", "3rdf", "Donation", "ec", "popup", "workout Q", "QSource Q", "qs", "Around The World","sixpack bonus"]
+    i_scores_filtered = individual_scores[individual_scores['type'] != 'hardsh!t']
     pivot = (
-        individual_scores.pivot_table(
+        i_scores_filtered.pivot_table(
             index=["user_name", "Team", "week"],  # rows
             columns="type",                       # columns to expand
             values="points",                      # values to fill
@@ -558,10 +558,6 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
         "user_name": "user"
     })
 
-    # Step 2: Reorder columns
-    desired_order = ["week","team","user","ec", "1stf", "ATW", "6pack", "3rdf", "Donation", "qs", "2ndf", "popup", "WO Q", "QS Q", "hardsh!t", "ao_list"]
-    pivot = pivot[desired_order]
-
     ## make sure that all PAX on each team are represented for every week!
     # Step 1: create a DataFrame of all weeks
     weeks = pd.DataFrame({"week": range(0, 7)})  # weeks 0 through 6
@@ -580,16 +576,30 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
         full_grid.merge(pivot, on=["user", "team", "week"], how="left")
     )
 
+    # Step 3B: get points per pax/week
+    pax_points_per_week = i_scores_filtered.groupby(['week', 'user_name'], as_index=False)['points'].sum()
+
+    # add point totals into merged...
+    merged = merged.merge(
+        pax_points_per_week.rename(columns={'user_name': 'user', 'points': 'week total'}),
+        on=['user', 'week'],
+        how='left'
+    )
+
     # Step 4: fill missing values (users/weeks with no activity)
     merged = merged.fillna(0)
 
     # Convert all numeric columns to int (except, say, ao_list which is text)
     num_cols = merged.select_dtypes(include="number").columns
     merged[num_cols] = merged[num_cols].astype(int)
-    cols_to_replace = [c for c in merged.columns if c != "week"]
+    cols_to_replace = [c for c in merged.columns if c != "week" and c != "week total"]
     merged[cols_to_replace] = merged[cols_to_replace].replace(0, "")
 
+    # Reorder columns
+    desired_order = ["week","team","user","week total", "ec", "1stf", "ATW", "6pack", "3rdf", "Donation", "qs", "2ndf", "popup", "WO Q", "QS Q", "ao_list"]
+    merged = merged[desired_order]
     # (Optional) sort nicely
-    merged = merged.sort_values(["team", "user", "week"]).reset_index(drop=True)
+    merged = merged.sort_values(["week total","team", "user", "week"],
+        ascending=[False, True, True, True]).reset_index(drop=True)
 
     return(merged)

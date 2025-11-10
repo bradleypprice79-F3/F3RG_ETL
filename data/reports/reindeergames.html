@@ -344,34 +344,39 @@
       // ------------------------
       const aggregatedContainer = document.getElementById("aggregatedDetailsTable");
 
-      if (teamSelect && weekSelect) {
-        let filteredAgg = aggregatedData.filter(
-          d => d.team === teamSelect && d.week === weekSelect
-        );
+      let filteredAgg = aggregatedData;
 
-        if (filteredAgg.length > 0) {
-          // Build header dynamically from CSV columns
-          const headers = Object.keys(filteredAgg[0]).filter(h => h !== "week" && h !== "team");
-          let html = "<table id='aggregatedTable'><thead><tr>";
-          headers.forEach((h, idx) => {
-            html += `<th onclick="sortTable(${idx})" style="cursor:pointer">${h}</th>`;
-          });
-          html += "</tr></thead><tbody>";
-
-          filteredAgg.forEach(row => {
-            html += "<tr>";
-            headers.forEach(h => html += `<td>${row[h]}</td>`);
-            html += "</tr>";
-          });
-
-          html += "</tbody></table>";
-          aggregatedContainer.innerHTML = html;
-        } else {
-          aggregatedContainer.innerHTML = "<p>No data available.</p>";
-        }
-      } else {
-        aggregatedContainer.innerHTML = "";
+      // Only filter by team if one is selected
+      if (teamSelect) {
+        filteredAgg = filteredAgg.filter(d => d.team === teamSelect);
       }
+
+      // Only filter by week if one is selected
+      if (weekSelect) {
+        filteredAgg = filteredAgg.filter(d => d.week === weekSelect);
+      }
+
+      if (filteredAgg.length > 0) {
+        // Build header dynamically from CSV columns
+        const headers = Object.keys(filteredAgg[0]); //.filter(h => h !== "week" && h !== "team");  I was filtering out team and week, but lets leave them in and see how it goes.
+        let html = "<table id='aggregatedTable'><thead><tr>";
+        headers.forEach((h, idx) => {
+          html += `<th onclick="sortTable(${idx})" style="cursor:pointer">${h}</th>`;
+        });
+        html += "</tr></thead><tbody>";
+
+        filteredAgg.forEach(row => {
+          html += "<tr>";
+          headers.forEach(h => html += `<td>${row[h]}</td>`);
+          html += "</tr>";
+        });
+
+        html += "</tbody></table>";
+        aggregatedContainer.innerHTML = html;
+      } else {
+        aggregatedContainer.innerHTML = "<p>No data available.</p>";
+      }
+      
 
       // ------------------------
       // Sorting Function
