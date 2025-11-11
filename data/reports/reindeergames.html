@@ -92,6 +92,12 @@
     </div>
 
     <div id="right-column">
+      <div>
+        <label for="teamFilter"><strong>Filter by Team:</strong></label>
+        <select id="teamFilter">
+          <option value="">All Teams</option>
+        </select>
+      </div>
       <h2>Individual Standings</h2>
       <div id="individualStandingsTable"></div>
     </div>
@@ -304,7 +310,16 @@
           hsPoints: data.hsPoints,
           team: data.team
         }))
-        .sort((a, b) => b.points - a.points);
+
+      // Filter by team (if selected)
+      const teamFilter = document.getElementById("teamFilter").value;
+      if (teamFilter) {
+        totalsArray = totalsArray.filter(u => u.team === teamFilter);
+      }
+
+      // Sort by total points descending
+    totalsArray.sort((a, b) => b.points - a.points);
+
 
       // Build table HTML
       let html = "<table><thead><tr><th>Rank</th><th>User</th><th>Team</th><th>HS</th><th>Total Points</th></tr></thead><tbody>";
@@ -315,6 +330,29 @@
 
       container.innerHTML = html;
     }
+
+    // -------------------------
+    // Populate Filter Dropdown
+    // -------------------------
+      function populateTeamFilter() {
+        const select = document.getElementById("teamFilter");
+        const teams = [...new Set(individualData.map(d => d.Team))].sort();
+        teams.forEach(team => {
+          const opt = document.createElement("option");
+          opt.value = team;
+          opt.textContent = team;
+          select.appendChild(opt);
+        });
+
+        // Re-render table on change
+        select.addEventListener("change", renderIndividualStandingsTable);
+      }
+
+    // -------------------------
+    // Initial Render
+    // -------------------------
+    populateTeamFilter();
+    renderIndividualStandingsTable();
 
     // =========================
     // Populate dropdowns
