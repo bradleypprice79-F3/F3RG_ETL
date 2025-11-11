@@ -287,9 +287,13 @@
       let totals = {};
       individualData.forEach(d => {
         if (!totals[d.user_name]) {
-          totals[d.user_name] = { points: 0, team: d.Team }; // store both
+          totals[d.user_name] = { points: 0, hsPoints: 0, team: d.Team }; // store both
         }
         totals[d.user_name].points += d.points;
+        if (d.type === "hardsh!t") {
+          totals[d.user_name].hsPoints += d.points;
+    }
+
       });
 
       // Convert to array, sort by points
@@ -297,14 +301,15 @@
         .map(([user, data]) => ({
           user,
           points: data.points,
+          hsPoints: data.hsPoints,
           team: data.team
         }))
         .sort((a, b) => b.points - a.points);
 
       // Build table HTML
-      let html = "<table><thead><tr><th>Rank</th><th>User</th><th>Team</th><th>Total Points</th></tr></thead><tbody>";
+      let html = "<table><thead><tr><th>Rank</th><th>User</th><th>Team</th><th>HS</th><th>Total Points</th></tr></thead><tbody>";
       totalsArray.forEach((u, idx) => {
-        html += `<tr><td>${idx + 1}</td><td>${u.user}</td><td>${u.team}</td><td>${u.points}</td></tr>`;
+        html += `<tr><td>${idx + 1}</td><td>${u.user}</td><td>${u.team}</td><td>${u.hsPoints}</td><td>${u.points}</td></tr>`;
       });
       html += "</tbody></table>";
 
