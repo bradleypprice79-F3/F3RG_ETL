@@ -331,33 +331,18 @@
       container.innerHTML = html;
     }
 
-    // -------------------------
-    // Populate Filter Dropdown
-    // -------------------------
-      function populateTeamFilter() {
-        const select = document.getElementById("teamFilter");
-        const teams = [...new Set(individualData.map(d => d.Team))].sort();
-        teams.forEach(team => {
-          const opt = document.createElement("option");
-          opt.value = team;
-          opt.textContent = team;
-          select.appendChild(opt);
-        });
-
-        // Re-render table on change
-        select.addEventListener("change", renderIndividualStandingsTable);
-      }
-
-    // -------------------------
-    // Initial Render
-    // -------------------------
-    populateTeamFilter();
-    renderIndividualStandingsTable();
-
     // =========================
     // Populate dropdowns
     // =========================
     function populateDropdowns() {
+
+      // Team dropdown for individual standings.
+      const selectindteam = document.getElementById("teamFilter");
+      selectindteam.innerHTML = "<option value=''>Select Team</option>";
+      teams.forEach(t => {
+        selectindteam.innerHTML += `<option value="${t}">${t}</option>`;
+      });
+
       // Team dropdown
       const teamSelect = document.getElementById("teamSelect");
       teamSelect.innerHTML = "<option value=''>Select Team</option>";
@@ -536,7 +521,8 @@
     document.getElementById("weekSelect").addEventListener("change", updateBottomTables);
     document.getElementById("daySelect").addEventListener("change", updateBottomTables);
     document.getElementById("userSelect").addEventListener("change", updateBottomTables);
-
+    // and top right teams filter
+    document.getElementById("userSelect").addEventListener("change", renderIndividualStandingsTable);
   </script>
 
 <script>
