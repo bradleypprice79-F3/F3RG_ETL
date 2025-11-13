@@ -74,7 +74,7 @@ def main():
             print(f"Exists in archive? {os.path.exists(dst_path)}")
 
     # 3. Save processed data with timestamp in filename
-    load.to_csv(individual_scores[individual_scores["Team"].isin(["Unknown Team", "NONE"])], f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
+    load.to_csv(individual_scores[~individual_scores["Team"].isin(["Unknown Team", "NONE"])], f"{cfg.REPORTS}individual_scores_{timestamp}.csv")
     # don't include unknown team in the team score data.
     load.to_csv(team_scores[~team_scores["Team"].isin(["Unknown Team", "NONE"])], f"{cfg.REPORTS}team_scores_{timestamp}.csv")
     # lone pax report
