@@ -171,6 +171,15 @@
       }
     });
 
+    Papa.parse(latestFiles.individualstandings, { 
+      download: true,
+      header: true,
+      complete: (results) => {
+        aggregatedData = results.data;
+        updateBottomTables();
+      }
+    });
+
     // =========================
     // Preprocess CSV data
     // =========================
@@ -292,15 +301,15 @@
       // Aggregate total points by user (and capture team)
       let totals = {};
       individualData.forEach(d => {
-        if (!totals[d.user_name]) {
-          totals[d.user_name] = { points: 0, hsPoints: 0, team: d.Team }; // store both
-        }
-        totals[d.user_name].points += d.points;
-        if (d.type === "hardsh!t") {
-          totals[d.user_name].hsPoints += d.points;
-    }
+          if (!totals[d.user_name]) {
+            totals[d.user_name] = { points: 0, hsPoints: 0, team: d.Team }; // store both
+          }
+          totals[d.user_name].points += d.points;
+          if (d.type === "hardsh!t") {
+            totals[d.user_name].hsPoints += d.points;
+          }
 
-      });
+        });
 
       // Convert to array, sort by points
       let totalsArray = Object.entries(totals)
@@ -318,7 +327,7 @@
       }
 
       // Sort by total points descending
-    totalsArray.sort((a, b) => b.points - a.points);
+      totalsArray.sort((a, b) => b.points - a.points);
 
 
       // Build table HTML

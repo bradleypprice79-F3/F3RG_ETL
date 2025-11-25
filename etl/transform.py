@@ -603,3 +603,31 @@ def calculate_checklist_table(individual_scores: pd.DataFrame, PAXdraft: pd.Data
         ascending=[False, True, True, True]).reset_index(drop=True)
 
     return(merged)
+
+
+def calculate_individualstandings(individual_scores: pd.DataFrame, team_scores: pd.DataFrame, PAXdraft: pd.DataFrame) -> pd.DataFrame:
+    """
+    Calculate individual standings.  So PAX and captains can see total scores, HS completed, and FNG points.
+
+    """
+    filtereddf = individual_scores[~individual_scores["Team"].isin(["Unknown Team", "NONE"])]
+    summary = (
+        filtereddf
+        .groupby(["user_name", "Team"], as_index=False)
+        .agg(
+            Total_Points=("points", "sum"),
+            HS=("points", lambda x: x[filtereddf.loc[x.index, "type"] == "hardsh!t"].sum()),
+            Post_count=("type", lambda x: (x == "1stf").sum()),
+            ec=("points", lambda x: x[filtereddf.loc[x.index, "type"] == "ec"].sum())
+        )
+    )
+
+    # Add rank by Total_Points (highest = rank 1)
+    summary["rank"] = summary["Total_Points"].rank(method="dense", ascending=False).astype(int)
+
+    # Reorder columns
+    ranked = summary[["rank", "user_name", "Team", "HS", "Total_Points", "Post_count", "ec"]].sort_values("rank", ascending=True)
+
+
+
+    return(merged)
