@@ -8,7 +8,7 @@ def to_csv(df, filepath):
     # df.to_csv(filepath, index=False)
 
     # this method of writing writes without the new line and therefore gets rid of the missing data in javascript.
-    csv_text = df.to_csv(index=False).rstrip("\r\n")
+    csv_text = df.to_csv(index=False, na_rep="<NA>").rstrip("\r\n")
     with open(filepath, "w", newline="", encoding="utf-8") as f:
         f.write(csv_text)
     print(f"Saved CSV to {filepath}")
