@@ -622,11 +622,8 @@ def calculate_individualstandings(individual_scores: pd.DataFrame, team_scores: 
         )
     )
 
-    # Add rank by Total_Points (highest = rank 1)
-    summary["rank"] = summary["Total_Points"].rank(method="dense", ascending=False).astype(int)
-
     # Reorder columns
-    ranked = summary[["rank", "user_name", "Team", "HS", "Total_Points", "Post_count", "ec"]].sort_values("rank", ascending=True)
+    ranked = summary[["user_name", "Team", "HS", "Total_Points", "Post_count", "ec"]]
 
 
     # using the team scores, find the FNG points by user_name.

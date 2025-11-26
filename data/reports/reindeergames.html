@@ -298,48 +298,58 @@
       container.style.maxHeight = "800px";
       container.style.overflowY = "auto";
 
-      // Aggregate total points by user (and capture team)
-      let totals = {};
-      individualData.forEach(d => {
-          if (!totals[d.user_name]) {
-            totals[d.user_name] = { points: 0, hsPoints: 0, team: d.Team }; // store both
-          }
-          totals[d.user_name].points += d.points;
-          if (d.type === "hardsh!t") {
-            totals[d.user_name].hsPoints += d.points;
-          }
-          
+      // Copy data so we don't mutate the original
+        let standings = [...individualStandings];
 
-        });
-
-      // Convert to array, sort by points
-      let totalsArray = Object.entries(totals)
-        .map(([user, data]) => ({
-          user,
-          points: data.points,
-          hsPoints: data.hsPoints,
-          team: data.team
-        }))
-
-      // Filter by team (if selected)
+      // Apply team filter
       const teamFilter = document.getElementById("teamFilter").value;
       if (teamFilter) {
-        totalsArray = totalsArray.filter(u => u.team === teamFilter);
+        standings = standings.filter(row => row.Team === teamFilter);
       }
 
-      // Sort by total points descending
-      totalsArray.sort((a, b) => b.points - a.points);
-
+      // Sort by Total Points (descending)
+      standings.sort((a, b) => b.Total_Points - a.Total_Points);
 
       // Build table HTML
-      let html = "<table><thead><tr><th>Rank</th><th>User</th><th>Team</th><th>HS</th><th>Total Points</th></tr></thead><tbody>";
-      totalsArray.forEach((u, idx) => {
-        html += `<tr><td>${idx + 1}</td><td>${u.user}</td><td>${u.team}</td><td>${u.hsPoints}</td><td>${u.points}</td></tr>`;
-      });
-      html += "</tbody></table>";
+      let html = `
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>User</th>
+              <th>Team</th>
+              <th>HS</th>
+              <th>Total Points</th>
+              <th>Posts</th>
+              <th>EC</th>
+              <th>FNG1</th>
+              <th>FNG5</th>
+              <th>FNG_VQ</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
 
+      standings.forEach((row, idx) => {
+        html += `
+          <tr>
+            <td>${idx + 1}</td>
+            <td>${row.user_name}</td>
+            <td>${row.Team}</td>
+            <td>${row.HS}</td>
+            <td>${row.Total_Points}</td>
+            <td>${row.Post_count}</td>
+            <td>${row.ec}</td>
+            <td>${row.FNG1}</td>
+            <td>${row.FNG5}</td>
+            <td>${row.FNG_VQ}</td>
+          </tr>
+        `;
+      });
+
+      html += "</tbody></table>";
       container.innerHTML = html;
-    }
+      }
 
     // =========================
     // Populate dropdowns
