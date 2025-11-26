@@ -629,5 +629,54 @@ def calculate_individualstandings(individual_scores: pd.DataFrame, team_scores: 
     ranked = summary[["rank", "user_name", "Team", "HS", "Total_Points", "Post_count", "ec"]].sort_values("rank", ascending=True)
 
 
+    # using the team scores, find the FNG points by user_name.
+    fng_rows = team_scores[team_scores["type"].isin(["FNG1", "FNG5", "FNG_VQ"])].copy()
 
-    return(merged)
+    # Extract user_name from notes
+    fng_rows["user_name"] = fng_rows["notes"].astype(str)
+
+    # Pivot to wide format
+    pivot = (
+        fng_rows.pivot_table(
+            index="user_name",
+            columns="type",
+            values="points",
+            aggfunc="sum",
+            fill_value=0
+        )
+        .reset_index()
+    )
+
+    # Ensure all columns exist — even if empty in the data
+    for col in ["FNG1", "FNG5", "FNG_VQ"]:
+        if col not in pivot.columns:
+            pivot[col] = 0
+
+    # Reorder
+    pivot = pivot[["user_name", "FNG1", "FNG5", "FNG_VQ"]]
+
+    # join to pax draft
+    merged = pivot.merge(
+        PAXdraft[["user_name", "FNGflag"]],
+        on="user_name",
+        how="left"
+    )
+
+    
+
+
+    # Join the FNG columns to the ranked
+    merged_all = ranked.merge(
+        merged,
+        on="user_name",
+        how="left"
+    )
+    cols = ['FNG1', 'FNG5','FNG_VQ','FNGflag']
+    merged_all[cols] = merged_all[cols].astype('Int64')
+
+    # change "FNG_VQ" from 0 to "na" for FNG's that cant VQ
+    merged_all.loc[merged_all["FNGflag"] == 2, "FNG_VQ"] = pd.NA
+
+    final = merged_all.drop(columns=["FNGflag"])
+
+    return(final)
