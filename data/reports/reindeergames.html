@@ -170,7 +170,9 @@
         updateBottomTables();
       }
     });
-
+    
+    let individualstandings = [];
+    
     Papa.parse(latestFiles.individualstandings, { 
       download: true,
       header: true,
