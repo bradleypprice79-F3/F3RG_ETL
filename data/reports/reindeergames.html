@@ -172,13 +172,14 @@
     });
     
     let individualstandings = [];
-    
+
     Papa.parse(latestFiles.individualstandings, { 
       download: true,
       header: true,
       complete: (results) => {
-        aggregatedData = results.data;
-        updateBottomTables();
+        // store parsed data
+        individualstandings = results.data;
+        renderIndividualStandingsTable();
       }
     });
 
