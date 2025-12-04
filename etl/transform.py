@@ -652,13 +652,17 @@ def calculate_individualstandings(individual_scores: pd.DataFrame, team_scores: 
     # Reorder
     pivot = pivot[["user_name", "FNG1", "FNG5", "FNG_VQ"]]
 
+    #filter PAXdraft to only rows where FNGflag > 0
+    pax_filtered = PAXdraft.loc[PAXdraft["FNGflag"] > 0, ["user_name", "FNGflag"]]
+
     # join to pax draft
     merged = pivot.merge(
-        PAXdraft[["user_name", "FNGflag"]],
+        pax_filtered,
         on="user_name",
-        how="left"
+        how="outer"
     )
 
+    merged = merged.fillna(0)
     
 
 
