@@ -235,7 +235,7 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                         "user_name": row['user_name'],
                         "ao": row['ao'],
                         "type": "QS bonus",
-                        "points": 1 if QS_Q_weekly==0 else 0,
+                        "points": 5,
                         "notes": "5 points for attending 5 QS!"
                         }
                     individual_score_rows.append(new_row_QS5)
@@ -249,7 +249,7 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                         "user_name": row['user_name'],
                         "ao": row['ao'],
                         "type": "QS bonus",
-                        "points": 1 if QS_Q_weekly==0 else 0,
+                        "points": 6,
                         "notes": "6 points for attending 6 QS!"
                         }
                     individual_score_rows.append(new_row_QS6)
