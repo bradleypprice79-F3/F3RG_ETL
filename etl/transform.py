@@ -92,6 +92,9 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
         week = None
         day = None
         hardshit=0
+        QS_bonus5=0
+        QS_bonus6=0
+        QS_count=0
         
         # Toss in weekly 6pack bonuses and 6+ points as they are accumulated.
         # Toss in weekly the Around the World bonus (keep track of distinct AOs, when 5, toss in the row
@@ -203,6 +206,9 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                 # create the row
                 points_to_award = row['points'] if QS_weekly==0 else 0
                 notes = "QS" if QS_weekly==0 else "Qsource already achieved this week"
+                # add 1 to the count if he gets a point this week
+                QS_count = QS_count + 1 if QS_weekly==0 else 0
+                # lock him out of any more QS credit for the rest of the week
                 QS_weekly=1
                 # check to see if he was the Q and give him a point.
                 # no point if he already Q'd, but still include the row so he knows that I didnt just miss the fact that he Q'd
@@ -220,7 +226,36 @@ def calculate_individual_points(df_enriched: pd.DataFrame) -> pd.DataFrame:
                     individual_score_rows.append(new_row_QSQ)
                     QS_Q_weekly=1
 
-            #need 2ndF, 3rdF, Donation, popup, popup
+                # check to see if he got his bonuses and give them to him if he is eligible
+                if QS_count==5 and QS_bonus5==0:
+                    new_row_QS5 = {
+                        "date": row['date'],
+                        "week": row['week'],
+                        "Team": row['Team'],
+                        "user_name": row['user_name'],
+                        "ao": row['ao'],
+                        "type": "QS bonus",
+                        "points": 1 if QS_Q_weekly==0 else 0,
+                        "notes": "5 points for attending 5 QS!"
+                        }
+                    individual_score_rows.append(new_row_QS5)
+                    QS_bonus5=1
+                
+                if QS_count==6 and QS_bonus6==0:
+                    new_row_QS6 = {
+                        "date": row['date'],
+                        "week": row['week'],
+                        "Team": row['Team'],
+                        "user_name": row['user_name'],
+                        "ao": row['ao'],
+                        "type": "QS bonus",
+                        "points": 1 if QS_Q_weekly==0 else 0,
+                        "notes": "6 points for attending 6 QS!"
+                        }
+                    individual_score_rows.append(new_row_QS6)
+                    QS_bonus6=1
+
+            #need 2ndF, 3rdF, Donation, popup, hardsh!t
             elif row['type'] == "2ndf":
                 # create the row
                 points_to_award = row['points'] if F2nd==0 else 0
