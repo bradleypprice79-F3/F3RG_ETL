@@ -1599,9 +1599,9 @@ COUNT: 6
 DATE: 2025-12-13
 AO: <#C0168ASEPD5>
 Q: <@U02KN9HUSE6>
-PAX: <@U04H6HMNPH9> <@U04U8EGCQS1> <@U041R4GK79V> 
+PAX: <@U04H6HMNPH9> <@U041R4GK79V> <@U04U8EGCQS1> <@U05H6UA0KCK> 
 FNGs: None
-COUNT: 4
+COUNT: 5
 Duration of Event in HOURS (3rd F ONLY): 3
  It was quite interesting after <@U02KN9HUSE6> and <@U04H6HMNPH9> left. One of the pantry ladies passed out fell backwards. Clunked her head another helper called 911. She was conscious but woozy I asked her if she had eaten. Was she diabetic. Had her smile. Stick her tongue out. Say abc’s for a bit. Didn’t notice anything abnormal. Got her a chair to get her off of the ground. <@U04U8EGCQS1> got two sleeping bags and covered her up. Pat stayed with her. I went to Lockport street to look for responders cause some gps systems go to the wrong place. Escorted them in. Manhole and others helped jockey around patrons to be able to get to the worker. Things went smoothly. She’s at St Joes. Will hear an update later "
 2021-09-11,C016P949G4T,U017QPPK1FB,"Backblast:  9-11 Memorial workout
@@ -120613,6 +120613,16 @@ COUNT: 1
 Total Units (3rd F Only INCLUDE UNITS): It was a foggy, cold air hitting your lungs, type of morning
 
  "
+2025-11-22,C09CHEY6NRK,U09S9B3N5DL,"Backblast! HFTD
+DATE: 2025-11-22
+AO: <#C09CHEY6NRK>
+Q: <@U09S9B3N5DL>
+PAX: <@U09S9B3N5DL> 
+FNGs: None
+COUNT: 1
+Duration of Event in HOURS (3rd F ONLY): 3
+
+ "
 2025-11-23,C09CHEY6NRK,U02A96W697X,"Backblast! Hessed House 
 DATE: 2025-11-23
 AO: <#C09CHEY6NRK>
@@ -121027,6 +121037,15 @@ FNGs: None
 COUNT: 1
 
  "
+2025-11-29,C09CHEY6NRK,U09S9B3N5DL,"Backblast! HFTD
+DATE: 2025-11-29
+AO: <#C09CHEY6NRK>
+Q: <@U09S9B3N5DL>
+PAX: <@U09S9B3N5DL> 
+FNGs: None
+COUNT: 1
+
+ "
 2025-11-30,C09CHEY6NRK,U020A3PMS14,"Backblast! Donation to World Relief
 DATE: 2025-11-30
 AO: <#C09CHEY6NRK>
@@ -121361,6 +121380,15 @@ PAX: <@U093QHS5CV6>
 FNGs: None
 COUNT: 1
 Duration of Event in HOURS (3rd F ONLY): 30
+
+ "
+2025-12-06,C09CHEY6NRK,U09S9B3N5DL,"Backblast! HFTD
+DATE: 2025-12-06
+AO: <#C09CHEY6NRK>
+Q: <@U09S9B3N5DL>
+PAX: <@U09S9B3N5DL> 
+FNGs: None
+COUNT: 1
 
  "
 2025-12-06,C09CHEY6NRK,U09SA1LJ7DL,"Backblast! Donation of $25 or More!  Joliet Recovery Center RCCJ
@@ -121790,11 +121818,29 @@ FNGs: None
 COUNT: 1
 
  "
+2025-12-13,C09CHEY6NRK,U070NTWF7G8,"Backblast! Wk6 donation
+DATE: 2025-12-13
+AO: <#C09CHEY6NRK>
+Q: <@U070NTWF7G8>
+PAX: <@U070NTWF7G8> 
+FNGs: None
+COUNT: 1
+
+ "
 2025-12-13,C09CHEY6NRK,U078VQE2ULB,"Backblast! RLOM gift
 DATE: 2025-12-13
 AO: <#C09CHEY6NRK>
 Q: <@U078VQE2ULB>
 PAX: <@U078VQE2ULB> 
+FNGs: None
+COUNT: 1
+
+ "
+2025-12-13,C09CHEY6NRK,U09S9B3N5DL,"Backblast! HFTD 
+DATE: 2025-12-13
+AO: <#C09CHEY6NRK>
+Q: <@U09S9B3N5DL>
+PAX: <@U09S9B3N5DL> 
 FNGs: None
 COUNT: 1
 
@@ -125214,6 +125260,33 @@ Q: <@U09S9B3N5DL>
 PAX: <@U09S9B3N5DL> 
 FNGs: None
 COUNT: 1
+
+ "
+2025-12-13,C09CKB60890,U02A96W697X,"Backblast! Third times the charm 
+DATE: 2025-12-13
+AO: <#C09CKB60890>
+Q: <@U02A96W697X>
+PAX: <@U02A96W697X> 
+FNGs: None
+COUNT: 1
+
+ "
+2025-12-13,C09CKB60890,U03KV19V5JS,"Backblast! The driest pop up challenge.
+DATE: 2025-12-13
+AO: <#C09CKB60890>
+Q: <@U03KV19V5JS>
+PAX: <@U03KV19V5JS> 
+FNGs: None
+COUNT: 1
+
+ "
+2025-12-13,C09CKB60890,U05H6UA0KCK,"Backblast! Double Js attempt: BabyMomma success, Trifecta fail
+DATE: 2025-12-13
+AO: <#C09CKB60890>
+Q: <@U05H6UA0KCK>
+PAX: <@U05H6UA0KCK> <@U03SJESV9JR> 
+FNGs: None
+COUNT: 2
 
  "
 2025-12-13,C09CKB60890,U08U4PQV3DJ,"Backblast! Crackers!!!
