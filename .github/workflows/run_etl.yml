@@ -9,8 +9,9 @@ on:
     branches: 
       - main        # run when code is pushed to main
   schedule:
-    - cron: '0 11-23 * * *'  # runs 6am–6pm Central
-    - cron: '0 0-3 * * *'    # 6pm–10pm Central
+    #- cron: '0 11-23 * * *'  # runs 6am–6pm Central
+    #- cron: '0 0-3 * * *'    # 6pm–10pm Central
+    - cron: '0 6 14 12 *'  # Runs at 00:00 Central on Dec 14, 2025 (tonight)
 
 jobs:
   etl:
