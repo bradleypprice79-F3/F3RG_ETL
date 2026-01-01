@@ -1,0 +1,85 @@
+name: Run Winter Warrior ETL
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:    # this enables the "Run workflow" button
+  push:
+    branches: 
+      - main        # run when code is pushed to main
+  schedule:
+    - cron: '0 11-23 * * *'  # runs 6am–6pm Central
+    - cron: '0 0-3 * * *'    # 6pm–10pm Central
+    #- cron: '0 6 14 12 *'  # Runs at 00:00 Central on Dec 14, 2025 (tonight)
+
+jobs:
+  etl:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Check out the repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # 3. Install dependencies (if you have a requirements.txt)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mysql-connector-python
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # 4. Run your ETL
+      - name: Run ETL
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+        run: |
+          python run_etl_winter_warrior_2026.py
+      
+      # 5. Measure and record repo size
+      
+      - name: Record repository size (full-history + API)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Measuring repository size..."
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          # local Git measurement (pack size)
+          git count-objects -vH > .git_count_objects.txt
+          SIZE_PACK=$(grep -i "size-pack" .git_count_objects.txt | awk '{print $2 " " $3}')
+
+          # GitHub API measurement (size is in KB)
+          API_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "https://api.github.com/repos/${{ github.repository }}")
+          API_SIZE_KB=$(echo "$API_JSON" | python -c "import sys, json; print(json.load(sys.stdin).get('size', 0))")
+          API_SIZE_MIB=$(awk "BEGIN{printf \"%.2f\", $API_SIZE_KB/1024}")
+
+          # write one line with both metrics
+          echo "$TIMESTAMP | git count-objects: $SIZE_PACK | GitHub API size: ${API_SIZE_KB} KB (${API_SIZE_MIB} MiB)" >> repo_size_log.txt
+          cat repo_size_log.txt
+
+      # Optional: Commit & push the new CSVs and manifest if you want them back in GitHub
+      - name: Commit and push reports
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage all changes
+          git add -A data/ repo_size_log.txt
+          
+          # Commit if there are changes
+          git commit -m "Update ETL reports [skip ci]" || echo "No changes to commit"
+          
+          # Push back to repo
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          
+        
