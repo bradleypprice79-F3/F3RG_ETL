@@ -3,11 +3,11 @@ name: Run Reindeer Games ETL
 permissions:
   contents: write
 
-#on:
-#  workflow_dispatch:    # this enables the "Run workflow" button
-#  push:
-#    branches: 
-#      - main        # run when code is pushed to main
+on:
+  workflow_dispatch:    # this enables the "Run workflow" button
+  push:
+    branches: 
+      - main        # run when code is pushed to main
 #  schedule:
 #    #- cron: '0 11-23 * * *'  # runs 6am–6pm Central
 #    #- cron: '0 0-3 * * *'    # 6pm–10pm Central
