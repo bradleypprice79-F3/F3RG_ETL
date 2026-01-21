@@ -44,8 +44,8 @@ def get_pax_lists(DB_CONFIG):
     # run query to get post data durring the date range.
     raw_post_data_query = text('''SELECT 
         "F3P" as region,
-        b.user_id,
-        u.user_name,
+        b.user_id, ao.ao,
+        u.user_name,DAYNAME(b.`date`) AS day_of_week,
 
         -- overall aggregates
         count(*) AS total_posts,
@@ -91,12 +91,12 @@ def get_pax_lists(DB_CONFIG):
     JOIN f3crossroads.users u ON u.user_id = b.user_id
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
-    GROUP BY b.user_id, u.user_name
+    GROUP BY b.user_id, ao.ao, u.user_name, DAYNAME(b.`date`)
                                                                   
     UNION ALL 
     Select "Nprvl" as region,
-        b.user_id,
-        u.user_name,
+        b.user_id, ao.ao,
+        u.user_name,DAYNAME(b.`date`) AS day_of_week,
 
         -- overall aggregates
         count(*) AS total_posts,
@@ -142,13 +142,13 @@ def get_pax_lists(DB_CONFIG):
     JOIN f3naperville.users u ON u.user_id = b.user_id
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
-    GROUP BY b.user_id, u.user_name
+    GROUP BY b.user_id, ao.ao, u.user_name,DAYNAME(b.`date`)
      
     UNION ALL 
     
     Select "CMW" as region,
-        b.user_id,
-        u.user_name,
+        b.user_id, ao.ao,
+        u.user_name,DAYNAME(b.`date`) AS day_of_week,
 
         -- overall aggregates
         count(*) AS total_posts,
@@ -194,7 +194,7 @@ def get_pax_lists(DB_CONFIG):
     JOIN  `f3cha-min-wood`.users u ON u.user_id = b.user_id
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
-    GROUP BY b.user_id, u.user_name
+    GROUP BY b.user_id, ao.ao, u.user_name, DAYNAME(b.`date`)
                 
                                
 
@@ -205,8 +205,8 @@ def get_pax_lists(DB_CONFIG):
     
     SELECT 
         "Outlands" as region,
-        b.user_id,
-        u.user_name,
+        b.user_id, ao.ao,
+        u.user_name,DAYNAME(b.`date`) AS day_of_week,
 
         -- overall aggregates
         count(*) AS total_posts,
@@ -252,7 +252,7 @@ def get_pax_lists(DB_CONFIG):
     JOIN f3outlands.users u ON u.user_id = b.user_id
     WHERE ao.ao LIKE 'ao-%'
     AND b.`date` BETWEEN DATE_SUB(CURDATE(), INTERVAL 12 MONTH) AND CURDATE()
-    GROUP BY b.user_id, u.user_name
+    GROUP BY b.user_id, ao.ao, u.user_name,DAYNAME(b.`date`)
     
               '''
     )
